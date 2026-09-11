@@ -1,0 +1,3308 @@
+{
+ "corpus": "erdos152",
+ "author": "Jared Wilder",
+ "generated_utc": "2026-09-11T01:05:51.574577+00:00",
+ "file_count": 160,
+ "what_these_are": "Lean 4 formalizations of the STATEMENTS of open Erdos problems, with the source text frozen in a comment block, supporting definitions, a decidable finite analogue, and small proved witness lemmas establishing that analogue is neither vacuous nor trivial.",
+ "what_these_are_not": "Proofs. The main theorem in the overwhelming majority of these files is 'by sorry'. No Erdos problem is claimed closed by this corpus.",
+ "audit_note": "Every file carries its verdict from the author's own 33-blade semantic certification gate. Files that the gate rejected are INCLUDED ON PURPOSE and labelled. A formalization corpus without its defect labels cannot be used to study semantic drift, which is the point.",
+ "files": [
+  {
+   "file": "lean/erdos-1.lean",
+   "erdos_problem": 1,
+   "sha256": "4066f58b0a268f0e02536d2bc17c94dab637705203de13433b60428a3cf41f1f",
+   "bytes": 2189,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_1"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-10.lean",
+   "erdos_problem": 10,
+   "sha256": "624e90e09f9b35405f9a52cb3351645487888b2113b552e79865aac8d1b6731c",
+   "bytes": 1522,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_10"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-100.lean",
+   "erdos_problem": 100,
+   "sha256": "ec22d6c1f6a062f29d6ba5165db0f7a503e5027215ce3762b0883eb5152bb145",
+   "bytes": 1833,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_100"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B21",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1003.lean",
+   "erdos_problem": 1003,
+   "sha256": "4427fe8905dc1154ff77e9bb7ee678e2ee43f8a692dab216ab46aba9050a58df",
+   "bytes": 1336,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "infinitely_many_totient_pairs"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-1004.lean",
+   "erdos_problem": 1004,
+   "sha256": "f833734599ca1fb453d6f2ef9b35b00ccffb93ebc1aabd8d3ca28fb22526e253",
+   "bytes": 1357,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_1004"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-1009.lean",
+   "erdos_problem": 1009,
+   "sha256": "cc1cc10710566b58d2e63a5edf0d48ed097ac810c32b415e2787c3d990a3a552",
+   "bytes": 1288,
+   "theorems_declared": [
+    "erdos_problem_1009"
+   ],
+   "theorems_with_sorry": [
+    "erdos_problem_1009"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-101.lean",
+   "erdos_problem": 101,
+   "sha256": "317f12ac95913a592bdda210349561447c0af1109eab4968fd5fa7a224dad9d8",
+   "bytes": 2148,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_101"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B21",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1010.lean",
+   "erdos_problem": 1010,
+   "sha256": "f8e406d76f14526f14f05b9a3a6f9fdc1b4ac3bf3e1d0b7992d342fe077c8117",
+   "bytes": 1106,
+   "theorems_declared": [
+    "erdos_problem_1010"
+   ],
+   "theorems_with_sorry": [
+    "erdos_problem_1010"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B08"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1029.lean",
+   "erdos_problem": 1029,
+   "sha256": "04036e192c8f3ee732b70d5de0d04f1a7687f2befba671e56e43b54bac8ad3e9",
+   "bytes": 1417,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_1029"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B26"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-103.lean",
+   "erdos_problem": 103,
+   "sha256": "405bde4597f73f6cdca03dd596a298487440c8a8201e8d6c5541260e289f89c8",
+   "bytes": 2165,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_103"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B19",
+    "B24"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1039.lean",
+   "erdos_problem": 1039,
+   "sha256": "888d6189503ebf5f255e658f52423a6602c082e7225f45a43ee99b73437014f6",
+   "bytes": 2022,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_1039"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B29"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1049.lean",
+   "erdos_problem": 1049,
+   "sha256": "4f364d65f26de5123049323ffdd8b4ea8213b08245e93895dd4b2359c5dfdb7b",
+   "bytes": 1247,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_1049"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1065.lean",
+   "erdos_problem": 1065,
+   "sha256": "89bbd91159a62d9852fcca08f3092ba2f354e1e7803f9ff444c228fd71c47149",
+   "bytes": 1438,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_1065"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B15"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1066.lean",
+   "erdos_problem": 1066,
+   "sha256": "937de05588aca006f3587c12ec656aad561816f82cb427ff2a2f597e9a74724f",
+   "bytes": 2599,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "problem_1066"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13",
+    "B16",
+    "B29"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1070.lean",
+   "erdos_problem": 1070,
+   "sha256": "b48ddaf16c84620c69d7f571adc260ac90e5073f1f64f5bd3e212b1b91e0c8ad",
+   "bytes": 2383,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "quarter_bound_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1073.lean",
+   "erdos_problem": 1073,
+   "sha256": "ebccaf8c7c8ceabd0909bb1ff61073b2da2f77cde1511073c8905179a778c61f",
+   "bytes": 1545,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_1073"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-1085.lean",
+   "erdos_problem": 1085,
+   "sha256": "a36f4be0bc38d8d2c8280d4b6c6d2ac3421252f39878f54e21a19ab13a61434e",
+   "bytes": 1756,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_1085_estimate"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B22",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1087.lean",
+   "erdos_problem": 1087,
+   "sha256": "3ae844642fc4f5f3b89846efa76936d0d477c1e434a7b63440cd807c27875228",
+   "bytes": 1434,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "open_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B21",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-11.lean",
+   "erdos_problem": 11,
+   "sha256": "20ae6311f4959585dceac45e1bbb16f675187622976d885664106534c2ffc6fb",
+   "bytes": 1853,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_11"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-110.lean",
+   "erdos_problem": 110,
+   "sha256": "7fa69b90c5d0737a225ad44ebd140d8a516c7c7f5dbd9a326c83092e298475cf",
+   "bytes": 1482,
+   "theorems_declared": [
+    "erdosProblem110"
+   ],
+   "theorems_with_sorry": [
+    "erdosProblem110"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-112.lean",
+   "erdos_problem": 112,
+   "sha256": "bea3e2438b01b580598006bde0e7be089d2cb81eb37a29229fa0afa73f865ccd",
+   "bytes": 2312,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_112"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B05",
+    "B08",
+    "B09",
+    "B16",
+    "B24"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1135.lean",
+   "erdos_problem": 1135,
+   "sha256": "133f4d29505305777a5a9716e2dec0d618d38a96f957b749fff5ea2acbc271c4",
+   "bytes": 619,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "collatz_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1150.lean",
+   "erdos_problem": 1150,
+   "sha256": "4cd9927dbc06a81ecafd2f24eaa8dfbaa31d4476291b11526fb9abf2c4105228",
+   "bytes": 1003,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_1150"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-1158.lean",
+   "erdos_problem": 1158,
+   "sha256": "66f1e56a3837400a5ec1b3ef94a84caf09d02b23d0fe20026ffeea7e4027a840",
+   "bytes": 3129,
+   "theorems_declared": [
+    "erdos_problem_1158",
+    "witness_pos",
+    "witness_neg"
+   ],
+   "theorems_with_sorry": [
+    "erdos_problem_1158"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B04",
+    "B08",
+    "B09",
+    "B12",
+    "B24",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-1159.lean",
+   "erdos_problem": 1159,
+   "sha256": "880ffe46d9c9985f81516dc6c8bf75f77f81eb2e413cce81d2fca2d81154a784",
+   "bytes": 1806,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_1159"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-116.lean",
+   "erdos_problem": 116,
+   "sha256": "84d86ad6b2abb0386bf895568b00c8011fdb2a4e11a94df17ce2b72076bea539",
+   "bytes": 3090,
+   "theorems_declared": [
+    "polynomial_lower_bound",
+    "logarithmic_lower_bound",
+    "answer_to_erdos_problem_116"
+   ],
+   "theorems_with_sorry": [],
+   "main_statement_proved": true,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-1160.lean",
+   "erdos_problem": 1160,
+   "sha256": "08d5e48ec5f3b5aa3f2a65bffc17161363c4ebc709ed2e86e1ca1ab636f74f0d",
+   "bytes": 3333,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_1160"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-1171.lean",
+   "erdos_problem": 1171,
+   "sha256": "761549bf3df5b4e5a8167dcb86a26e6cf5d8b7e7c1eff98bfa7798bdebea87b2",
+   "bytes": 2024,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_1171"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B21",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-119.lean",
+   "erdos_problem": 119,
+   "sha256": "e5104cc2635b5fce4d8037205a21dabb18dccbb0ab73996e6d3786167be93e94",
+   "bytes": 1694,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_119"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-12.lean",
+   "erdos_problem": 12,
+   "sha256": "ae33796a55cb5f97b50689cb47fa6aa134200337403808159ff1b41b05af8944",
+   "bytes": 2666,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_12"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B29"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-120.lean",
+   "erdos_problem": 120,
+   "sha256": "2e082665d055311d5ec843aa083cb01215d7939094cdc50f1cfbd0833a2d8f3a",
+   "bytes": 2327,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_120"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B09",
+    "B10",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-129.lean",
+   "erdos_problem": 129,
+   "sha256": "892cb8274b2047f8dd2541acab1ac121b981cd63f0a4e65905f537344c3adebb",
+   "bytes": 1837,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_129"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-131.lean",
+   "erdos_problem": 131,
+   "sha256": "3f4341b12ba8e525535dcbd15d223938269a8931e5e29964b49be2d9a58d46ed",
+   "bytes": 1377,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_131_resolution"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13",
+    "B28",
+    "B29",
+    "B30"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-138.lean",
+   "erdos_problem": 138,
+   "sha256": "b49d9a28799b813a7b08a7f702160a626245d631bd1fc758b079e6ae46610e46",
+   "bytes": 2178,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "van_der_waerden_root_growth"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-14.lean",
+   "erdos_problem": 14,
+   "sha256": "6ef522feb7917dfecb9cad0bb51d505f6d9bb3c0ddadcc906ff682d5da6a9f1f",
+   "bytes": 2913,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_14"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-145.lean",
+   "erdos_problem": 145,
+   "sha256": "573c01974e2be48bdc524298bb5c59ee64468f8fef94530dcd96e8bc711247ff",
+   "bytes": 1667,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_145"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-146.lean",
+   "erdos_problem": 146,
+   "sha256": "9d112af3272991515ca2c1b5241cc0aabe6daa7553b9c4ee18d823affb6e6019",
+   "bytes": 1478,
+   "theorems_declared": [
+    "erdos_simonovits_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "erdos_simonovits_conjecture"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B05"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-148.lean",
+   "erdos_problem": 148,
+   "sha256": "ee84a17dcc68e8d7d87c5720c3bef84d596a4c94271231ad4c9324e98068a5a4",
+   "bytes": 1734,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_148_estimates"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13",
+    "B16"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-149.lean",
+   "erdos_problem": 149,
+   "sha256": "5537bc5eb132f4abd97f43b535d3575ba7ffa0ae89f601585993caac7b12c43c",
+   "bytes": 2477,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "strong_chromatic_index_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B29"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-15.lean",
+   "erdos_problem": 15,
+   "sha256": "5494698955e5f3e3bb63ab868edc19fb55a02364a39107554d69b0c5fe8925d5",
+   "bytes": 1429,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_15"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-151.lean",
+   "erdos_problem": 151,
+   "sha256": "b78dd6291cb99b29be6049580fe395518eb0589e3e444d214e948c8713424ae6",
+   "bytes": 2707,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-156.lean",
+   "erdos_problem": 156,
+   "sha256": "51ca76d4249ba761694a68261c005c419bf81841cc36efcd4eee158662f653b2",
+   "bytes": 2980,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_156"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B08",
+    "B09",
+    "B24"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-159.lean",
+   "erdos_problem": 159,
+   "sha256": "35f78f87721c7102160dbc7e45ca35f3ea899dbdb9d117d4fc1173cdc035e45f",
+   "bytes": 1746,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_159"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-160.lean",
+   "erdos_problem": 160,
+   "sha256": "1352541bab4767dda310337773fccff1c23f85b96d06709faf87baa32d4f9f50",
+   "bytes": 3234,
+   "theorems_declared": [
+    "admissible_self",
+    "h_spec",
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_160"
+   ],
+   "theorems_with_sorry": [
+    "admissible_self"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-165.lean",
+   "erdos_problem": 165,
+   "sha256": "385266a65f692895b2ed782be12dcdb53fdf5e8b732c373081f9f0b0b1b70e08",
+   "bytes": 2420,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "ramsey_asymptotic_formula"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B04",
+    "B05",
+    "B08",
+    "B26",
+    "B28"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-168.lean",
+   "erdos_problem": 168,
+   "sha256": "89e02ab784201b794a04bd6e63a0113898ab3a68bd4a5a044fe2c48faaaca26c",
+   "bytes": 1338,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "admissibleCards_nonempty",
+    "erdos_problem_168"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-172.lean",
+   "erdos_problem": 172,
+   "sha256": "c23f54fc137379516b38ab60930226c8a3015c6cdc9eb729014f7375d61ccbbb",
+   "bytes": 2300,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_172"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-174.lean",
+   "erdos_problem": 174,
+   "sha256": "e59cf9e36c662f8e36ec28d7da53abdd6ea3d01e482f179a3398207b130a7308",
+   "bytes": 2426,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "ramsey_iff_spherical"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-179.lean",
+   "erdos_problem": 179,
+   "sha256": "c95d536ccb77e1813f23e15607eb5b37e257e5bb158756d9eae7074663643914",
+   "bytes": 3052,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_179"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B29"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-181.lean",
+   "erdos_problem": 181,
+   "sha256": "d84b9a81d1a0e54e3bfb8b70bc8638b2be2c6fc118413a21b395ec1f529ecb0f",
+   "bytes": 1721,
+   "theorems_declared": [
+    "cube_vertex_count",
+    "witness_pos",
+    "witness_neg",
+    "cube_ramsey_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "cube_vertex_count"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-182.lean",
+   "erdos_problem": 182,
+   "sha256": "d03f746c224bc6e24929e95fd5207bc170ef13a0cc65cbc0356e77cf996efe01",
+   "bytes": 2408,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-184.lean",
+   "erdos_problem": 184,
+   "sha256": "46480674189d1ce6748063ea2ca616e370e02f80efa918bc28d84764e0be6ba9",
+   "bytes": 2727,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_184"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-186.lean",
+   "erdos_problem": 186,
+   "sha256": "d42d143ab2e5e667e291121ba507b0452fc1738f7b588c013a5d76ca10212e17",
+   "bytes": 1753,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_186"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13",
+    "B16"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-187.lean",
+   "erdos_problem": 187,
+   "sha256": "32a5279f347c07fbe27c1d0728cb908b0c9fc182de8f2a2a7279789542812218",
+   "bytes": 2511,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_187"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B19",
+    "B23",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-190.lean",
+   "erdos_problem": 190,
+   "sha256": "57a759976f121e1ba87b729f89b322492ab32c01fb91a22268042ba319142500",
+   "bytes": 1544,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_190"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B03"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-197.lean",
+   "erdos_problem": 197,
+   "sha256": "c672c21615ab8baa2d44b7ce558516afd6c45caa3112ea6bba5fead7f39c192c",
+   "bytes": 2415,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_197"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-200.lean",
+   "erdos_problem": 200,
+   "sha256": "d62488f140385f89a840d55d30b1e58b3f01c14f349d5948bd2e2d2c8b9c55f6",
+   "bytes": 791,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdosProblem200"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-208.lean",
+   "erdos_problem": 208,
+   "sha256": "24290c52f9728018b6dd4448a24363e22093504522a989a039f1fd14759ece9a",
+   "bytes": 1495,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_208"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-21.lean",
+   "erdos_problem": 21,
+   "sha256": "6f3214fcd9dd098460bcb92ed5b12ab6d03a969bea7c90aba1b7365e783b60b4",
+   "bytes": 2568,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_21"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-215.lean",
+   "erdos_problem": 215,
+   "sha256": "149b13f7c8d241297b45a7a739100c2a4f7cdd37115b5647717f0a6126dc1768",
+   "bytes": 1261,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos215_statement"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-217.lean",
+   "erdos_problem": 217,
+   "sha256": "ebff40f0229b3daff4289fb0b89dd35f98688d21114909175e61b70d9d586149",
+   "bytes": 2153,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_217_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-218.lean",
+   "erdos_problem": 218,
+   "sha256": "cbcc61fa5e3f4060f4efaa0b9fd59168e8b49f2cd191ed3d528e5f1e3174d771",
+   "bytes": 1187,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdosProblem218"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-234.lean",
+   "erdos_problem": 234,
+   "sha256": "7c7b865f90ab88229ed6f4ec107d012a6ddb432a8f1601daaa089a972cd0a148",
+   "bytes": 2180,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_234"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-236.lean",
+   "erdos_problem": 236,
+   "sha256": "210c4e5d22695c220a3f88a6c5b828544815670b8513ffbe55fb23616683c325",
+   "bytes": 1470,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_236"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-243.lean",
+   "erdos_problem": 243,
+   "sha256": "eeb10dbe7c66dfb0fefa8e3dfdf75890738e4af87802ce416963657b93a3937b",
+   "bytes": 1245,
+   "theorems_declared": [
+    "erdos_243",
+    "witness_pos",
+    "witness_neg"
+   ],
+   "theorems_with_sorry": [
+    "erdos_243"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-244.lean",
+   "erdos_problem": 244,
+   "sha256": "5c3e2d2214d834dde4e04e8cd0c359b44df179391a2581283a920281b8c4f3b1",
+   "bytes": 1667,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_244_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-247.lean",
+   "erdos_problem": 247,
+   "sha256": "99db61d0f43d995eeb9ee6e6f98ff94c25b91ec7a352b6e4eabce9290adc6041",
+   "bytes": 1803,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_247"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-249.lean",
+   "erdos_problem": 249,
+   "sha256": "a93f5f91a3dfb51f06f8d3fd06ac4619f099da4a9e9515de68a2d15e542a0d50",
+   "bytes": 567,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_249"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-251.lean",
+   "erdos_problem": 251,
+   "sha256": "54de88e49db9a0b5ae00046493db912f35d9e473be9575be650a20671a8ac933",
+   "bytes": 594,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_251"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-260.lean",
+   "erdos_problem": 260,
+   "sha256": "611d6391e5ac0fa693e7cfc06a797ac3fb8f008ecd832940ba49dfeea307d1c9",
+   "bytes": 949,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_260"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-269.lean",
+   "erdos_problem": 269,
+   "sha256": "f94e0373eceedf12381397d0a2a9053e97b537d060c33fe9492182473ab2bd4f",
+   "bytes": 1200,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_269"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B29"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-28.lean",
+   "erdos_problem": 28,
+   "sha256": "5e5268770da1c5c2bf2a379ce44a58429ce51a8b1bafbda48d7678d9f0ac48fc",
+   "bytes": 1563,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_turan_28"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-288.lean",
+   "erdos_problem": 288,
+   "sha256": "946669f5209afbc0b77f2410be9461da9b60a3617deb590d821dd8c077f9e48d",
+   "bytes": 1030,
+   "theorems_declared": [
+    "source_example",
+    "witness_pos",
+    "witness_neg",
+    "erdos_288"
+   ],
+   "theorems_with_sorry": [
+    "source_example"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-293.lean",
+   "erdos_problem": 293,
+   "sha256": "909a1c526bf59a24a568bf8f6d7b321f9d6b9e87311d6611c6a48c1e86412fb5",
+   "bytes": 1804,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "growth_estimate"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B01",
+    "B04",
+    "B13",
+    "B26",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-3.lean",
+   "erdos_problem": 3,
+   "sha256": "00f9149cacf7f65947a095452c9ea57eec8f88072e2ff05ce3e84c276fea0b70",
+   "bytes": 1458,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_3"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-30.lean",
+   "erdos_problem": 30,
+   "sha256": "5eee4ce77c0adf1ab54e1728f807468cb4e2758496299bd5a799bb6ef80cfe42",
+   "bytes": 1234,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_30"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-319.lean",
+   "erdos_problem": 319,
+   "sha256": "98e07eb4dd91dd945a417de5797a6707e81bba7d07a1841a8c87cc63b84efeed",
+   "bytes": 2201,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B16"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-32.lean",
+   "erdos_problem": 32,
+   "sha256": "bd6df7b4894b2182bd0c49beb515ddd5d4e6df2e8ef049d7c8b2f7d77fe0ae52",
+   "bytes": 2715,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_32"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-33.lean",
+   "erdos_problem": 33,
+   "sha256": "ec8b39cbad08607daf6dc1fa0bf3479207b9bec2e8bf53f4567b07fe466e76b3",
+   "bytes": 2837,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_33"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B16"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-334.lean",
+   "erdos_problem": 334,
+   "sha256": "b071f4556c7b7ee0d2660a3a50d6de681a96e4d381c9859a1d4445ed7b635f08",
+   "bytes": 2529,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "open_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-357.lean",
+   "erdos_problem": 357,
+   "sha256": "b314ff6342bea914c7d6dbcd8d3aa879842ff2ab1d6bfab1f27230353431e291",
+   "bytes": 1981,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "open_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-368.lean",
+   "erdos_problem": 368,
+   "sha256": "af421a1864f6dca8d72a0cc55d5bffd20916d09f766b9d7c8bf26a9e5b915d48",
+   "bytes": 1560,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B11",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-376.lean",
+   "erdos_problem": 376,
+   "sha256": "1cd2aabe1e1c201f520d3087ee8eebaa1dba2eff22d80ee9809bc2aeed50a408",
+   "bytes": 591,
+   "theorems_declared": [
+    "target_factorization",
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_376"
+   ],
+   "theorems_with_sorry": [
+    "target_factorization"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-382.lean",
+   "erdos_problem": 382,
+   "sha256": "d1d2190115e2cb836767e8481fd96d9778d220a0e17672f5ca0f3834c42fe198",
+   "bytes": 1809,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_382_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-383.lean",
+   "erdos_problem": 383,
+   "sha256": "44728f6456152b8b84272c666e8a733726e5e53f611fa0d837412f1ca46d966d",
+   "bytes": 1428,
+   "theorems_declared": [
+    "erdos_383",
+    "witness_pos",
+    "witness_neg"
+   ],
+   "theorems_with_sorry": [
+    "erdos_383"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-385.lean",
+   "erdos_problem": 385,
+   "sha256": "f5913ab1fee5d1860956e4316ef38768ffea94352ea5ebaf83b553299783f48a",
+   "bytes": 1309,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_385"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-389.lean",
+   "erdos_problem": 389,
+   "sha256": "9a1e71f96e420b7c08f0cff8b81f2b878a83605959df2700b633c4ff7a6cabc2",
+   "bytes": 1100,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "example_two_five",
+    "erdos_389_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-390.lean",
+   "erdos_problem": 390,
+   "sha256": "6596c746188838301dc3459958c14ecb83c4c83a6e0a8b3bf23b915faa92d232",
+   "bytes": 1664,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "open_problem"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B26"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-409.lean",
+   "erdos_problem": 409,
+   "sha256": "f441572ffd7869c1f365a019743f3b372d5c41b5d893e814f9345ae55725b327",
+   "bytes": 1387,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_409"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B28",
+    "B29"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-411.lean",
+   "erdos_problem": 411,
+   "sha256": "1288949785ac9bf2ecc072fcfc1c967ae2fab023fc28d68c76eb54031e9cca92",
+   "bytes": 1905,
+   "theorems_declared": [
+    "iter_zero_zero",
+    "witness_pos",
+    "iter_pos_one",
+    "witness_neg",
+    "open_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "iter_zero_zero"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-414.lean",
+   "erdos_problem": 414,
+   "sha256": "04f868c10f281c4f05bd69e8e17bdf62e1d508e98d2303ab9eb0cbdccd4e861d",
+   "bytes": 1562,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_414"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-415.lean",
+   "erdos_problem": 415,
+   "sha256": "5feb392c398f7fbc660707922ff0813c8ae40b77cd086d4b7fe61661200e6340",
+   "bytes": 2914,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B04",
+    "B09",
+    "B13",
+    "B28",
+    "B29",
+    "B30"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-416.lean",
+   "erdos_problem": 416,
+   "sha256": "9d23a7ca7bfefe8b201cabc01ed6ddc2357c2277c0b40f52459cf7b4040e159d",
+   "bytes": 1190,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B28",
+    "B29"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-436.lean",
+   "erdos_problem": 436,
+   "sha256": "bc5e8eb3eeb7d3add8ab4f536a9bd00c6cd225a7c6c14e4c9d6ae49afda59d2d",
+   "bytes": 1866,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-450.lean",
+   "erdos_problem": 450,
+   "sha256": "e8bc2c4b029ffa99d75824849270257f7110e701917e8c9b6e23b0ebfdf095c7",
+   "bytes": 2255,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_450"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B02",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-451.lean",
+   "erdos_problem": 451,
+   "sha256": "f847a24973ccf252450f9059418b5f07bb451e1e366a16efbbaf1b835533c167",
+   "bytes": 997,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "open_estimate"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-470.lean",
+   "erdos_problem": 470,
+   "sha256": "d048d2ee8f7bfc7afc314d0aadfac4845f3f9023a747c5df154b4e2a104bd4be",
+   "bytes": 1466,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_470"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13",
+    "B18",
+    "B30"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-479.lean",
+   "erdos_problem": 479,
+   "sha256": "50c1f50f6ef0ef3aa8541acb7bdde8cd300e56ebad5cc455e2a97e936e45ebce",
+   "bytes": 1391,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_479"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-50.lean",
+   "erdos_problem": 50,
+   "sha256": "20b85d68a7711e1d3bddff9ac37803d84e276b350ebb8a9a556a0ef887ede495",
+   "bytes": 1484,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "schoenberg_question"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-503.lean",
+   "erdos_problem": 503,
+   "sha256": "43312245bc4d1d3e1a7b7cd05c5e1a2ccf52c9ab2b41fa722517901a5133cac9",
+   "bytes": 1586,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_503"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-51.lean",
+   "erdos_problem": 51,
+   "sha256": "24a82de3629dfe73300b5dad5bf6e6216e3dbd316b56faef2765f44b71345e3a",
+   "bytes": 2555,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_51"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-510.lean",
+   "erdos_problem": 510,
+   "sha256": "779d6c3f2a99934b329b7279e55bd7efa213bb9d0e8cb0d8f92ee85e679a4d0b",
+   "bytes": 870,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_510"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-52.lean",
+   "erdos_problem": 52,
+   "sha256": "f07060348fbb15c5edd3e4a2ccb113deb2a8ba137ff94ead1fd6055150dd74ef",
+   "bytes": 949,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_sum_product"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-528.lean",
+   "erdos_problem": 528,
+   "sha256": "877769c3cdae6675b0b830e75f7577f1f028bc500b6d00e980adb98489e64b66",
+   "bytes": 3308,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_528"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B09",
+    "B13",
+    "B28"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-530.lean",
+   "erdos_problem": 530,
+   "sha256": "a9b79d14e72f1dc2fab62b904434a2e9581efc9d9763e10d6b9722818bd0e52c",
+   "bytes": 1609,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B04",
+    "B21",
+    "B30"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-531.lean",
+   "erdos_problem": 531,
+   "sha256": "1f3831843394a222de19770aac0d6c13e125a6e947b79bf36dc73269c014599c",
+   "bytes": 2021,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "folkman_lower_bound"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B04",
+    "B05",
+    "B08",
+    "B26",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-536.lean",
+   "erdos_problem": 536,
+   "sha256": "3c95c2415d33906791ca16d32957475f8b947c59008abb8a506ced522f4f9d6f",
+   "bytes": 1641,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "f_is_o"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-544.lean",
+   "erdos_problem": 544,
+   "sha256": "cf7258b168fd0b5b15d69a062b7c0338f796b15b53b31bf90c4b9e319b957935",
+   "bytes": 2224,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_544"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B09",
+    "B14",
+    "B24",
+    "B30"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-557.lean",
+   "erdos_problem": 557,
+   "sha256": "1b78885621d40e3aeebd933f704c2ae063b119079aec8fb6718f1aec9302a65d",
+   "bytes": 1761,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_557"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-560.lean",
+   "erdos_problem": 560,
+   "sha256": "c4d102d7d4a4377b8a0dff47afb868fb7a301c11071011f25a8efd2193ee8c90",
+   "bytes": 3918,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B01",
+    "B04",
+    "B07",
+    "B08",
+    "B09",
+    "B12",
+    "B13",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-562.lean",
+   "erdos_problem": 562,
+   "sha256": "527d877ada9968cca37d5ed134e08faa1a6591520c6ad7d766ee88316a0cd260",
+   "bytes": 2425,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_562"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-564.lean",
+   "erdos_problem": 564,
+   "sha256": "63a18dcb8f2ea58617b1a226bb391fb89b9d781af25ba062215125c4faff5d3c",
+   "bytes": 1085,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_564"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-569.lean",
+   "erdos_problem": 569,
+   "sha256": "a517f66797aedaa8c29b4a119a48983135d675b715d17a83c0a35780228c26d3",
+   "bytes": 2993,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-571.lean",
+   "erdos_problem": 571,
+   "sha256": "384aa577d0d34d57df9c789aee5155e8d63f78a9768cf98b2e23fe01291ca6d4",
+   "bytes": 3079,
+   "theorems_declared": [
+    "turan_exponent_conjecture",
+    "witness_pos",
+    "witness_neg"
+   ],
+   "theorems_with_sorry": [
+    "turan_exponent_conjecture"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B04",
+    "B07",
+    "B08",
+    "B09",
+    "B24",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-593.lean",
+   "erdos_problem": 593,
+   "sha256": "e04d9c8738ee08926c25a744bf79693ac2137299368ad02adc6ab44d7f86e1f8",
+   "bytes": 2197,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_593"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B28",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-60.lean",
+   "erdos_problem": 60,
+   "sha256": "20a2c19c451acb02a7f4c1d52810bf3348f0664d25b4699b4bbea4e60d2d692d",
+   "bytes": 2384,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_60"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B04",
+    "B07",
+    "B08",
+    "B24",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-604.lean",
+   "erdos_problem": 604,
+   "sha256": "109ad9cbe15003e728e17095222f203c11348cd006d3f775c1a0aef138ec607c",
+   "bytes": 2133,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "pinned_distance_question"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B15",
+    "B21",
+    "B28",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-612.lean",
+   "erdos_problem": 612,
+   "sha256": "d5a2403a6b4bafb7b605b28c6d10a59111a01cc3846c54cf93915bd34ba0de44",
+   "bytes": 3442,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_612"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B29"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-616.lean",
+   "erdos_problem": 616,
+   "sha256": "dd3c84dcee55036da1a7ff7946ea4c20239b414910c20648a7df1fd7e9f7413a",
+   "bytes": 2269,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_616"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B08",
+    "B12",
+    "B13",
+    "B16",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-62.lean",
+   "erdos_problem": 62,
+   "sha256": "6bc47d302a9db822bb98469a61fc74f23ba75aafeb58a3ddec6deb19efb22441",
+   "bytes": 2532,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_62"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B08",
+    "B21",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-65.lean",
+   "erdos_problem": 65,
+   "sha256": "d4abb3e56454980016ba9a5015c273a0dcd9a1e655aee3c3ed5e36b6bca045ea",
+   "bytes": 1988,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_65"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B06",
+    "B08",
+    "B24",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-653.lean",
+   "erdos_problem": 653,
+   "sha256": "84f76ea6b855ec8c2cff7b1c75347dd18fb672bf1f5850e86e3a29a4db92b714",
+   "bytes": 2054,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_653"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-670.lean",
+   "erdos_problem": 670,
+   "sha256": "3cb69418120e307bb37b3316e338f79839b1717ffe85849444aba0b7f76c9db4",
+   "bytes": 2473,
+   "theorems_declared": [
+    "erdos_670",
+    "witness_pos",
+    "witness_neg"
+   ],
+   "theorems_with_sorry": [
+    "erdos_670"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-671.lean",
+   "erdos_problem": 671,
+   "sha256": "b3dbedc5d8d8bb13d53897085382152d5a2d1e7164bcadc82acd342c4b9b458c",
+   "bytes": 2805,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_671"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-679.lean",
+   "erdos_problem": 679,
+   "sha256": "0a6910ab9218892edb657cbc3619ffd8d21d3e8c26add1ccde87da88132b98c0",
+   "bytes": 1185,
+   "theorems_declared": [
+    "omega_two",
+    "witness_pos",
+    "witness_neg",
+    "erdos_679_original"
+   ],
+   "theorems_with_sorry": [
+    "omega_two"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B03",
+    "B21",
+    "B28",
+    "B29",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-68.lean",
+   "erdos_problem": 68,
+   "sha256": "f9a05dbb8dcf94be938f843d545a76bea747e1cb14e19a940221f684562841d3",
+   "bytes": 533,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_68"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-711.lean",
+   "erdos_problem": 711,
+   "sha256": "8244455f826048e3436ede1e1e542c7d6d7f5a1cd2ab1164355a4bbda5e82391",
+   "bytes": 1552,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_711"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-714.lean",
+   "erdos_problem": 714,
+   "sha256": "5969072b4fbad4af70f12bb2ec02de0d18da890766375fe440e3583a283af4a8",
+   "bytes": 2340,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_714"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-724.lean",
+   "erdos_problem": 724,
+   "sha256": "7b7acd8998eb01745793381c838e0c05a79833ec7e65b9f92b98135515a891b1",
+   "bytes": 2253,
+   "theorems_declared": [
+    "hasMOLS_zero",
+    "witness_pos",
+    "witness_neg",
+    "erdos_724_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "hasMOLS_zero"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-725.lean",
+   "erdos_problem": 725,
+   "sha256": "e921c96f1cbea16e5f76b9d6b590d64fe2f2145e0c46d9cb5052f7bf76b9edc4",
+   "bytes": 2293,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "asymptotic_formula"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-726.lean",
+   "erdos_problem": 726,
+   "sha256": "d7852b5c9459cd58ac78dd5aecd6c168129f26bc54e318af19f5a7bc951669c4",
+   "bytes": 982,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_726"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-727.lean",
+   "erdos_problem": 727,
+   "sha256": "d827452086fd83f959488d6216d66fd81a2fd8d9dde88ea892634ec6eaa8c77e",
+   "bytes": 439,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_727"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-730.lean",
+   "erdos_problem": 730,
+   "sha256": "5f294bb5fd73c7fb3fcf167df0fc5c9d9d1abf2ed74355ce8a836bc978187a64",
+   "bytes": 1450,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_730"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-731.lean",
+   "erdos_problem": 731,
+   "sha256": "7cf691e49018d236acb30b4276a726bf9eb4d2d70d4f2d4080c39c004bf4f914",
+   "bytes": 1821,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_731"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13",
+    "B22",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-769.lean",
+   "erdos_problem": 769,
+   "sha256": "7687b6d23644c987f779b477762205b7eced7ec517aa391093765d2b87db8816",
+   "bytes": 2667,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_769"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B09",
+    "B24"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-77.lean",
+   "erdos_problem": 77,
+   "sha256": "0c3a62fa72173c015d95281f771c1b10cab10d395c642c5836d7f06f96038453",
+   "bytes": 1672,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "ramsey_limit_exists"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B26"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-770.lean",
+   "erdos_problem": 770,
+   "sha256": "995f591b8ea681ffe9a09bf205561577343906e93ce84de327a3c027eb874259",
+   "bytes": 2607,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_770"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B29"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-787.lean",
+   "erdos_problem": 787,
+   "sha256": "d73f5fb2311631c2d60bcdd2a0e2205b512c603b4d7d923912e04a4edaabdb8d",
+   "bytes": 2639,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "resolution_bounds"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-805.lean",
+   "erdos_problem": 805,
+   "sha256": "fd09cbe6b92281fab03740033a6d27e4345350dfe3e0b5067daf00533f8f4f16",
+   "bytes": 2448,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_805_cube_question"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-809.lean",
+   "erdos_problem": 809,
+   "sha256": "8ba031ac94d3bfb3d2a875b67b4d95ea6bcc77f8ccafe88d16931d6cd90e5110",
+   "bytes": 2222,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_809"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B26"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-82.lean",
+   "erdos_problem": 82,
+   "sha256": "5e8ae8a2db893f91ab35e870dda5e714d4cd2ae79b7d44ad70585255f8706b07",
+   "bytes": 2276,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "main_conjecture"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-820.lean",
+   "erdos_problem": 820,
+   "sha256": "ea38f734511dad75f1dbe56573162a8963bd4875acffb276be521d84afa1a34d",
+   "bytes": 1700,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_820"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-836.lean",
+   "erdos_problem": 836,
+   "sha256": "6fdbd6ddc3d2fa38bdafb288ec0e03a92a4341dd85af32f9a0088162dc507d1a",
+   "bytes": 3532,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_836"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B08",
+    "B13",
+    "B28",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-850.lean",
+   "erdos_problem": 850,
+   "sha256": "7f0efc7521591d70df4a73faccbb8b6bbea5cff1b9cfb767d0c90f3a32145b55",
+   "bytes": 1425,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_850"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B01"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-864.lean",
+   "erdos_problem": 864,
+   "sha256": "cc114bc092e9a8a3df22134e595d8c5fbf039fc3c038dc84ce1ffbe53a60c9f5",
+   "bytes": 1349,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "conjectured_asymptotic_upper_bound"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-866.lean",
+   "erdos_problem": 866,
+   "sha256": "0b8dd8a66352264f8ef86ec2bdfcd920c1e5e8fb86839081ca2e2910f91efef6",
+   "bytes": 2771,
+   "theorems_declared": [
+    "good_sufficient",
+    "witness_pos",
+    "witness_neg",
+    "resolution_claims"
+   ],
+   "theorems_with_sorry": [
+    "good_sufficient"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B04",
+    "B08",
+    "B09",
+    "B13",
+    "B24",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-87.lean",
+   "erdos_problem": 87,
+   "sha256": "e37097dba59a5d9bf91b375423206ce3ff1df71e1144c595eb22a04ccf9520e7",
+   "bytes": 2835,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "formalized_problem"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B05",
+    "B13",
+    "B30"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-872.lean",
+   "erdos_problem": 872,
+   "sha256": "b600e4aac1597cf2058372cb5078b5ae2fd2a2db8c78a7855baf4fbf43b5e4e7",
+   "bytes": 2128,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_872_question"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-885.lean",
+   "erdos_problem": 885,
+   "sha256": "2c458f6d99a4fab92d9ad972e9b4c08b541d886bec1c2fa7bec51ed24a60b21f",
+   "bytes": 1934,
+   "theorems_declared": [
+    "erdos_885",
+    "witness_pos",
+    "witness_neg"
+   ],
+   "theorems_with_sorry": [
+    "erdos_885"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-89.lean",
+   "erdos_problem": 89,
+   "sha256": "8a8d4d27fdd7abebbab5f448f2261db2d55a0bf71d6559c8d48475222a0ce45f",
+   "bytes": 1765,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_89"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-902.lean",
+   "erdos_problem": 902,
+   "sha256": "c7f32a53eb907b790f8b9d348caac3d650970d8ef80543ae3b7eca3dab41bda3",
+   "bytes": 2571,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_902"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B03",
+    "B04",
+    "B08",
+    "B09",
+    "B13",
+    "B26",
+    "B28"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-928.lean",
+   "erdos_problem": 928,
+   "sha256": "9f883d722c38210711039f8803358f61818edaa9779e07aff525b0b4a6e38ad0",
+   "bytes": 1450,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "density_exists"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B05"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-929.lean",
+   "erdos_problem": 929,
+   "sha256": "d20e60c1a3fc5edc10bc393ddfd7e1de8348aadc24f16123426e2ca49954e923",
+   "bytes": 2165,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "conjectured_lower_bound"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-936.lean",
+   "erdos_problem": 936,
+   "sha256": "4f8d9bb8509996f53ccc016f8fd040f6d61c7c7c1ad25eb14e702a986e21473a",
+   "bytes": 1481,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_936"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B28"
+   ],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-943.lean",
+   "erdos_problem": 943,
+   "sha256": "601572c662a0b731dd5f354dde12b4ed1e29c42c8bf01f34427c520cab923349",
+   "bytes": 799,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_943"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "PROVISIONAL"
+  },
+  {
+   "file": "lean/erdos-953.lean",
+   "erdos_problem": 953,
+   "sha256": "61dc902cea2cf695e6272b4b7046728f187a4babca979ed453a1843b15c9d0e9",
+   "bytes": 1323,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_problem_953"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B10"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-961.lean",
+   "erdos_problem": 961,
+   "sha256": "b078956e54554131b5e14eb60e6f5bffa945d36f4aeb2612efdff5fabe100cb2",
+   "bytes": 1247,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "polylog_estimate"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "REJECTED_SEMANTIC",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [
+    "B13",
+    "B26"
+   ],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-963.lean",
+   "erdos_problem": 963,
+   "sha256": "1ce806dc4461a02d94f02bb7c5c8a23033f3cd21a236503a84ddff5acff52cbb",
+   "bytes": 2268,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "conjectured_log_two_lower_bound"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-969.lean",
+   "erdos_problem": 969,
+   "sha256": "f0fc6b56f63cac412e3f16966e294d38ebcc162092af37f127e4e1ebe1e13c22",
+   "bytes": 1446,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "conjectured_order_of_magnitude"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  },
+  {
+   "file": "lean/erdos-975.lean",
+   "erdos_problem": 975,
+   "sha256": "788aeebc834a94cba10c6f187daaa4042e44eb90b4d3defd77e87d1ebe83d208",
+   "bytes": 1433,
+   "theorems_declared": [
+    "witness_pos",
+    "witness_neg",
+    "erdos_975"
+   ],
+   "theorems_with_sorry": [
+    "witness_pos"
+   ],
+   "main_statement_proved": false,
+   "blade_gate_verdict": "BLOCKED",
+   "ladder_level": "KERNEL_VALID",
+   "blades_failed": [],
+   "source_ir_status": "FROZEN"
+  }
+ ]
+}
