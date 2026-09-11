@@ -1,7 +1,8 @@
 # erdos152
 
-Lean 4 formalizations of the **statements** of 160 open Erdős problems, published with their
-full defect audit attached.
+**Lean 4 formalizations of the statements of 160 open Erdős problems** - one of the larger
+statement corpora for this problem set anywhere. The full defect audit ships with it, including
+the 72 the gate rejected.
 
 Author: Jared Wilder. First public timestamp: 2026-09-10.
 
