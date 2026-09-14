@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1183",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be maximal such that in any $2$-colouring of the subsets of $\\{1,\\ldots,n\\}$ there is always a monochromatic family of at least $f(n)$ sets which is closed under taking unions and intersections. Estimate $f(n)$. Let $F(n)$ be defined similarly, except that we only require the family be closed under taking unions. Estimate $F(n)$. In particular, is it true that $F(n)\\geq n^{\\omega(n)}$ for some $\\omega(n)\\to \\infty$ as $n\\to \\infty$, and $F(n)<(1+o(1))^n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1183",
+        "start": 12257,
+        "end": 12744,
+        "exactness": "slice",
+        "sha256": "b81eefaeab72c447387e6b69fb5b9f6445e3857f9a248fa273a00b406e21da02"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1183 : [Er78,p.39] combinatorics | ramsey theory A problem of Erdős and Ulam. It is trivial that $f(n)\\geq \\frac{n+1}{2}$, since there is a sequence of $n+1$ many nested subsets. This seems to be all that they knew; Erdős [Er78] wrote 'we have no plausible conjecture for the true order of magnitude of $f(n)$'. They similarly had no good guess about $F(n)$. In [Er78] Erdős wrote that if the colouring is such that all subsets of same size receive the same colour then Howorka had proved that $F(n)>n^{\\omega(n)}$ for some $\\omega(n)\\to \\infty$, but gave no reference. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (10) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1183, https://www.erdosproblems.com/1183, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes ebarschkis , Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1183",
+        "start": 12744,
+        "end": 32527,
+        "exactness": "region",
+        "sha256": "7bebfef3b49012399249dd4cab01b2b39e7a91ffd5b4938cfb8d583833275016"
+      }
+    }
+  ],
+  "source_sha256": "0bbcd6726e3b7c46835b2796ed95681a07e2dbb3979d54a548a6f8166362139f",
+  "refusals": []
+}

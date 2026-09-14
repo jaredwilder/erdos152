@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/971",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $p(a,d)$ be the least prime congruent to $a\\pmod{d}$. Does there exist a constant $c>0$ such that, for all large $d$,\\[p(a,d) > (1+c)\\phi(d)\\log d\\]for $\\gg \\phi(d)$ many values of $a$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/971",
+        "start": 12255,
+        "end": 12458,
+        "exactness": "slice",
+        "sha256": "9ea1e00f3380b9657b874d375ab75eedcd9df8951e139ae3a0c4164dc5b54d4f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#971 : [Er65b] number theory Erdős [Er49c] could prove this is true for an infinite sequence of $d$. He also proved that, for any $\\epsilon>0$,\\[p(a,d)< \\epsilon \\phi(d)\\log d\\]for $\\gg_\\epsilon \\phi(d)$ many values of $a$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #971, https://www.erdosproblems.com/971, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A226521 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/971",
+        "start": 12458,
+        "end": 31849,
+        "exactness": "region",
+        "sha256": "f2129c349713782098d5049ea950dc86a2f487708ee4ad3f3bede66dc92fafb8"
+      }
+    }
+  ],
+  "source_sha256": "9db5c207c552f339bd1b1359db823c6bcb14cf95e5be13356c055722409d22bc",
+  "refusals": []
+}

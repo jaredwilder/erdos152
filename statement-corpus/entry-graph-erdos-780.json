@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/780",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Suppose $n\\geq kr+(t-1)(k-1)$ and the edges of the complete $r$-uniform hypergraph on $n$ vertices are $t$-coloured. Prove that some colour class must contain $k$ pairwise disjoint edges.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/780",
+        "start": 12236,
+        "end": 12429,
+        "exactness": "slice",
+        "sha256": "895e531cde64686db3880fa3276578619933792b54e369def6207a90113740b8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#780 : [Er76] combinatorics | hypergraphs | chromatic number In other words, this problem asks to determine the chromatic number of the Kneser graph. This would be best possible: if $n=kr-1+(t-1)(k-1)$ then decomposing $[n]$ as one set $X_1$ of size $kr-1$ and $t-1$ sets $X_2,\\ldots,X_{t}$ of size $k-1$, a colouring without $k$ pairwise disjoint edges is given colouring all subsets of $X_0$ in colour $1$ and assigning an edge with colour $2\\leq i\\leq t$ if $i$ is minimal such that $X_i$ intersects the edge. When $k=2$ this was conjectured by Kneser and proved by Lovász [Lo78] . The general case was proved by Alon, Frankl, and Lovász [AFL86] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #780, https://www.erdosproblems.com/780, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/780",
+        "start": 12429,
+        "end": 31945,
+        "exactness": "region",
+        "sha256": "190f5c5392229a42d34c208c1aca1f00c895d2f1c7900a4f2d07f6dc32ce7cc8"
+      }
+    }
+  ],
+  "source_sha256": "b06586170053ee900d0b0bc6e028fc78c19d9f8ca8fd590f57d35e1004a33e08",
+  "refusals": []
+}

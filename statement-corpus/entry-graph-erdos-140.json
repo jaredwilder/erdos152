@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/140",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r_3(N)$ be the size of the largest subset of $\\{1,\\ldots,N\\}$ which does not contain a non-trivial $3$-term arithmetic progression. Prove that $r_3(N)\\ll N/(\\log N)^C$ for every $C>0$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/140",
+        "start": 12281,
+        "end": 12481,
+        "exactness": "slice",
+        "sha256": "0e2f231e6c0fdc34753daeb4fb08b867afb04479eb29cfaffaf375303c76215d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#140 : [ErGr80,p.11] [Er81] [Er97c] additive combinatorics | arithmetic progressions Proved by Kelley and Meka [KeMe23] . In [ErGr80] and [Er81] it is conjectured that this holds for every $k$-term arithmetic progression. See also [3] . Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 20 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #140, https://www.erdosproblems.com/140, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A003002 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/140",
+        "start": 12481,
+        "end": 32578,
+        "exactness": "region",
+        "sha256": "f8e46f102e6c67ac7b27cb8c2d8579cc340e9739a9e0e714d43d2b6080bd6eca"
+      }
+    }
+  ],
+  "source_sha256": "aad6f4e5fad529c560fb8923819cf89c18feb05fdfe40ea154e8c9735fe5d9b2",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/495",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\alpha,\\beta \\in \\mathbb{R}$. Is it true that\\[\\liminf_{n\\to \\infty} n \\| n\\alpha \\| \\| n\\beta\\| =0\\]where $\\|x\\|$ is the distance from $x$ to the nearest integer?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/495",
+        "start": 12255,
+        "end": 12429,
+        "exactness": "slice",
+        "sha256": "40cdc193eb11537b294c4967d11ad336df5bd0b4ede1019b506ee23f16c68e8a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#495 : [Er61] diophantine approximation | number theory The infamous Littlewood conjecture . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #495, https://www.erdosproblems.com/495, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration David_Robey Currently working on None Looks difficult Vjeko_Kovac , Dogmachine , ebarschkis Looks tractable None Could be formalisable None Working on formalising David_Robey Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/495",
+        "start": 12429,
+        "end": 31646,
+        "exactness": "region",
+        "sha256": "3c1ba21443006ed3d16d6437709a6c184d41c4edf8db2f6fe586ab0ae013d10f"
+      }
+    }
+  ],
+  "source_sha256": "ac94ebfa8c5748dd018e30d5c8fd565a509617b01bb68a80604d33986cb87ec3",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/653",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $x_1,\\ldots,x_n\\in \\mathbb{R}^2$ and let $R(x_i)=\\#\\{ \\lvert x_j-x_i\\rvert : j\\neq i\\}$, where the points are ordered such that\\[R(x_1)\\leq \\cdots \\leq R(x_n).\\]Let $g(n)$ be the maximum number of distinct values the $R(x_i)$ can take. Is it true that $g(n) \\geq (1-o(1))n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/653",
+        "start": 12255,
+        "end": 12539,
+        "exactness": "slice",
+        "sha256": "6eea73ad0f5862232fd3909dcb9f357e2e64702c376985b59d098121c57c6711"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#653 : [Er97e] geometry | distances Erdős and Fishburn proved $g(n)>\\frac{3}{8}n$ and Csizmadia proved $g(n)>\\frac{7}{10}n$. Both groups proved $g(n) < n-cn^{2/3}$ for some constant $c>0$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #653, https://www.erdosproblems.com/653, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Aron Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/653",
+        "start": 12539,
+        "end": 31649,
+        "exactness": "region",
+        "sha256": "12332ce36ab807417f8d579ab8c81180e15344e23419a1067c97f903bd1e7320"
+      }
+    }
+  ],
+  "source_sha256": "a1d518d2dbf7fc4163bf81f0fd9cc23e55c4485b48e09189806c2cf4beee7f06",
+  "refusals": []
+}

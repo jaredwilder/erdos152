@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1063",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 2$ and define $n_k\\geq 2k$ to be the least value of $n$ such that $n-i$ divides $\\binom{n}{k}$ for all but one $0\\leq i<k$. Estimate $n_k$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1063",
+        "start": 12257,
+        "end": 12417,
+        "exactness": "slice",
+        "sha256": "12a808a4ff6d573f5101c44bd6fdab2e85b0260c7ffbf12a814d75fcc39a20cc"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1063 : [ErSe83] number theory A problem of Erdős and Selfridge posed in [ErSe83] . Erdős and Selfridge noted (and a proof can be found in [Mo85] ) that if $n\\geq 2k$ then there must exist at least one $0\\leq i<k$ such that $n-i$ does not divide $\\binom{n}{k}$. We have $n_2=4$, $n_3=6$, $n_4=9$, and $n_5=12$. Monier [Mo85] observed that $n_k\\leq k!$ for $k\\geq 3$, since $\\binom{k!}{k}$ is divisible by $k!-i$ for $1\\leq i<k$. Cambie observes in the comments that this can be improved to\\[n_k\\leq k[2,3,\\ldots,k-1]\\leq e^{(1+o(1))k},\\]where $[\\cdots]$ is the least common multiple. This is discussed in problem B31 of Guy's collection [Gu04] . Additional thanks to : Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (12) Proof claims (2) More information and links This page was last edited 01 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1063, https://www.erdosproblems.com/1063, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A389360 Reactions Likes rickyc Open to collaboration None Currently working on rickyc Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1063",
+        "start": 12417,
+        "end": 32834,
+        "exactness": "region",
+        "sha256": "2318a896646380bbaa71fd9eb1939e7e6c0fb7f0d0c1f45461dc7cc226cd8cd0"
+      }
+    }
+  ],
+  "source_sha256": "75f0ac59e31ebe033f3c6981debc6c496b7e225a0a33bcfea957d38ad8439f21",
+  "refusals": []
+}

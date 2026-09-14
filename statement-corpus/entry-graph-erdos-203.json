@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/203",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there an integer $m\\geq 1$ with $(m,6)=1$ such that none of $2^k3^\\ell m+1$ are prime, for any $k,\\ell\\geq 0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/203",
+        "start": 12255,
+        "end": 12374,
+        "exactness": "slice",
+        "sha256": "eeb4b34796fff7e11831446e960029381ac3135974e476638a4778635c78839a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#203 : [ErGr80,p.27] primes | covering systems Positive odd integers $m$ such that none of $2^km+1$ are prime are called Sierpinski numbers - see [1113] for more details. Erdős and Graham also ask more generally about $p_1^{k_1}\\cdots p_r^{k_r}m+1$ for distinct primes $p_i$, or $q_1\\cdots q_rm+1$ where the $q_i$ are primes congruent to $1\\pmod{4}$. (Dogmachine has noted in the comments this latter question has the trivial answer $m=1$ - perhaps some condition such as $m$ even is meant.) Additional thanks to : Dogmachine and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (14) Proof claims (0) More information and links This page was last edited 20 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #203, https://www.erdosproblems.com/203, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on uona , AnimishSharma Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising epassports Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/203",
+        "start": 12374,
+        "end": 32117,
+        "exactness": "region",
+        "sha256": "ef31731b1bc2acb6c8f56c7e7428070fd83ebaf73c9a55ef57429a03b1d31b99"
+      }
+    }
+  ],
+  "source_sha256": "60437845ad74140234856140b9e73c5e4efb2821fe82f776fd5afb746cf4c114",
+  "refusals": []
+}

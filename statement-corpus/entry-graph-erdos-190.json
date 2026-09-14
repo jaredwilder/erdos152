@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/190",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $H(k)$ be the smallest $N$ such that in any finite colouring of $\\{1,\\ldots,N\\}$ (into any number of colours) there is always either a monochromatic $k$-term arithmetic progression or a rainbow arithmetic progression (i.e. all elements are different colours). Estimate $H(k)$. Is it true that\\[H(k)^{1/k}/k \\to \\infty\\]as $k\\to\\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/190",
+        "start": 12262,
+        "end": 12607,
+        "exactness": "slice",
+        "sha256": "a4000a9453d234f05d638ece7c127208b631d40571a121b215cd5db196b02210"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#190 : [ErGr79,p.333] [ErGr80,p.17] additive combinatorics | arithmetic progressions This type of problem belongs to 'canonical' Ramsey theory. The existence of $H(k)$ follows from Szemerédi's theorem, and it is easy to show that $H(k)^{1/k}\\to\\infty$. A recurrence of Hunter [Hu25b] implies $H(k)^{1/k}\\to \\infty$ (see Section 6 of [FoHu26] ). Bae [Ba26] proved more precisely that $H(k)\\geq k^{(2-o(1))k}$. Fox and Hunter [FoHu26] independently obtained the stronger estimate\\[H(k) \\geq k^{(1-o(1))k\\log k}.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 02 June 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #190, https://www.erdosproblems.com/190, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising harguiny Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/190",
+        "start": 12607,
+        "end": 32604,
+        "exactness": "region",
+        "sha256": "31f4f9541a7d9cd8500407b7599f10cb45d4d85aa8d358e97de82e7608fc53ea"
+      }
+    }
+  ],
+  "source_sha256": "119dc441613a303dfe9aded1261bfb56946a5f96ea99c12be35617a8985c03af",
+  "refusals": []
+}

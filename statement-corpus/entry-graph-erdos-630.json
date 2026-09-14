@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/630",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "The list chromatic number $\\chi_L(G)$ is defined to be the minimal $k$ such that for any assignment of a list of $k$ colours to each vertex of $G$ (perhaps different lists for different vertices) a colouring of each vertex by a colour on its list can be chosen such that adjacent vertices receive distinct colours. Does every planar bipartite graph $G$ have $\\chi_L(G)\\leq 3$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/630",
+        "start": 12236,
+        "end": 12625,
+        "exactness": "slice",
+        "sha256": "594e9e61555389894098e78fb42b787e9f4a8db23a48ab2771d19a1df7e9a51b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#630 : [ERT80] graph theory | chromatic number A problem of Erdős, Rubin, and Taylor [ERT80] . The answer is yes, proved by Alon and Tarsi [AlTa92] . See also [631] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #630, https://www.erdosproblems.com/630, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/630",
+        "start": 12625,
+        "end": 31731,
+        "exactness": "region",
+        "sha256": "a23513a8771f96d2d047ad7f48fceeef67e0f0e52aba2b54747bcd69106312d7"
+      }
+    }
+  ],
+  "source_sha256": "326e2f5e61e8a9bf8a2d066176da158edf08b365ff4ee0b89f5e623a5f3848e6",
+  "refusals": []
+}

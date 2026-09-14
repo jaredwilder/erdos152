@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/91",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $n$ be a sufficiently large integer. Suppose $A\\subset \\mathbb{R}^2$ has $\\lvert A\\rvert=n$ and minimises the number of distinct distances between points in $A$. Prove that there are at least two (and probably many) such $A$ which are non-similar.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/91",
+        "start": 12253,
+        "end": 12510,
+        "exactness": "slice",
+        "sha256": "59f5f2fc9bc566a0d17e02ae108f42454fd665e0d7b6fbb57f826780fe68dd62"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#91 : [Er87b,p.171] [Er90] [Er97e] geometry | distances For $n=3$ the equilateral triangle is the only such set. For $n=4$ the square or two equilateral triangles sharing an edge give two non-similar examples. For $n=5$ the regular pentagon is the unique such set (which has two distinct distances). Erdős mysteriously remarks in [Er90] this was proved by 'a colleague'. (In [Er87b] this is described as 'a colleague from Zagreb (unfortunately I do not have his letter)'.) A published proof of this fact is provided by Kovács [Ko24c] . In [Er87b] Erdős says that there are at least two non-similar examples for $6\\leq n\\leq 9$. The minimal possible number of distinct distances is the subject of [89] . Additional thanks to : Neel Somani, Terence Tao, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 13 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #91, https://www.erdosproblems.com/91, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A186704 , possible Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/91",
+        "start": 12510,
+        "end": 33343,
+        "exactness": "region",
+        "sha256": "1c1d2a744ac8a32dc590da8c001c1aff2e108fbba471da72462a5de54f399726"
+      }
+    }
+  ],
+  "source_sha256": "457243c1d22d7f85508da222dc81a26327d124a6f0135f6b9671a0d2db8a2ce5",
+  "refusals": []
+}

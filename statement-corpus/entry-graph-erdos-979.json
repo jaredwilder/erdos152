@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/979",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 2$, and let $f_k(n)$ count the number of solutions to\\[n=p_1^k+\\cdots+p_k^k,\\]where the $p_i$ are prime numbers. Is it true that $\\limsup f_k(n)=\\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/979",
+        "start": 12255,
+        "end": 12425,
+        "exactness": "slice",
+        "sha256": "22b333ea57bef90808f139401f8ac326f20c2a2139f53270a2987201cdac6db2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#979 : [Er65b,p.224] number theory Erdős [Er37b] proved this is true when $k=2$, and also when $k=3$ (but this proof appears to be unpublished). Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (13) Proof claims (0) More information and links This page was last edited 19 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #979, https://www.erdosproblems.com/979, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A385316 , possible Reactions Likes carlos_toledo Open to collaboration None Currently working on carlos_toledo Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/979",
+        "start": 12425,
+        "end": 31955,
+        "exactness": "region",
+        "sha256": "afcc10d39daa6941f23dc7010a8e361ad6d16ed369bf80dfd1be532771fe52b6"
+      }
+    }
+  ],
+  "source_sha256": "ada5c78637818cb8fcfa9859b51a70646e5f6481d27e8f09da1ce2a0fd2d8417",
+  "refusals": []
+}

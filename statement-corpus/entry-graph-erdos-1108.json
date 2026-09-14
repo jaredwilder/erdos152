@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1108",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let\\[A = \\left\\{ \\sum_{n\\in S}n! : S\\subset \\mathbb{N}\\textrm{ finite}\\right\\}.\\]If $k\\geq 2$, then does $A$ contain only finitely many $k$th powers? Does it contain only finitely many powerful numbers?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1108",
+        "start": 12257,
+        "end": 12465,
+        "exactness": "slice",
+        "sha256": "6e3493b6a1207fe9073629e6bc4afeb89ca4be76ffc7fba7ff769294c9435a11"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1108 : [Ob1] number theory | factorials Asked by Erdős at Oberwolfach in 1988. It is open even whether there are infinitely many squares of the form $1+n!$ (see [398] ). This was motivated in part by a problem of Mahler which he discussed with Erdős a few days before his death in 1988: if $k\\geq 5$ and\\[A_k= \\left\\{ \\sum_{n\\in S}k^n : S\\subset \\mathbb{N}\\textrm{ finite}\\right\\}\\]then does $A_k$ contain only finitely many squares? Mahler showed that there are infinitely many squares in $A_k$ for $k\\leq 4$, and found only one square for $k\\geq 5$, namely\\[1+7+7^2+7^3=400.\\]Brindza and Erdős [BrEr91] proved that, for any $r$, if $n_1!+\\cdots+n_r!$ is powerful then $n_1\\ll_r 1$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 04 November 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1108, https://www.erdosproblems.com/1108, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A051761 , A115645 , A025494 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1108",
+        "start": 12465,
+        "end": 32908,
+        "exactness": "region",
+        "sha256": "cf8f00f68de689c1655cff7efd10393cd927bc557515fb3dce33d1532b851a9b"
+      }
+    }
+  ],
+  "source_sha256": "dbc24583626d316e16eef30c6eae192b43288cc4263a8e86af0be9b185221b9c",
+  "refusals": []
+}

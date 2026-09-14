@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/632",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "A graph is $(a,b)$-choosable if for any assignment of a list of $a$ colours to each of its vertices there is a subset of $b$ colours from each list such that the subsets of adjacent vertices are disjoint. If $G$ is $(a,b)$-choosable then $G$ is $(am,bm)$-choosable for every integer $m\\geq 1$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/632",
+        "start": 12236,
+        "end": 12542,
+        "exactness": "slice",
+        "sha256": "76a32e43dafb2d6b2915be04a1e602a3a655619f3d1da901ae76ff476cfa2a92"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#632 : [ERT80] graph theory | chromatic number A problem of Erdős, Rubin, and Taylor [ERT80] . Note that $G$ is $(a,1)$-choosable corresponds to being $a$-choosable, that is, the list chromatic number satisfies $\\chi_L(G)\\leq a$. This is false: Dvořák, Hu, and Sereni [DHS19] construct a graph which is $(4,1)$-choosable but not $(8,2)$-choosable. See also the entry in the graphs problem collection . Additional thanks to : David Penman and Raphael Steiner Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #632, https://www.erdosproblems.com/632, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/632",
+        "start": 12542,
+        "end": 32077,
+        "exactness": "region",
+        "sha256": "90b963754b0cfe3128922a8f697da1530291cf261b1b02744e5b2307112cb2d5"
+      }
+    }
+  ],
+  "source_sha256": "89ce92b2717f89bc57361ecb8b7ff09edcb94bef4602addb63dff33bcb85dced",
+  "refusals": []
+}

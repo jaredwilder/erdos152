@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/310",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\alpha >0$ and $N\\geq 1$. Is it true that for any $A\\subseteq \\{1,\\ldots,N\\}$ with $\\lvert A\\rvert \\geq \\alpha N$ there exists some $S\\subseteq A$ such that\\[\\frac{a}{b}=\\sum_{n\\in S}\\frac{1}{n}\\]with $a\\leq b =O_\\alpha(1)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/310",
+        "start": 12274,
+        "end": 12513,
+        "exactness": "slice",
+        "sha256": "e3031d274589317992f59b9664b5885a2682c28ea4b27f7fd78082aca3d4f885"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#310 : [ErGr80] number theory | unit fractions Liu and Sawhney [LiSa24] observed that the main result of Bloom [Bl21] implies a positive solution to this conjecture. They prove a more precise version, that if $(\\log N)^{-1/7+o(1)}\\leq \\alpha \\leq 1/2$ then there is some $S\\subseteq A$ such that\\[\\frac{a}{b}=\\sum_{n\\in S}\\frac{1}{n}\\]with $a\\leq b \\leq \\exp(O(1/\\alpha))$. They also observe that the dependence $b\\leq \\exp(O(1/\\alpha))$ is sharp. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #310, https://www.erdosproblems.com/310, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/310",
+        "start": 12513,
+        "end": 31788,
+        "exactness": "region",
+        "sha256": "0aaf93880467f0b81273f516d38be146ac1aedaaa480bbd2e92493f9135e9c4f"
+      }
+    }
+  ],
+  "source_sha256": "e8271ab73b18b73c0cb38ce192a35edadb25f2f0d49158baf438d2d8165bf9d7",
+  "refusals": []
+}

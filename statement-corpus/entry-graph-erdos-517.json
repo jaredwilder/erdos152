@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/517",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(z)=\\sum_{k=1}^\\infty a_kz^{n_k}$ be an entire function (with $a_k\\neq 0$ for all $k\\geq 1$). Is it true that if $n_k/k\\to \\infty$ then $f(z)$ assumes every value infinitely often?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/517",
+        "start": 12255,
+        "end": 12447,
+        "exactness": "slice",
+        "sha256": "8c0160364b1104838bd9868de148435d793968457813d574cdba7f0fc5096ffe"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#517 : [Er61,p.250] analysis A conjecture of Fejér and Pólya. Fejér [Fe08] proved that if $\\sum\\frac{1}{n_k}<\\infty$ then $f(z)$ assumes every value at least once, and Biernacki [Bi28] proved that if $\\sum\\frac{1}{n_k}<\\infty$ then $f(z)$ assumes every value infinitely often. Pólya [Po29] proved that if $f$ has finite order then $f(z)$ assumes every value infinitely often under the assumption that $\\limsup (n_{k+1}-n_k)=\\infty$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 29 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #517, https://www.erdosproblems.com/517, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/517",
+        "start": 12447,
+        "end": 31937,
+        "exactness": "region",
+        "sha256": "126de605caf3fa4bcb9f2c729592193527d6fa199af21edbc3ef854b13232223"
+      }
+    }
+  ],
+  "source_sha256": "c6c6ad1dba463d670c3916964c18e5cc5f0ee006788416a1d080eb833e912e11",
+  "refusals": []
+}

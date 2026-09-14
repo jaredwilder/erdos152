@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/291",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $n\\geq 1$ and define $L_n$ to be the least common multiple of $\\{1,\\ldots,n\\}$ and $a_n$ by\\[\\sum_{1\\leq k\\leq n}\\frac{1}{k}=\\frac{a_n}{L_n}.\\]Is it true that $(a_n,L_n)=1$ and $(a_n,L_n)>1$ both occur for infinitely many $n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/291",
+        "start": 12255,
+        "end": 12495,
+        "exactness": "slice",
+        "sha256": "e797e778c1aaacab56f0c6910b74c75ae892a94c14973a1d8707ab12e55fe0fb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#291 : [ErGr80,p.34] number theory | unit fractions Steinerberger has observed that the answer to the second question is trivially yes: for example, any $n$ which begins with a $2$ in base $3$ has $3\\mid (a_n,L_n)$. More generally, if the leading digit of $n$ in base $p$ is $p-1$ then $p\\mid (a_n,L_n)$. There is in fact a necessary and sufficient condition: a prime $p\\leq n$ divides $(a_n,L_n)$ if and only if $p$ divides the numerator of $1+\\cdots+\\frac{1}{k}$, where $k$ is the leading digit of $n$ in base $p$. This can be seen by writing\\[a_n = \\frac{L_n}{1}+\\cdots+\\frac{L_n}{n}\\]and observing that the right-hand side is congruent to $1+\\cdots+1/k$ modulo $p$. (The previous claim about $p-1$ follows immediately from Wolstenholme's theorem .) This leads to a heuristic prediction (see for example a preprint of Shiu [Sh16] ) of $\\asymp\\frac{x}{\\log x}$ for the number of $n\\in [1,x]$ such that $(a_n,L_n)=1$. In particular, there should be infinitely many $n$, but the set of such $n$ should have density zero. Unfortunately this heuristic is difficult to turn into a proof. Wu and Yan [WuYa22] have proved, conditional on $\\frac{1}{\\log p}$ being linearly independent over $\\mathbb{Q}$ for any finite collection of primes $p$ (itself a consequence of Schanuel's conjecture), that the set of $n$ for which $(a_n,L_n)>1$ has upper density $1$. Additional thanks to : Stefan Steinerberger and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 12 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #291, https://www.erdosproblems.com/291, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A110566 Reactions Likes Woett , Steve_Fan Open to collaboration Woett , Steve_Fan Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next </d",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/291",
+        "start": 12495,
+        "end": 33731,
+        "exactness": "region",
+        "sha256": "67afadbfb9552389429dc587c06c09e0ae6181e74de3daf86dd1185a3ec23775"
+      }
+    }
+  ],
+  "source_sha256": "8d82e0c6e005ab590419a299a944c14de448a092c8417eb76f784f13a594e9d9",
+  "refusals": []
+}

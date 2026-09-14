@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/365",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Do all pairs of consecutive powerful numbers $n$ and $n+1$ come from solutions to Pell equations ? In other words, must either $n$ or $n+1$ be a square? Is the number of such $n\\leq x$ bounded by $(\\log x)^{O(1)}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/365",
+        "start": 12255,
+        "end": 12713,
+        "exactness": "slice",
+        "sha256": "bd6ecb95f91e4b75f46fa381078a8ffd40e0888bd82da727db8497b90add823a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#365 : [Er76d,p.31] [ErGr80,p.68] number theory | powerful Erdős originally asked Mahler whether there are infinitely many pairs of consecutive powerful numbers, but Mahler immediately observed that the answer is yes from the infinitely many solutions to the Pell equation $x^2=2^3y^2+1$. The list of $n$ such that $n$ and $n+1$ are both powerful is A060355 in the OEIS. The answer to the first question is no: Golomb [Go70] observed that both $12167=23^3$ and $12168=2^33^213^2$ are powerful. Walker [Wa76] proved that the equation\\[7^3x^2=3^3y^2+1\\]has infinitely many solutions, giving infinitely many counterexamples. See also [364] . This is discussed in problem B16 of Guy's collection [Gu04] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 31 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #365, https://www.erdosproblems.com/365, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A060355 , A060859 , A175155 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Redirect links and searches when in dua",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/365",
+        "start": 12713,
+        "end": 33542,
+        "exactness": "region",
+        "sha256": "e7e0186230cf26c62baa1bc58e0cb83afd6f2c680c97dd935409703af3fe7475"
+      }
+    }
+  ],
+  "source_sha256": "740e28430d1a84b508262f627b5177d12c4a341b4ef6c359cbe05bb64aabf407",
+  "refusals": []
+}

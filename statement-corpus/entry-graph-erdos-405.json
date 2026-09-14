@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/405",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $p$ be an odd prime. Is it true that the equation\\[(p-1)!+a^{p-1}=p^k\\]has only finitely many solutions?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/405",
+        "start": 12274,
+        "end": 12389,
+        "exactness": "slice",
+        "sha256": "4a13c5a145ea562c41a3dfde95796e395d3c9d37df6465b0952cef3b516a16ef"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#405 : [ErGr80,p.80] number theory | factorials Erdős and Graham remark that it is probably true that in general $(p-1)!+a^{p-1}$ is rarely a power at all (although this can happen, for example $6!+2^6=28^2$). Erdős and Graham ask this allowing the case $p=2$, but this is presumably an oversight, since clearly there are infinitely many solutions to this equation when $p=2$. Brindza and Erdős [BrEr91] proved that there are finitely many such solutions. Yu and Liu [YuLi96] showed that the only solutions are\\[2!+1^2=3\\]\\[2!+5^2=3^3\\]and\\[4!+1^4=5^2.\\] Additional thanks to : Bhavik Mehta and Euro Sampaio Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #405, https://www.erdosproblems.com/405, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/405",
+        "start": 12389,
+        "end": 31931,
+        "exactness": "region",
+        "sha256": "5390dc2876a6db66eaf48f06685f99e55baf2289dd7c5535ced9a5d495a9764c"
+      }
+    }
+  ],
+  "source_sha256": "e356d86d78cf3a23946f72d3e726dff3f6c923a5fd4f06f9671f8fe85e8ff79d",
+  "refusals": []
+}

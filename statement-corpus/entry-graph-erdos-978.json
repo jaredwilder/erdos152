@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/978",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f\\in \\mathbb{Z}[x]$ be an irreducible polynomial of degree $k>2$ (and suppose that $k\\neq 2^l$ for any $l\\geq 1$) such that the leading coefficient of $f$ is positive. Does the set of integers $n\\geq 1$ for which $f(n)$ is $(k-1)$-power-free have positive density? If $k>3$, and for all primes $p$ there exists $n$ such that $p^{k-2}\\nmid f(n)$, then are there infinitely many $n$ for which $f(n)$ is $(k-2)$-power-free? In particular, does\\[n^4+2\\]represent infinitely many squarefree numbers?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/978",
+        "start": 12255,
+        "end": 12789,
+        "exactness": "slice",
+        "sha256": "547e86f983797ae0e5d055fb420c61c010b298b24f0d0f28e64ec7f5763f8eb5"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#978 : [Er65b,p.219] [Er81h,p.178] number theory Erdős [Er53] proved there are infinitely many $n$ for which $f(n)$ is $(k-1)$-power-free, except when $k=2^l$ and $2^{k-1}\\mid f(n)$ for all $n$. This latter exception is possible, for example if\\[f(x)=k!\\left(\\binom{x}{k}+1\\right).\\]Hooley [Ho67] settled the first question, in fact providing a precise asymptotic for the number of such $n\\leq x$. Heath-Brown [He06] proved the answer to the second question is yes when $k\\geq 10$, and Browning [Br11] extended this to $k\\geq 9$ (in fact establishing an asymptotic formula for the number of such $n$). (This is under the assumption that there does not exist a prime $p$ such that $p^{k-2}\\mid f(n)$ for all $n$, which Erdős did not state explicitly, but is an obvious necessary condition, and is discussed explicitly in [He06] and [Br11] .) In [Er65b] Erdős mentions the question of whether $2^n\\pm 1$ represents infinitely many $k$th power-free integers, or $n!\\pm 1$, but that these are 'intractable at present'. (See also [936] .) Additional thanks to : Sarosh Adenwalla, Moritz Firsching, and Yongxi Lin Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (16) Proof claims (0) More information and links This page was last edited 31 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #978, https://www.erdosproblems.com/978, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/978",
+        "start": 12789,
+        "end": 33888,
+        "exactness": "region",
+        "sha256": "fbfd033e65d1152ffe8e6786cbe27b3b2556594e44ab43d252fba55c36acafc1"
+      }
+    }
+  ],
+  "source_sha256": "f30e2ca166fd8ccf3356ee99c78bef36556ab487ba63ca5c4bb42aa51c9a9ab6",
+  "refusals": []
+}

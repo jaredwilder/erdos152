@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/174",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "A finite set $A\\subset \\mathbb{R}^n$ is called Ramsey if, for any $k\\geq 1$, there exists some $d=d(A,k)$ such that in any $k$-colouring of $\\mathbb{R}^d$ there exists a monochromatic copy of $A$. Characterise the Ramsey sets in $\\mathbb{R}^n$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/174",
+        "start": 12255,
+        "end": 12505,
+        "exactness": "slice",
+        "sha256": "a0aae699d2465a49f1255e6f588c366769aa1937e8b3247a579bd79020412147"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#174 : [Er75f,p.108] [ErGr79] [ErGr80] [Er83c] geometry | ramsey theory Erdős, Graham, Montgomery, Rothschild, Spencer, and Straus [EGMRSS73] proved that every Ramsey set is 'spherical': it lies on the surface of some sphere. Graham has conjectured that every spherical set is Ramsey. Leader, Russell, and Walters [LRW12] have alternatively conjectured that a set is Ramsey if and only if it is 'subtransitive': it can be embedded in some higher-dimensional set on which rotations act transitively. Sets known to be Ramsey include vertices of $k$-dimensional rectangles [EGMRSS73] , non-degenerate simplices [FrRo90] , trapezoids [Kr92] , and regular polygons/polyhedra [Kr91] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 16 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #174, https://www.erdosproblems.com/174, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes BorisAlexeev Open to collaboration None Currently working on None Looks difficult Vjeko_Kovac Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/174",
+        "start": 12505,
+        "end": 32917,
+        "exactness": "region",
+        "sha256": "907a65a0e0c582df58652e0349597ade6081f77a79d69fb2ca90242173d2931a"
+      }
+    }
+  ],
+  "source_sha256": "904d06935a94ff15e0bc2a3fe46fbb79727b59c0badeb5ebc3f81239e21f2485",
+  "refusals": []
+}

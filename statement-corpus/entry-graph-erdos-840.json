@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/840",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(N)$ be the size of the largest quasi-Sidon subset $A\\subset\\{1,\\ldots,N\\}$, where we say that $A$ is quasi-Sidon if\\[\\lvert A+A\\rvert=(1+o(1))\\binom{\\lvert A\\rvert}{2}.\\]How does $f(N)$ grow?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/840",
+        "start": 12255,
+        "end": 12459,
+        "exactness": "slice",
+        "sha256": "1fa3c12d4ece51cc0df7633680baf1104d62a003dfd6133b28b0557de437eb57"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#840 : [Er81h,p.175] [ErFr91] [Er92c] additive combinatorics | sidon sets Considered by Erdős and Freud [ErFr91] , who proved\\[\\left(\\frac{2}{\\sqrt{3}}+o(1)\\right)N^{1/2} \\leq f(N) \\leq \\left(2+o(1)\\right)N^{1/2}.\\](Although both bounds were already given by Erdős in [Er81h] .) Note that $2/\\sqrt{3}=1.15\\cdots$. The lower bound is taking a genuine Sidon set $B\\subset [1,N/3]$ of size $\\sim N^{1/2}/\\sqrt{3}$ and taking the union with $\\{N-b : b\\in B\\}$. The upper bound was improved by Pikhurko [Pi06] to\\[f(N) \\leq \\left(\\left(\\frac{1}{4}+\\frac{1}{(\\pi+2)^2}\\right)^{-1/2}+o(1)\\right)N^{1/2}\\](the constant here is $=1.863\\cdots$). The analogous question with $A-A$ in place of $A+A$ is simpler, and there the maximal size is $\\sim N^{1/2}$, as proved by Cilleruelo . See also [30] , [819] , and [864] . Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 19 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #840, https://www.erdosproblems.com/840, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes KStar , LaiC Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/840",
+        "start": 12459,
+        "end": 33115,
+        "exactness": "region",
+        "sha256": "4911ad7500c317f4b4bf7c13eee4347267336d8df56af925188a007c74433954"
+      }
+    }
+  ],
+  "source_sha256": "86a6614a7b493e6f23c8859ddc8c7573424d2385998ed47584ff70da2d85e6b6",
+  "refusals": []
+}

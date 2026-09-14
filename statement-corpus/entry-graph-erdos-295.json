@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/295",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $N\\geq 1$ and let $k(N)$ denote the smallest $k$ such that there exist $N\\leq n_1<\\cdots <n_k$ with\\[1=\\frac{1}{n_1}+\\cdots+\\frac{1}{n_k}.\\]Is it true that\\[\\lim_{N\\to \\infty} k(N)-(e-1)N=\\infty?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/295",
+        "start": 12255,
+        "end": 12470,
+        "exactness": "slice",
+        "sha256": "a0793edee24114f4fe93eb3c384ae4e8c48d602936fb5167eab2d8d41b1ac8de"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#295 : [ErGr80] number theory | unit fractions Erdős and Straus [ErSt71b] have proved the existence of some constant $c>0$ such that\\[-c < k(N)-(e-1)N \\ll \\frac{N}{\\log N}.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 01 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #295, https://www.erdosproblems.com/295, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A192881 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/295",
+        "start": 12470,
+        "end": 31896,
+        "exactness": "region",
+        "sha256": "e3c9c9b7647aa6946610b8127f8a13de618ca0b69e75cdc59e46dcd0791ab665"
+      }
+    }
+  ],
+  "source_sha256": "a0df4812969507a6094c955fd6741da4be96ea495cafb34e387e0bbc1d685702",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/808",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $c,\\epsilon>0$ and $n$ be sufficiently large. If $A\\subset \\mathbb{N}$ has $\\lvert A\\rvert=n$ and $G$ is any graph on $A$ with at least $n^{1+c}$ edges then\\[\\max(\\lvert A+_GA\\rvert,\\lvert A\\cdot_G A\\rvert) \\geq \\lvert A\\rvert^{1+c-\\epsilon},\\]where\\[A+_GA = \\{ a+b : (a,b)\\in G\\}\\]and similarly for $A\\cdot_GA$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/808",
+        "start": 12236,
+        "end": 12562,
+        "exactness": "slice",
+        "sha256": "9e0513dc8eb62a81cd222a559de13a56371bd53e3926db8fd2bd3b9cc0418cbc"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#808 : [Er77c] [ErSz83] [Er91] [Er97] additive combinatorics | graph theory A problem often attributed to Erdős and Szemerédi, which strengthens the conjecture [52] , although it appears in [Er77c] without attribution to Szemerédi. This strong conjecture was disproved by Alon, Ruzsa, and Solymosi [ARS20] , who constructed (for arbitrarily large $n$) a set of integers $A$ with $\\lvert A\\rvert=n$ and a graph $G$ with $\\gg n^{5/3-o(1)}$ many edges such that\\[\\max(\\lvert A+_GA\\rvert,\\lvert A\\cdot_G A\\rvert) \\ll \\lvert A\\rvert^{4/3+o(1)}.\\]Alon, Ruzsa, and Solymosi do prove, however, that if $A$ has size $n$ and $G$ has $m$ edges then\\[\\max(\\lvert A+_GA\\rvert,\\lvert A\\cdot_G A\\rvert) \\gg m^{3/2}n^{-7/4}.\\] Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #808, https://www.erdosproblems.com/808, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/808",
+        "start": 12562,
+        "end": 32640,
+        "exactness": "region",
+        "sha256": "3e44180bdcb94b4acc19d03846bfc063cf6bf1bef0452bd19d00d8cc242da64c"
+      }
+    }
+  ],
+  "source_sha256": "6fab16fbd77e3af8c6760e51cc7bfdc3b3c8e9badf123517fcd5fe2358f3cef3",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/305",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For integers $1\\leq a<b$ let $D(a,b)$ be the minimal value of $n_k$ such that there exist integers $1\\leq n_1<\\cdots <n_k$ with\\[\\frac{a}{b}=\\frac{1}{n_1}+\\cdots+\\frac{1}{n_k}.\\]Estimate $D(b)=\\max_{1\\leq a<b}D(a,b)$. Is it true that\\[D(b) \\ll b(\\log b)^{1+o(1)}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/305",
+        "start": 12236,
+        "end": 12523,
+        "exactness": "slice",
+        "sha256": "febc16038eb4f723df5fbb92b0f10924ff6c81e14feb9a105aa00be443910ccf"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#305 : [ErGr80,p.38] number theory | unit fractions Bleicher and Erdős [BlEr76] have shown that\\[D(b)\\ll b(\\log b)^2.\\]If $b=p$ is a prime then\\[D(p) \\gg p\\log p.\\]This was solved by Yokota [Yo88] , who proved that\\[D(b)\\ll b(\\log b)(\\log\\log b)^4(\\log\\log\\log b)^2.\\]This was improved by Liu and Sawhney [LiSa24] to\\[D(b)\\ll b(\\log b)(\\log\\log b)^3(\\log\\log\\log b)^{O(1)}.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 18 November 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #305, https://www.erdosproblems.com/305, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/305",
+        "start": 12523,
+        "end": 32106,
+        "exactness": "region",
+        "sha256": "3e09cb24ec4ba157eb078f54d65236e3997f2a486c437173e5ee3ba8ee7605e7"
+      }
+    }
+  ],
+  "source_sha256": "2b069c25c7b5c20874a07f0176e89d80803a6ce918506ba10727f7d6900edd27",
+  "refusals": []
+}

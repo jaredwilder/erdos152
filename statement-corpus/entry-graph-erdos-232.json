@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/232",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For $A\\subset \\mathbb{R}^2$ we define the upper density as\\[\\overline{\\delta}(A)=\\limsup_{R\\to \\infty}\\frac{\\lambda(A \\cap B_R)}{\\lambda(B_R)},\\]where $\\lambda$ is the Lebesgue measure and $B_R$ is the ball of radius $R$. Estimate\\[m_1=\\sup \\overline{\\delta}(A),\\]where $A$ ranges over all measurable subsets of $\\mathbb{R}^2$ without two points distance $1$ apart. In particular, is $m_1\\leq 1/4$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/232",
+        "start": 12236,
+        "end": 12647,
+        "exactness": "slice",
+        "sha256": "45aa8bb2afa5e9203840b420af576e40068b406809a3a3ef5a54af1cd8a3d23e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#232 : [Er85,p.4] geometry | distances A question of Moser [Mo66] . A lower bound of $m_1\\geq \\pi/8\\sqrt{3}\\approx 0.2267$ is given by taking the union of open circular discs of radius $1/2$ at a regular hexagonal lattice suitably spaced apart. Croft [Cr67] gives a small improvement of $m_1\\geq 0.22936$. The trivial upper bound is $m_1\\leq 1/2$, since for any unit vector $u$ the sets $A$ and $A+u$ must be disjoint. Erdős' question was solved by Ambrus, Csiszárik, Matolcsi, Varga, and Zsámboki [ACMVZ23] who proved that $m_1\\leq 0.247$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 02 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #232, https://www.erdosproblems.com/232, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/232",
+        "start": 12647,
+        "end": 32165,
+        "exactness": "region",
+        "sha256": "dcd3e212a1840dcb3d5ee6b6ac8ca0b960f139adce871531b58f697dd294ba94"
+      }
+    }
+  ],
+  "source_sha256": "4846a636a23678f6e2a6a37b78e4dbdf14945909e0c6517e3b038ba8f188a0f3",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1062",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be the size of the largest subset $A\\subseteq \\{1,\\ldots,n\\}$ such that there are no three distinct elements $a,b,c\\in A$ such that $a\\mid b$ and $a\\mid c$. How large can $f(n)$ be? Is $\\lim f(n)/n$ irrational?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1062",
+        "start": 12257,
+        "end": 12484,
+        "exactness": "slice",
+        "sha256": "fd8fbc6184a94449d55926072c725b157b34b5d1f223c34ed4a17dea7b49fe9b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1062 : [Gu04] number theory The example $[m+1,3m+2]$ shows that $f(n)\\geq\\lceil \\frac{2}{3}n\\rceil$. Lebensold [Le76] has shown that, for large $n$,\\[0.6725 n \\leq f(n) \\leq 0.6736 n.\\]This is problem B24 in Guy's collection [Gu04] . Additional thanks to : Yongxi Lin Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (13) Proof claims (0) More information and links This page was last edited 06 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1062, https://www.erdosproblems.com/1062, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A038372 Reactions Likes old-bielefelder Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1062",
+        "start": 12484,
+        "end": 32227,
+        "exactness": "region",
+        "sha256": "57a70dbb2a8c84b0c437aa69503fd94f8595f3cf67fe878bc89e5eef247dd3f2"
+      }
+    }
+  ],
+  "source_sha256": "defbe3f0b903a5a31ba05a1ac12c6edfa5e559a07274d644402a94bc520e5d2e",
+  "refusals": []
+}

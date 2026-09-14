@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/561",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\hat{R}(G)$ denote the size Ramsey number, the minimal number of edges $m$ such that there is a graph $H$ with $m$ edges such that in any $2$-colouring of the edges of $H$ there is a monochromatic copy of $G$. Let $F_1$ and $F_2$ be the union of stars. More precisely, let $F_1=\\cup_{i\\leq s} K_{1,n_i}$ and $F_2=\\cup_{j\\leq t} K_{1,m_j}$ with $n_1\\geq \\cdots \\geq n_s\\geq 1$ and $m_1\\geq \\cdots \\geq m_t\\geq 1$. Prove that\\[\\hat{R}(F_1,F_2) = \\sum_{2\\leq k\\leq s+t}l_k\\]where\\[l_k=\\max\\{n_i+m_j-1 : i+j=k\\}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/561",
+        "start": 12255,
+        "end": 12784,
+        "exactness": "slice",
+        "sha256": "ac140405b1caa7f3813ca3a6fd87828970b192868ac4825cfcb2a4329bf04ea0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#561 : [BEFRS78] graph theory | ramsey theory Burr, Erdős, Faudree, Rousseau, and Schelp [BEFRS78] proved this when all the $n_i$ are identical and all the $m_i$ are identical. Győri and Schelp [GySc02] proved this when $\\binom{l_k}{2}> \\sum_{k\\leq i\\leq s+t}l_i$ for all $2\\leq k\\leq s+t$. More special cases, including all cases when $s=1$, or $s=2$ and $n_1=n_2$, or all $n_i$ and $m_j$ are odd, or all $n_i$ are an identical odd number and $m_1$ is odd, were proved by Davoodi, Javadi, Kamranian, and Raeisi [DJKR25] . This problem is #30 in Ramsey Theory in the graphs problem collection. Additional thanks to : Alfaiz Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (1) More information and links This page was last edited 01 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #561, https://www.erdosproblems.com/561, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes rickyc Open to collaboration None Currently working on old-bielefelder Looks difficult None Looks tractable old-bielefelder Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/561",
+        "start": 12784,
+        "end": 32782,
+        "exactness": "region",
+        "sha256": "002c4491693801a720e74f068a8133b58ca5ec3c2dcae99e903b4e407d015023"
+      }
+    }
+  ],
+  "source_sha256": "d431098e7a7664aa2fdbbabecc80b1479f33d2de44b2f5e7fc49adf50182e40d",
+  "refusals": []
+}

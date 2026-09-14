@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/655",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $x_1,\\ldots,x_n\\in \\mathbb{R}^2$ be such that no circle whose centre is one of the $x_i$ contains three other points. Are there at least\\[(1+c)\\frac{n}{2}\\]distinct distances determined between the $x_i$, for some constant $c>0$ and all $n$ sufficiently large?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/655",
+        "start": 12255,
+        "end": 12529,
+        "exactness": "slice",
+        "sha256": "210397ac97d3db0c01348100878187f3c8ebbe493e6f03305235b12beee8e3bb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#655 : [Er97e] geometry | distances A problem of Erdős and Pach. It is easy to see that this assumption implies that there are at least $\\frac{n-1}{2}$ distinct distances determined by every point. Zach Hunter has observed that taking $n$ points equally spaced on a circle disproves this conjecture. In the spirit of related conjectures of Erdős and others, presumably some kind of assumption that the points are in general position (e.g. no three on a line and no four on a circle) was intended. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #655, https://www.erdosproblems.com/655, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible The original source is ambiguous as to what the problem is — please add a comment if you have an opinion. Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/655",
+        "start": 12529,
+        "end": 32245,
+        "exactness": "region",
+        "sha256": "521269b2448d4aa117bd849ec3e84eee6d2892ea796e929dd695f0d2ba7246dd"
+      }
+    }
+  ],
+  "source_sha256": "8d814abb4b184ba5af0b0fe23b43fbed1c74410d38dcd492c01c81e663021c68",
+  "refusals": []
+}

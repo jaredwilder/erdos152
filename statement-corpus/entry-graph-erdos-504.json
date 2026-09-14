@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/504",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\alpha_n$ be the supremum of all $0\\leq \\alpha\\leq \\pi$ such that in every set $A\\subset \\mathbb{R}^2$ of size $n$ there exist three distinct points $x,y,z\\in A$ such that the angle determined by $xyz$ is at least $\\alpha$. Determine $\\alpha_n$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/504",
+        "start": 12262,
+        "end": 12518,
+        "exactness": "slice",
+        "sha256": "48f41a4e3eae37aff57dbe12e71e6ad3daad86ee7932ec36026435b5fa357467"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#504 : [Er61,p.244] [Er75f,p.106] geometry Blumenthal's problem. Szekeres [Sz41] showed that\\[\\alpha_{2^n+1}> \\pi \\left(1-\\frac{1}{n}+\\frac{1}{n(2^n+1)^2}\\right)\\]and\\[\\alpha_{2^n}\\leq \\pi\\left(1-\\frac{1}{n}\\right).\\]Erdős and Szekeres [ErSz60] showed that\\[\\alpha_{2^n}=\\alpha_{2^n-1}= \\pi\\left(1-\\frac{1}{n}\\right),\\]and suggested that perhaps $\\alpha_{N}=\\pi(1-1/n)$ for $2^{n-1}<N\\leq 2^n$. This was disproved by Sendov [Se92] . Sendov [Se93] provided the definitive answer, proving that $\\alpha_N=\\pi(1-1/n)$ for $2^{n-1}+2^{n-3}<N\\leq 2^n$ and $\\alpha_N=\\pi(1-\\frac{1}{2n-1})$ for $2^{n-1}<N\\leq 2^{n-1}+2^{n-3}$. Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 16 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #504, https://www.erdosproblems.com/504, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/504",
+        "start": 12518,
+        "end": 32450,
+        "exactness": "region",
+        "sha256": "43ea2e8247b76f305c27305ae820b8fecc13146cda36d34c70e2543cfbbf1704"
+      }
+    }
+  ],
+  "source_sha256": "6d66246c3eb9edd8dfa512f77354e9f5f21280f9959268218b22aaab3682da13",
+  "refusals": []
+}

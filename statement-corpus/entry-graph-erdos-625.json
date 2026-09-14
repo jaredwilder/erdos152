@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/625",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "The cochromatic number of $G$, denoted by $\\zeta(G)$, is the minimum number of colours needed to colour the vertices of $G$ such that each colour class induces either a complete graph or empty graph. Let $\\chi(G)$ denote the chromatic number. If $G$ is a random graph with $n$ vertices and each edge included independently with probability $1/2$ then is it true that almost surely\\[\\chi(G) - \\zeta(G) \\to \\infty\\]as $n\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/625",
+        "start": 12263,
+        "end": 12706,
+        "exactness": "slice",
+        "sha256": "98ea7adaced38108a489cde318205bff2d2b706d685f9c8676ca5450f0792a97"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#625 : [ErGi93] graph theory | chromatic number A problem of Erdős and Gimbel (see also [Gi16] ). At a conference on random graphs in Poznan, Poland (most likely in 1989) Erdős offered \\$100 for a proof that this is true, and \\$1000 for a proof that this is false (although later told Gimbel that \\$1000 was perhaps too much). It is known that almost surely\\[\\frac{n}{2\\log_2n}\\leq \\zeta(G)\\leq \\chi(G)\\leq (1+o(1))\\frac{n}{2\\log_2n}.\\](The final upper bound is due to Bollobás [Bo88] . The first inequality follows from the fact that almost surely $G$ has clique number and independence number $< 2\\log_2n$.) Heckel [He24] and, independently, Steiner [St24b] have shown that it is not the case that $\\chi(G)-\\zeta(G)$ is bounded with high probability, and in fact if $\\chi(G)-\\zeta(G) \\leq f(n)$ with high probability then $f(n)\\geq n^{1/2-o(1)}$ along an infinite sequence of $n$. Heckel conjectures that, with high probability,\\[\\chi(G)-\\zeta(G) \\asymp \\frac{n}{(\\log n)^3}.\\]Heckel [He24c] further proved that, for any $\\epsilon>0$, we have\\[\\chi(G) -\\zeta(G) \\geq n^{1-\\epsilon}\\]for roughly $95\\%$ of all $n$. Additional thanks to : John Gimbel, Zach Hunter, and David Penman Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #625, https://www.erdosproblems.com/625, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Sam_Petkov Open to collaboration zitterbewegung , Sam_Petkov Currently working on zitterbewegung , Sam_Petkov Looks difficult None Looks tractable None Could be formalisable Sam_Petkov Working on formalising Sam_Petkov Previous Next <!-- Redirect links and searches when in dual view mode",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/625",
+        "start": 12706,
+        "end": 33539,
+        "exactness": "region",
+        "sha256": "347be8e9f4aed37595d0b7da9b31483b4999e786ecfe9d74fccfbaacfb0d06ff"
+      }
+    }
+  ],
+  "source_sha256": "9aed168db7119ed6ca692046a64615b7b4448e0cea20a5c89e357d3f345cf969",
+  "refusals": []
+}

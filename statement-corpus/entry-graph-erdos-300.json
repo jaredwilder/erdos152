@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/300",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A(N)$ denote the maximal cardinality of $A\\subseteq \\{1,\\ldots,N\\}$ such that $\\sum_{n\\in S}\\frac{1}{n}\\neq 1$ for all $S\\subseteq A$. Estimate $A(N)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/300",
+        "start": 12307,
+        "end": 12469,
+        "exactness": "slice",
+        "sha256": "48a98c2116bf34444cb7dfc194d75416c9e9a6c1e60c9d0fa5cebdc76f054a2d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#300 : [ErGr80] [Va99,1.14] number theory | unit fractions Erdős and Graham believe the answer is $A(N)=(1+o(1))N$. Croot [Cr03] disproved this, showing the existence of some constant $c<1$ such that $A(N)<cN$ for all large $N$. It is trivial that $A(N)\\geq (1-\\frac{1}{e}+o(1))N$. Liu and Sawhney [LiSa24] have proved that $A(N)=(1-1/e+o(1))N$. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #300, https://www.erdosproblems.com/300, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A390393 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/300",
+        "start": 12469,
+        "end": 32364,
+        "exactness": "region",
+        "sha256": "cf5736eedc917755492bfa0d30a3f0beb78eeb43cda08253cfcaa341580d599b"
+      }
+    }
+  ],
+  "source_sha256": "aa4f07631f51b7ed43f048c50623cd76b1d61aa70595f97b4b0029fed170cee6",
+  "refusals": []
+}

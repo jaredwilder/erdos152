@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:146",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $H$ is bipartite and is $r$-degenerate, that is, every induced subgraph of $H$ has minimum degree $\\leq r$, then\\[\\mathrm{ex}(n;H) \\ll n^{2-1/r}.\\]",
+      "provenance": {
+        "source": "erdos:146",
+        "start": 11934,
+        "end": 12156,
+        "exactness": "slice",
+        "sha256": "4e763aad6dbec208354c732d4d93be2fbcd97c8adea101acf53fe77e4a87cefd"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "Conjectured by Erd\\H{o}s and Simonovits \\cite{ErSi84}. Open even for $r=2$. Alon, Krivelevich, and Sudakov \\cite{AKS03} have proved\\[\\mathrm{ex}(n;H) \\ll n^{2-1/4r}.\\]They also prove the full Erd\\H{o}s-Simonovits conjectured bound if $H$ is bipartite and the maximum degree in one side of the bipartition is $r$. See also [113] and [147] . This problem is #43 in Extremal Graph Theory in the graphs problem collection.",
+      "provenance": {
+        "source": "erdos:146",
+        "start": 12156,
+        "end": 25462,
+        "exactness": "region",
+        "sha256": "a279c57cc26a20a7f838e07310fc07a8fe8fbb37e5153116e1676f651c1ea18a"
+      }
+    }
+  ],
+  "source_sha256": "6d2ac3b84af95ba9c3958ad92fd0ca090e957338786828e1bb236963f0a53fa1",
+  "refusals": []
+}

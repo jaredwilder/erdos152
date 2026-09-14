@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/786",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\epsilon>0$. Is there some set $A\\subset \\mathbb{N}$ of density $>1-\\epsilon$ such that $a_1\\cdots a_r=b_1\\cdots b_s$ with $a_i,b_j\\in A$ can only hold when $r=s$? Similarly, can one always find a set $A\\subset\\{1,\\ldots,N\\}$ with this property of size $\\geq (1-o(1))N$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/786",
+        "start": 12255,
+        "end": 12551,
+        "exactness": "slice",
+        "sha256": "2060ddde12e39a03e10376725261199b9e6df4d511c64a17b954b37f46c159a8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#786 : [Er65] [Er69,p.81] [Er73,p.132] [Er80,p.114] number theory An example of such a set with density $1/4$ is given by the integers $\\equiv 2\\pmod{4}$. Selfridge constructed such a set with density $1/e-\\epsilon$ for any $\\epsilon>0$: let $p_1<\\cdots<p_k$ be a sequence of large consecutive primes such that\\[\\sum_{i=1}^k\\frac{1}{p_i}<1<\\sum_{i=1}^{k+1}\\frac{1}{p_i},\\]and let $A$ be those integers divisible by exactly one of $p_1,\\ldots,p_k$. For the second question the set of integers with a prime factor $>N^{1/2}$ give an example of a set with size $\\geq (\\log 2)N$. Erdős could improve this constant slightly. Such an improvement is given by Tao in the comments, taking $A$ to be the set of all integers with exactly one prime factor $>N^{\\frac{1}{1+\\sqrt{e}}}$, which has size $\\approx 0.8285 N$. In [Er65] Erdős reports that Ruzsa proved the maximal size of such an $A$ is $\\leq (1-c)N$ for some constant $c>0$ for large $N$, but the proof 'is not yet published'. It is presumably the following. For any such $A$ we can define an associated additive function $f$ by letting $f(a_1\\cdots a_r)=r$, and then $A=\\{ n: f(n)=1\\}$. A result of Erdős, Ruzsa, and Sárkzözy [ERS73] then implies that there exists a constant $c>0$ such that, for all sufficiently large $N$, $\\lvert A\\rvert\\leq (1-c)N$. In [ERS73] they indicate that their method should be able to obtain this with $c=1/10$. In the comments Tao explains how a result of Granville and Soundararajan [GrSo01] implies\\[\\lvert A\\rvert\\leq (1-c+o(1))N\\]for an explicit constant $c\\approx 0.1715$, and this is the best possible (see also [121] ). Theorem 2 from [ERS73] also implies a negative answer to the first question, in that the density is at most $1/2$. The above all assumes that repetition is allowed amongst the $a_i$ and $b_i$ in this condition. It is ambiguous in the original sources cited whether this was intended or not. If we insist the products are of distinct elements then this is a weaker condition on $A$, and the above questions are still open. The formulation in [Er80] is clear that repetitions are not allowed, but also claims that Ruzsa had shown the answer to both questions is no in this case (and that Ruzsa had shown that the upper density of $A$ is $<1/e$ if $A$ is infinite with this property); it is possible that Erdős was mistakenly thinking of the above results, in which repetitions are allowed. See also [421] and [795] . Additional thanks to : Rishika Agrawal, ebarschkis, and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (10) Proof claims (0) More information and links This page was last edited 11 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #786, https://www.erdosproblems.com/786, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A143301 , possible Reactions Likes Alfaiz , ebarschkis , Dogmachine , ibex Open to collaboration None Currently working on None <div class=\"problem-info-data-row problem-react",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/786",
+        "start": 12551,
+        "end": 35887,
+        "exactness": "region",
+        "sha256": "91f6abf4a02dcb53bbd168a3f43c7fe86cbd2fe19998a932fa697528e592801b"
+      }
+    }
+  ],
+  "source_sha256": "526cd414de50aaaa12a4de13497f8ae899147816ab20033e7e4edb2ae27cabdb",
+  "refusals": []
+}

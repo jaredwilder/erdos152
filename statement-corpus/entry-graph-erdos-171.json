@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/171",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that for every $\\epsilon>0$ and integer $t\\geq 1$, if $N$ is sufficiently large and $A$ is a subset of $[t]^N$ of size at least $\\epsilon t^N$ then $A$ must contain a combinatorial line $P$ (a set $P=\\{p_1,\\ldots,p_t\\}$ where for each coordinate $1\\leq j\\leq t$ the $j$th coordinate of $p_i$ is either $i$ or constant).",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/171",
+        "start": 12274,
+        "end": 12616,
+        "exactness": "slice",
+        "sha256": "11d965359083133618490496a6ac1e6d504de67fb25173a1118c84965ba90ef0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#171 : [ErGr79] [ErGr80] additive combinatorics | combinatorics The 'density Hales-Jewett' problem. This was proved by Furstenberg and Katznelson [FuKa91] . A new elementary proof, which gives quantitative bounds, was proved by the Polymath project [Po12] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 25 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #171, https://www.erdosproblems.com/171, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A156989 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/171",
+        "start": 12616,
+        "end": 32322,
+        "exactness": "region",
+        "sha256": "407daee61b600c38d3b8dd1cb8d419a175d61f19116b69419c0fd2cc4e02d451"
+      }
+    }
+  ],
+  "source_sha256": "170dcd613a0105e13cc16cd1d3233d9ce73c1fd2e3c63f7a62a0cfe2916cb36e",
+  "refusals": []
+}

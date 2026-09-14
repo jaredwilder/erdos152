@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1074",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $S$ be the set of all $m\\geq 1$ such that there exists a prime $p\\not\\equiv 1\\pmod{m}$ such that $m!+1\\equiv 0\\pmod{p}$. Does\\[\\lim \\frac{\\lvert S\\cap [1,x]\\rvert}{x}\\]exist? What is it? Similarly, if $P$ is the set of all primes $p$ such that there exists an $m$ with $p\\not\\equiv 1\\pmod{m}$ such that $m!+1\\equiv 0\\pmod{p}$, then does\\[\\lim \\frac{\\lvert P\\cap [1,x]\\rvert}{\\pi(x)}\\]exist? What is it?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1074",
+        "start": 12257,
+        "end": 12676,
+        "exactness": "slice",
+        "sha256": "edbfa939948c725c0b633e3698e34abbb48650bbd2b99bf0816ba591015e1341"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1074 : [HaSu02] number theory Questions raised by Erdős, Hardy, and Subbarao, who called the set $S$ 'EHS numbers' and the set $P$ 'Pillai primes', and proved that both $S$ and $P$ are infinite. Pillai [Pi30] raised the question of whether there exist any primes in $P$. This was answered by Chowla, who noted that, for example,\\[14!+1\\equiv 18!+1\\equiv 0\\pmod{23}.\\]The sequence $S$ begins\\[8,9,13,14,15,16,17,\\ldots\\]and is A064164 in the OEIS. The sequence $P$ begins\\[23,29,59,61,67,71,\\ldots\\]and is A063980 in the OEIS. Regarding the first question, Hardy and Subbarao computed all EHS numbers up to $2^{10}$, and write '...if this trend conditions we expect [the limit] to be around $0.5$, if it exists. The frequency with which the EHS numbers occur - most often in long sequences of consecutive integers - makes us believe that their asymptotic density exists and is unity. Erdős, though initially hesitant, later agreed with this view.' Regarding the second question, they write '[from the data] it would appear that if the limit exists, it is perhaps between $0.5$ and $0.6$. But then there seems to be no reason why the ratio should not tend to $1$, even though very slowly and certainly not monotonically.' This is discussed in problem A2 of Guy's collection [Gu04] . Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 04 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1074, https://www.erdosproblems.com/1074, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A063980 , A064164 Reactions Likes Ritvik_Nayak Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1074",
+        "start": 12676,
+        "end": 33923,
+        "exactness": "region",
+        "sha256": "a2a80b6e47b3d0af1a1f45823b6554af129c995894235207dbeb9168561c7eab"
+      }
+    }
+  ],
+  "source_sha256": "d8bae3ec3b98e138e97c6979769c0538eac5ae27f7f0a68e318d9cbb8716c35c",
+  "refusals": []
+}

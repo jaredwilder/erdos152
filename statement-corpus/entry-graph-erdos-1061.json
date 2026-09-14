@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1061",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "How many solutions are there to\\[\\sigma(a)+\\sigma(b)=\\sigma(a+b)\\]with $a+b\\leq x$, where $\\sigma$ is the sum of divisors function? Is it $\\sim cx$ for some constant $c>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1061",
+        "start": 12257,
+        "end": 12439,
+        "exactness": "slice",
+        "sha256": "ad91fc902943e7488d78aef2b997645b874e03d2b361a021d3cbb88c3959bfd2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1061 : [Gu04] number theory A question of Erdős reported in problem B15 of Guy's collection [Gu04] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1061, https://www.erdosproblems.com/1061, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A110177 , possible Reactions Likes Alfaiz Open to collaboration zitterbewegung Currently working on zitterbewegung Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1061",
+        "start": 12439,
+        "end": 31926,
+        "exactness": "region",
+        "sha256": "85b0af746ab414bc26b6446240d1623f76053962246a7bdbd7191ec69c467c32"
+      }
+    }
+  ],
+  "source_sha256": "eb9fb7f03b6c4d902a3c405cd03f046721056fa686a2574cb4d5606a9cde168a",
+  "refusals": []
+}

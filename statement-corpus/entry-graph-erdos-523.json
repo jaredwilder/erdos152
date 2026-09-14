@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/523",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(z)=\\sum_{0\\leq k\\leq n} \\epsilon_k z^k$ be a random polynomial, where $\\epsilon_k\\in \\{-1,1\\}$ independently uniformly at random for $0\\leq k\\leq n$. Does there exist some constant $C>0$ such that, almost surely,\\[\\max_{\\lvert z\\rvert=1}\\left\\lvert \\sum_{k\\leq n}\\epsilon_k(t)z^k\\right\\rvert=(C+o(1))\\sqrt{n\\log n}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/523",
+        "start": 12236,
+        "end": 12578,
+        "exactness": "slice",
+        "sha256": "ef8e4d24af69b63ff6ca52b3572a9ab5820265ea213aadaeb87bbe55a5e5459c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#523 : [Er61,p.253] analysis | probability | polynomials Salem and Zygmund [SaZy54] proved that $\\sqrt{n\\log n}$ is the right order of magnitude, but not an asymptotic. This was settled by Halász [Ha73] , who proved this is true with $C=1$. Additional thanks to : Adrian Beker Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 01 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #523, https://www.erdosproblems.com/523, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/523",
+        "start": 12578,
+        "end": 31852,
+        "exactness": "region",
+        "sha256": "a88df7281507f7a669ff975ea6e4c04fd163b798e64c26cf57196b6008a11453"
+      }
+    }
+  ],
+  "source_sha256": "bcfc97499602b89d2663f156d2960e640305088cb3258de61a0a0a6866db73a9",
+  "refusals": []
+}

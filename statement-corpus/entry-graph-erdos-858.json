@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/858",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq \\{1,\\ldots,N\\}$ be such that there is no solution to $at=b$ with $a,b\\in A$ and the smallest prime factor of $t$ is $>a$. Estimate the maximum of\\[\\frac{1}{\\log N}\\sum_{n\\in A}\\frac{1}{n}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/858",
+        "start": 12262,
+        "end": 12478,
+        "exactness": "slice",
+        "sha256": "16cff49466468b0b847f210991830809873ff2c939d25a9b8102870c77dfae53"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#858 : [Er70,p.128] number theory | primitive sets Alexander [Al66] and Erdős, Sárközi, and Szemerédi [ESS68] proved that if $A$ is an infinite set with this property then\\[\\sum_{n\\in A\\cap [1,N]}\\frac{1}{n}=o(\\log N)\\](at a rate which depends on $A$), and furthermore for any fixed large $N$ the supremum in this question is bounded away from $0$. This condition on $A$ is a weaker form of the usual primitive condition. If $A$ is primitive then Behrend [Be35] proved\\[\\frac{1}{\\log N}\\sum_{n\\in A}\\frac{1}{n}\\ll \\frac{1}{\\sqrt{\\log\\log N}}.\\]An example of such a set $A$ is the set of all integers in $[N^{1/2},N]$ divisible by some prime $>N^{1/2}$. This has been solved by Chojecki and GPT-5.4 Pro (see the comments), who show that for large $N$\\[\\max_A \\sum_{n\\in A}\\frac{1}{n}=(c+o(1))\\log N\\]where the maximum is over all $A\\subseteq \\{1,\\ldots,N\\}$ with the stated property and $c\\approx 0.618\\cdots$ is an explicit constant. See also [143] . Additional thanks to : Terence Tao and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (13) Proof claims (0) More information and links This page was last edited 24 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #858, https://www.erdosproblems.com/858, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/858",
+        "start": 12478,
+        "end": 32777,
+        "exactness": "region",
+        "sha256": "0f4a54ee8ccd4f29e6c5d7622ee4ced7a9dc2aa3e8cd19e6fdac0b16ae298d51"
+      }
+    }
+  ],
+  "source_sha256": "6cb963fc5973a69da10d6950089bb883784b8faf9d84e672304bd67fbf86e3d4",
+  "refusals": []
+}

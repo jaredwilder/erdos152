@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1177",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a finite $3$-uniform hypergraph, and let $F_G(\\kappa)$ denote the collection of $3$-uniform hypergraphs with chromatic number $\\kappa$ not containing $G$. If $F_G(\\aleph_1)$ is not empty then there exists $X\\in F_G(\\aleph_1)$ of cardinality at most $2^{2^{\\aleph_0}}$. If both $F_G(\\aleph_1)$ and $F_H(\\aleph_1)$ are non-empty then $F_G(\\aleph_1)\\cap F_H(\\aleph_1)$ is non-empty. If $\\kappa,\\lambda$ are uncountable cardinals and $F_G(\\kappa)$ is non-empty then $F_G(\\lambda)$ is non-empty.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1177",
+        "start": 12257,
+        "end": 12785,
+        "exactness": "slice",
+        "sha256": "6644a1af9d1c54b029c7c91daff5a3543906d369dfbfbd97117079fbdae1cd72"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1177 : [Va99,7.94] set theory | chromatic number | hypergraphs A problem of Erdős, Galvin, and Hajnal. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (1) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1177, https://www.erdosproblems.com/1177, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1177",
+        "start": 12785,
+        "end": 31587,
+        "exactness": "region",
+        "sha256": "e55aed2bae3e93ff81f1273a36d34bedcc818c9ef5cf39a47f0a46af0bbac9cd"
+      }
+    }
+  ],
+  "source_sha256": "09e03408671cfebefe59e423dbf2164891b74f2dfe03d39fbf52d731324d9251",
+  "refusals": []
+}

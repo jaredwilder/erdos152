@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/393",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ denote the minimal $m\\geq 1$ such that\\[n! = a_1\\cdots a_t\\]with $a_1<\\cdots <a_t=a_1+m$. What is the behaviour of $f(n)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/393",
+        "start": 12255,
+        "end": 12402,
+        "exactness": "slice",
+        "sha256": "6adcde621880591ab561664e18d26dae5a2e442f331c3c0d54e2f5f4226aadc1"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#393 : [ErGr80,p.76] number theory | factorials Erdős and Graham write that they do not even know whether $f(n)=1$ infinitely often (i.e. whether a factorial is the product of two consecutive integers infinitely often). Let $F_m(N)$ count the number of $n\\leq N$ such that $f(n)=m$. Berend and Osgood [BeOs92] proved that, for each fixed $m$, $F_m(N)=o(N)$. Bui, Pratt, and Zaharescu [BPZ23] have shown that\\[F_m(N)\\ll_m N^{33/34}.\\]A result of Luca [Lu02] implies that $f(n)\\to \\infty$ as $n\\to \\infty$, conditional on the ABC conjecture . Additional thanks to : Hung Bui and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #393, https://www.erdosproblems.com/393, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A388302 Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/393",
+        "start": 12402,
+        "end": 32603,
+        "exactness": "region",
+        "sha256": "fe689f72c435885d96f8a37ac652db191d05106dce6db42d19e01e9032f048a4"
+      }
+    }
+  ],
+  "source_sha256": "6ed3957bcf787377ea435834f9ab62740f48584008b12b87ff6ecd1b7e0b8a07",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1109",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(N)$ be the size of the largest subset $A\\subseteq \\{1,\\ldots,N\\}$ such that every $n\\in A+A$ is squarefree. Estimate $f(N)$. In particular, is it true that $f(N)\\leq N^{o(1)}$, or even $f(N) \\leq (\\log N)^{O(1)}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1109",
+        "start": 12257,
+        "end": 12483,
+        "exactness": "slice",
+        "sha256": "aff6c39620b2b5b42d82da4976a9b2eaa505fa1744144d3e2c4ddd560d4a190c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1109 : [ErSa87] number theory First studied by Erdős and Sárközy [ErSa87] , who proved\\[\\log N \\ll f(N) \\ll N^{3/4}\\log N,\\]and guessed the lower bound is nearer the truth. Sárközy [Sa92c] extended this to consider the case of $A+B$ and also looking for sumsets which are $k$-power-free. Gyarmati [Gy01] gave an alternative proof of $f(N)\\gg \\log N$, and also gave new bounds for the case of $A+B$. Konyagin [Ko04] improved this to\\[ \\log\\log N(\\log N)^2\\ll f(N) \\ll N^{11/15+o(1)}.\\]The infinite analogue of this problem is [1103] . (In particular upper bounds for this $f(N)$ directly imply lower bounds for the size of the $a_j$ considered there.) Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 03 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1109, https://www.erdosproblems.com/1109, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A392164 , A392165 Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1109",
+        "start": 12483,
+        "end": 33066,
+        "exactness": "region",
+        "sha256": "45d7f8e18ac16907f63cdf0c88800be25058662173b052f7adf4486faf570051"
+      }
+    }
+  ],
+  "source_sha256": "e00b91376d6eaffe011e9a735cbce80e8e4b15735162d9a21fa26c01beac9227",
+  "refusals": []
+}

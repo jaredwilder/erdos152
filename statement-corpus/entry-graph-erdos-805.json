@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/805",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For which functions $g(n)$ with $n>g(n)\\geq (\\log n)^2$ is there a graph on $n$ vertices in which every induced subgraph on $g(n)$ vertices contains a clique of size $\\geq \\log n$ and an independent set of size $\\geq \\log n$? In particular, is there such a graph for $g(n)=(\\log n)^3$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/805",
+        "start": 12255,
+        "end": 12557,
+        "exactness": "slice",
+        "sha256": "1f657846a5a432470b382e5f9b9fd4a8f25492eff9e6a879903948ed5cef48c8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#805 : [Er91] graph theory A problem of Erdős and Hajnal, who thought that there is no such graph for $g(n)=(\\log n)^3$. Alon and Sudakov [AlSu07] proved that there is no such graph with\\[g(n)=\\frac{c}{\\log\\log n}(\\log n)^3\\]for some constant $c>0$. Alon, Bucić, and Sudakov [ABS21] construct such a graph with\\[g(n)\\leq 2^{2^{(\\log\\log n)^{1/2+o(1)}}}.\\]See also [804] . Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #805, https://www.erdosproblems.com/805, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/805",
+        "start": 12557,
+        "end": 32153,
+        "exactness": "region",
+        "sha256": "d334dcc2cf9ae3246e901b7cb1f2a996e77c5db2a69d905507d492754d2c5383"
+      }
+    }
+  ],
+  "source_sha256": "f398b1f1362776623510922f1fa557977425e4f5fa7a386facf2260935141a57",
+  "refusals": []
+}

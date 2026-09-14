@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/477",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a polynomial $f:\\mathbb{Z}\\to \\mathbb{Z}$ of degree at least $2$ and a set $A\\subset \\mathbb{Z}$ such that for any $n\\in \\mathbb{Z}$ there is exactly one $a\\in A$ and $b\\in \\{ f(k) : k\\in\\mathbb{Z}\\}$ such that $n=a+b$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/477",
+        "start": 12255,
+        "end": 12490,
+        "exactness": "slice",
+        "sha256": "d5144afcf9294886a94cc8ac6e6329e382b37f4ba259667af4f6090bc5031528"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#477 : [ErGr80,p.95] number theory | sidon sets A question of Erdős and Graham, who thought the answer was negative. Clearly any such $A$ must be infinite. A simple proof that this is impossible for $f$ of degree $2$ is given in the comments (with the combined efforts of AlphaProof and Adenwalla): let $f(x)=c_2x^2+c_1x+c_0$ with $c_1\\neq 0$. For any infinite $A$ there exist $a,b\\in A$ such that $a-b=2c_1k$ for some $k\\geq 1$, whence\\[0\\neq a-b=f(k)-f(-k)\\]and so $n=a+f(-k)=b+f(k)$ has two distinct solutions. If $c_1=0$ then we can argue similarly finding $a,b\\in A$ with $a-b=4c_2k$ for some $k\\geq 1$, whence\\[0\\neq a-b=f(k+1)-f(k-1).\\]The same argument works for any $f$ such that $f(\\mathbb{Z})-f(\\mathbb{Z})$ contains all multiples of some fixed $q\\geq 1$, such as any polynomial of the shape\\[f(x)=g((x-k)^2)+c_1x+c_0\\]for some $g\\in \\mathbb{Z}[x]$ and $k,c_1,c_0\\in \\mathbb{Z}$ with $c_1\\neq 0$. Additional thanks to : Sarosh Adenwalla, Moritz Firsching, Terence Tao, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (1) More information and links This page was last edited 11 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #477, https://www.erdosproblems.com/477, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine , diyiliu Open to collaboration diyiliu Currently working on diyiliu Looks difficult None Looks tractable diyiliu Could be formalisable diyiliu Working on formalising diyiliu Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/477",
+        "start": 12490,
+        "end": 32582,
+        "exactness": "region",
+        "sha256": "a4d238dd163a966b4351b2a15f04edc903602b65a8eee1c7452ee5f6a3706687"
+      }
+    }
+  ],
+  "source_sha256": "49ea4d6b1158959172b2ec5db9495cb221e409eca9e2aa379bb6b09df69651f3",
+  "refusals": []
+}

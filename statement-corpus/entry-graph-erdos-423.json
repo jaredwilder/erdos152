@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/423",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $a_1=1$ and $a_2=2$ and for $k\\geq 3$ choose $a_k$ to be the least integer $>a_{k-1}$ which is the sum of at least two consecutive terms of the sequence. What is the asymptotic behaviour of this sequence?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/423",
+        "start": 12255,
+        "end": 12473,
+        "exactness": "slice",
+        "sha256": "592019a34365fe7c724e5b390ff3da253fb408e465f08a7d37d1510d6baaa9c3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#423 : [Er77c,p.71] [ErGr80,p.83] number theory Asked by Hofstadter (in [Er77c] Erdős says Hofstadter was inspired by a similar question of Ulam). The sequence begins\\[1,2,3,5,6,8,10,11,\\ldots\\]and is A005243 in the OEIS. Bolan and Tang [Ta26] have independently proved that there are infinitely many integers which do not appear in this sequence. In fact, the sequence $a_n-n$ is nondecreasing and unbounded. Tang [Ta26] further proved that $a_n \\ll n^{\\frac{1}{c-1}+o(1)}$, where $c$ is any exponent such that $\\lvert A-A\\rvert \\geq \\lvert A\\rvert^{c-o(1)}$ for all convex sets $A$. In particular, the latest bounds of Cushman [Cu25] yield\\[a_n \\ll n^{\\frac{688}{413}+o(1)}\\leq n^{1.6659+o(1)},\\]and the conjecture of Erdős and Hegyvári that one can take $c=2$ in the convex set problem would imply $a_n\\leq n^{1+o(1)}$. It seems likely that $a_n=n+o(n)$ is the truth. Tang has further proved an improved lower bound of\\[a_n=n+\\Omega(\\log\\log n).\\] Additional thanks to : Matthew Bolan and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (38) Proof claims (0) More information and links This page was last edited 23 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #423, https://www.erdosproblems.com/423, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A005243 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Redirect lin",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/423",
+        "start": 12473,
+        "end": 33569,
+        "exactness": "region",
+        "sha256": "a3cc2c8913118d5464c433ac54d77c11d4dedc9d297692ad21034146b08ae217"
+      }
+    }
+  ],
+  "source_sha256": "60b5e1d75b1879f3a9863d70db180d1cb66742d1975ef37b65dbb5c3d00a56eb",
+  "refusals": []
+}

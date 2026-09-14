@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1203",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $\\omega(n)$ counts the number of distinct prime divisors of $n$ then let\\[F(n)=\\max_k \\omega(n+k)\\frac{\\log\\log k}{\\log k}.\\]Prove that $F(n)\\to \\infty$ as $n\\to \\infty$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1203",
+        "start": 12257,
+        "end": 12436,
+        "exactness": "slice",
+        "sha256": "30a56f98fbd55690f79a12529b343d2acc06f86fcf04a592588206891d20427a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1203 : [Er80,p.107] number theory It is easy to prove that $F(n)\\geq 1-o(1)$. See also [248] , [679] , and [890] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 07 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1203, https://www.erdosproblems.com/1203, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration idrissbado Currently working on idrissbado Looks difficult idrissbado Looks tractable idrissbado Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1203",
+        "start": 12436,
+        "end": 31837,
+        "exactness": "region",
+        "sha256": "74fcc686e54c5361a3fd807d466d7617bfbecd6a28be4dee19300db2c978c824"
+      }
+    }
+  ],
+  "source_sha256": "d54f9b2048670ee63bc69798fdf33651368396db7a5ba97d343aaa9b632a3451",
+  "refusals": []
+}

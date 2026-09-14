@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/166",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Prove that\\[R(4,k) \\gg \\frac{k^3}{(\\log k)^{O(1)}}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/166",
+        "start": 12243,
+        "end": 12302,
+        "exactness": "slice",
+        "sha256": "84346eaab87f1f572b85c37c778a8980da271603b24b6f919212fa785abfad42"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#166 : [Er90b] [Er91] [Er93,p.339] [Er97c] [Va99,3.51] graph theory | ramsey theory Spencer [Sp77] proved\\[R(4,k) \\gg (k\\log k)^{5/2}.\\]Ajtai, Komlós, and Szemerédi [AKS80] proved\\[R(4,k) \\ll \\frac{k^3}{(\\log k)^2}.\\]This is true, and was proved by Mattheus and Verstraete [MaVe23] , who showed that\\[R(4,k) \\gg \\frac{k^3}{(\\log k)^4}.\\]This problem is #5 in Ramsey Theory in the graphs problem collection. See also [986] for the general case. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #166, https://www.erdosproblems.com/166, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A059442 Reactions Likes None Open to collaboration None Currently working on kenmendoza Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/166",
+        "start": 12302,
+        "end": 32843,
+        "exactness": "region",
+        "sha256": "a611f8f611a19176bacc36ab814efe9f1ce67b8c4f85f847b80b6d8dc79f847c"
+      }
+    }
+  ],
+  "source_sha256": "764e0e63dc644163be565cd14a3d03ea160c1062cfa01afa85fad92de1ce8061",
+  "refusals": []
+}

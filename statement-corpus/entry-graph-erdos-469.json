@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/469",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A$ be the set of all $n$ such that $n=d_1+\\cdots+d_k$ with $d_i$ distinct proper divisors of $n$, but this is not true for any $m\\mid n$ with $m<n$. Does\\[\\sum_{n\\in A}\\frac{1}{n}\\]converge?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/469",
+        "start": 12272,
+        "end": 12478,
+        "exactness": "slice",
+        "sha256": "337024c435d7b55a1a459ea41534138b3c07e4c1beb69b8aa3053228f23e30f3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#469 : [Er70,p.131] [BeEr74,p.620] [ErGr80,p.93] number theory | divisors The integers in $A$ are also known as primitive pseudoperfect numbers and are listed as A006036 in the OEIS. The same question can be asked for those $n$ which do not have distinct sums of sets of divisors, but any proper divisor of $n$ does (which are listed as A119425 in the OEIS). Benkoski and Erdős [BeEr74] ask about these two sets, and also about the set of $n$ that have a divisor expressible as a distinct sum of other divisors of $n$, but where no proper divisor of $n$ has this property. Additional thanks to : Zachary Chase and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (1) More information and links This page was last edited 19 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #469, https://www.erdosproblems.com/469, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A006036 , A119425 , possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/469",
+        "start": 12478,
+        "end": 33241,
+        "exactness": "region",
+        "sha256": "f7234cde94f8a95599ecc3bf793b9cf50d4edab98f0b0ab2ce4d343320bab937"
+      }
+    }
+  ],
+  "source_sha256": "67a36a9e79bbacf3ab992140ac7ea1164d3a062ebf8b849952cf70763f8a56be",
+  "refusals": []
+}

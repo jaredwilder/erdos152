@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/711",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n,m)$ be minimal such that in $(m,m+f(n,m))$ there exist distinct integers $a_1,\\ldots,a_n$ such that $k\\mid a_k$ for all $1\\leq k\\leq n$. Prove that\\[\\max_m f(n,m) \\leq n^{1+o(1)}\\]and that\\[\\max_m (f(n,m)-f(n,n))\\to \\infty.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/711",
+        "start": 12261,
+        "end": 12501,
+        "exactness": "slice",
+        "sha256": "2d45205c66a7e40c3edef8a7b41f76e23562c7f4f11009d89e8f8e1dfb7f8be1"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#711 : [ErPo80] [Er92c,p.36] number theory A problem of Erdős and Pomerance [ErPo80] , who proved that\\[\\max_m f(n,m) \\ll n^{3/2}\\]and\\[n\\left(\\frac{\\log n}{\\log\\log n}\\right)^{1/2} \\ll f(n,n)\\ll n(\\log n)^{1/2}.\\]In [Er92c] Erdős offered 1000 rupees for a proof of either; for uniform comparison across prizes I have converted this using the 1992 exchange rates. van Doorn [vD26] has provided an affirmative answer to the second question, proving that, for all large $n$, there exists $m=m(n)$ such that\\[f(n,m)-f(n,n) \\gg \\frac{\\log n}{\\log\\log n}n.\\]See also [710] . Additional thanks to : Zach Hunter and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (0) More information and links This page was last edited 11 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #711, https://www.erdosproblems.com/711, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Woett , Dogmachine , KStar , skominers Open to collaboration Woett , skominers Currently working on skominers Looks difficult TerenceTao Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/711",
+        "start": 12501,
+        "end": 33039,
+        "exactness": "region",
+        "sha256": "8dc1d1b46d0780f7519183f5ff85444d510df526dcc083b983091b864c65eb54"
+      }
+    }
+  ],
+  "source_sha256": "03918c834efbc7607b3e7140a50dc32beb76250c5e2503a870e779c96b3ca84d",
+  "refusals": []
+}

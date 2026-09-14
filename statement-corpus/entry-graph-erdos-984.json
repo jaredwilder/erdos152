@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/984",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Can $\\mathbb{N}$ be $2$-coloured such that if\\[\\{a,a+d,\\ldots,a+(k-1)d\\}\\]is a $k$-term monochromatic arithmetic progression then $k\\ll_\\epsilon a^\\epsilon$ for all $\\epsilon>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/984",
+        "start": 12236,
+        "end": 12428,
+        "exactness": "slice",
+        "sha256": "17cc47cb4486811d04730d11aa56bd5a96bbf7e1a0fd290812e94cfcaacda9db"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#984 : [Er80,p.92] arithmetic progressions | additive combinatorics A question of Spencer, who proved that this is possible with $3$ colours, with $a^\\epsilon$ replaced by a very slowly growing function $h(a)$ (the inverse of the van der Waerden function). Erdős reports that he can construct such a colouring with the bound $k\\ll a^{1-c}$ for some absolute constant $c>0$. He knew no non-trivial lower bound. Zach Hunter has proved the answer is yes (see the comments). Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 04 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #984, https://www.erdosproblems.com/984, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/984",
+        "start": 12428,
+        "end": 31707,
+        "exactness": "region",
+        "sha256": "76ff061f94d9ea7f76cf2300db27e33d2dcb94ac7ce7e8f3e673dbcf104b0f22"
+      }
+    }
+  ],
+  "source_sha256": "bd6c90fbeb1a48ec72db9f2024fb1496481e1d9a22fb638b86cc28834bce5674",
+  "refusals": []
+}

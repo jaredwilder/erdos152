@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/814",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 2$ and $G$ be a graph with $n\\geq k-1$ vertices and\\[(k-1)(n-k+2)+\\binom{k-2}{2}+1\\]edges. Does there exist some $c_k>0$ such that $G$ must contain an induced subgraph on at most $(1-c_k)n$ vertices with minimum degree at least $k$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/814",
+        "start": 12236,
+        "end": 12489,
+        "exactness": "slice",
+        "sha256": "a6edb0ef3bb077d368a994d68acf0cab721df6217d805f444e09b301b78e05fa"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#814 : [EFRS90] [Er91] [Er93,p.344] graph theory The case $k=3$ was a problem of Erdős and Hajnal [Er91] . The question for general $k$ was a conjecture of Erdős, Faudree, Rousseau, and Schelp [EFRS90] , who proved that such a subgraph exists with at most $n-c_k\\sqrt{n}$ vertices. Mousset, Noever, and Skorić [MNS17] improved this to\\[n-c_k\\frac{n}{\\log n}.\\]The full conjecture was proved by Sauermann [Sa19] , who proved this with $c_k \\gg 1/k^3$. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #814, https://www.erdosproblems.com/814, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/814",
+        "start": 12489,
+        "end": 32518,
+        "exactness": "region",
+        "sha256": "1e8c848788ea2dcf8c9b4882c8846d8f7404fe37e3b218e6f9f3b08d44a5d0e0"
+      }
+    }
+  ],
+  "source_sha256": "e0ad0e32e02775ecd2dd4d3a906a4fdb320ea0c800e48ba182d3c7dca3ef5030",
+  "refusals": []
+}

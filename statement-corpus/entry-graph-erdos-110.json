@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/110",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there some $F(n)$ such that every graph with chromatic number $\\aleph_1$ has, for all large $n$, a subgraph with chromatic number $n$ on at most $F(n)$ vertices?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/110",
+        "start": 12236,
+        "end": 12406,
+        "exactness": "slice",
+        "sha256": "35bc7231b43d5c139e8109371b5a2f6c05d664b125236630e31e61c81a342aa0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#110 : [EHS82] [Er87] [Er90] [Er95d] [Er97f] graph theory | chromatic number | cycles Conjectured by Erdős, Hajnal, and Szemerédi [EHS82] . This fails if the graph has chromatic number $\\aleph_0$. A theorem of de Bruijn and Erdős [dBEr51] implies that, if $G$ has infinite chromatic number, then $G$ has a finite subgraph of chromatic number $n$ for every $n\\geq 1$. In [Er95d] Erdős suggests this is true, although such an $F$ must grow faster than the $k$-fold iterated exponential function for any $k$. Shelah [KoSh05] proved that it is consistent that the answer is no. Lambie-Hanson [La20] constructed a counterexample in ZFC. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 01 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #110, https://www.erdosproblems.com/110, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/110",
+        "start": 12406,
+        "end": 32884,
+        "exactness": "region",
+        "sha256": "216ddc5d4aab57e763e37d4536047a7997fad93737cd12fb1232f83a955a3048"
+      }
+    }
+  ],
+  "source_sha256": "2814ac281f8504eee22b3d94924f03de2f81ead0e575b6bcfe19d8e89d2a7162",
+  "refusals": []
+}

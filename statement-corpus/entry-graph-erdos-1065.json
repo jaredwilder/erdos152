@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1065",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Are there infinitely many primes $p$ such that $p=2^kq+1$ for some prime $q$ and $k\\geq 0$? Or $p=2^k3^lq+1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1065",
+        "start": 12257,
+        "end": 12372,
+        "exactness": "slice",
+        "sha256": "b57c0086dd871502fb57fd50faf68c89ff9b760e6cb2f605ca74af04616ed597"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1065 : [Gu04] number theory This is mentioned in problem B46 of Guy's collection [Gu04] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 30 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1065, https://www.erdosproblems.com/1065, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A074781 , A339465 Reactions Likes None Open to collaboration aldente Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1065",
+        "start": 12372,
+        "end": 31928,
+        "exactness": "region",
+        "sha256": "b7074a2d7b684ca962eaa2c8a3049eafe7f249bf3ce4b18a52f46a8bfde528ae"
+      }
+    }
+  ],
+  "source_sha256": "7905e1347b7b19cd6959cd7a7e31e9d92e3b73287fd1e61097ca3abbcfe6a826",
+  "refusals": []
+}

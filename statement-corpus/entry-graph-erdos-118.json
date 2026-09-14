@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/118",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\alpha$ be a cardinal or ordinal number or an order type such that every two-colouring of $K_\\alpha$ contains either a red $K_\\alpha$ or a blue $K_3$. For every $n\\geq 3$ must every two-colouring of $K_\\alpha$ contain either a red $K_\\alpha$ or a blue $K_n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/118",
+        "start": 12236,
+        "end": 12505,
+        "exactness": "slice",
+        "sha256": "20aeff2d467f7be52a762ecc1cc9b6f118bcd46b9c14514781a6af75d235b9e4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#118 : [Er87] [Er90] [Er95d] [Er97f] set theory | ramsey theory Such $\\alpha$ are called partition ordinals. Conjectured by Erdős and Hajnal. In arrow notation, this is asking where $\\alpha \\to (\\alpha,3)^2$ implies $\\alpha \\to (\\alpha, n)^2$ for every finite $n$. The answer is no, as independently shown by Schipperus [Sc99] (published in [Sc10] ) and Darby [Da99] . For example, Larson [La00] has shown that this is false when $\\alpha=\\omega^{\\omega^2}$ and $n=5$. There is more background and proof sketches in Chapter 2.9 of [HST10] , by Hajnal and Larson. See also [590] , [591] , and [592] for more on partition ordinals. Additional thanks to : Zachary Chase, Andr\\'{e}s Caicedo Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 17 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #118, https://www.erdosproblems.com/118, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/118",
+        "start": 12505,
+        "end": 33048,
+        "exactness": "region",
+        "sha256": "c82c9153422d3cf4c0b5b4247e68e457b24aab08a24af401cb4bd6555d1f631e"
+      }
+    }
+  ],
+  "source_sha256": "dfe1debbb581646dc3afa1578ee515a79a8c47aeab7f3608ff4a6ea23181b11b",
+  "refusals": []
+}

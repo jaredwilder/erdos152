@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/815",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$ and $n$ be sufficiently large. Is it true that if $G$ is a graph with $n$ vertices and $2n-2$ edges such that every proper induced subgraph has minimum degree $\\leq 2$ then $G$ must contain a copy of $C_k$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/815",
+        "start": 12236,
+        "end": 12462,
+        "exactness": "slice",
+        "sha256": "d2d04a9ecd91e55569f3b48775183660e878b76c14eb3878959d595500dc5946"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#815 : [EFGS88] [Er91] graph theory In [Er91] Erdős attributes this to himself and Hajnal, claiming they could prove it for $3\\leq k\\leq 6$, but it appears in an earlier paper of Erdős, Faudree, Gyárfás, and Schelp [EFGS88] , where they prove that such a graph on $n\\geq 5$ vertices contains cycles of length $3$, $4$, and $5$, and a cycle of length at least $\\lfloor \\log_2n\\rfloor$, and need not contain a cycle of length longer than $\\sqrt{n}$. Such graphs are called degree $3$ critical. This conjecture was disproved by Narins, Pokrovskiy, and Szabó [NPS17] , who proved that there are arbitrarily large such graphs with no cycle of length $23$. It remains open whether this question has an affirmative answer if we restrict to even $k$. Additional thanks to : Lukas Michel Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #815, https://www.erdosproblems.com/815, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/815",
+        "start": 12462,
+        "end": 32357,
+        "exactness": "region",
+        "sha256": "dabf5bdc6d8825f094f62874d25ef1e4dc3a1b348cc64888d41bfaecf7b082b0"
+      }
+    }
+  ],
+  "source_sha256": "a6c5fc8af71ac5f95213a3132626dcd75f3eda7b558760ad05b39ae1cbbc8124",
+  "refusals": []
+}

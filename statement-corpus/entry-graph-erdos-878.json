@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/878",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $n=\\prod_{1\\leq i\\leq t} p_i^{k_i}$ is the factorisation of $n$ into distinct primes then let\\[f(n)=\\sum p_i^{\\ell_i},\\]where $\\ell_i$ is chosen such that $n\\in [p_i^{\\ell_i},p_i^{\\ell_i+1})$. Furthermore, let\\[F(n)=\\max \\sum_{i} a_i\\]where the maximum is taken over all distinct $a_1,\\ldots,a_k\\leq n$ such that $(a_i,a_j)=1$ for $i\\neq j$ and all prime factors of each $a_i$ are prime factors of $n$. Is it true that, for almost all $n$,\\[f(n)=o(n\\log\\log n)\\]and\\[F(n) \\gg n\\log\\log n?\\]Is it true that\\[\\max_{n\\leq x}f(n)\\sim \\frac{x\\log x}{\\log\\log x}?\\]Is it true that (for all $x$, or perhaps just for all large $x$)\\[\\max_{n\\leq x}f(n)=\\max_{n\\leq x}F(n)?\\]Find an asymptotic formula for the number of $n<x$ such that $f(n)=F(n)$. Find an asymptotic formula for\\[H(x)=\\sum_{n<x}\\frac{f(n)}{n}.\\]Is it true that\\[H(x) \\ll x\\log\\log\\log\\log x?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/878",
+        "start": 12255,
+        "end": 13130,
+        "exactness": "slice",
+        "sha256": "82da5411e52e952f342088b54d0aaa2b4fc4e5c1f92bcb5c4e4103f8b708a6c4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#878 : [Er84e] [Er98,p.172] number theory Erdős [Er84e] proved that\\[\\max_{n\\leq x}f(n)\\sim \\frac{x\\log x}{\\log\\log x}\\]for a sequence of $x\\to \\infty$. It is trivial that $f(n)\\leq F(n)$ for all $n$. It may be true that, for almost all $n$,\\[F(n)\\sim \\frac{1}{2}n\\log\\log n.\\]Erdős notes that $f(n)/n$ 'almost behaves as a conventional additive function', but unusually $f(n)/n$ does not have a mean value - indeed,\\[\\limsup \\frac{1}{x}\\sum_{n<x}\\frac{f(n)}{n}=\\infty\\]but\\[\\liminf \\frac{1}{x}\\sum_{n<x}\\frac{f(n)}{n}<\\infty.\\]Erdős [Er84e] proved that\\[x\\log\\log\\log\\log x\\ll H(x) \\ll x\\log\\log\\log x.\\]Barreto has noted in the comments that this upper bound for $H(x)$ implies $f(n)=o(n\\log\\log n)$ for almost all $n$. Barreto has also noted that $\\max_{n\\leq x}f(n)=\\max_{n\\leq x}F(n)$ is false at $x=210$. See also [879] . Additional thanks to : Kevin Barreto Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 12 May 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #878, https://www.erdosproblems.com/878, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A339378 , possible Reactions Likes KStar Open to collaboration KStar Currently working on KStar Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/878",
+        "start": 13130,
+        "end": 33722,
+        "exactness": "region",
+        "sha256": "55220b4add0e9482bf357ddd56ada92b3790565bae5200e9c79258f76fd60f41"
+      }
+    }
+  ],
+  "source_sha256": "d3c443a7d8db45bbbd0c5fcf7b2c156b96f8987faec612c9a3f5168dac4527d5",
+  "refusals": []
+}

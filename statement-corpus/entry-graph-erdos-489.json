@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/489",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq \\mathbb{N}$ be a set such that $\\lvert A\\cap [1,x]\\rvert=o(x^{1/2})$. Let\\[B=\\{ n\\geq 1 : a\\nmid n\\textrm{ for all }a\\in A\\}.\\]If $B=\\{b_1<b_2<\\cdots\\}$ then is it true that\\[\\lim \\frac{1}{x}\\sum_{b_i<x}(b_{i+1}-b_i)^2\\]exists (and is finite)?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/489",
+        "start": 12255,
+        "end": 12532,
+        "exactness": "slice",
+        "sha256": "b42869f734b6a0b0c900604215b1da1db1eef15122b43c6d62c78d10d7c0aab8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#489 : [Er61] number theory For example, when $A=\\{p^2: p\\textrm{ prime}\\}$ then $B$ is the set of squarefree numbers, and the existence of this limit was proved by Erdős. See also [208] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #489, https://www.erdosproblems.com/489, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/489",
+        "start": 12532,
+        "end": 31425,
+        "exactness": "region",
+        "sha256": "16b5608f2ac37b3495d97730f8100d4f058d96aadce074125b58c6b6dd9dc506"
+      }
+    }
+  ],
+  "source_sha256": "d0e7a449561c808ab61e91879ba15d455e3552f8e641e055fd11d40bae44b448",
+  "refusals": []
+}

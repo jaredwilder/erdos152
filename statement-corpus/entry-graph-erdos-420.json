@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/420",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $\\tau(n)$ counts the number of divisors of $n$ then let\\[F(f,n)=\\frac{\\tau((n+\\lfloor f(n)\\rfloor)!)}{\\tau(n!)}.\\]Is it true that\\[\\lim_{n\\to \\infty}F((\\log n)^C,n)=\\infty\\]for large $C$? Is it true that $F(\\log n,n)$ is everywhere dense in $(1,\\infty)$? More generally, if $f(n)\\leq \\log n$ is a monotonic function such that $f(n)\\to \\infty$ as $n\\to \\infty$, then is $F(f,n)$ everywhere dense?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/420",
+        "start": 12255,
+        "end": 12675,
+        "exactness": "slice",
+        "sha256": "bf276819c468783dd5f55246cbf4253274dabff03172141dcfcc66a5e100ce43"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#420 : [ErGr80,p.83] number theory Erdős and Graham write that it is easy to show that $\\lim F(n^{1/2},n)=\\infty$, and in fact the $n^{1/2}$ can be replaced by $n^{1/2-c}$ for some small constant $c>0$. Erdős, Graham, Ivić, and Pomerance [EGIP96] have proved that\\[\\liminf F(c\\log n, n) = 1\\]for any $c>0$, and\\[\\lim F(n^{4/9},n)=\\infty.\\](The exponent $4/9$ can be improved slightly.) They also prove that, if $f(n)=o((\\log n)^2)$, then for almost all $n$\\[F(f,n)\\sim 1.\\]van Doorn notes in the comments that the existence of infinitely many bounded prime gaps implies\\[\\limsup_{n\\to \\infty}F(g(n),n)=\\infty\\]for any $g(n)\\to \\infty$, and that Cramér's conjecture implies\\[\\lim F(g(n)(\\log n)^2, n)=\\infty\\]for any $g(n)\\to \\infty$> Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 03 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #420, https://www.erdosproblems.com/420, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/420",
+        "start": 12675,
+        "end": 32284,
+        "exactness": "region",
+        "sha256": "06763ed956a9f8bf50a4673ef61efa4e319ea02ca2e3b3eb6da6aed1de58eb4b"
+      }
+    }
+  ],
+  "source_sha256": "e59e3b5dbf73b1afa70f7187006fd12a7bbe89ad3f9a24cb6e5caa22dbd9d2fd",
+  "refusals": []
+}

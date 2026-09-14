@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/361",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $c>0$ and $n$ be some large integer. What is the size of the largest $A\\subseteq \\{1,\\ldots,\\lfloor cn\\rfloor\\}$ such that $n$ is not a sum of a subset of $A$? Does this depend on $n$ in an irregular way?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/361",
+        "start": 12255,
+        "end": 12473,
+        "exactness": "slice",
+        "sha256": "c566cd0945c4158b9914ad9e92fd98d388dd73bf1d4f2976fbc3872191bee22a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#361 : [ErGr80,p.59] number theory Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (1) More information and links This page was last edited 17 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #361, https://www.erdosproblems.com/361, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration None Currently working on ruiliangli , Basile_Beyer_de_Ryke Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/361",
+        "start": 12473,
+        "end": 31547,
+        "exactness": "region",
+        "sha256": "f908ff443918dcdd6bf25aa8853592203b09bf2193647d2f273dc2173b929773"
+      }
+    }
+  ],
+  "source_sha256": "4637a2bec1f7df2b0fe7ff136212116127078d55b34e23877661303ed99ff330",
+  "refusals": []
+}

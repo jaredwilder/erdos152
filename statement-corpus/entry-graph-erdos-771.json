@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/771",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be maximal such that, for every $m\\geq 1$, there exists some $S\\subseteq \\{1,\\ldots,n\\}$ with $\\lvert S\\rvert=f(n)$ such that $m\\neq \\sum_{a\\in A}a$ for all $A\\subseteq S$. Is it true that\\[f(n) = \\left(\\frac{1}{2}+o(1)\\right)\\frac{n}{\\log n}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/771",
+        "start": 12236,
+        "end": 12506,
+        "exactness": "slice",
+        "sha256": "1a1d1e2542d92088f58a660d6caf321b707ff3b095898d5025f6115da9507c99"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#771 : [Er89] number theory A conjecture of Erdős and Graham, who proved the lower bound\\[f(n)\\geq \\left(\\frac{1}{2}+o(1)\\right)\\frac{n}{\\log n}.\\]Their proof is to note that we can assume that $m< \\binom{n+1}{2}$ and then, for any $m$, take $S=\\{ kp : 1\\leq k<\\frac{n}{p}\\}$ where $p$ is the least prime that does not divide $m$ (so $p<(2+o(1))\\log n$). The complementary bound\\[f(n) \\leq \\left(\\frac{1}{2}+o(1)\\right)\\frac{n}{\\log n}\\]was proved by Alon and Freiman [AlFr88] , who chose $m$ as the least common multiple of $\\{1,\\ldots,s\\}$ where $s$ is maximal such that $m\\leq \\frac{n^2}{20(\\log n)^2}$. Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #771, https://www.erdosproblems.com/771, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/771",
+        "start": 12506,
+        "end": 32192,
+        "exactness": "region",
+        "sha256": "02cbeee2d16cd5eec92a139225936648230744befec57d0d35f417a202334b68"
+      }
+    }
+  ],
+  "source_sha256": "fe829d040d49d6b09b84787563d6d14211355d14b52b087d370aa575a153815d",
+  "refusals": []
+}

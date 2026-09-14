@@ -1,0 +1,28 @@
+OPEN Erdos problems                           : 608
+OPEN and NOT in formal-conjectures            : 301
+  of those, carrying REAL prize money         : 25
+  total prize money on the unformalized open set: $11,275
+
+top prized open + unformalized targets:
+   #710    ₹2000      number theory
+   #625    $1000      graph theory,chromatic number
+   #687    $1000      number theory
+   #711    ₹1000      number theory
+   #1191   $1000      additive combinatorics,sidon sets
+   #146    $500       graph theory,turan number
+   #161    $500       combinatorics,ramsey theory,discrepancy
+   #500    $500       graph theory,hypergraphs,turan number
+   #601    $500       graph theory,set theory
+   #604    $500       geometry,distances
+   #712    $500       graph theory,turan number,hypergraphs
+   #713    $500       graph theory,turan number
+   #77     $250       graph theory,ramsey theory
+   #165    $250       graph theory,ramsey theory
+   #183    $250       graph theory,ramsey theory
+   #671    $250       analysis
+   #78     $100       graph theory,ramsey theory
+   #86     $100       graph theory
+   #104    $100       geometry
+   #132    $100       distances
+
+subject spread: {'number theory': 110, 'graph theory': 99, 'ramsey theory': 46, 'geometry': 35, 'additive combinatorics': 22, 'distances': 19, 'chromatic number': 17, 'analysis': 15}

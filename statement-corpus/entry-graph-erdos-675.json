@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/675",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "We say that $A\\subset \\mathbb{N}$ has the translation property if, for every $n$, there exists some integer $t_n\\geq 1$ such that, for all $1\\leq a\\leq n$,\\[a\\in A\\quad\\textrm{ if and only if }\\quad a+t_n\\in A.\\] Does the set of the sums of two squares have the translation property? If we partition all primes into $P\\sqcup Q$, such that each set contains $\\gg x/\\log x$ many primes $\\leq x$ for all large $x$, then can the set of integers only divisible by primes from $P$ have the translation property? If $A$ is the set of squarefree numbers then how fast does the minimal such $t_n$ grow? Is it true that $t_n>\\exp(n^c)$ for some constant $c>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/675",
+        "start": 12255,
+        "end": 12954,
+        "exactness": "slice",
+        "sha256": "8f2c0546bb27ca51e65dcee588ae6bd17d55da888b487e1c6fc0ba365ca69287"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#675 : [Er79] number theory Elementary sieve theory implies that the set of squarefree numbers has the translation property. More generally, Brun's sieve can be used to prove that if $B\\subseteq \\mathbb{N}$ is a set of pairwise coprime integers with $\\sum_{b<x}\\frac{1}{b}=o(\\log\\log x)$ then $A=\\{ n: b\\nmid n\\textrm{ for all }b\\in A\\}$ has the translation property. Erdős did not know what happens if the condition on $\\sum_{b<x}\\frac{1}{b}$ is weakened or dropped altogether. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #675, https://www.erdosproblems.com/675, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/675",
+        "start": 12954,
+        "end": 32019,
+        "exactness": "region",
+        "sha256": "9fb89e7b5476b3769b0f8eba74613c4829bd765d36dbaa0fd24a2d7d3cb4284b"
+      }
+    }
+  ],
+  "source_sha256": "78eeafd0aa9f99fa18cee3cb4b5c07e1a618153767e609826b35301188666e1f",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/172",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that in any finite colouring of $\\mathbb{N}$ there exist arbitrarily large finite $A$ such that all sums and products of distinct elements in $A$ are the same colour?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/172",
+        "start": 12255,
+        "end": 12438,
+        "exactness": "slice",
+        "sha256": "63c7d9c505c7b19f061661415cf76ef0baae53e7fe38415442fdd914893c78bb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#172 : [Er77c] [ErGr79] [ErGr80] additive combinatorics | ramsey theory First asked by Hindman. Hindman [Hi80] has proved this is false (with 7 colours) if we ask for an infinite $A$. In [Er77c] Erdős asks about the case for an infinite $A$ with just $2$ colours (see [1198] ). Moreira [Mo17] has proved that in any finite colouring of $\\mathbb{N}$ there exist $x,y$ such that $\\{x,x+y,xy\\}$ are all the same colour. Alweiss [Al23] has proved that in any finite colouring of $\\mathbb{Q}\\backslash \\{0\\}$ there exist arbitrarily large finite $A$ such that all sums and products of distinct elements in $A$ are the same colour. Bowen and Sabok [BoSa22] had proved this earlier for the first non-trivial case of $\\lvert A\\rvert=2$. Additional thanks to : Ryan Alweiss Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 06 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #172, https://www.erdosproblems.com/172, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes TFBloom , Dogmachine , Fedir Open to collaboration None Currently working on None Looks difficult TFBloom , Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/172",
+        "start": 12438,
+        "end": 33183,
+        "exactness": "region",
+        "sha256": "b1bab398a25df49e03b605be335da0ef4da6bbf627989b688e61f3e035c64ced"
+      }
+    }
+  ],
+  "source_sha256": "805bc75ae8d467989e729d16efb5d7920e14b9a71fae6822777badcd6995e060",
+  "refusals": []
+}

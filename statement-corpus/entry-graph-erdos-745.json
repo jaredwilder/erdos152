@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/745",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Describe the size of the second largest component of the random graph on $n$ vertices, where each edge is included independently with probability $1/n$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/745",
+        "start": 12236,
+        "end": 12394,
+        "exactness": "slice",
+        "sha256": "0c5005be3f32e34a5059278f3ebd85dd9ed5f4ba64baed3836cb22a0f094286f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#745 : [Er81] graph theory Erdős believed that almost surely the second largest component has size $\\ll \\log n$. This is true, as proved by Komlós, Sulyok, and Szemerédi [KSS80] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #745, https://www.erdosproblems.com/745, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/745",
+        "start": 12394,
+        "end": 31249,
+        "exactness": "region",
+        "sha256": "b2d96607589777fe104d549992b05561c4417a8d1e6b993457b8ccb80fa0c60d"
+      }
+    }
+  ],
+  "source_sha256": "9620cc8baaf02dfb61aebc3c86c2c10a8b9c4386f6e75de292bbd253f6c9c302",
+  "refusals": []
+}

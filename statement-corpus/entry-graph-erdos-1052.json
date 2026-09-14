@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1052",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "A unitary divisor of $n$ is $d\\mid n$ such that $(d,n/d)=1$. A number $n\\geq 1$ is a unitary perfect number if it is the sum of its unitary divisors (aside from $n$ itself). Are there only finite many unitary perfect numbers?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1052",
+        "start": 12263,
+        "end": 12623,
+        "exactness": "slice",
+        "sha256": "830b26ef31fe26aa2941d5b334729b419f4a61cda7afd7822d52bf2b7cbca280"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1052 : [Gu04] number theory Guy [Gu04] reports that Carlitz, Erdős, and Subbarao offer \\$10 for settling this question, and that Subbarao offers 10 cents for each new example. There are no odd unitary perfect numbers. There are five known unitary perfect numbers ( A002827 in the OEIS):\\[6, 60, 90, 87360, 146361946186458562560000.\\]This is problem B3 in Guy's collection [Gu04] . Additional thanks to : Boris Alexeev Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 28 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1052, https://www.erdosproblems.com/1052, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A002827 Reactions Likes None Open to collaboration None Currently working on None Looks difficult Basile_Beyer_de_Ryke Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1052",
+        "start": 12623,
+        "end": 32627,
+        "exactness": "region",
+        "sha256": "0ef868d1ffa73575765eb19a5c8acb1e7f4287261c84431c2b5c7a5c22723492"
+      }
+    }
+  ],
+  "source_sha256": "df4fb15d77ba4997c5423211ea00e2a31c31a5b8f3a9145a3b970a7f086026e1",
+  "refusals": []
+}

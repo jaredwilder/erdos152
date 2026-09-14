@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/465",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $N(X,\\delta)$ denote the maximum number of points $P_1,\\ldots,P_n$ which can be chosen in a circle of radius $X$ such that\\[\\| \\lvert P_i-P_j\\rvert \\| \\geq \\delta\\]for all $1\\leq i<j\\leq n$. (Here $\\|x\\|$ is the distance from $x$ to the nearest integer.) Is it true that, for any $0<\\delta<1/2$, we have\\[N(X,\\delta)=o(X)?\\]In fact, is it true that (for any fixed $\\delta>0$)\\[N(X,\\delta)<X^{1/2+o(1)}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/465",
+        "start": 12236,
+        "end": 12673,
+        "exactness": "slice",
+        "sha256": "8568a73eebee87654a8bd2ba006830db2ee686463d1c11391c334874b3d23f62"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#465 : [ErGr80] [Er82e] number theory The first conjecture was proved by Sárközy [Sa76] , who in fact proved\\[N(X,\\delta) \\ll \\delta^{-3}\\frac{X}{\\log\\log X}.\\]Konyagin [Ko01] proved the strong upper bound\\[N(X,\\delta) \\ll_\\delta X^{1/2}.\\]See also [466] for lower bounds and [953] for a similar problem. Additional thanks to : Vjekoslav Kovac and Stefan Steinerberger Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #465, https://www.erdosproblems.com/465, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/465",
+        "start": 12673,
+        "end": 32225,
+        "exactness": "region",
+        "sha256": "e2ae6abcc19534bb040161bd7c7b595c3de7fe722a07272c76459bbdc104bcde"
+      }
+    }
+  ],
+  "source_sha256": "4d13994978b52db0ebb9bf00cf7c47e13ceda347927691bfd3e7edda11ea1e00",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/859",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $t\\geq 1$ and let $d_t$ be the density of the set of integers $n\\in\\mathbb{N}$ for which $t$ can be represented as the sum of distinct divisors of $n$. Do there exist constants $c_1,c_2>0$ such that\\[d_t \\sim \\frac{c_1}{(\\log t)^{c_2}}\\]as $t\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/859",
+        "start": 12255,
+        "end": 12530,
+        "exactness": "slice",
+        "sha256": "5d32ce2e35183c4755040cc9e9da2d82af77d7cc085ab20be0fdb013718e534c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#859 : [Er70] number theory | divisors Erdős [Er70] proved that $d_t$ always exists, and that there exist some constants $c_3,c_4>0$ such that\\[\\frac{1}{(\\log t)^{c_3}} < d_t < \\frac{1}{(\\log t)^{c_4}}.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #859, https://www.erdosproblems.com/859, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/859",
+        "start": 12530,
+        "end": 31508,
+        "exactness": "region",
+        "sha256": "7005521066aada8ffe3a9860ff0b278bf4d6649a61f6d4040bb54fc26276154e"
+      }
+    }
+  ],
+  "source_sha256": "455cebaf5a04432b73bb272c3587df94b4f35bfe04b8d3d545bd8e9c0b0b57a8",
+  "refusals": []
+}

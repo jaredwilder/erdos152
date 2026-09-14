@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/903",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $n=p^2+p+1$ for some prime power $p$, and let $A_1,\\ldots,A_t\\subseteq \\{1,\\ldots,n\\}$ be a block design (so that every pair $x,y\\in \\{1,\\ldots,n\\}$ is contained in exactly one $A_i$). Is it true that if $t>n$ then $t\\geq n+p$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/903",
+        "start": 12236,
+        "end": 12484,
+        "exactness": "slice",
+        "sha256": "155964961d73fb18b5b4c33beba4e3544ca1cb723388a56224a04b79c112f16c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#903 : [Er82e] combinatorics A conjecture of Erdős and Sós. The classic finite geometry construction shows that $t=n$ is possible. A theorem of Erdős and de Bruijn [dBEr48] states that $t\\geq n$. This is true, and was proved by Erdős, Fowler, Sós, and Wilson [EFSW85] , who further show that unless the block design is obtained from a projective plane by 'breaking up' one of its lines then $t\\geq n+cp$ where $c\\approx 1.148$. In general, one can ask what the possible values of $t$ are, for a given $n$. Additional thanks to : Mark Sellke Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 24 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #903, https://www.erdosproblems.com/903, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/903",
+        "start": 12484,
+        "end": 31967,
+        "exactness": "region",
+        "sha256": "3dfb503eaa9aa26983034a2b93b2cfec012e1223d8da1e24a3f41f89a36337b0"
+      }
+    }
+  ],
+  "source_sha256": "c2ab2e0dbb9c51911ede30515ddcb8a47524df4fb2fe9836269963b6439e034b",
+  "refusals": []
+}

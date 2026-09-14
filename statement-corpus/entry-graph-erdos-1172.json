@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1172",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Establish whether the following are true assuming the generalised continuum hypothesis:\\[\\omega_3 \\to (\\omega_2,\\omega_1+2)^2,\\]\\[\\omega_3\\to (\\omega_2+\\omega_1,\\omega_2+\\omega)^2,\\]\\[\\omega_2\\to (\\omega_1^{\\omega+2}+2, \\omega_1+2)^2.\\]Establish whether the following is consistent with the generalised continuum hypothesis:\\[\\omega_2\\to (\\omega_1+\\omega)_2^2,\\]or even $\\omega_2 \\to (\\xi)_2^2$ for all $\\xi<\\omega_2$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1172",
+        "start": 12257,
+        "end": 12685,
+        "exactness": "slice",
+        "sha256": "6ae9d21f519c1b59932aa5ce010319484b1239119a15dfe0e237b03f52365110"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1172 : [ErHa74,p.272] [Va99,7.87] set theory | ramsey theory A problem of Erdős and Hajnal. The Erdős-Rado partition theorem [ErRa56] states that\\[(2^{\\kappa})^+ \\to (\\kappa^++1)_\\kappa^2\\]for every infinite cardinal $\\kappa$. Additional thanks to : Boris Alexeev Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 11 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1172, https://www.erdosproblems.com/1172, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1172",
+        "start": 12685,
+        "end": 31930,
+        "exactness": "region",
+        "sha256": "e067c85f552ab0477e7eff26aadd6f09e47002ef6c6692d3eb4ee8e937d77e8e"
+      }
+    }
+  ],
+  "source_sha256": "55838532ba47d5d9fa37f0fc497d18e021b09bf177c49912b643aa364dd6aca6",
+  "refusals": []
+}

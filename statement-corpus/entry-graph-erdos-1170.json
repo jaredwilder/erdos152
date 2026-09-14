@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1170",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it consistent that\\[\\omega_2\\to (\\alpha)_2^2\\]for every $\\alpha <\\omega_2$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1170",
+        "start": 12257,
+        "end": 12345,
+        "exactness": "slice",
+        "sha256": "060c3b87629a64ce13e1bd7a2c5d80e7a200063fadd57ca0b90bfeb2d7e2449a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1170 : [Va99,7.86] set theory | ramsey theory Laver [La82] proved the consistency of $\\omega_2\\to (\\omega_12+1,\\alpha)^2$ for all $\\alpha<\\omega_2$. Foreman and Hajnal [FoHa03] proved the consistency of $\\omega_2\\to (\\omega_1^2+1,\\alpha)^2$ for all $\\alpha<\\omega_2$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1170, https://www.erdosproblems.com/1170, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Shadow , ElliotGlazer Open to collaboration Shadow , MalekZ Currently working on Shadow , MalekZ Looks difficult ElliotGlazer Looks tractable Shadow Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1170",
+        "start": 12345,
+        "end": 31912,
+        "exactness": "region",
+        "sha256": "454f2ca6155c00594196dd15527eb194244d08656e65d45477d6b43a6e40c99c"
+      }
+    }
+  ],
+  "source_sha256": "0d0c84a6d3b2a631914880ea80257286214e5ff322a72bd3fc2dc0682fe67f6d",
+  "refusals": []
+}

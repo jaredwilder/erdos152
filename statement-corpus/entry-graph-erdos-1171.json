@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1171",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that, for all finite $k<\\omega$,\\[\\omega_1^2\\to (\\omega_1\\omega, 3,\\ldots,3)_{k+1}^2?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1171",
+        "start": 12257,
+        "end": 12365,
+        "exactness": "slice",
+        "sha256": "af6af313f132cf5c6bfa9a0fc87e465e63f9585c707c478545eef7f2d7563bfa"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1171 : [Va99,7.84] set theory | ramsey theory Baumgartner [Ba89b] proved that, assuming a form of Martin's axiom, that $\\omega_1\\omega\\to (\\omega_1\\omega, 3)^2$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 26 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1171, https://www.erdosproblems.com/1171, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1171",
+        "start": 12365,
+        "end": 31297,
+        "exactness": "region",
+        "sha256": "239d200ccc9fd84ea1c0e1e382d737e284a8e19778e40b301d978f54e4ea6445"
+      }
+    }
+  ],
+  "source_sha256": "de6eb3ac4054873296bf2a87997caad2db4fadbb1229b0b4b1f4d6f30b88c67a",
+  "refusals": []
+}

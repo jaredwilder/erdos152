@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/872",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Consider the two-player game in which players alternately choose integers from $\\{2,3,\\ldots,n\\}$ to be included in some set $A$ (the same set for both players) such that no $a\\mid b$ for $a\\neq b\\in A$. The game ends when no legal move is possible. One player wants the game to last as long as possible, the other wants the game to end quickly. How long can the game be guaranteed to last for? At least $\\epsilon n$ moves? (For $\\epsilon>0$ and $n$ sufficiently large.) At least $(1-\\epsilon)\\frac{n}{2}$ moves?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/872",
+        "start": 12255,
+        "end": 12793,
+        "exactness": "slice",
+        "sha256": "35f074c8710bf08d9f75a96ea38ae215ee6280259545f676b98ef4937f9bb5ce"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#872 : [Er92c,p.47] number theory | primitive sets A number theoretic variant of a combinatorial game of Hajnal, in which players alternately add edges to a graph while keeping it triangle-free. This graph theoretic game must trivially end in at most $n^2/4$ moves, and Füredi and Seress [FuSe91] proved that it can be guaranteed to last for $\\gg n\\log n$ moves. Biró, Horn, and Wildstrom [BPW16] proved that it must end in at most $(\\frac{26}{121}+o(1))n^2<0.215n^2$ moves. This type of game is known as a saturation game. Erdős does not specify which player goes first, which may result in different answers. GPT-5.2 Pro, prompted by Price, has shown that the final question has a negative answer: assuming the 'Prolonger' goes first, the 'Shortener' can guarantee that it ends in at most $(\\frac{23}{48}+o(1))n$ moves. This constant has been refined, see the comment section for the latest. Since all primes in $(n/2,n]$ must eventually be chosen, the game must last for at least $\\gg \\frac{n}{\\log n}$ moves. Additional thanks to : Om Buddhdev, Liam Price, Xiao Hu, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (36) Proof claims (1) More information and links This page was last edited 24 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #872, https://www.erdosproblems.com/872, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes old-bielefelder , pommeret , joshoakley Open to collaboration None Currently working on old-bielefelder , pommeret , joshoakley Looks difficult old-bielefelder , pommeret , joshoakley Looks tractable None Could be formalisable None Working on formalising pommeret <div id=",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/872",
+        "start": 12793,
+        "end": 33961,
+        "exactness": "region",
+        "sha256": "b833eeeb3774b3933325e8ee669c9acfdf7851cb9705c907eed169c056299370"
+      }
+    }
+  ],
+  "source_sha256": "e2d14ed9ab629e23a7a179fd429ed52fff9ab810cfcabe0ed999a8c54a7d6968",
+  "refusals": []
+}

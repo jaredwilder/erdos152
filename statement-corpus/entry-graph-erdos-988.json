@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/988",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $P\\subseteq S^2$ is a subset of the unit sphere then define the discrepancy\\[D(P) = \\max_C \\lvert \\lvert C\\cap P\\rvert - \\alpha_C \\lvert P\\rvert \\rvert,\\]where the maximum is taken over all spherical caps $C$, and $\\alpha_C$ is the appropriately normalised measure of $C$. Is it true that\\[\\min_{\\lvert P\\rvert=n}D(P)\\to \\infty\\]as $n\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/988",
+        "start": 12262,
+        "end": 12624,
+        "exactness": "slice",
+        "sha256": "118c280de4253f333bcb79da57d8a34e19878c0bc34aa0b740d63d652fd5f3d4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#988 : [Er64b] discrepancy Roth [Ro54] proved that the answer is yes if we replace the sphere by a square. This is true, and was proved (in any number of dimensions) by Schmidt [Sc69b] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #988, https://www.erdosproblems.com/988, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/988",
+        "start": 12624,
+        "end": 31827,
+        "exactness": "region",
+        "sha256": "3b85920584722ee208f7107c5169633e5c7d86797853ac42ef5c107aa2a3ebff"
+      }
+    }
+  ],
+  "source_sha256": "15d4a55207d47c8c8660a4cede1e8bdee070f43488e86870fb609cc886cc0313",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:601",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For which limit ordinals $\\alpha$ is it true that if $G$ is a graph with vertex set $\\alpha$ then $G$ must have either an infinite path or independent set on a set of vertices with order type $\\alpha$?",
+      "provenance": {
+        "source": "erdos:601",
+        "start": 11934,
+        "end": 12207,
+        "exactness": "slice",
+        "sha256": "2e2c4373e4f77d7467de283d241d2839e7f5ca418b908adfa67b4358ebef4d52"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "A problem of Erd\\H{o}s, Hajnal, and Milner \\cite{EHM70}, who proved this is true for $\\alpha < \\omega_1^{\\omega+2}$. In \\cite{Er82e} Erd\\H{o}s offers \\$250 for showing what happens when $\\alpha=\\omega_1^{\\omega+2}$ and \\$500 for settling the general case. Larson \\cite{La90} proved this is true for all $\\alpha<2^{\\aleph_0}$ assuming Martin's axiom .",
+      "provenance": {
+        "source": "erdos:601",
+        "start": 12207,
+        "end": 25400,
+        "exactness": "region",
+        "sha256": "04c2a561607cea977ea4ef78fc3708eadccdb4cde1b6d75ba1d043f52608f0c4"
+      }
+    }
+  ],
+  "source_sha256": "a2ea6965187f90c358cd25d7f88d26e7087df362bd11540d523a8cfb5b39f582",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/562",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $R_r(n)$ denote the $r$-uniform hypergraph Ramsey number: the minimal $m$ such that if we $2$-colour all edges of the complete $r$-uniform hypergraph on $m$ vertices then there must be some monochromatic copy of the complete $r$-uniform hypergraph on $n$ vertices. Prove that, for $r\\geq 3$,\\[\\log_{r-1} R_r(n) \\asymp_r n,\\]where $\\log_{r-1}$ denotes the $(r-1)$-fold iterated logarithm. That is, does $R_r(n)$ grow like\\[2^{2^{\\cdots n}}\\]where the tower of exponentials has height $r-1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/562",
+        "start": 12255,
+        "end": 12761,
+        "exactness": "slice",
+        "sha256": "9ac200e410f279b4601f3d54cb07c13f3dc02012fcacc33c5cb639e86a350fd8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#562 : [EHR65] graph theory | ramsey theory | hypergraphs A problem of Erdős, Hajnal, and Rado [EHR65] . A generalisation of [564] . This problem is #38 in Ramsey Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #562, https://www.erdosproblems.com/562, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/562",
+        "start": 12761,
+        "end": 32344,
+        "exactness": "region",
+        "sha256": "b7039edc4eea100f69784542147b3910a0b26b56412af1713cf09fbb819368fa"
+      }
+    }
+  ],
+  "source_sha256": "4303c200ee5ba0bddd28bfcfba2e8a3280ba23499c197569179280d2181ade55",
+  "refusals": []
+}

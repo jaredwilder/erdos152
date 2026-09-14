@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1212",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be the graph with vertex set those pairs $(x,y)\\in \\mathbb{N}^2$ with $\\mathrm{gcd}(x,y)=1$, in which we join two vertices if the differ in only one coordinate, and there by $\\pm 1$. Is there a path going to infinity on $G$, say $P$, such that for all $(x,y)\\in P$ both $\\min(x,y)>1$ and at least one of $x$ or $y$ is composite?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1212",
+        "start": 12257,
+        "end": 12610,
+        "exactness": "slice",
+        "sha256": "728ffffbecc33cc0d615f20ca23347d3e23ee612580dc95303bb8e537d576aca"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1212 : [Er80,p.114] number theory | primes Herzog and Stewart studied the graph $G$, which they called visible lattice points, and proved that there is only one infinite component, and conjectured that if $p$ is prime and $p\\nmid a$ then $(a,p)$ always belongs to the infinite component. (This is according to [Er80] ; I can find no such results of Herzog and Stewart, who have a paper [HeSt71] on which finite patterns appear in the set of visible lattice points, but does not address this question.) Erdős originally asked this question with just the condition that $\\min(x,y)>1$ and (as he recounts in [Er80] ) 'foolishly offered 25 dollars for a proof. In the evening Stewart gave the simple proof: $(p_k,p_{k+1})$ can be joined to $(p_{k+1},p_{k+2})$'. Indeed, if $p_k$ is the $k$th prime then there is a path\\[(p_k,p_{k+1})\\to (p_k,p_{k+1}+1)\\to \\cdots \\]\\[\\to (p_{k},p_{k+2})\\to (p_{k}+1,p_{k+2})\\to (p_{k+1},p_{k+2}).\\]This is permissible provided $[p_{k+1},p_{k+2}]$ contains no multiple of $p_k$, which is true provided $p_{k+2}<2p_{k}$, which is true for all $k\\geq 4$. One could further demand that the path be monotone (i.e. every step increases the distance from the origin). Is there a monotone path where we change direction after a bounded number of steps? The first $50\\times 50$ block of the graph $G$ restricted to those vertices $(x,y)$ with both $x,y>1$ and at least one of $x$ or $y$ composite is shown here . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1212, https://www.erdosproblems.com/1212, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- For expanding",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1212",
+        "start": 12610,
+        "end": 33471,
+        "exactness": "region",
+        "sha256": "65f2276fbfa1ceafa079c459912f2612fb80379497843faac4a65c23118629a1"
+      }
+    }
+  ],
+  "source_sha256": "2b97957c6a6e42c0d34c9ef5c73bd4a8b844fd53e9f00248f1ac897838ca9ea5",
+  "refusals": []
+}

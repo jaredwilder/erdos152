@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/857",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $m=m(n,k)$ be minimal such that in any collection of sets $A_1,\\ldots,A_m\\subseteq \\{1,\\ldots,n\\}$ there must exist a sunflower of size $k$ - that is, some collection of $k$ of the $A_i$ which pairwise have the same intersection. Estimate $m(n,k)$, or even better, give an asymptotic formula.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/857",
+        "start": 12255,
+        "end": 12564,
+        "exactness": "slice",
+        "sha256": "9ec118524233b97263d36597c5e8766e2ef8ee60d5b8d8a73c5aff3b9d7a04f2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#857 : [Er70] [Er71,p.105] [ErSz78b] combinatorics Related to [536] and [856] . In [Er70] Erdős asks this in the equivalent formulation with intersection replaced by union. This is sometimes known as the weak sunflower problem (see [20] for the strong sunflower problem). When $k=3$ this is strongly connected to the cap set problem (finding the maximal size of subsets of $\\mathbb{F}_3^n$ with no three-term arithmetic progressions), as observed by Alon, Shpilka, and Umans [ASU13] ). Naslund and Sawin [NaSa17] have proved that\\[m(n,3) \\leq (3/2^{2/3})^{(1+o(1))n}.\\] Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #857, https://www.erdosproblems.com/857, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes sproutseeds Open to collaboration sproutseeds Currently working on sproutseeds Looks difficult None Looks tractable None Could be formalisable sproutseeds Working on formalising sproutseeds Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/857",
+        "start": 12564,
+        "end": 33100,
+        "exactness": "region",
+        "sha256": "3942a26844cb406c1ca2b215d8297504799a780f6431319461402f2757002605"
+      }
+    }
+  ],
+  "source_sha256": "6e5d757d11b6cebf8c93538cf2729b9d7476690d950c9320216704b65a1ec90a",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/187",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Find the best function $f(d)$ such that, in any 2-colouring of the integers, at least one colour class contains an arithmetic progression with common difference $d$ of length $f(d)$ for infinitely many $d$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/187",
+        "start": 12255,
+        "end": 12467,
+        "exactness": "slice",
+        "sha256": "946d6e7a9c326cf93e02dc58dbafa6a4b62da1c7983d8024396176dd3e5d6117"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#187 : [Er73] [ErGr79] [Er80,p.93] [ErGr80,p.17] additive combinatorics | ramsey theory | arithmetic progressions Originally asked by Cohen. Erdős observed that colouring according to whether $\\{ \\sqrt{2}n\\}<1/2$ or not implies $f(d) \\ll d$ (using the fact that $\\|\\sqrt{2}q\\| \\gg 1/q$ for all $q$, where $\\|x\\|$ is the distance to the nearest integer). In [Er80] he states that Petruska and Szemerédi have proved that $f(d) \\ll d^{1/2}$, and expected $f(d)\\leq d^{o(1)}$. Beck [Be80] has improved this using the probabilistic method, constructing a colouring that shows $f(d)\\leq (1+o(1))\\log_2 d$. Van der Waerden's theorem implies $f(d)\\to \\infty$ is necessary. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 04 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #187, https://www.erdosproblems.com/187, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/187",
+        "start": 12467,
+        "end": 32529,
+        "exactness": "region",
+        "sha256": "63af293869d8fdf420d6ab1dea9b997cbc912e1005dd631c1207e1726dacc5ce"
+      }
+    }
+  ],
+  "source_sha256": "c6854dc243ffddd6d7f5623949cec52017f7b2e42464d49cd46f628a971d058a",
+  "refusals": []
+}

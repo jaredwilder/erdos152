@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/746",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that, almost surely, a random graph on $n$ vertices with $\\geq (\\tfrac{1}{2}+\\epsilon)n\\log n$ edges is Hamiltonian?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/746",
+        "start": 12236,
+        "end": 12369,
+        "exactness": "slice",
+        "sha256": "3ea71e8ba59963cb0713acb4fc7a301a6dadbf1303de14d19ecc9711b81e6087"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#746 : [Er71,p.98] [Er81,p.16] [Er82e,p.69] graph theory A conjecture of Erdős and Rényi [ErRe66] , who proved that almost surely such a graph has a perfect matching (when $n$ is even). This is true. Pósa [Po76] proved that almost surely a random graph with $\\geq Cn\\log n$ edges is Hamiltonian for some large constant $C$, and Korshunov [Ko77] proved that\\[\\geq \\frac{1}{2}n\\log n+\\frac{1}{2}n\\log\\log n+w(n)n\\]edges suffices, for any function $w$ which $\\to \\infty$ as $n\\to \\infty$. Komlós and Szemerédi [KoSz83] proved the stronger result that with\\[\\frac{1}{2}n\\log n+\\frac{1}{2}n\\log\\log n+cn\\]edges the probability that the graph is Hamiltonian tends to $e^{-e^{-2c}}$ as $n\\to \\infty$. Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 27 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #746, https://www.erdosproblems.com/746, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/746",
+        "start": 12369,
+        "end": 32517,
+        "exactness": "region",
+        "sha256": "f438b2a1f60955d3032407ecc5ae70417e1a8ebdf93e9fb0655982a52f64b7d8"
+      }
+    }
+  ],
+  "source_sha256": "ba2d88b2945a5bc5e1bb1da9d5d84382ab22acf2f46354b8a4c4dd6f95041614",
+  "refusals": []
+}

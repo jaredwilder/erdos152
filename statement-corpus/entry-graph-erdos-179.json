@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/179",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $1\\leq k<\\ell$ be integers and define $F_k(N,\\ell)$ to be minimal such that every set $A\\subset \\mathbb{N}$ of size $N$ which contains at least $F_k(N,\\ell)$ many $k$-term arithmetic progressions must contain an $\\ell$-term arithmetic progression. Find good upper bounds for $F_k(N,\\ell)$. Is it true that\\[F_3(N,4)=o(N^2)?\\]Is it true that for every $\\ell>3$\\[\\lim_{N\\to \\infty}\\frac{\\log F_3(N,\\ell)}{\\log N}=2?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/179",
+        "start": 12236,
+        "end": 12667,
+        "exactness": "slice",
+        "sha256": "a7dae4e0df4c5ed6d9b26df9e5bf6c20731bc9e06c247fcf103434454292fc84"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#179 : [Er73] [Er75b] [ErGr79] [Er80,p.93] [ErGr80] additive combinatorics | arithmetic progressions Erdős remarks the upper bound $o(N^2)$ is certainly false for $\\ell >\\epsilon \\log N$. The answer is yes: Fox and Pohoata [FoPo20] have shown that, for all fixed $1\\leq k<\\ell$,\\[F_k(N,\\ell)=N^{2-o(1)}\\]and in fact\\[F_{k}(N,\\ell) \\leq \\frac{N^2}{(\\log\\log N)^{C_\\ell}}\\]where $C_\\ell>0$ is some constant. In fact, they show that, if $r_\\ell(N)$ is the size of the largest subset of $\\{1,\\ldots,N\\}$ without an $\\ell$-term arithmetic progression then there exists some absolute constant $c>0$ such that\\[\\left(c \\frac{r_\\ell(N)}{N}\\right)^{2(k-1)}N^2 < F_k(N,\\ell) <\\left(\\frac{r_\\ell(N)}{N}\\right)^{O(1)}N^2.\\]Any improved bounds for Szemerédi's theorem (see [139] ) therefore yield improved bounds for $F_k(N,\\ell)$. In particular, the bounds of Leng, Sah, and Sawhney [LSS24] imply\\[F_k(N,\\ell) \\leq \\frac{N^2}{\\exp((\\log\\log N)^{c_\\ell})}\\]for some constant $c_\\ell>0$. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 05 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #179, https://www.erdosproblems.com/179, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next </",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/179",
+        "start": 12667,
+        "end": 33415,
+        "exactness": "region",
+        "sha256": "0a025665dc3e07aca907cff272702c998259db24e830437dbd527aac32d48975"
+      }
+    }
+  ],
+  "source_sha256": "b0809f6e8c2251972bd033a402214e586c1c1057d32a65d0b0e8c2d4129d6e36",
+  "refusals": []
+}

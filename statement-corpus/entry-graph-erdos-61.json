@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/61",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any graph $H$ is there some $c=c(H)>0$ such that every graph $G$ on $n$ vertices that does not contain $H$ as an induced subgraph contains either a complete graph or independent set on $\\geq n^c$ vertices?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/61",
+        "start": 12253,
+        "end": 12472,
+        "exactness": "slice",
+        "sha256": "ea32d1561cbe2514ae6686e9503776ee24b0544779dfee6dc5900cf108a9337d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#61 : [ErHa89] [Er90] [Er93,p.346] [Er97f] [Va99,3.52] graph theory Conjectured by Erdős and Hajnal [ErHa89] , who proved that a complete graph or independent set must exist on\\[\\geq \\exp(c_H\\sqrt{\\log n})\\]many vertices, where $c_H>0$ is some constant. This was improved by Bucić, Nguyen, Scott, and Seymour [BNSS23] to\\[\\geq \\exp(c_H\\sqrt{\\log n\\log\\log n}).\\]The conjecture has been proved: for $H$ with $\\leq 4$ vertices by Erdős and Hajnal [ErHa89] . for the 'bull' graph on $5$ vertices (a $P_4$ with a new vertex adjacent to the two middle vertices) by Chudnovsky and Safra [ChSa08] . for $C_5$ by Chudnovsky, Scott, Seymour, and Spirkl [CSSS23] . for $P_5$ by Nguyen, Scott, and Seymour [NSS26] . Alon, Pach, and Solymosi [APS01] have proved that the family of $H$ for which the conjecture holds is closed under vertex substitution; together with the three final results above this means the conjecture is now known for all $H$ on $5$ vertices. Nguyen, Scott, and Seymour [NSS24] have proved that if $H$ is a path then all $H$-free graphs on $n$ vertices contain either a complete graph or independent set on\\[\\geq 2^{(\\log n)^{1-o(1)}}\\]many vertices. A detailed account of this problem, including the proof of some special cases, is given in the PhD thesis of Nguyen. This problem is #80 in Extremal Graph Theory in the graphs problem collection. Additional thanks to : Alfaiz Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 10 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #61, https://www.erdosproblems.com/61, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/61",
+        "start": 12472,
+        "end": 34395,
+        "exactness": "region",
+        "sha256": "dafc491dd2fb1303c7d95da8b8ff103a5fbcf359983d1414539ca6bc6bd9dc47"
+      }
+    }
+  ],
+  "source_sha256": "9c6b8c3a5bacf073ab88d7d730253086e02fc2990f7bff61d5141ace19a8e49e",
+  "refusals": []
+}

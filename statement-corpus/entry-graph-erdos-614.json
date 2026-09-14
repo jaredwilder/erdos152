@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/614",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n,k)$ be minimal such that there is a graph with $n$ vertices and $f(n,k)$ edges where every set of $k+2$ vertices induces a subgraph with maximum degree at least $k$. Determine $f(n,k)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/614",
+        "start": 12255,
+        "end": 12455,
+        "exactness": "slice",
+        "sha256": "1ad8ad64b676b3d444e2721f1e68738f55648dc19f0823a462fbe43b1bf7e4be"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#614 : [FRS97] graph theory See also the entry in the graphs problem collection . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #614, https://www.erdosproblems.com/614, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes mysticflounder Open to collaboration mysticflounder Currently working on mysticflounder Looks difficult mysticflounder Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/614",
+        "start": 12455,
+        "end": 31669,
+        "exactness": "region",
+        "sha256": "c36c02e34f64778a37da27dd62edd230e17c4a51786cf24fa34784b96abbfdfd"
+      }
+    }
+  ],
+  "source_sha256": "1bb0ba001cb3109b73d275aeadd5967d6f791d782eccd2336e2ec401abf862ec",
+  "refusals": []
+}

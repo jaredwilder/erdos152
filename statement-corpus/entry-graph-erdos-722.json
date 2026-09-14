@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/722",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k>r$ and $n$ be sufficiently large in terms of $k$ and $r$. Does there always exist a block $r-(n,k,1)$ design (or Steiner system with parameters $(n,k,r)$), provided the trivial necessary divisibility conditions $\\binom{k-i}{r-i}\\mid \\binom{n-i}{r-i}$ are satisfied for every $0\\leq i<r$? That is, can one find a family of $\\binom{n}{k}\\binom{k}{r}^{-1}$ many subsets of $\\{1,\\ldots,n\\}$, all of size $k$, such that any $A\\subseteq \\{1,\\ldots,n\\}$ of size $r$ is contained in exactly one set in the family?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/722",
+        "start": 12236,
+        "end": 12881,
+        "exactness": "slice",
+        "sha256": "298f0ac0eb2680367993f23d8bc10bdbf246cec4f5b420723f2f1ad101cbcb1b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#722 : [Er81] combinatorics This was proved for $(r,k)$ by: Kirkman for $(2,3)$; Hanani [Ha61] for $(3,4)$, $(2,4)$, and $(2,5)$; Wilson [Wi72] for $(2,k)$ for any $k$; Keevash [Ke14] for all $(r,k)$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #722, https://www.erdosproblems.com/722, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/722",
+        "start": 12881,
+        "end": 32024,
+        "exactness": "region",
+        "sha256": "978d9ce4b9e9a8ab8b1590fdcdda6becd3988705636f3e81c3dd80f4335b8deb"
+      }
+    }
+  ],
+  "source_sha256": "645aba076cb764540ef45ba6e4d30640609651e7d852c8ffc2525c9d2425fac0",
+  "refusals": []
+}

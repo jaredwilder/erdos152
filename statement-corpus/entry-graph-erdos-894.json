@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/894",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{n_1<n_2<\\cdots\\}\\subset \\mathbb{N}$ be a lacunary sequence (so there exists some $\\epsilon>0$ with $n_{k+1}\\geq (1+\\epsilon)n_k$ for all $k$). Is it true that there must exist a finite colouring of $\\mathbb{N}$ with no monochromatic solutions to $a-b\\in A$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/894",
+        "start": 12236,
+        "end": 12525,
+        "exactness": "slice",
+        "sha256": "330e039c5f1e50d007158998402b54d20019743a97f1968a2080b13443b35420"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#894 : [Ka01] number theory | ramsey theory Asked by Erdős in 1987, according to Katznelson [Ka01] . In other words, does the Cayley graph defined on $\\mathbb{Z}$ by a lacunary sequence have a finite chromatic number? Katznelson observed that a positive solution to the problem follows from the answer to [464] , which yields an irrational $\\theta$ and $\\delta>0$ such that $\\inf_k \\| \\theta n_k\\|>\\delta$. Indeed, given such a $\\theta$ a colouring of $\\mathbb{N}$ using $\\ll \\delta^{-1}$ colours lacking any solution to $a-b\\in A$ can be produced by dividing $\\mathbb{R}/\\mathbb{Z}$ into disjoint intervals of length $\\leq \\delta$ and then colouring $n$ according to which interval $\\| \\theta n\\|$ belongs to. In particular, the solution to [464] implies the answer to this question is yes, with the best known quantitative bound, due to Peres and Schlag [PeSc10] , being that there is a colouring with no solutions using at most\\[\\ll \\epsilon^{-1}\\log(1/\\epsilon)\\]colours. Additional thanks to : Euro Vidal Sampaio Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #894, https://www.erdosproblems.com/894, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/894",
+        "start": 12525,
+        "end": 32633,
+        "exactness": "region",
+        "sha256": "622bd7b428713cc4fe3fb1a037f20ee2760857eab2404064e3d7413a9a63c841"
+      }
+    }
+  ],
+  "source_sha256": "a8db739dadbca100630cf1b889ec6fe7fc06f3da8fed57f1a4516ffc63884a60",
+  "refusals": []
+}

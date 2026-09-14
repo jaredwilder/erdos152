@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/177",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Find the smallest $h(d)$ such that the following holds. There exists a function $f:\\mathbb{N}\\to\\{-1,1\\}$ such that, for every $d\\geq 1$,\\[\\max_{P_d}\\left\\lvert \\sum_{n\\in P_d}f(n)\\right\\rvert\\leq h(d),\\]where $P_d$ ranges over all finite arithmetic progressions with common difference $d$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/177",
+        "start": 12255,
+        "end": 12551,
+        "exactness": "slice",
+        "sha256": "663f4768879adbecbbf1139ed640d13135e69371c5a4041476025885ea0b7f7a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#177 : [Er73] [ErGr79] [ErGr80] discrepancy | arithmetic progressions Cantor, Erdős, Schreiber, and Straus [Er66] proved that $h(d)\\ll d!$ is possible. Van der Waerden's theorem implies that $h(d)\\to \\infty$. Beck [Be17] has shown that $h(d) \\leq d^{8+\\epsilon}$ is possible for every $\\epsilon>0$. Roth's famous discrepancy lower bound [Ro64] implies that $h(d)\\gg d^{1/2}$. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #177, https://www.erdosproblems.com/177, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on Svyable Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/177",
+        "start": 12551,
+        "end": 32255,
+        "exactness": "region",
+        "sha256": "dea9443c37feecce9c3227b7bd448b6490c22294f73b0589c13503a45787e5d4"
+      }
+    }
+  ],
+  "source_sha256": "794b43f362e9b4bfe28f7b574126f004d17824c5983d596f36749018019fd935",
+  "refusals": []
+}

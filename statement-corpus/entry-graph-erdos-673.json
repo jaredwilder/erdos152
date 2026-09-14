@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/673",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $1=d_1<\\cdots <d_{\\tau(n)}=n$ be the divisors of $n$ and\\[G(n) = \\sum_{1\\leq i<\\tau(n)}\\frac{d_i}{d_{i+1}}.\\]Is it true that $G(n)\\to \\infty$ for almost all $n$? Can one prove an asymptotic formula for $\\sum_{n\\leq X}G(n)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/673",
+        "start": 12236,
+        "end": 12481,
+        "exactness": "slice",
+        "sha256": "94d3370643d6337ce939e2bbcbf4ad4d2910dec65153670599dfac6b06eb9149"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#673 : [Er79e] [Er82e] number theory | divisors Erdős writes it is 'easy' to prove $\\frac{1}{X}\\sum_{n\\leq X}G(n)\\to \\infty$. Terence Tao has observed that, for any divisor $m\\mid n$,\\[\\frac{\\tau(n/m)}{m} \\leq G(n) \\leq \\tau(n),\\]and hence for example $\\tau(n)/4\\leq G(n)\\leq \\tau(n)$ for even $n$. It is easy to then see that $G(n)$ grows on average, and in general behaves very similarly to $\\tau(n)$ (and in particular the answer to the first question is yes). Tao suggests that this was a mistaken conjecture of Erdős, which he soon corrected a year later to [448] . Indeed, in [Er82e] Erdős recalls this conjecture and observes that it is indeed trivial that $G(n)\\to \\infty$ for almost all $n$, and notes that he and Tenenbaum proved that $G(n)/\\tau(n)$ has a continuous distribution function. Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #673, https://www.erdosproblems.com/673, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/673",
+        "start": 12481,
+        "end": 32316,
+        "exactness": "region",
+        "sha256": "15b81e106eb01a0205416d875e4cd4c325485951ff60adc4820585c8493a61ef"
+      }
+    }
+  ],
+  "source_sha256": "c0f2a772b31d4334d8ef2ea57113c8bd4bcbf9809156c0c055420b8bb9a37acf",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1206",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does $\\{1,2^3,\\ldots,N^3\\}$ contain a Sidon set of size $\\gg N$? Is there an infinite set $A\\subset \\mathbb{N}$ of positive density such that $\\{a^3 : a\\in A\\}$ is a Sidon set?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1206",
+        "start": 12257,
+        "end": 12446,
+        "exactness": "slice",
+        "sha256": "b39fced3ddac1b68581b3cb03c1e2a095b4a8229ae64d1ad67343b41df4e10f7"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1206 : [Er80,p.109] number theory | sidon sets This question may also be asked for higher powers, and [324] suggests that for fifth powers $\\{n^5 :n\\geq 1\\}$ may itself be a Sidon set. Gabdullin and Konyagin [GaKo24] proved that there is a constant $c>0$ such that $\\{ n^3 : N-cN^{1/2}\\leq n\\leq N\\}$ is a Sidon set. Garaev, Garayev, and Konyagin [GGK26] have proved that the exponent $1/2$ can be improved to $4/7-o(1)$ for infinitely many $N$, and to $3/5$ for all $N$ if we replace $n^3$ with $n^4$. In [Er80] Erdős defines $g_k(A)$ to be the maximal size of a Sidon set of $\\{a^k : a\\in A\\}$, and asks whether $g_k(A)\\geq g_k(\\{1,\\ldots,N\\})$ where $N=\\lvert A\\rvert$. (See [530] for the linear analogue.) See also [773] for an analogous question about squares. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1206, https://www.erdosproblems.com/1206, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes KStar Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1206",
+        "start": 12446,
+        "end": 32705,
+        "exactness": "region",
+        "sha256": "61b4e8813058f8e113c561e19e04171a3b21c83b5c9e65c934c48c81a404e04f"
+      }
+    }
+  ],
+  "source_sha256": "0b583c1243dcb2e2768665aaedd18e0f816950a3a34ba7f29f100d0440905050",
+  "refusals": []
+}

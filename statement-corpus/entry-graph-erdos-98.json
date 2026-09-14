@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/98",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $h(n)$ be such that any $n$ points in $\\mathbb{R}^2$, with no three on a line and no four on a circle, determine at least $h(n)$ distinct distances. Does $h(n)/n\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/98",
+        "start": 12253,
+        "end": 12436,
+        "exactness": "slice",
+        "sha256": "5a27a20e24ccc5826023e34d63c40d3eb0015b30b2d0e0aa3d2c29a1dcfcaf5d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#98 : [Er75f,p.101] [Er83c] [Er87b,p.167] [Er90] [Er92b] [EFPR93] [Er94b] [Er97e] geometry | distances Erdős could not even prove $h(n)\\geq n$. Pach has shown $h(n)<n^{\\log_23}$. Erdős, Füredi, and Pach [EFPR93] have improved this to\\[h(n) < n\\exp(c\\sqrt{\\log n})\\]for some constant $c>0$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 15 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #98, https://www.erdosproblems.com/98, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes JeewonKim Open to collaboration mysticflounder Currently working on mysticflounder Looks difficult mysticflounder Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/98",
+        "start": 12436,
+        "end": 32684,
+        "exactness": "region",
+        "sha256": "03fdc60f53c78824f483c04e1bb58c74f5e12cefe3962d8557794b9005757755"
+      }
+    }
+  ],
+  "source_sha256": "ec819c1ad0b63fdfaf2541f5ef28facdb01c0370edc36e34273ecb7fda090069",
+  "refusals": []
+}

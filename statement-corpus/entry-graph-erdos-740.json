@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/740",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\mathfrak{m}$ be an infinite cardinal and $G$ be a graph with chromatic number $\\mathfrak{m}$. Let $r\\geq 1$. Must $G$ contain a subgraph of chromatic number $\\mathfrak{m}$ which does not contain any odd cycle of length $\\leq r$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/740",
+        "start": 12255,
+        "end": 12495,
+        "exactness": "slice",
+        "sha256": "1f48450c60b68384fd1496658b6bc1357f06820fce958a526ab7bb46328f2e4a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#740 : [Er69b] [Er71,p.100] [Er81] [Er95d] graph theory | chromatic number A question of Erdős and Hajnal. Rödl proved this is true if $\\mathfrak{m}=\\aleph_0$ and $r=3$ (see [108] for the finitary version). More generally, Erdős and Hajnal asked must there exist (for every cardinal $\\mathfrak{m}$ and integer $r$) some $f_r(\\mathfrak{m})$ such that every graph with chromatic number $\\geq f_r(\\mathfrak{m})$ contains a subgraph with chromatic number $\\mathfrak{m}$ with no odd cycle of length $\\leq r$? Erdős [Er95d] claimed that even the $r=3$ case of this is open: must every graph with sufficiently large chromatic number contain a triangle free graph with chromatic number $\\mathfrak{m}$? In [Er81] Erdős also asks the same question but with girth (i.e. the subgraph does not contain any cycle at all of length $\\leq C$). Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #740, https://www.erdosproblems.com/740, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/740",
+        "start": 12495,
+        "end": 32628,
+        "exactness": "region",
+        "sha256": "d1f0ec250f253838a34c6f9a344702dd7b4c9d5f32c2edf05e2b5d5832442f22"
+      }
+    }
+  ],
+  "source_sha256": "231ba6c8cf0c2e7471126cbc8607ff215d0bb6871111f139bacbeda2fe0a479a",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/124",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any $d\\geq 1$ and $k\\geq 0$ let $P(d,k)$ be the set of integers which are the sum of distinct powers $d^i$ with $i\\geq k$. Let $3\\leq d_1<d_2<\\cdots <d_r$ be integers such that\\[\\sum_{1\\leq i\\leq r}\\frac{1}{d_r-1}\\geq 1.\\]Can all sufficiently large integers be written as a sum of the shape $\\sum_i c_ia_i$ where $c_i\\in \\{0,1\\}$ and $a_i\\in P(d_i,0)$? If we further have $\\mathrm{gcd}(d_1,\\ldots,d_r)=1$ then, for any $k\\geq 1$, can all sufficiently large integers be written as a sum of the shape $\\sum_i c_ia_i$ where $c_i\\in \\{0,1\\}$ and $a_i\\in P(d_i,k)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/124",
+        "start": 12255,
+        "end": 12846,
+        "exactness": "slice",
+        "sha256": "87959d0cd404f3c6eabb70ed5c7184ab15cfc10a65bb416310061c5f23a2357b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#124 : [BEGL96] [Er97,p.156] [Er97e,p.533] number theory | base representations | complete sequences The second question was conjectured by Burr, Erdős, Graham, and Li [BEGL96] , who proved it for $\\{3,4,7\\}$. The first question was asked separately by Erdős in [Er97] and [Er97e] (although there is some ambiguity over whether he intended $P(d,0)$ or $P(d,1)$ - certainly he mentions no gcd condition). A simple positive proof of the first question was provided (and formalised in Lean) by Aristotle thanks to Alexeev; see the comments for details. In [BEGL96] they record that Pomerance observed that the condition $\\sum 1/(d_i-1)\\geq 1$ is necessary (for both questions), but give no details. Tao has sketched an explanation in the comments. It is trivial that $\\mathrm{gcd}(d_1,\\ldots,d_r)=1$ is a necessary condition in the second question. Melfi [Me04] gives a construction, for any $\\epsilon>0$, of an infinite set of $d_i$ for which every sufficiently large integer can be written as a finite sum of the shape $\\sum_i c_ia_i$ where $c_i\\in \\{0,1\\}$ and $a_i\\in P(d_i,0)$ and yet $\\sum_{i}\\frac{1}{d_i-1}<\\epsilon$. See also [125] . Additional thanks to : Boris Alexeev, Alfaiz, Dustin Mixon, and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (14) Proof claims (0) More information and links This page was last edited 01 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #124, https://www.erdosproblems.com/124, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on RealBelgian Looks difficult None Looks tractable None Could be formalisable None Working on formalising None <a href=\"",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/124",
+        "start": 12846,
+        "end": 33938,
+        "exactness": "region",
+        "sha256": "91537ab89a3299473036f4c1ef24fbb686d1b05bb6e83702dc6a558ba6b08030"
+      }
+    }
+  ],
+  "source_sha256": "d96e7779c6d746e488b9e0a671b4ec91d714600cb03ef8ca9a75c4d74509ecdb",
+  "refusals": []
+}

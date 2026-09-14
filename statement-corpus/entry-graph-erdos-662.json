@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/662",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Consider the triangular lattice with minimal distance between two points $1$. Denote by $f(t)$ the number of distances from any points $\\leq t$. For example $f(1)=6$, $f(\\sqrt{3})=12$, and $f(3)=18$. Let $x_1,\\ldots,x_n\\in \\mathbb{R}^2$ be such that $d(x_i,x_j)\\geq 1$ for all $i\\neq j$. Is it true that, provided $n$ is sufficiently large depending on $t$, the number of distances $d(x_i,x_j)\\leq t$ is less than or equal to $f(t)$ with equality perhaps only for the triangular lattice? In particular, is it true that the number of distances $\\leq \\sqrt{3}-\\epsilon$ is less than $1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/662",
+        "start": 12255,
+        "end": 12860,
+        "exactness": "slice",
+        "sha256": "36aa5ec29ffa07c6b04a7cf8ea20fe0377aa370c3bfe27f0fb4cb782d08c2eef"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#662 : [Er97e,p.532] geometry | distances A problem of Erdős, Lovász, and Vesztergombi. This is essentially verbatim the problem description in [Er97e] , but this does not make sense as written; there must be at least one typo. Suggestions about what this problem intends are welcome. Erdős also goes on to write 'Perhaps the following stronger conjecture holds: Let $t_1<t_2<\\cdots$ be the set of distances occurring in the triangular lattice. $t_1=1$ $t_2=\\sqrt{3}$ $t_3=3$ $t_4=5$ etc. Is it true that there is an $\\epsilon_n$ so that for every set $y_1,\\ldots,$ with $d(y_i,y_j)\\geq 1$ the number of distances $d(y_i,y_j)<t_n$ is less than $f(t_n)$?' Again, this is nonsense interpreted literally; I am not sure what Erdős intended. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #662, https://www.erdosproblems.com/662, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) The original source is ambiguous as to what the problem is — please add a comment if you have an opinion. Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/662",
+        "start": 12860,
+        "end": 32529,
+        "exactness": "region",
+        "sha256": "38124592cd407b823f730507648faeed32007eec0ec43d24b64038ce6d3d9a5e"
+      }
+    }
+  ],
+  "source_sha256": "ddcabbe72b082d7cba02c846a954036b9a4d880d4bda89caef8dbf0c3acc8065",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/215",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does there exist $S\\subseteq \\mathbb{R}^2$ such that every set congruent to $S$ (that is, $S$ after some translation and rotation) contains exactly one point from $\\mathbb{Z}^2$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/215",
+        "start": 12274,
+        "end": 12458,
+        "exactness": "slice",
+        "sha256": "a43c54b2dbc163bfcd8791fe67b387fb9b79039431e27eecf2eb55d51871c8b6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#215 : [Er83c] geometry An old question of Steinhaus. Erdős was 'almost certain that such a set does not exist'. In fact, such a set does exist, as proved by Jackson and Mauldin [JaMa02] . Their construction depends on the axiom of choice. Additional thanks to : Vjekoslav Kovac Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #215, https://www.erdosproblems.com/215, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/215",
+        "start": 12458,
+        "end": 31544,
+        "exactness": "region",
+        "sha256": "b15b8e49ee305b0262f44846b804b95f1a20e21e12c11604f8b0ab354f025269"
+      }
+    }
+  ],
+  "source_sha256": "fa7b6faa5ffa5655632d2fc010105a13be02d131d1519c6025ea7e42c90e184d",
+  "refusals": []
+}

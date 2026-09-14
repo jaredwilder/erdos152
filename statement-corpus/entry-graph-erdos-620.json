@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/620",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $G$ is a graph on $n$ vertices without a $K_4$ then how large a triangle-free induced subgraph must $G$ contain?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/620",
+        "start": 12255,
+        "end": 12376,
+        "exactness": "slice",
+        "sha256": "c7444a298b85f133015c97b61b2613ba9f9d6ed9c7b37f17c4863b27a72f5cf3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#620 : [ErRo62] [EGT92] [Er99] graph theory This was first asked by Erdős and Rogers [ErRo62] , and is generally known as the Erdős-Rogers problem. Let $f(n)$ be such that every such graph contains a triangle-free subgraph with at least $f(n)$ vertices. It is now known that $f(n)=n^{1/2+o(1)}$. Bollobás and Hind [BoHi91] proved\\[n^{1/2} \\ll f(n) \\ll n^{7/10+o(1)}.\\]Krivelevich [Kr94] improved this to\\[n^{1/2}(\\log\\log n)^{1/2} \\ll f(n) \\ll n^{2/3}(\\log n)^{1/3}.\\]Wolfovitz [Wo13] proved\\[f(n) \\ll n^{1/2}(\\log n)^{120}.\\]The best bounds currently known are\\[n^{1/2}\\frac{(\\log n)^{1/2}}{\\log\\log n}\\ll f(n) \\ll n^{1/2}\\log n.\\]The lower bound follows from results of Shearer [Sh95] , and the upper bound was proved by Mubayi and Verstraete [MuVe24] . Additional thanks to : Noga Alon and Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #620, https://www.erdosproblems.com/620, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/620",
+        "start": 12376,
+        "end": 32955,
+        "exactness": "region",
+        "sha256": "5ed4d184b544e0806ca070ab07899d1f598df142c0883e37bd031e3da5e0bfcb"
+      }
+    }
+  ],
+  "source_sha256": "1ceda5e3a987bd8206f2905bb95afb4fbaa75a7bd4fa6ebe10791e28e25d109d",
+  "refusals": []
+}

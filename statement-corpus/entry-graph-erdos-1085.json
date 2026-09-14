@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1085",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f_d(n)$ be minimal such that, in any set of $n$ points in $\\mathbb{R}^d$, there exist at most $f_d(n)$ pairs of points which distance $1$ apart. Estimate $f_d(n)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1085",
+        "start": 12257,
+        "end": 12431,
+        "exactness": "slice",
+        "sha256": "4e16cef768121d0eb4018806ee2af4b47180eccf916efadc520b1183797f15cf"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1085 : [Er75f,p.103] geometry | distances The most difficult cases are $d=2$ and $d=3$. When $d=2$ this is the unit distance problem [90] , and the best known bounds are\\[n^{1+c}< f_2(n) \\ll n^{4/3}\\]for some small constant $c>0$, the lower bound by an internal model at OpenAI, at least for infinitely many $n$ (see [90] ) and the upper bound by Spencer, Szemerédi, and Trotter [SST84] . When $d=3$ the best known bounds are\\[n^{4/3}\\log\\log n \\ll f_3(n) \\ll n^{3/2}\\beta(n)\\]where $\\beta(n)$ is a very slowly growing function, the lower bound by Erdős [Er60b] and the upper bound by Clarkson, Edelsbrunner, Guibas, Sharir, and Welzl [CEGSW90] . A construction of Lenz (taking points on orthogonal circles) shows that, for $d\\geq 4$,\\[f_d(n)\\geq \\frac{p-1}{2p}n^2-O(1)\\]with $p=\\lfloor d/2\\rfloor$. Erdős [Er60b] showed that the Erdős-Stone theorem implies\\[f_d(n) \\leq \\left(\\frac{p-1}{2p}+o(1)\\right)n^2\\]for $d\\geq 4$. Erdős [Er67e] determined $f_d(n)$ up to $O(1)$ for all even $d\\geq 4$. Brass [Br97] determined $f_4(n)$ exactly. Swanepoel [Sw09] determined $f_d(n)$ exactly for even $d\\geq 6$. For odd $d\\geq 5$ Erdős and Pach [ErPa90] proved that there exist constants $c_1(d),c_2(d)>0$ such that\\[\\frac{p-1}{2p}n^2 +c_1n^{4/3}\\leq f_d(n) \\leq \\frac{p-1}{2p}n^2 +c_2n^{4/3}.\\] Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 23 May 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1085, https://www.erdosproblems.com/1085, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A186705 , possible Reactions Likes Saw-mon-and-Natalie Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1085",
+        "start": 12431,
+        "end": 34204,
+        "exactness": "region",
+        "sha256": "43a1ec08b97e39858c40816a3ddf31bab3f12cba29cb16a55cda7e9f5dfc5d80"
+      }
+    }
+  ],
+  "source_sha256": "aebed1a547d3ae01fd9f736a33171113e07e51630bb70c78840f4ce9b186a363",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/616",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 3$. For an $r$-uniform hypergraph $G$ let $\\tau(G)$ denote the covering number (or transversal number), the minimum size of a set of vertices which includes at least one from each edge in $G$. Determine the best possible $t$ such that, if $G$ is an $r$-uniform hypergraph $G$ where every subgraph $G'$ on at most $3r-3$ vertices has $\\tau(G')\\leq 1$, we have $\\tau(G)\\leq t$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/616",
+        "start": 12255,
+        "end": 12654,
+        "exactness": "slice",
+        "sha256": "9fc941b7d9b3acc612855052cbe6e9db4aa068b880b635bd3dc95e518d0c2ad7"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#616 : [Er99] graph theory Erdős, Hajnal, and Tuza [EHT91] proved that this $t$ satisfies\\[\\frac{3}{16}r+\\frac{7}{8}\\leq t \\leq \\frac{1}{5}r.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #616, https://www.erdosproblems.com/616, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/616",
+        "start": 12654,
+        "end": 31474,
+        "exactness": "region",
+        "sha256": "db10215be8b0884a5861c2c847630e0be69cb51a7c13ab1292c52809b560a2bf"
+      }
+    }
+  ],
+  "source_sha256": "1ab0e5d0fe967185831747a997cb15ac2210e5c2acbf69e56247b281283d70f5",
+  "refusals": []
+}

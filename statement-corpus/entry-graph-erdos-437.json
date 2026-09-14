@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/437",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $1\\leq a_1<\\cdots<a_k\\leq x$. How many of the partial products $a_1,a_1a_2,\\ldots,a_1\\cdots a_k$ can be squares? Is it true that, for any $\\epsilon>0$, there can be more than $x^{1-\\epsilon}$ squares?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/437",
+        "start": 12236,
+        "end": 12455,
+        "exactness": "slice",
+        "sha256": "65f70116a941c219392e9a744618385f7e0584c384325ac81b7088fd28cd8e93"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#437 : [ErGr80] number theory Erdős and Graham write it is 'trivial' that there are $o(x)$ many such squares, although this is not quite trivial, using Siegel's theorem. A positive answer follows from work of Bui, Pratt, and Zaharescu [BPZ24] , as noted by Tao in this blog post . In particular Tao shows that, if $L(x)$ is the maximal number of such squares possible, and $u(x)=(\\log x\\log\\log x)^{1/2}$, then\\[x\\exp(-(2^{1/2}+o(1))u(x)) \\leq L(x) \\leq x\\exp(-(2^{-1/2}+o(1))u(x)).\\]See also [841] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #437, https://www.erdosproblems.com/437, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/437",
+        "start": 12455,
+        "end": 32104,
+        "exactness": "region",
+        "sha256": "4f715d1174799c43596d0ecde04f2f8bdc53228e1a84610f001ab7a56f3d6032"
+      }
+    }
+  ],
+  "source_sha256": "9e81a419d4201ee664e4943c4d22db3cb468bc3e7e821d6e01964495396fb6ac",
+  "refusals": []
+}

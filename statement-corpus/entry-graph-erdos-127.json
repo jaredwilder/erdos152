@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/127",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(m)$ be maximal such that every graph with $m$ edges must contain a bipartite graph with\\[\\geq \\frac{m}{2}+\\frac{\\sqrt{8m+1}-1}{8}+f(m)\\]edges. Is there an infinite sequence of $m_i$ such that $f(m_i)\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/127",
+        "start": 12274,
+        "end": 12498,
+        "exactness": "slice",
+        "sha256": "6f2472535f5b0448c57d116a9113f61896551249950aac9a3c527b761e507d05"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#127 : [Er97b] graph theory Conjectured by Erdős, Kohayakava, and Gyárfás. Edwards [Ed73] proved that $f(m)\\geq 0$ always. Note that $f(\\binom{n}{2})= 0$, taking $K_n$. Solved by Alon [Al96] , who showed $f(n^2/2)\\gg n^{1/2}$, and also showed that $f(m)\\ll m^{1/4}$ for all $m$. The best possible constant in $f(m)\\leq Cm^{1/4}$ is unknown. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #127, https://www.erdosproblems.com/127, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/127",
+        "start": 12498,
+        "end": 31848,
+        "exactness": "region",
+        "sha256": "2b92af5bc9a5ddeeded11affc58797c496f6c61d136475810b441a87d6586d12"
+      }
+    }
+  ],
+  "source_sha256": "ca0c43ba7a5e2228f8358ac529ef9b5c9f8af8aec14fb00b3f95b1064ffa57e1",
+  "refusals": []
+}

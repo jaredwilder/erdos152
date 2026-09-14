@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/211",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $1\\leq k<n$. Given $n$ points in $\\mathbb{R}^2$, at most $n-k$ on any line, there are $\\gg kn$ many lines which contain at least two points.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/211",
+        "start": 12243,
+        "end": 12398,
+        "exactness": "slice",
+        "sha256": "37815fa12d3fc28ec47396da39bc880750d155f97881ccd2769c66e0ae31dcd0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#211 : [Er75f,p.105] [Er81] [Er83c] [Er84] geometry In particular, given any $2n$ points with at most $n$ on a line there are $\\gg n^2$ many lines formed by the points. Solved by Beck [Be83] and Szemerédi and Trotter [SzTr83] . In [Er84] Erdős speculates that perhaps there are $\\geq (1+o(1))kn/6$ many such lines, but says 'perhaps [this] is too optimistic and one should first look for a counterexample'. The constant $1/6$ would be best possible here, since there are arrangements of $n$ points with no four points on a line and $\\sim n^2/6$ many lines containing three points (see Burr, Grünbaum, and Sloane [BGS74] and Füredi and Palásti [FuPa84] ). Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 16 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #211, https://www.erdosproblems.com/211, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/211",
+        "start": 12398,
+        "end": 32547,
+        "exactness": "region",
+        "sha256": "2d2b7e04b349ade5bf0f294bd9355b73b6d5badb89daab7be5e2464b310b5019"
+      }
+    }
+  ],
+  "source_sha256": "a7db03b2249fc033a9cde7e0f78a8ac8e69bf896d2439f3360d87602d950d2b6",
+  "refusals": []
+}

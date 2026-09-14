@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/395",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $z_1,\\ldots,z_n\\in \\mathbb{C}$ with $\\lvert z_i\\rvert=1$ then is it true that the probability that\\[\\lvert \\epsilon_1z_1+\\cdots+\\epsilon_nz_n\\rvert \\leq \\sqrt{2},\\]where $\\epsilon_i\\in \\{-1,1\\}$ uniformly at random, is $\\gg 1/n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/395",
+        "start": 12274,
+        "end": 12512,
+        "exactness": "slice",
+        "sha256": "a9754e4b6bd2ef2f495465e8763bb621bda55c5d0bc8e9f85f02844c91e3a87d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#395 : [Er45] analysis A reverse Littlewood-Offord problem . Erdős originally asked this with $\\sqrt{2}$ replaced by $1$, but Carnielli and Carolino [CaCa11] observed that this is false, choosing $z_1=1$ and $z_k=i$ for $2\\leq k\\leq n$, where $n$ is even, since then the sum is at least $\\sqrt{2}$ always. Solved in the affirmative by He, Juškevičius, Narayanan, and Spiro [HJNS24] . The bound of $1/n$ is the best possible, as shown by taking $z_k=1$ for $1\\leq k\\leq n/2$ and $z_k=i$ otherwise. See also [498] . Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #395, https://www.erdosproblems.com/395, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising DanielChin Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/395",
+        "start": 12512,
+        "end": 32198,
+        "exactness": "region",
+        "sha256": "3979649102b23f56102f06f9854cef477e7598cb17ae72d825d2a11cdafbd300"
+      }
+    }
+  ],
+  "source_sha256": "518dcf795d6f5c2cd3f5a908fc870e2307c8f4d8f229f8bc94a7dc83fd905973",
+  "refusals": []
+}

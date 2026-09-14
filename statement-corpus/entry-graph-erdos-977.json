@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/977",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $P(m)$ is the greatest prime divisor of $m$, then is it true that\\[\\frac{P(2^n-1)}{n}\\to \\infty\\]as $n\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/977",
+        "start": 12236,
+        "end": 12359,
+        "exactness": "slice",
+        "sha256": "cbf7aad7cc9276e288098f699389869982bf216a8b4881de466183b890a6461a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#977 : [Er65b] number theory Schinzel [Sc62] proved that $P(2^n-1)>2n$ for $n>12$. In [Er65b] Erdős also asks about $P(n!+1)$. Stewart [St74b] proved that this conjecture is true if we restrict $n$ to those integers with $<\\frac{1}{\\log 2}\\log\\log n$ many prime factors. This was proved in the affirmative by Stewart [St13] , who proved that\\[P(2^n-1)\\gg n^{1+\\frac{1}{104\\log\\log n}}\\]for all large $n$. The case of $P(n!+1)$ appears to be open still. Murty and Wong [MuWo02] proved that\\[P(n!+1)>(1+o(1))n\\log n\\]assuming the abc conjecture. The best-known unconditional result, due to Lai [La21] , is that\\[\\limsup \\frac{P(n!+1)}{n} \\geq 1+9\\log 2\\approx 7.238.\\] Additional thanks to : Alfaiz and Mehtaab Sawhney Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 01 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #977, https://www.erdosproblems.com/977, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A005420 , A002583 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/977",
+        "start": 12359,
+        "end": 33116,
+        "exactness": "region",
+        "sha256": "ae68bbb05f5fa63eeb767945550897312f2963a768a07b41e5e558be8ad13e83"
+      }
+    }
+  ],
+  "source_sha256": "2e213f8d3c0586c58f4f595a42600386712e9adb99d876fca86af6f5246bfea9",
+  "refusals": []
+}

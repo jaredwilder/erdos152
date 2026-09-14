@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/425",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $F(n)$ be the maximum possible size of a subset $A\\subseteq\\{1,\\ldots,N\\}$ such that the products $ab$ are distinct for all $a<b$. Is there a constant $c$ such that\\[F(n)=\\pi(n)+(c+o(1))n^{3/4}(\\log n)^{-3/2}?\\]If $A\\subseteq \\{1,\\ldots,n\\}$ is such that all products $a_1\\cdots a_r$ are distinct for $a_1<\\cdots <a_r$ then is it true that\\[\\lvert A\\rvert \\leq \\pi(n)+O(n^{\\frac{r+1}{2r}})?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/425",
+        "start": 12255,
+        "end": 12669,
+        "exactness": "slice",
+        "sha256": "749d8f72d7a71e3fe0318eb4594c1503be1342f709c7fd08a0322626407af24c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#425 : [Er69,p.78] [Er70b,p.136] [Er73,p.131] [Er77,p.40] [Er77c,p.67] [Er80,p.102] [ErGr80,p.84] number theory | sidon sets Erdős [Er68] proved that there exist some constants $0<c_1\\leq c_2$ such that\\[\\pi(n)+c_1 n^{3/4}(\\log n)^{-3/2}\\leq F(n)\\leq \\pi(n)+c_2 n^{3/4}(\\log n)^{-3/2}.\\](The lower bound was proved earlier in [Er38] .) This problem can also be considered in the real numbers: that is, what is the size of the the largest $A\\subset [1,x]$ such that for any distinct $a,b,c,d\\in A$ we have $\\lvert ab-cd\\rvert \\geq 1$? Erdős had conjectured (see [Er73] and [Er77c] ) that $\\lvert A\\rvert=o(x)$. In [ErGr80] Erdős and Graham report that Alexander had given a construction disproving this conjecture, establishing that $\\lvert A\\rvert\\gg x$ is possible. Alexander's construction is given in [Er80] , and we sketch a simplified version. Let $B\\subseteq [1,X^2]$ be a Sidon set of integers of size $\\gg X$ and\\[A=\\{ X e^{b/X^2} : b\\in B\\}.\\]It is easy to check that\\[\\lvert ab-cd\\rvert \\geq X^2\\lvert 1-e^{1/X^2}\\rvert \\gg 1\\]for distinct $a,b,c,d\\in A$, and (after rescaling $A$ by some constant factor) this produces a set of size $\\gg X$ with the desired property in the interval $[X,O(X)]$. Furthermore, a simple modification allows for $A$ to also be $1$-separated. In [Er77c] Erdős considers a similar generalisation for sets of complex numbers or complex integers. See also [490] , [793] , and [796] . Additional thanks to : Rishika Agrawal and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 21 June 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #425, https://www.erdosproblems.com/425, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Woett , old-bielefelder Open to collaboration Woett Currently working on None Looks difficult None Looks tractable None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/425",
+        "start": 12669,
+        "end": 34944,
+        "exactness": "region",
+        "sha256": "a11b4130f0d07a5ba172cf98bcf7944b45b1b1989db2afbc4e18806ef6fab0ab"
+      }
+    }
+  ],
+  "source_sha256": "b3b1825c447543246e6c7edbf1a7e967ad14bc5462b5dd2e87fbda911971eb92",
+  "refusals": []
+}

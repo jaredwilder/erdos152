@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/996",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $n_1<n_2<\\cdots$ be a lacunary sequence of integers, and let $f\\in L^2([0,1])$. Let $f_n$ be the $n$th partial sum of the Fourier series of $f(x)$. Is there an absolute constant $C>0$ such that, if\\[\\| f-f_n\\|_2 \\ll \\frac{1}{(\\log\\log\\log n)^{C}}\\]then\\[\\lim_{N\\to\\infty}\\frac{1}{N}\\sum_{k\\leq N}f(\\{\\alpha n_k\\})=\\int_0^1 f(x)\\mathrm{d}x\\]for almost every $\\alpha$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/996",
+        "start": 12255,
+        "end": 12640,
+        "exactness": "slice",
+        "sha256": "bb918149cf18f3a26e8156dd90e9de74458e8f182e3cef8afc0ca826701c6896"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#996 : [Er64b] analysis Raikov proved the conclusion always holds (for every $f\\in L^2([0,1])$, with no assumption on $\\| f-f_n\\|_2$) if $n_k=a^k$ for some integer $a\\geq 2$. Erdős [Er64b] also asked whether this is true for $n_k=\\lfloor a^k\\rfloor$ for some $a>1$. Kac, Salem, and Zygmund [KSZ48] proved that the conclusion holds if\\[\\| f-f_n\\|_2 \\ll \\frac{1}{(\\log n)^{c}}\\]for some constant $c>1$. Erdős [Er49d] proved that the conclusion holds if\\[\\| f-f_n\\|_2 \\ll \\frac{1}{(\\log\\log n)^{c}}\\]for some constant $c>1$. Matsuyama [Ma66] improved this to $c>1/2$. In [Er64b] Erdős asked whether the conclusion holds for all bounded functions $f$ and lacunary sequences $n_k$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #996, https://www.erdosproblems.com/996, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/996",
+        "start": 12640,
+        "end": 32516,
+        "exactness": "region",
+        "sha256": "258db2abfbfa16056075043e632f52f8c87312f94f59ae2af32150d8bbcc678a"
+      }
+    }
+  ],
+  "source_sha256": "a9ef4915a7a5232e0982930794c1e62381b00b8722acd26f0d4072e31967862c",
+  "refusals": []
+}

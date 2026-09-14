@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1173",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Assume the generalised continuum hypothesis. Let\\[f: \\omega_{\\omega+1}\\to [\\omega_{\\omega+1}]^{\\leq \\aleph_\\omega}\\]be a set mapping such that\\[\\lvert f(\\alpha)\\cap f(\\beta)\\rvert <\\aleph_\\omega\\]for all $\\alpha\\neq \\beta$. Does there exist a free set of cardinality $\\aleph_{\\omega+1}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1173",
+        "start": 12257,
+        "end": 12555,
+        "exactness": "slice",
+        "sha256": "0f326d2c9ffefcb49c3d6ad2d4554a7934c35e29eddc766a6e6969db7b62dc8a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1173 : [Ko25b,Problem 35] [Va99,7.88] set theory | combinatorics A problem of Erdős and Hajnal. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 25 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1173, https://www.erdosproblems.com/1173, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1173",
+        "start": 12555,
+        "end": 31425,
+        "exactness": "region",
+        "sha256": "3b94cccf1c2d560a66aee972e751acb9ded8a341cc9d035124ac42da7c8543e6"
+      }
+    }
+  ],
+  "source_sha256": "204e93c19803c333b37fa4ae996764b9122b9b06305c58bb4e2cfe9d5d176dce",
+  "refusals": []
+}

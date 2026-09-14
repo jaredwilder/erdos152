@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/193",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $S\\subseteq \\mathbb{Z}^3$ be a finite set and let $A=\\{a_1,a_2,\\ldots,\\}\\subset \\mathbb{Z}^3$ be an infinite $S$-walk, so that $a_{i+1}-a_i\\in S$ for all $i$. Must $A$ contain three collinear points?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/193",
+        "start": 12255,
+        "end": 12464,
+        "exactness": "slice",
+        "sha256": "14624d20540def2e6c2e89a8848a2953d9e06a51d6fa34dc4c250bda52cc22cf"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#193 : [ErGr79] [ErGr80] geometry Originally conjectured by Gerver and Ramsey [GeRa79] , who showed that the answer is yes for $\\mathbb{Z}^2$, and for $\\mathbb{Z}^3$ that the largest number of collinear points can be bounded. Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #193, https://www.erdosproblems.com/193, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A231255 Reactions Likes Dogmachine Open to collaboration None Currently working on ekalvi Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/193",
+        "start": 12464,
+        "end": 32157,
+        "exactness": "region",
+        "sha256": "ae4b572fa9b94b62d5a40981b6782ad6142be30addb4b2458ebd7b17f0bd862f"
+      }
+    }
+  ],
+  "source_sha256": "e1e8b44a77b2c54fce8302c64e5975ed54ed3a138b181370b5710efe9587ac2c",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/644",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(k,r)$ be minimal such that if $A_1,A_2,\\ldots$ is a family of sets, all of size $k$, such that for every collection of $r$ of the $A_is$ there is some pair $\\{x,y\\}$ which intersects all of the $A_j$, then there is some set of size $f(k,r)$ which intersects all of the sets $A_i$. Is it true that\\[f(k,7)=(1+o(1))\\frac{3}{4}k?\\]Is it true that for any $r\\geq 3$ there exists some constant $c_r$ such that\\[f(k,r)=(1+o(1))c_rk?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/644",
+        "start": 12255,
+        "end": 12696,
+        "exactness": "slice",
+        "sha256": "b3e0afdd866c165d278e04960ea00bbfbced7c7c618da0db6c21f4255425c238"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#644 : [EFKT92] [Er97d] combinatorics A problem of Erdős, Fon-Der-Flaass, Kostochka, and Tuza [EFKT92] , who proved that $f(k,3)=2k$ and $f(k,4)=\\lfloor 3k/2\\rfloor$ and $f(k,5)=\\lfloor 5k/4\\rfloor$, and further that $f(k,6)=k$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #644, https://www.erdosproblems.com/644, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/644",
+        "start": 12696,
+        "end": 31939,
+        "exactness": "region",
+        "sha256": "2e5ee645c6c17b304e26c13cbd5b8d04595ddc7f5c8d7dd0a1e83b12540b1b90"
+      }
+    }
+  ],
+  "source_sha256": "fa0fd082f867eba85a1185dd0c574c66ec43b4fe1f0501001912eef651587c09",
+  "refusals": []
+}

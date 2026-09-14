@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1204",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "We call a sequence of integers $0\\leq a_1<\\cdots <a_k$ admissible if it is missing at least one congruence class modulo every prime $p$. Let $A(k)=\\min a_k$. Estimate $A(k)$ - in particular, is it true that\\[A(k)\\sim k\\log k?\\]Estimate\\[B(k)=\\min \\frac{a_1+\\cdots+a_k}{k}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1204",
+        "start": 12257,
+        "end": 12545,
+        "exactness": "slice",
+        "sha256": "b2a8445a066e6dc8f74db3665434c397540ababbd39f07e33118616b0d43aecb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1204 : [Er80,p.108] number theory Erdős [Er80] attributes this problem to Elliott. The bounds are misstated in [Er80] , but it is known that\\[(1/2+o(1))k\\log k \\leq A(k)\\leq (1+o(1))k\\log k.\\]The upper bound Erdős attributes to Davenport, and follows simply by taking the $k$ smallest primes $>k$. The lower order terms have been improved by Hensley and Richard [HeRi73] (see Section 10 of [Po14c] for more details). The lower bound is originally due to Elliott [El65] , but was rediscovered by the Polymath project on bounded gaps between primes (see [Po14c] ). An upper bound of $\\pi(x+y)\\leq \\pi(x)+(1+o(1))\\pi(y)$ (see [855] ) together with the prime tuples conjecture would imply $A(k)\\geq (1+o(1))k\\log k$. It is trivial that $B(k)<A(k)$. Taking the first $k$ primes which are $>k$ implies\\[B(k)\\leq (1/2+o(1))k\\log k,\\]and since $a_j\\geq A(j)$ we have $B(k) \\geq \\frac{1}{k}\\sum_{1\\leq j\\leq k}A(j)$, whence if $A(k)\\geq (c-o(1))k\\log k$ we have $B(k) \\geq (c/2-o(1))k\\log k$, and so it is likely that\\[B(k)\\sim(1/2+o(1))k\\log k.\\]In [Er80] Erdős also asks about the behaviour of $a_k$ where $a_1<a_2<\\cdots$ is the greedy admissible sequence (i.e. $a_1=0$ and $a_{i+1}$ is the smallest integer $>a_{i-1}$ such that $a_1,\\ldots,a_i$ is admissible). Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 07 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1204, https://www.erdosproblems.com/1204, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A008407 , A023193 , A135311 , possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1204",
+        "start": 12545,
+        "end": 34397,
+        "exactness": "region",
+        "sha256": "81fb84ceb42a44a5cc6beade623883c61d5760c119a2199654d6c09139f63b3b"
+      }
+    }
+  ],
+  "source_sha256": "83b4033ae326d515871d5cfa293619feddf71c8155fcb52d3ccd24d9befe7d08",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/893",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $\\tau(n)$ counts the divisors of $n$ then let\\[f(n)=\\sum_{1\\leq k\\leq n}\\tau(2^k-1).\\]Does $f(2n)/f(n)$ tend to a limit?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/893",
+        "start": 12255,
+        "end": 12384,
+        "exactness": "slice",
+        "sha256": "8acb9cc3330205fbddfd2346181c2e5399ad966f32b6110a09d09840754ac107"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#893 : [Er98] number theory | divisors Erdős [Er98] says that 'probably there is no simple asymptotic formula for $f(n)$ since $f(n)$ increases too fast'. Kovač and Luca [KoLu25] (building on a heuristic independently found by Cambie (personal communication)) have shown that there is no finite limit, in that\\[\\limsup_{n\\to \\infty}\\frac{f(2n)}{f(n)}=\\infty,\\]and provide both theoretical and numerical evidence that suggests $\\lim \\frac{f(2n)}{f(n)}=\\infty$. Additional thanks to : Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #893, https://www.erdosproblems.com/893, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A046801 , possible Reactions Likes Vjeko_Kovac Open to collaboration None Currently working on None Looks difficult Vjeko_Kovac Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/893",
+        "start": 12384,
+        "end": 32452,
+        "exactness": "region",
+        "sha256": "3867a4538d7aa6a6656d8c2d88741ff6c3791aa0120a5322b0aa33189a148db5"
+      }
+    }
+  ],
+  "source_sha256": "d7855f208ccec495ce9cca6bf23417e21dc29756a5ccc2ecfbb248d33f57350f",
+  "refusals": []
+}

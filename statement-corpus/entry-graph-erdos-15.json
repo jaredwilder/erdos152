@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/15",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that\\[\\sum_{n=1}^\\infty(-1)^n\\frac{n}{p_n}\\]converges, where $p_n$ is the sequence of primes?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/15",
+        "start": 12253,
+        "end": 12363,
+        "exactness": "slice",
+        "sha256": "faeb5adbca3944cd6af816f4b5639aa9fdf78448b2e444525ac33640f14fd3a0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#15 : [Er97,p.158] [Er97e,p.535] [Er98] number theory | primes Erdős suggested that a computer could be used to explore this, and did not see any other method to attack this. Tao [Ta23] has proved that this series does converge assuming a strong form of the Hardy-Littlewood prime tuples conjecture. In [Er98] Erdős further conjectures that\\[\\sum_{n=1}^\\infty (-1)^n \\frac{1}{n(p_{n+1}-p_n)}\\]converges and\\[\\sum_{n=1}^\\infty (-1)^n \\frac{1}{p_{n+1}-p_n}\\]diverges. Weisenberg notes that the existence of infinitely many bounded gaps between primes (as proved by Zhang [Zh14] ) implies the latter series does not converge. Weisenberg also has an argument which shows that, assuming the Hardy-Littlewood prime $k$-tuples conjecture, the series is unbounded in at least one direction (positive or negative). Erdős further conjectured that\\[\\sum_{n=1}^\\infty (-1)^n \\frac{1}{n(p_{n+1}-p_n)(\\log\\log n)^c}\\]converges for every $c>0$, and reports that he and Nathanson can prove that this series converges absolutely for $c>2$ (and can show, conditional on 'hopeless' conjectures about the primes, that this sum does not converge absolutely for $c=2$). Sawhney has provided the following proof that this series converges absolutely for $c>2$: note that, whenever $c>1$, the contribution to the sum from gaps $p_{n+1}-p_n\\geq \\log n$ is convergent, so it suffices to consider only small gaps. The number of $n\\leq X$ such that $p_{n+1}-p_n\\in [\\epsilon\\log n,2\\epsilon \\log n)$ is bounded above by $\\ll \\epsilon X$ (this can be proved via the Selberg sieve). In particular, applying this bound for $\\frac{1}{\\log n}\\leq \\epsilon \\leq 1$ of the shape $2^{-j}$ (of which there are at most $\\log\\log n$ possibilities) shows the desired convergence, since\\[\\sum \\frac{1}{n(\\log n)(\\log\\log n)^{c-1}}\\]converges. Additional thanks to : Mehtaab Sawhney and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #15, https://www.erdosproblems.com/15, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Prasannam , holyterror Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/15",
+        "start": 12363,
+        "end": 33660,
+        "exactness": "region",
+        "sha256": "188080d5f7feb7909e10d41e731dfd5414958abb6b2bb0fc075aaa4ffdc341d3"
+      }
+    }
+  ],
+  "source_sha256": "86be6e94409bfb369638799467e57f15ef53822a8e300e7dc579f2a755a4f984",
+  "refusals": []
+}

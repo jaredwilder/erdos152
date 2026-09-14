@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/876",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{a_1<a_2<\\cdots\\}\\subset \\mathbb{N}$ be an infinite sum-free set - that is, there are no solutions to\\[a=b_1+\\cdots+b_r\\]with $b_1<\\cdots<b_r<a\\in A$. How small can $a_{n+1}-a_n$ be? Is it possible that $a_{n+1}-a_n<n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/876",
+        "start": 12255,
+        "end": 12512,
+        "exactness": "slice",
+        "sha256": "57db0630a850f1b2ba0fcbf81a3170e77038e3f68941dee2135335f520284b67"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#876 : [Er75b] [Er77c] [Er98] additive combinatorics Erdős [Er98] writes that Graham 'recently proved' that there is such a sequence for which $a_{n+1}-a_n<n^{1+o(1)}$, and that Melfi proved a somewhat weaker result. Erdős [Er62c] proved that a sum-free set has density zero. Deshouillers, Erdős, and Melfi [DEM99] constructed a sum-free set that grows like $a_n\\sim n^{3+o(1)}$. Luczak and Schoen [LuSc00] have proved that, for all large $N$,\\[\\lvert A\\cap [1,N]\\rvert\\ll (N\\log N)^{1/2},\\]and that there exists a sum-free set $B$ such that\\[\\lvert B\\cap [1,N]\\rvert \\gg \\frac{N^{1/2}}{(\\log N)^{1/2+o(1)}}\\]for all large $N$. In [Er75b] and [Er77c] Erdős asks to determine the maximum possible value of $\\sum_{n\\in A}\\frac{1}{n}$. Erdős had proved this is $<100$, and Sullivan had shown that this is $<4$, and Sullivan conjectured the maximum is slightly larger than $2$. See also [790] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #876, https://www.erdosproblems.com/876, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes SamKorsky Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/876",
+        "start": 12512,
+        "end": 33011,
+        "exactness": "region",
+        "sha256": "37e733d968ef9aeb92c5850b6917537b2077a0a610467cf600cfb1553e87c920"
+      }
+    }
+  ],
+  "source_sha256": "bab10cbe7b28ee55b832af9db5bd92e78648099668aed7c6fa976098b0615461",
+  "refusals": []
+}

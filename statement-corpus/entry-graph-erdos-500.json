@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:500",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is $\\mathrm{ex}_3(n,K_4^3)$? That is, the largest number of $3$-edges which can placed on $n$ vertices so that there exists no $K_4^3$, a set of 4 vertices which is covered by all 4 possible $3$-edges.",
+      "provenance": {
+        "source": "erdos:500",
+        "start": 11934,
+        "end": 12212,
+        "exactness": "slice",
+        "sha256": "a50e4ce66ec8225ce89eb9721fb239302a92a11b42a1687abff2effa4e4cb02f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "A problem of Tur\\'{a}n. Tur\\'{a}n observed that dividing the vertices into three equal parts $X_1,X_2,X_3$, and taking the edges to be those triples that either have exactly one vertex in each part or two vertices in $X_i$ and one vertex in $X_{i+1}$ (where $X_4=X_1$) shows that\\[\\mathrm{ex}_3(n,K_4^3)\\geq\\left(\\frac{5}{9}+o(1)\\right)\\binom{n}{3}.\\]This is probably the truth. The current best upper bound is\\[\\mathrm{ex}_3(n,K_4^3)\\leq 0.5611666\\binom{n}{3},\\]due to Razborov \\cite{Ra10}. See also [712] for the general case.",
+      "provenance": {
+        "source": "erdos:500",
+        "start": 12212,
+        "end": 25176,
+        "exactness": "region",
+        "sha256": "4424af48de257f7c6bd113485687a515933aada71f58e5454ef17bf9f92a0afb"
+      }
+    }
+  ],
+  "source_sha256": "1a84ae7ae4fc9187a31845e000b963a28778662432220420dc572d63531ccb84",
+  "refusals": []
+}

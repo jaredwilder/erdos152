@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1181",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $q(n,k)$ denote the least prime which does not divide $\\prod_{1\\leq i\\leq k}(n+i)$. Is it true that there exists some $c>0$ such that, for all large $n$,\\[q(n,\\log n)<(1-c)(\\log n)^2?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1181",
+        "start": 12257,
+        "end": 12460,
+        "exactness": "slice",
+        "sha256": "7ae27747b386dbc598b4d2d3270792a61abda2d55ed57dbd713d84864004ad23"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1181 : [Er79d,p.78] number theory The upper bound $q(n,\\log n)\\leq (1+o(1))(\\log n)^2$ follows from observing that the primorial of $q(n,k)$ is at most $\\prod_{1\\leq i\\leq k}(n+i)$. Probabilistic heuristics described by Tao in the comments of [457] suggest that\\[q(n,\\log n)\\ll \\frac{\\log\\log n}{\\log\\log\\log n}{\\log n}\\]for all $n$. [457] concerns lower bounds for $q(n,\\log n)$ (and in particular the constructions described there proved that the above upper bound would be best possible). Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 07 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1181, https://www.erdosproblems.com/1181, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes khanukov Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1181",
+        "start": 12460,
+        "end": 32126,
+        "exactness": "region",
+        "sha256": "7843ebafa9141e47fb2e80583799cafad0895cec4e135f7d24fa15a188b71762"
+      }
+    }
+  ],
+  "source_sha256": "746d9b757025edd5212d5fd0c97120e8be27ea2214f28bca76752aa6684ee259",
+  "refusals": []
+}

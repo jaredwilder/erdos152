@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1209",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{a_1<a_2<\\cdots\\}$ be a sequence of integers which tends to infinity sufficiently fast. If there is an $n$ such that all $n+a_k$ are primes then must there exist infinitely many such $n$? What if we ask for $n+a_k$ to be squarefree instead of prime? Are there $n$ such that $n+2^{2^k}$ is always a prime (or always squarefree, or infinitely often a prime, or infinitely often squarefree)?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1209",
+        "start": 12257,
+        "end": 12681,
+        "exactness": "slice",
+        "sha256": "41501be61bdc423b1b0a044d02ae26ad88bf0c73d5bd5e1c22fe319a54817201"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1209 : [Er80,p.111] number theory For the first two questions Erdős [Er80] wrote 'unless I overlook a trivial way of getting a counterexample these questions are quite hopeless'. There is indeed a trivial counterexample (a variant of the construction in [429] ): define $a_1=2$ and for $k\\geq 2$ let $a_k>a_{k-1}$ be a prime such that $a_k+k\\equiv 0\\pmod{q_k}$, where $q_k$ is some prime not dividing $k$. This sequence can be made to grow arbitrarily fast. A similar construction with $\\pmod{q_k^2}$ provides a counterexample to the squarefree question. ebarschkis and GPT have proved that there are no $n$ such that $n+2^{2^k}$ is always prime: let $n\\geq 3$ be any odd integer. If $k$ is chosen sufficiently large, and $p=n+2^{2^{k}}$ is prime, then the multiplicative order of $2^{2^k}\\pmod{p}$, say $m$ is odd, and hence if $l$ is chosen such that $2^l\\equiv 1\\pmod{m}$ then $p\\mid n+2^{2^{k+rl}}$ for all $r\\geq 1$. See also [429] and [1102] . Additional thanks to : ebarschkis Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 17 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1209, https://www.erdosproblems.com/1209, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes ebarschkis Open to collaboration None Currently working on None Looks difficult ebarschkis Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1209",
+        "start": 12681,
+        "end": 33246,
+        "exactness": "region",
+        "sha256": "80d36c389504d6d73fd879bb5c5cf751dd632157a3027b894e65cc4ee1454209"
+      }
+    }
+  ],
+  "source_sha256": "6c847a47c5b1991424ec8fb5cf74de3b59a11c0b40db9b0ae3608909e99d90cd",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/380",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "We call an interval $[u,v]$ 'bad' if the greatest prime factor of $\\prod_{u\\leq m\\leq v}m$ occurs with an exponent greater than $1$. Let $B(x)$ count the number of $n\\leq x$ which are contained in at least one bad interval. Is it true that\\[B(x)\\sim \\#\\{ n\\leq x: P(n)^2\\mid n\\},\\]where $P(n)$ is the largest prime factor of $n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/380",
+        "start": 12236,
+        "end": 12571,
+        "exactness": "slice",
+        "sha256": "00d2ed5fc81ccb9f8f32e2685be372d46b8ec0e5478e324360cd35d5a694523e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#380 : [ErGr80,p.73] number theory Erdős and Graham only knew that $B(x) > x^{1-o(1)}$. Similarly, we call an interval $[u,v]$ 'very bad' if $\\prod_{u\\leq m\\leq v}m$ is powerful. The number of integers $n\\leq x$ contained in at least one very bad interval should be $\\ll x^{1/2}$. In fact, it should be asymptotic to the number of powerful numbers $\\leq x$. We have\\[\\#\\{ n\\leq x: P(n)^2\\mid n\\}=\\frac{x}{\\exp((c+o(1))\\sqrt{\\log x\\log\\log x})}\\]for some constant $c>0$. Tao notes in the comments that if $[u,v]$ is bad then it cannot contain any primes, and hence certainly $v<2u$, and in general $v-u$ must be small (for example, assuming Cramer's conjecture, $v-u\\ll (\\log u)^2$). Tao [Ta26c] has proved this asymptotic, and in fact\\[B(x) = \\left(1+O((\\log x)^{-1+o(1)})\\right) \\#\\{ n\\leq x: P(n)^2\\mid n\\}.\\]Furthermore, the number of $n\\leq x$ contained in at least one very bad interval, but are not themselves powerful, is $O(n^{2/5+o(1)})$. See also [382] . Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (10) Proof claims (0) More information and links This page was last edited 10 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #380, https://www.erdosproblems.com/380, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A070003 , A388654 , A387054 , A389100 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- R",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/380",
+        "start": 12571,
+        "end": 33561,
+        "exactness": "region",
+        "sha256": "5930320733a350d5329cb4179c7d84dd4c487209a1335742c6d9dcc5cf1d8313"
+      }
+    }
+  ],
+  "source_sha256": "18f5536ea72ca22a3d1d1a10c916da117734f1ffa67524653757cd0c8e294201",
+  "refusals": []
+}

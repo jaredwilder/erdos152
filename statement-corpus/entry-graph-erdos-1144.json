@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1144",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f$ be a random completely multiplicative function, where for each prime $p$ we independently choose $f(p)\\in \\{-1,1\\}$ uniformly at random. Is it true that\\[\\limsup_{N\\to \\infty}\\frac{\\sum_{m\\leq N}f(m)}{\\sqrt{N}}=\\infty\\]with probability $1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1144",
+        "start": 12257,
+        "end": 12511,
+        "exactness": "slice",
+        "sha256": "85dce3ac26d06dad37db978d47378f80c2e9543a3abf8acbb2cbe6b082725a96"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1144 : [Va99,1.11] number theory | probability This model of a random multiplicative function is sometimes called a Rademacher function, although this is sometimes reserved for a merely multiplicative function (which is $0$ on non-squarefree integers). See [520] for the partial sums of this alternative model. It should also be compared to another popular model of random completely multiplicative functions, Steinhaus functions, which have $f(p)$ uniformly distributed over the unit circle. Atherfold [At25] has proved that, almost surely,\\[\\sum_{m\\leq N}f(m)\\ll N^{1/2}(\\log N)^{1+o(1)}.\\] Additional thanks to : Adam Harper Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 26 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1144, https://www.erdosproblems.com/1144, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes ebarschkis Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1144",
+        "start": 12511,
+        "end": 32130,
+        "exactness": "region",
+        "sha256": "cdbe228104c8031b40e4b18f978060ca867e0514971107992badcbb0bd3e807b"
+      }
+    }
+  ],
+  "source_sha256": "a613d1276a6f4022493ae9147bf6402938e787f751d3c2fdb58f246f5f916489",
+  "refusals": []
+}

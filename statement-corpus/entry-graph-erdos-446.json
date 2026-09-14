@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/446",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\delta(n)$ denote the density of integers which are divisible by some integer in $(n,2n)$. What is the growth rate of $\\delta(n)$? If $\\delta_1(n)$ is the density of integers which have exactly one divisor in $(n,2n)$ then is it true that $\\delta_1(n)=o(\\delta(n))$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/446",
+        "start": 12262,
+        "end": 12546,
+        "exactness": "slice",
+        "sha256": "fd51b030189735f2df4a656399d2d56ddcb63034bfe72b2e50a5b38e3fbffb74"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#446 : [Er79e] [Er60] [ErGr80,p.89] [Ob1] number theory | divisors Besicovitch [Be34] proved that $\\liminf \\delta(n)=0$. Erdős [Er35] proved that $\\delta(n)=o(1)$. Erdős [Er60] proved that $\\delta(n)=(\\log n)^{-\\alpha+o(1)}$ where\\[\\alpha=1-\\frac{1+\\log\\log 2}{\\log 2}=0.08607\\cdots.\\]This estimate was refined by Tenenbaum [Te84] , and the true growth rate of $\\delta(n)$ was determined by Ford [Fo08] who proved\\[\\delta(n)\\asymp \\frac{1}{(\\log n)^\\alpha(\\log\\log n)^{3/2}}.\\]Erdős asked this at Oberwolfach in 1986, and wrote he was 'quite sure' that $\\delta_1(n)=o(\\delta(n))$, but that 'recent results of Tenenbaum throw some doubt on this'. Indeed, this was disproved by Ford [Fo08] , who showed more generally that if $\\delta_r(n)$ is the density of integers with exactly $r$ divisors in $(n,2n)$ then $\\delta_r(n)\\gg_r\\delta(n)$. See also [448] , [692] , and [693] . Additional thanks to : Zachary Chase and Kevin Ford Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 04 November 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #446, https://www.erdosproblems.com/446, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A074738 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous <div",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/446",
+        "start": 12546,
+        "end": 33854,
+        "exactness": "region",
+        "sha256": "a2f6330265b83033f6c3e3ae6b90c8534a1e6ab9a197088eea81cc46244c40b0"
+      }
+    }
+  ],
+  "source_sha256": "54ff29e92870581b4eabe5fc40084400ca95f6e6e6abee5d0f8c028d8dc0fa6a",
+  "refusals": []
+}

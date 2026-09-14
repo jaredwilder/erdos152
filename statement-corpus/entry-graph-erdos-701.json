@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/701",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\mathcal{F}$ be a family of sets closed under taking subsets (i.e. if $B\\subseteq A\\in\\mathcal{F}$ then $B\\in \\mathcal{F}$). There exists some element $x$ such that whenever $\\mathcal{F}'\\subseteq \\mathcal{F}$ is an intersecting subfamily we have\\[\\lvert \\mathcal{F}'\\rvert \\leq \\lvert \\{ A\\in \\mathcal{F} : x\\in A\\}\\rvert.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/701",
+        "start": 12255,
+        "end": 12591,
+        "exactness": "slice",
+        "sha256": "04e892837c96b9295f0c1e2de8b3b381d0a9fe8b92dec20ad4dca760359b8e11"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#701 : [Er81,p.26] combinatorics | intersecting family A problem of Chvátal [Ch74] , who proved it replacing the closed under subsets condition with the (stronger) condition that, assuming all sets in $\\mathcal{F}$ are subsets of $\\{1,\\ldots,n\\}$, whenever $A\\in \\mathcal{F}$ and there is an injection $f:B\\to A$ such that $x\\leq f(x)$ for all $x\\in B$, then $B\\in \\mathcal{F}$. Sterboul [St74] proved this when, letting $\\mathcal{G}$ be the maximal sets (under inclusion) in $\\mathcal{F}$, all sets in $\\mathcal{G}$ have the same size, $\\lvert A\\cap B\\rvert\\leq 1$ for all $A\\neq B\\in \\mathcal{G}$, and at least two sets in $\\mathcal{G}$ have non-empty intersection. Frankl and Kupavskii [FrKu23] have proved this when $\\mathcal{F}$ has covering number $2$. Borg [Bo11] has proposed a weighted generalisation of this conjecture, which he proves under certain additional assumptions. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #701, https://www.erdosproblems.com/701, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Alfaiz , nothingtaught , JohnJennings Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/701",
+        "start": 12591,
+        "end": 32813,
+        "exactness": "region",
+        "sha256": "1fd55c2b8f4433e04c9db143703990c1a017d7b654303c8943d821c457e464aa"
+      }
+    }
+  ],
+  "source_sha256": "07ff73a23f578f27006dcfa6c2be2b9084baf4d8edbb7b05cda2ac9625e60ee6",
+  "refusals": []
+}

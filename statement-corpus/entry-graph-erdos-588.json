@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/588",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f_k(n)$ be minimal such that if $n$ points in $\\mathbb{R}^2$ have no $k+1$ points on a line then there must be at most $f_k(n)$ many lines containing at least $k$ points. Is it true that\\[f_k(n)=o(n^2)\\]for $k\\geq 4$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/588",
+        "start": 12262,
+        "end": 12490,
+        "exactness": "slice",
+        "sha256": "05272c3473a1722da564ec28052593eb810f3c2af41cc6c0815ce49efaa5d4df"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#588 : [Er84] geometry A generalisation of [101] (which asks about $k=4$). The restriction to $k\\geq 4$ is necessary since Sylvester has shown that $f_3(n)= n^2/6+O(n)$. (See also Burr, Grünbaum, and Sloane [BGS74] and Füredi and Palásti [FuPa84] for constructions which show that $f_3(n)\\geq(1/6+o(1))n^2$.) For $k\\geq 4$, Kárteszi [Ka63] proved\\[f_k(n)\\gg_k n\\log n\\](resolving a conjecture of Erdős that $f_k(n)/n\\to \\infty$). Grünbaum [Gr76] proved\\[f_k(n) \\gg_k n^{1+\\frac{1}{k-2}}.\\]Erdős speculated this may be the correct order of magnitude, but Solymosi and Stojaković [SoSt13] give a construction which shows\\[f_k(n)\\gg_k n^{2-O_k(1/\\sqrt{\\log n})}\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #588, https://www.erdosproblems.com/588, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A006065 , A008997 Reactions Likes MrLaine , zach_hunter Open to collaboration None Currently working on MrLaine Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/588",
+        "start": 12490,
+        "end": 33147,
+        "exactness": "region",
+        "sha256": "507e8eb24e0a4387507c82167bc9893d394784acc4daa326cd5ebba4c225a0f1"
+      }
+    }
+  ],
+  "source_sha256": "a5d62528bf4fe2369a2f9652400d4d3411c03a1fc7882a8f87451d0dfa09f935",
+  "refusals": []
+}

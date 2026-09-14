@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/896",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Estimate the maximum of $F(A,B)$ as $A,B$ range over all subsets of $\\{1,\\ldots,N\\}$, where $F(A,B)$ counts the number of $m$ such that $m=ab$ has exactly one solution (with $a\\in A$ and $b\\in B$).",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/896",
+        "start": 12262,
+        "end": 12466,
+        "exactness": "slice",
+        "sha256": "33831fe30ab840c3fee61b589768a20a45f5d5c80192b74164c7e07be7c88ea7"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#896 : [Er72,p.81] number theory The order of magnitude of $F(A,B)$ is now known:\\[F(A,B)\\asymp \\frac{N^2}{(\\log N)^\\delta(\\log\\log N)^{3/2}}\\]where $\\delta=1-\\frac{1+\\log\\log 2}{\\log 2}\\approx 0.086$. The upper bound is an immediate consequence of the bound on the size of $\\{1,\\ldots,N\\}\\cdot\\{1,\\ldots,N\\}$ given by Ford [Fo08] . The lower bound was proved by GPT-5.5 Pro (prompted by Chojecki), using a similar result from [Fo08] ; the proof is sketched in the comments. See also [490] . Additional thanks to : Przemek Chohecki and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 02 May 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #896, https://www.erdosproblems.com/896, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/896",
+        "start": 12466,
+        "end": 32359,
+        "exactness": "region",
+        "sha256": "346a41ef726c6c4f8e745c6b3c69555b9964f33e6364900e5fa0a0ad2e03e770"
+      }
+    }
+  ],
+  "source_sha256": "cf7a805a0bad9784580ce113ad0dae715d98d723f6ca5754f8067cb479120897",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1093",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For $n\\geq 2k$ we define the deficiency of $\\binom{n}{k}$ as follows. If $\\binom{n}{k}$ is divisible by a prime $p\\leq k$ then the deficiency is undefined. Otherwise, the deficiency is the number of $0\\leq i<k$ such that $n-i$ is $k$-smooth, that is, divisible only by primes $\\leq k$. Are there infinitely many binomial coefficients with deficiency $1$? Are there only finitely many with deficiency $>1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1093",
+        "start": 12257,
+        "end": 12682,
+        "exactness": "slice",
+        "sha256": "409972a0508eabe00e4d8a49b81a276c8b3810b1bb00c471d1831fc99273b09d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1093 : [ELS88,p.522] number theory | binomial coefficients A problem of Erdős, Lacampagne, and Selfridge [ELS88] , that was also asked in the 1986 problem session of West Coast Number Theory (as reported here ). In [ELS93] they prove that if the deficiency exists and is $\\geq 1$ then $n\\ll 2^k\\sqrt{k}$. The following examples are either from [ELS88] or here . The following have deficiency $1$ (there are $58$ examples with $n\\leq 10^5$):\\[\\binom{7}{3},\\binom{13}{4},\\binom{14}{4},\\binom{23}{5},\\binom{62}{6},\\binom{94}{10},\\binom{95}{10}.\\]The examples which follow are the only known examples with deficiency $>1$. The following have deficiency $2$:\\[\\binom{44}{8},\\binom{74}{10},\\binom{174}{12},\\binom{239}{14},\\binom{5179}{27},\\binom{8413}{28},\\binom{8414}{28},\\binom{96622}{42}.\\]The following have deficiency $3$:\\[\\binom{46}{10},\\binom{47}{10},\\binom{241}{16},\\binom{2105}{25},\\binom{1119}{27},\\binom{6459}{33}.\\]The following has deficiency $4$:\\[\\binom{47}{11}.\\]The following has deficiency $9$:\\[\\binom{284}{28}.\\]See also [384] and [1094] . Barreto in the comments has given a positive answer to the second question, conditional on two (strong) conjectures. Additional thanks to : Kevin Barreto Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 27 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1093, https://www.erdosproblems.com/1093, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes KStar , Dogmachine , BitterLemma Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1093",
+        "start": 12682,
+        "end": 33729,
+        "exactness": "region",
+        "sha256": "e9cae3620074a2c6d3ab609bd38788ef5549f23e753c9b79d75e3aece686764f"
+      }
+    }
+  ],
+  "source_sha256": "104a4734ec3e903dfaf4499bc23d0f3b53ac88c22233fb07768caef50620c36d",
+  "refusals": []
+}

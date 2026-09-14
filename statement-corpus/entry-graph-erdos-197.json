@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/197",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Can $\\mathbb{N}$ be partitioned into two sets, each of which can be permuted to avoid monotone 3-term arithmetic progressions?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/197",
+        "start": 12255,
+        "end": 12387,
+        "exactness": "slice",
+        "sha256": "64468a26aa2f38e7eb8189f5b531dd6a7f7c48f78641ffcadefc953ed8970c27"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#197 : [ErGr79] [ErGr80] arithmetic progressions If three sets are allowed then this is possible. Additional thanks to : Boris Alexeev and Dustin Mixon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #197, https://www.erdosproblems.com/197, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Adenwalla , Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/197",
+        "start": 12387,
+        "end": 31501,
+        "exactness": "region",
+        "sha256": "40524c348e8ee3ef2816718dd99f9c1657813feb3ca0e2aaa3e79d066137835e"
+      }
+    }
+  ],
+  "source_sha256": "4b9f029056d8bef814afbac5723a719c1dac52e75966fdc39d66566892484974",
+  "refusals": []
+}

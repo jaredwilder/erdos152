@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/212",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a dense subset of $\\mathbb{R}^2$ such that all pairwise distances are rational?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/212",
+        "start": 12255,
+        "end": 12349,
+        "exactness": "slice",
+        "sha256": "a7df6ec22ce52a56c5973910642064dce8cea6e88dbfbdeb369bd87c2c4644b2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#212 : [Er61,p.246] [Er75f,p.107] [Er83c] [Er87b,p.172] geometry | distances Conjectured by Ulam. Erdős believed there cannot be such a set. This problem is discussed in a blogpost by Terence Tao, in which he shows that there cannot be such a set, assuming the Bombieri-Lang conjecture. The same conclusion was independently obtained by Shaffaf [Sh18] . Indeed, Shaffaf and Tao actually proved that such a rational distance set must be contained in a finite union of real algebraic curves. Solymosi and de Zeeuw [SdZ10] then proved (unconditionally) that a rational distance set contained in a real algebraic curve must be finite, unless the curve contains a line or a circle. Ascher, Braune, and Turchet [ABT20] observed that, combined, these facts imply that a rational distance set in general position must be finite (conditional on the Bombieri-Lang conjecture). In [Er87b] Erdős mentions that Besicovitch conjectured that the limit points of a rational distance set cannot contain arbitrarily large convex sets. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 16 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #212, https://www.erdosproblems.com/212, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult Vjeko_Kovac , majer Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/212",
+        "start": 12349,
+        "end": 33173,
+        "exactness": "region",
+        "sha256": "fd98eab5c2e476ebac4735b851769ed7b8aec2b2e2eb977618ade148ae2ad38b"
+      }
+    }
+  ],
+  "source_sha256": "8cd367a9700ea54ebb72114e3e492f24e51d2845210d58110016fafa046f6370",
+  "refusals": []
+}

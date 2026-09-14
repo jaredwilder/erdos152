@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/917",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 4$ and $f_k(n)$ be the largest number of edges in a graph on $n$ vertices which has chromatic number $k$ and is critical (i.e. deleting any edge reduces the chromatic number). Is it true that\\[f_k(n) \\gg_k n^2?\\]Is it true that\\[f_6(n)\\sim n^2/4?\\]More generally, is it true that, for $k\\geq 6$,\\[f_k(n) \\sim \\frac{1}{2}\\left(1-\\frac{1}{\\lfloor k/3\\rfloor}\\right)n^2?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/917",
+        "start": 12255,
+        "end": 12648,
+        "exactness": "slice",
+        "sha256": "edd67a8cebd955db8fb87a1e600773e8c89be2d8784d1f0be7bd4e73ac1d0c66"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#917 : [Er69b] [Er93,p.341] graph theory | chromatic number Erdős [Er93] wrote 'I learned of this definition from Dirac in 1949 and immediately asked whether $f_k(n)=o(n^2)$. To my great surprise Dirac constructed a $6$ critical graph on $n$ vertices with more than $\\frac{n^2}{4}$ edges.' In fact Dirac [Di52] proved\\[f_6(4n+2) \\geq 4n^2+8n+3,\\]as witnessed by taking two disjoint copies of $C_{2n+1}$ and adding all edges between them. Erdős [Er69b] observed that Dirac's construction generalises to show that, if $3\\mid k$, there are infinitely many values of $n$ (those of the shape $mk/3$ where $m$ is odd) such that\\[f_k(n) \\geq \\frac{1}{2}\\left(1-\\frac{1}{k/3}\\right)n^2 + n.\\]Toft [To70] proved that $f_k(n)\\gg_k n^2$ for $k\\geq 4$. Constructions of Stiebitz [St87] show that, for $k\\geq 6$, there exist infinitely many values of $n$ such that\\[f_k(n) \\geq \\frac{1}{2}\\left(1-\\frac{1}{\\lfloor k/3\\rfloor+\\delta_k}\\right)n^2\\]where $\\delta_k=0$ if $k\\equiv 0\\pmod{3}$, $\\delta_k=1/7$ if $k\\equiv 1\\pmod{3}$, and $\\delta_k\\equiv 24/69$ if $k\\equiv 2\\pmod{3}$, which disproves Erdős' conjectured asympotic for $k\\not\\equiv 0\\pmod{3}$. Stiebitz also proved the general upper bound\\[f_k(n) < \\mathrm{ex}(n;K_{k-1})\\sim \\frac{1}{2}\\left(1-\\frac{1}{k-2}\\right)n^2\\]for large $n$. Luo, Ma, and Yang [LMY23] have improved this upper bound to\\[f_k(n) \\leq \\frac{1}{2}\\left(1-\\frac{1}{k-2}-\\frac{1}{36(k-1)^2}+o(1)\\right)n^2\\]See also [944] and [1032] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #917, https://www.erdosproblems.com/917, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- To hand",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/917",
+        "start": 12648,
+        "end": 33647,
+        "exactness": "region",
+        "sha256": "26c676c13c1e54df9e7883ba2cd5f0263d85fc576b4845096dbd9fa49587d7bf"
+      }
+    }
+  ],
+  "source_sha256": "a88a06b4b95584e7b82e040406ed5342ad4d8e4606e2069888e1ba4a1c6bd1d4",
+  "refusals": []
+}

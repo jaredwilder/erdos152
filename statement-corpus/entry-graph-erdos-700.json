@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/700",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let\\[f(n)=\\min_{1<k\\leq n/2}\\textrm{gcd}\\left(n,\\binom{n}{k}\\right).\\] Characterise those composite $n$ such that $f(n)=n/P(n)$, where $P(n)$ is the largest prime dividing $n$. Are there infinitely many composite $n$ such that $f(n)>n^{1/2}$? Is it true that, for every composite $n$,\\[f(n) \\ll_A \\frac{n}{(\\log n)^A}\\]for every $A>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/700",
+        "start": 12255,
+        "end": 12643,
+        "exactness": "slice",
+        "sha256": "c9273e32567ff5d119f6e6cdf7ab7d6d0ca378d8d967b0ec2d6b42038b31bb8b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#700 : [ErSz78] number theory | binomial coefficients A problem of Erdős and Szekeres. It is easy to see that $f(n)\\leq n/P(n)$ for composite $n$, since if $j=p^k$ where $p^k\\mid n$ and $p^{k+1}\\nmid n$ then $\\textrm{gcd}\\left(n,\\binom{n}{j}\\right)=n/p^k$. This implies\\[f(n) \\leq (1+o(1))\\frac{n}{\\log n}.\\]It is known that $f(n)=n/P(n)$ when $n$ is the product of two primes. Another example is $n=30$. For the second problem, it is easy to see that for any $n$ we have $f(n)\\geq p(n)$, where $p(n)$ is the smallest prime dividing $n$, and hence there are infinitely many $n$ (those $=p^2)$ such that $f(n)\\geq n^{1/2}$. Additional thanks to : Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #700, https://www.erdosproblems.com/700, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A091963 , possible Reactions Likes AchimDoerre Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/700",
+        "start": 12643,
+        "end": 32630,
+        "exactness": "region",
+        "sha256": "80ad9371df68e7ea7f70fcec52a8e4753005bd7e4ed66058db314d2b058c3d41"
+      }
+    }
+  ],
+  "source_sha256": "708e16cf1cdd248febb5aff42bb4d483f04232460b027e24acba64b60ed97296",
+  "refusals": []
+}

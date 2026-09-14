@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/834",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does there exist a $3$-critical $3$-uniform hypergraph in which every vertex has degree $\\geq 7$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/834",
+        "start": 12262,
+        "end": 12365,
+        "exactness": "slice",
+        "sha256": "1030b9a82982036c5f5653c30f7cc5cf0e4434794b01cf4cb6e8a4c1fe0d729d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#834 : [Er74d,p.282] graph theory | hypergraphs A problem of Erdős and Lovász. They do not specify what is meant by $3$-critical. One definition in the literature is: a hypergraph is $3$-critical if there is a set of $3$ vertices which intersects every edge, but no such set of size $2$, and yet for any edge $e$ there is a pair of vertices which intersects every edge except $e$. Raphael Steiner observes that a $3$-critical hypergraph in this sense has bounded size, so this problem would be a finite computation, and perhaps is not what they meant. An alternative definition is that a hypergraph is $3$-critical if it has chromatic number $3$, but its chromatic number becomes $2$ after deleting any edge or vertex. In either case, this has been resolved by Li [Li25] . In the first formulation, the transversal notion of criticality, Li proves that a $3$-critical $3$-uniform hypergraph must have a vertex of degree $\\leq 6$. On the other hand, in the second formulation, the chromatic notion of criticality, Li provides an explicit $3$-critical $3$-uniform hypergraph on $9$ vertices with minimum degree $7$. Additional thanks to : Alfaiz and Raphael Steiner Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 01 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #834, https://www.erdosproblems.com/834, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes ruiliangli Open to collaboration None Currently working on ruiliangli Looks difficult None Looks tractable ruiliangli Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/834",
+        "start": 12365,
+        "end": 32522,
+        "exactness": "region",
+        "sha256": "c3ea02836c12a690044c1294a1c263f6bb743e9b3f0075ccf1331ef93a58f072"
+      }
+    }
+  ],
+  "source_sha256": "659d2af6bf959f5413e815bc449422956729d6f244cd5567825f8fb8091afa66",
+  "refusals": []
+}

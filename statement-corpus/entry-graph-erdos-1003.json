@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1003",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Are there infinitely many solutions to $\\phi(n)=\\phi(n+1)$, where $\\phi$ is the Euler totient function?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1003",
+        "start": 12257,
+        "end": 12366,
+        "exactness": "slice",
+        "sha256": "bb4bcfa89b5bbcd1d72211835cd35503f908b0368497a43276977a16b68b4db0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1003 : [Er85e] number theory Erdős [Er85e] says that, presumably, for every $k\\geq 1$ the equation\\[\\phi(n)=\\phi(n+1)=\\cdots=\\phi(n+k)\\]has infinitely many solutions. Erdős, Pomerance, and Sárközy [EPS87] proved that the number of $n\\leq x$ with $\\phi(n)=\\phi(n+1)$ is at most\\[\\frac{x}{\\exp((\\log x)^{1/3})}.\\]See [946] for the analogous question with the divisor function, and [415] for a question about more general inequality patterns among consecutive values of $\\phi$. Additional thanks to : Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 19 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1003, https://www.erdosproblems.com/1003, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A001274 Reactions Likes graszssss , Alfaiz , RomanLeLan , Steve_Fan Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1003",
+        "start": 12366,
+        "end": 32742,
+        "exactness": "region",
+        "sha256": "6f5169836a27590b4eb4b0b00eb0be35909fedc6c10c9318e09bd7061a7807cc"
+      }
+    }
+  ],
+  "source_sha256": "0600582c4635cee08ea52f6f390f38ec948f44c6761f55d1a39f9c172ff4058e",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/819",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(N)$ be maximal such that there exists $A\\subseteq \\{1,\\ldots,N\\}$ with $\\lvert A\\rvert=\\lfloor N^{1/2}\\rfloor$ such that $\\lvert (A+A)\\cap [1,N]\\rvert=f(N)$. Estimate $f(N)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/819",
+        "start": 12255,
+        "end": 12442,
+        "exactness": "slice",
+        "sha256": "9f31a8bd90857ba6478bddc1bb117a8dd2ff143c40003b016b6930a7497418e4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#819 : [Er91] additive combinatorics Erdős and Freud [ErFr91] proved\\[\\left(\\frac{3}{8}-o(1)\\right)N \\leq f(N) \\leq \\left(\\frac{1}{2}+o(1)\\right)N,\\]and note that it is closely connected to the size of the largest quasi-Sidon set (see [840] ). Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #819, https://www.erdosproblems.com/819, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/819",
+        "start": 12442,
+        "end": 31799,
+        "exactness": "region",
+        "sha256": "4829ab48197773ecc93664fadd22774447d33fb329b6c8a8a080363ad25a4def"
+      }
+    }
+  ],
+  "source_sha256": "7ed05600822f2be060072150be5213cff94482d5b8552effaa7ae9005d085716",
+  "refusals": []
+}

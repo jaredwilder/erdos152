@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/130",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subset\\mathbb{R}^2$ be an infinite set which contains no three points on a line and no four points on a circle. Consider the graph with vertices the points in $A$, where two vertices are joined by an edge if and only if they are an integer distance apart. How large can the chromatic number and clique number of this graph be? In particular, can the chromatic number be infinite?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/130",
+        "start": 12255,
+        "end": 12655,
+        "exactness": "slice",
+        "sha256": "8765143bbf1ce4f2a6d8b8b8815cd7f79cf78609d43560aed0c6d83f043de38e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#130 : [Er97b] graph theory | chromatic number Asked by Andrásfai and Erdős. Erdős [Er97b] also asked where such a graph could contain an infinite complete graph, but this is impossible by an earlier result of Anning and Erdős [AnEr45] . See also [213] . Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #130, https://www.erdosproblems.com/130, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes JeewonKim Open to collaboration None Currently working on Lherdos Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/130",
+        "start": 12655,
+        "end": 32071,
+        "exactness": "region",
+        "sha256": "3ad87c5e5ab0361ceb8ad98208cad210819fcbc3c83ee3b598d0a988ebd48eac"
+      }
+    }
+  ],
+  "source_sha256": "d13b926f298e561b2e5e4193f6f228208940ecb14116aa1ac9948cdb0d984079",
+  "refusals": []
+}

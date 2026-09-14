@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/276",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there an infinite Lucas sequence $a_0,a_1,\\ldots$ where $a_{n+2}=a_{n+1}+a_n$ for $n\\geq 0$ such that all $a_k$ are composite, and yet no integer has a common factor with every term of the sequence?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/276",
+        "start": 12255,
+        "end": 12462,
+        "exactness": "slice",
+        "sha256": "ab7a3687fc34e2a721373c170452dab748b6e486af413d5a91a5cce365a50e4f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#276 : [ErGr80,p.27] number theory | covering systems Whether such a composite Lucas sequence even exists was open for a while, but using covering systems Graham [Gr64] showed that\\[a_0 = 1786772701928802632268715130455793\\]and\\[a_1 = 1059683225053915111058165141686995\\]generate such a sequence. This problem asks whether one can have a composite Lucas sequence without 'an underlying system of covering congruences responsible'. This problem has been 'conjecturally solved' by Ismailescu and Son [IsSo14] , in that they provide an explicit infinite Lucas sequence in which all the terms are composite, and believe that no covering system is responsible for this. See the comment by van Doorn below for more details. See also [1113] for another problem in which the question is whether covering systems are always responsible. Additional thanks to : Dogmachine and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 29 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #276, https://www.erdosproblems.com/276, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Woett Open to collaboration Woett Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/276",
+        "start": 12462,
+        "end": 32556,
+        "exactness": "region",
+        "sha256": "456b022abfeaa6ee03b141841231e394b9455fff6bc110a832148a210bf73ec6"
+      }
+    }
+  ],
+  "source_sha256": "4414612ceaad985e642a7d8dc0b4012d63663ec6e3f30613b7fe5ebc3e8077c5",
+  "refusals": []
+}

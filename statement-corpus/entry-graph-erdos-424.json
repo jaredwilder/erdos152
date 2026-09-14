@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/424",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $a_1=2$ and $a_2=3$ and continue the sequence by appending to $a_1,\\ldots,a_n$ all possible values of $a_ia_j-1$ with $i\\neq j$. Is it true that the set of integers which eventually appear has positive density?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/424",
+        "start": 12255,
+        "end": 12475,
+        "exactness": "slice",
+        "sha256": "baca22aa89c3fbbd56df8aea0627b3018b4f947318f63bb0fc4e27a5323c7740"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#424 : [Er77c,p.71] [ErGr80,p.84] number theory Asked by Hofstadter. The sequence begins $2,3,5,9,14,17,26,\\ldots$ and is A005244 in the OEIS. This problem is also discussed in section E31 of Guy's book Unsolved Problems in Number Theory. In [ErGr80] (and in Guy's book) this problem as written is asking for whether almost all integers appear in this sequence, but the answer to this is trivially no (as pointed out to me by Steinerberger): no integer $\\equiv 1\\pmod{3}$ is ever in the sequence, so the set of integers which appear has density at most $2/3$. This is easily seen by induction, and the fact that if $a,b\\in \\{0,2\\}\\pmod{3}$ then $ab-1\\in \\{0,2\\}\\pmod{3}$. Presumably it is the weaker question of whether a positive density of integers appear (as correctly asked in [Er77c] ) that was also intended in [ErGr80] . As with many of Erdős' questions, by 'positive density' he most likely meant 'positive lower density' - in other words, does there exist $c>0$ such that for all large $x$ the number of values of $a_i$ in $[1,x]$ is at least $cx$? See also Problem 63 of Green's open problems list . Additional thanks to : Mehtaab Sawhney, Stefan Steinerberger, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (2) More information and links This page was last edited 31 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #424, https://www.erdosproblems.com/424, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A005244 Reactions Likes TerenceTao , SamKorsky Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Previewing forum",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/424",
+        "start": 12475,
+        "end": 33671,
+        "exactness": "region",
+        "sha256": "c4db03533f127f02d3b9e29913f0d3a98b00d6053f6cb482a706b551d2edd0b8"
+      }
+    }
+  ],
+  "source_sha256": "3abba6a3bf5bbd4b03eee29c9498a3a4ce7783b8971831bbebf657228547625e",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/452",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\omega(n)$ count the number of distinct prime factors of $n$. What is the size of the largest interval $I\\subseteq [x,2x]$ such that $\\omega(n)>\\log\\log n$ for all $n\\in I$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/452",
+        "start": 12255,
+        "end": 12443,
+        "exactness": "slice",
+        "sha256": "a8d32e116c49bec16b6c15d3cfe4fcdcb522c416384edbc8b98b0dd409cfc638"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#452 : [ErGr80,p.90] number theory Erdős [Er37] proved that the density of integers $n$ with $\\omega(n)>\\log\\log n$ is $1/2$. The Chinese remainder theorem implies that there is such an interval with\\[\\lvert I\\rvert \\geq (1+o(1))\\frac{\\log x}{(\\log\\log x)^2}.\\]It could be true that there is such an interval of length $(\\log x)^{k}$ for arbitrarily large $k$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 28 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #452, https://www.erdosproblems.com/452, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/452",
+        "start": 12443,
+        "end": 31792,
+        "exactness": "region",
+        "sha256": "87ed482610c751c1835e6903e541edf5bd292b7ffd43741e507002f599858664"
+      }
+    }
+  ],
+  "source_sha256": "9f2773d177e0c1bf438ed491103bb16b090357f11d0bdf2cc4c52c340ac81606",
+  "refusals": []
+}

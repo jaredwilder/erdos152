@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/680",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that, for all sufficiently large $n$, there exists some $k$ such that\\[p(n+k)>k^2+1,\\]where $p(m)$ denotes the least prime factor of $m$? Can one prove this is false if we replace $k^2+1$ by $e^{(1+\\epsilon)\\sqrt{k}}+C_\\epsilon$, for all $\\epsilon>0$, where $C_\\epsilon>0$ is some constant?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/680",
+        "start": 12255,
+        "end": 12581,
+        "exactness": "slice",
+        "sha256": "3b56414950f439b3cf679de334784d7008f7633c4506b544fea7811a2e84da06"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#680 : [Er79d] number theory | primes This follows from 'plausible assumptions on the distribution of primes' (as does the question with $k^2$ replaced by $k^d$ for any $d$); the challenge is to prove this unconditionally. Erdős observed that Cramer's conjecture\\[\\limsup_{k\\to \\infty} \\frac{p_{k+1}-p_k}{(\\log k)^2}=1\\]implies that for all $\\epsilon>0$ and all sufficiently large $n$ there exists some $k$ such that\\[p(n+k)>e^{(1-\\epsilon)\\sqrt{k}}.\\]There is now evidence, however, that Cramer's conjecture is false; a more refined heuristic by Granville [Gr95] suggests this $\\limsup$ is $2e^{-\\gamma}\\approx 1.119\\cdots$, and so perhaps the $1+\\epsilon$ in the second question should be replaced by $2e^{-\\gamma}+\\epsilon$. See also [681] and [682] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #680, https://www.erdosproblems.com/680, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/680",
+        "start": 12581,
+        "end": 32266,
+        "exactness": "region",
+        "sha256": "7114b783b517d67a0bb747ff9b0ea5c2d295f1141c5a7f428d01d23cccf92f59"
+      }
+    }
+  ],
+  "source_sha256": "d64c372f22cc8f3f34b1ca0838e51b9eb9152bdeccec92ab6ac8452bcfc78fb0",
+  "refusals": []
+}

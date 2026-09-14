@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/173",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "In any $2$-colouring of $\\mathbb{R}^2$, for all but at most one triangle $T$, there is a monochromatic congruent copy of $T$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/173",
+        "start": 12255,
+        "end": 12386,
+        "exactness": "slice",
+        "sha256": "5542d78cb17e2042aa63e27ceb9d64546d6c46b32a94efadf224b1185231d66d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#173 : [Er75f,p.108] [ErGr79] [ErGr80] [Er83c] geometry | ramsey theory For some colourings a single equilateral triangle has to be excluded, considering the colouring by alternating strips. Shader [Sh76] has proved this is true if we just consider a single right-angled triangle. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 16 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #173, https://www.erdosproblems.com/173, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Saw-mon-and-Natalie , LilianPORRE Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/173",
+        "start": 12386,
+        "end": 31895,
+        "exactness": "region",
+        "sha256": "d28a3eae69b71369a88e69ea9d4877d0079c4d5736c2e430d56d695ac516aff3"
+      }
+    }
+  ],
+  "source_sha256": "39b6f972ab8beadcf9d4807078d6d0644ba3c8aad811e8fa4b2f50b447603e91",
+  "refusals": []
+}

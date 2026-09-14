@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/638",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $S$ be a family of finite graphs such that for every $n$ there is some $G_n\\in S$ such that if the edges of $G_n$ are coloured with $n$ colours then there is a monochromatic triangle. Is it true that for every infinite cardinal $\\aleph$ there is a graph $G$ of which every finite subgraph is in $S$ and if the edges of $G$ are coloured with $\\aleph$ many colours then there is a monochromatic triangle.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/638",
+        "start": 12255,
+        "end": 12674,
+        "exactness": "slice",
+        "sha256": "747b94a82c5be10abe1d4d26f72c4d7af3ec85f8e5a5e250e6b925ccd559cf90"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#638 : [Er97d] graph theory | ramsey theory Erdős writes 'if the answer is affirmative many extensions and generalisations will be possible'. Barreto notes in the comments that (as is often the case with problems of this kind) presumably $S$ is intended to also be closed under taking subgraphs, or else a sparse family of complete graphs gives a trivial counterexample. Additional thanks to : Kevin Barreto Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (0) More information and links This page was last edited 10 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #638, https://www.erdosproblems.com/638, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on InfiniteInsights Looks difficult None Looks tractable None Could be formalisable None Working on formalising InfiniteInsights Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/638",
+        "start": 12674,
+        "end": 31934,
+        "exactness": "region",
+        "sha256": "e77750064e0dfd77f5fe1fb2bdbe171c5530a243c1601a8836d7058c3c15d291"
+      }
+    }
+  ],
+  "source_sha256": "0c36e105dfe08cd9094e52c81fe978f39ecd93459772cc608eb93c7e2328fd7d",
+  "refusals": []
+}

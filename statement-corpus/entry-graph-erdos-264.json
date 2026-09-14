@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/264",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $a_n$ be a sequence of positive integers such that for every bounded sequence of integers $b_n$ (with $a_n+b_n\\neq 0$ and $b_n\\neq 0$ for all $n$) the sum\\[\\sum \\frac{1}{a_n+b_n}\\]is irrational. Are $a_n=2^n$ or $a_n=n!$ examples of such a sequence?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/264",
+        "start": 12255,
+        "end": 12514,
+        "exactness": "slice",
+        "sha256": "b2ee1845c4fe6d20c523d2682bcbd5c98d0107acecd9979f06b4a1b4be21b85a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#264 : [ErGr80,p.63] [Er88c,p.105] irrationality A possible definition of an 'irrationality sequence' (see also [262] and [263] ). One example is $a_n=2^{2^n}$. In [ErGr80] they also ask whether such a sequence can have polynomial growth, but Erdős later retracted this in [Er88c] , claiming 'It is not hard to show that it cannot increase slower than exponentially'. Kovač and Tao [KoTa24] have proved that $2^n$ is not such an irrationality sequence. More generally, they prove that any strictly increasing sequence of positive integers such that $\\sum\\frac{1}{a_n}$ converges and\\[\\liminf \\left(a_n^2\\sum_{k>n}\\frac{1}{a_k^2}\\right) >0 \\]is not such an irrationality sequence. In particular, any strictly increasing sequence with $\\limsup a_{n+1}/a_n <\\infty$ is not such an irrationality sequence. On the other hand, Kovač and Tao do prove that for any function $F$ with $\\lim F(n+1)/F(n)=\\infty$ there exists such an irrationality sequence with $a_n\\sim F(n)$. Additional thanks to : Vjekoslav Kovac Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (15) Proof claims (0) More information and links This page was last edited 20 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #264, https://www.erdosproblems.com/264, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Vjeko_Kovac Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/264",
+        "start": 12514,
+        "end": 32938,
+        "exactness": "region",
+        "sha256": "10020f8e2b9454ee2e69ef2aa7b10f21871241f13501cd6736ebdf6e58cfa5ef"
+      }
+    }
+  ],
+  "source_sha256": "35a245018482f3cbff0601c2a72fc2e46e65b16e7e0352cecca55e4b6fc9a361",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/572",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Show that for $k\\geq 3$\\[\\mathrm{ex}(n;C_{2k})\\gg n^{1+\\frac{1}{k}}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/572",
+        "start": 12255,
+        "end": 12331,
+        "exactness": "slice",
+        "sha256": "94f12de249e53be66b16154b2ac254d34857643e7e0ccc16cda3ddeb358a5a59"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#572 : [Er64c] [Er71,p.103] [Er74c,p.78] graph theory | turan number | cycles It is easy to see that $\\mathrm{ex}(n;C_{2k+1})=\\lfloor n^2/4\\rfloor$ for any $k\\geq 1$ (and $n>2k+1$) (since no bipartite graph contains an odd cycle). Erdős and Klein [Er38] proved $\\mathrm{ex}(n;C_4)\\asymp n^{3/2}$. Erdős [Er64c] and Bondy and Simonovits [BoSi74] showed that\\[\\mathrm{ex}(n;C_{2k})\\ll kn^{1+\\frac{1}{k}}.\\]Benson [Be66] has proved this conjecture for $k=3$ and $k=5$. Lazebnik, Ustimenko, and Woldar [LUW95] have shown that, for arbitrary $k\\geq 3$,\\[\\mathrm{ex}(n;C_{2k})\\gg n^{1+\\frac{2}{3k-3+\\nu}},\\]where $\\nu=0$ if $k$ is odd and $\\nu=1$ if $k$ is even. See [LUW99] for further history and references. See also [765] . This problem is #46 in Extremal Graph Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #572, https://www.erdosproblems.com/572, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Alfaiz , Dogmachine , LaiC Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/572",
+        "start": 12331,
+        "end": 33358,
+        "exactness": "region",
+        "sha256": "46abe43b6a4184d35c5dcf68f705eb849420250829fb11a2d0f5446093bfff0a"
+      }
+    }
+  ],
+  "source_sha256": "beb983e0b4d57a2177789b044a73ac9f06549d4cca926585a26aedae978a2f0c",
+  "refusals": []
+}

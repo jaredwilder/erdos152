@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/374",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any $m\\in \\mathbb{N}$, let $F(m)$ be the minimal $k\\geq 2$ (if it exists) such that there are $a_1<\\cdots <a_k=m$ with $a_1!\\cdots a_k!$ a square. Let $D_k=\\{ m : F(m)=k\\}$. What is the order of growth of $\\lvert D_k\\cap\\{1,\\ldots,n\\}\\rvert$ for $3\\leq k\\leq 6$? For example, is it true that $\\lvert D_6\\cap \\{1,\\ldots,n\\}\\rvert \\gg n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/374",
+        "start": 12255,
+        "end": 12609,
+        "exactness": "slice",
+        "sha256": "1ca5ad3dbbe9c2a6a75d50e7efd937fc2bbd3816e9fafe288b14477bb294d2e5"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#374 : [ErGr76] [ErGr80] number theory Studied by Erdős and Graham [ErGr76] (see also [LSS14] ). It is known, for example, that: no $D_k$ contains a prime, $D_2=\\{ n^2 : n>1\\}$, $\\lvert D_3\\cap \\{1,\\ldots,n\\}\\rvert = o(\\lvert D_4\\cap \\{1,\\ldots,n\\}\\rvert)$, the least element of $D_6$ is $527$, and $D_k=\\emptyset$ for $k>6$. Additional thanks to : Zachary Chase Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #374, https://www.erdosproblems.com/374, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A388851 , A387184 , A389117 , A389148 Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/374",
+        "start": 12609,
+        "end": 33132,
+        "exactness": "region",
+        "sha256": "f6ac6da9af2c20f02495999423e7b031be6c9903f0f657d14793862c0200e360"
+      }
+    }
+  ],
+  "source_sha256": "c8284ed1fedcd9d31d40af863616ee39d4c493c8e37074b5dfbfc72dd4d3d527",
+  "refusals": []
+}

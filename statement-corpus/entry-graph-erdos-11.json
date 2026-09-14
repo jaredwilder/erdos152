@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/11",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is every large odd integer $n$ the sum of a squarefree number and a power of 2?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/11",
+        "start": 12253,
+        "end": 12338,
+        "exactness": "slice",
+        "sha256": "4757004656c60cb1aa59dedf8e4a6a7cff5c4f9765e755b42715e650dfe86f8c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#11 : [Er77c] [Er80,p.96] [ErGr80,p.28] [Er85c] [Er90] [Er92c] [Er97] [Er97e] [Er97f] number theory | additive basis Odlyzko has checked this up to $10^7$. Hercher [He24b] has verified this is true for all odd integers up to $2^{50}\\approx 1.12\\times 10^{15}$. Granville and Soundararajan [GrSo98] have proved that this is very related to the problem of finding Wieferich primes , which are $p$ for which $2^{p-1}\\equiv 1\\pmod{p^2}$ - for example, if every odd integer is the sum of a squarefree number and a power of $2$ then a positive proportion of primes are non-Wieferich primes. Erdős often asked this under the weaker assumption that $n$ is not divisible by $4$. Erdős thought that proving this with two powers of 2 is perhaps easy, and could prove that it is true (with a single power of two) for almost all $n$. See also [9] , [10] , and [16] . This is mentioned in problem A19 of Guy's collection [Gu04] . Additional thanks to : Dogmachine and Milos Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (11) Proof claims (0) More information and links This page was last edited 05 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #11, https://www.erdosproblems.com/11, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A001220 , A377587 Reactions Likes Dogmachine , meowmeowmeow , lof310 , holyterror Open to collaboration None Currently working on lof310 Looks difficult Dogmachine , meowmeowmeow Looks tractable None Could be formalisable None<",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/11",
+        "start": 12338,
+        "end": 34714,
+        "exactness": "region",
+        "sha256": "589d1037abe3fc463589b10527c73357b336bbf4d4ed087648679e022f385ead"
+      }
+    }
+  ],
+  "source_sha256": "093407ba62b9a08189ad44c51fcaa4fa2814af35f51933733a7915b281f08ffc",
+  "refusals": []
+}

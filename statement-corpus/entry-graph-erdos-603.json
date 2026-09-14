@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/603",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $(A_i)$ be a family of countably infinite sets such that $\\lvert A_i\\cap A_j\\rvert \\neq 2$ for all $i\\neq j$. Find the smallest cardinal $C$ such that $\\cup A_i$ can always be coloured with at most $C$ colours so that no $A_i$ is monochromatic.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/603",
+        "start": 12262,
+        "end": 12516,
+        "exactness": "slice",
+        "sha256": "d0cbc524b65a3d5810d4827dd3795506c5c65418c57e7819f9b1b7471ee6918d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#603 : [Er87] combinatorics | set theory A problem of Komjáth. If instead we have $\\lvert A_i\\cap A_j\\rvert \\neq 1$ then Komjáth showed that this is possible with at most $\\aleph_0$ colours. GPT 5.4 Pro (prompted by Chojecki) proved there is no uniform bound on such $C$: for every cardinal $C$ there is a family of countably infinite sets $(A_i)$ such that $\\lvert A_i\\cap A_j\\rvert \\neq 2$ for all $i\\neq j$, and in any colouring of $\\cup A_i$ with $C$ colours some $A_i$ is monochromatic. Indeed, by the Erdős-Rado theorem , if $\\kappa$ is the successor of $2^C$, any $C$-colouring of the edges of the complete graph on $\\kappa$ vertices contains a monochromatic countably infinite complete graph, and hence we can take $(A_i)$ to be the collection of all countably infinite complete graphs (since any two such intersect in either countably infinite or $\\binom{n}{2}$ many edges for some finite $n$, and in particular never intersect exactly twice). Additional thanks to : Stijn Cambie, Przemek Chojecki, LouisD, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (14) Proof claims (0) More information and links This page was last edited 06 July 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #603, https://www.erdosproblems.com/603, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/603",
+        "start": 12516,
+        "end": 32546,
+        "exactness": "region",
+        "sha256": "c2892e691a72dafd88de32fcf4b132a99a3ec6ecfa8e56d9c6f6384d7bf0f885"
+      }
+    }
+  ],
+  "source_sha256": "edea0bfe18440a29460fab92c2336109f51326002407afa1b2c89a0abb833ee0",
+  "refusals": []
+}

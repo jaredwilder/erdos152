@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1150",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does there exist a constant $c>0$ such that, for all large $n$ and all polynomials $P$ of degree $n$ with coefficients $\\pm 1$,\\[\\max_{\\lvert z\\rvert=1}\\lvert P(z)\\rvert > (1+c)\\sqrt{n}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1150",
+        "start": 12257,
+        "end": 12459,
+        "exactness": "slice",
+        "sha256": "12655e272a1278716cffb888968a54961d80f6a0b5ca16e16d7556f6e1ae87fe"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1150 : [Ha74,4.31] [Va99,2.36] analysis | polynomials In other words, does there exist an 'ultraflat' polynomial with coefficients $\\pm 1$. The answer is yes if the coefficients can take any values on the unit circle (see [230] ). The lower bound\\[\\max_{\\lvert z\\rvert=1}\\lvert P(z)\\rvert\\geq \\sqrt{n}\\]is trivial from Parseval's theorem. A weaker 'flatness' question is the subject of [228] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1150, https://www.erdosproblems.com/1150, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes old-bielefelder , el_Houcein-A , Dogmachine Open to collaboration el_Houcein-A Currently working on el_Houcein-A Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1150",
+        "start": 12459,
+        "end": 32144,
+        "exactness": "region",
+        "sha256": "e2b0cbf4e04ceb0120593cfaadb5a26ca2324151f1c98a64779da0d5febe014a"
+      }
+    }
+  ],
+  "source_sha256": "15797aacca270a8c35c24e601b98c3c2d4276923a428e10e1f135c79b404d5fd",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/764",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq \\mathbb{N}$. Can there exist some constant $c>0$ such that\\[\\sum_{n\\leq N} 1_A\\ast 1_A\\ast 1_A(n) = cN+O(1)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/764",
+        "start": 12236,
+        "end": 12372,
+        "exactness": "slice",
+        "sha256": "319249a34d295d2fe5cd0ff8d3d828036b51f3b581de708c592cd2fc7d3d8a3a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#764 : [Er65b] [Er70c] number theory | additive combinatorics The case of $1_A\\ast 1_A(n)$ is the subject of [763] . The answer is no, proved in a strong form by Vaughan [Va72] , who showed that in fact\\[\\sum_{n\\leq N} 1_A\\ast 1_A\\ast 1_A(n) = cN+o\\left(\\frac{N^{1/4}}{(\\log N)^{1/2}}\\right)\\]is impossible. Vaughan proves a more general result that applies to any $h$-fold convolution, with different main terms permitted. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #764, https://www.erdosproblems.com/764, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/764",
+        "start": 12372,
+        "end": 31707,
+        "exactness": "region",
+        "sha256": "1bb40fbe6356bdbf2df7bd14062898a0fc9aceb99fc4b7b346b3a03e86a3e847"
+      }
+    }
+  ],
+  "source_sha256": "db4d6edf6c681819be7292d6d231eed23f96bffb86c3d9e714ab94db43110c15",
+  "refusals": []
+}

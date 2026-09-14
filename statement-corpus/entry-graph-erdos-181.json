@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/181",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $Q_n$ be the $n$-dimensional hypercube graph (so that $Q_n$ has $2^n$ vertices and $n2^{n-1}$ edges). Prove that\\[R(Q_n) \\ll 2^n.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/181",
+        "start": 12255,
+        "end": 12396,
+        "exactness": "slice",
+        "sha256": "5f1cad496d4e68c46f4ee24738fa87c0c6c6ded73a01771cf1dfbab81b98e17c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#181 : [BuEr75] [Er93,p.346] graph theory | ramsey theory Conjectured by Burr and Erdős, althouhg in [Er93] Erdős says the behaviour of $R(Q_n)$ was considered by himself and Sós, who could not decide whether $R(Q_n)/2^n\\to \\infty$ or not. The trivial bound is\\[R(Q_n) \\leq R(K_{2^n})\\leq C^{2^n}\\]for some constant $C>1$. This was improved a number of times; the current best bound due to Tikhomirov [Ti22] is\\[R(Q_n)\\ll 2^{(2-c)n}\\]for some small constant $c>0$. (In fact $c\\approx 0.03656$ is permissible.) This problem is #20 in Ramsey Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #181, https://www.erdosproblems.com/181, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/181",
+        "start": 12396,
+        "end": 32296,
+        "exactness": "region",
+        "sha256": "05cc8ce20843c3b09f5985652ea616965b1c25cc32096727ca400a086f61c64f"
+      }
+    }
+  ],
+  "source_sha256": "2afa7bb35bfd6bbdf24a9f4a10b0106b71e9e444d25b49e2e78076ea1ab68ddc",
+  "refusals": []
+}

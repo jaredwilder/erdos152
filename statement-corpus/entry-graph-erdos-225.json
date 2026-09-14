@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/225",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let\\[ f(\\theta) = \\sum_{0\\leq k\\leq n}c_k e^{ik\\theta}\\]be a trigonometric polynomial all of whose roots are real, such that $\\max_{\\theta\\in [0,2\\pi]}\\lvert f(\\theta)\\rvert=1$. Then\\[\\int_0^{2\\pi}\\lvert f(\\theta)\\rvert \\mathrm{d}\\theta \\leq 4.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/225",
+        "start": 12236,
+        "end": 12488,
+        "exactness": "slice",
+        "sha256": "41116fceedc27b9741f4076366d92ba00ca37e216ab04398cf100026a93246e0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#225 : [Er40b,p.957] [Er57] [Er61,p.248] [Ha74] analysis This is Problem 4.20 in [Ha74] , where it is attributed to Erdős. This was solved independently by Kristiansen [Kr74] (only in the case when $c_k\\in\\mathbb{R}$) and Saff and Sheil-Small [SaSh74] (for general $c_k\\in \\mathbb{C}$). (The original proof of Kristiansen contained an error which was later fixed in [Kr76] .) Additional thanks to : Alfaiz, Winston Heap, Vjekoslav Kovac, and Karlo Lelas Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 05 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #225, https://www.erdosproblems.com/225, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/225",
+        "start": 12488,
+        "end": 32414,
+        "exactness": "region",
+        "sha256": "b2f951f1b8d615d9ea86e291d9f2b1cccf390713293497cd0f9cf8efbeff7abf"
+      }
+    }
+  ],
+  "source_sha256": "2b0fad2d7a3eead04b59c98959fc126c4f3ca0ae684e530e0c8a543458130fe4",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/922",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 0$. Let $G$ be a graph such that every subgraph $H$ contains an independent set of size $\\geq (n-k)/2$, where $n$ is the number of vertices of $H$. Must $G$ have chromatic number at most $k+2$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/922",
+        "start": 12236,
+        "end": 12446,
+        "exactness": "slice",
+        "sha256": "450f7e5fd688009622f296f8bd746fed45c2a79dc87433c9212d3993fb81b9ed"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#922 : [ErHa67b] [Er69b] graph theory | chromatic number A question of Erdős and Hajnal [ErHa67b] . The case $k=0$ is trivial, but they could not prove this even for $k=1$. This is true, and was proved by Folkman [Fo70b] . See also [73] . Additional thanks to : Raphael Steiner Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #922, https://www.erdosproblems.com/922, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/922",
+        "start": 12446,
+        "end": 31843,
+        "exactness": "region",
+        "sha256": "e622f49521d3f4871d17852126c039f05bcdcedf8aa2830083fd94f8ecb5f361"
+      }
+    }
+  ],
+  "source_sha256": "f7e4c144af47715f1c9a598360440e5bc387a8960e55ffa33e02875c03ee7f8e",
+  "refusals": []
+}

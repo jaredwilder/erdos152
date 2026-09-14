@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/767",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $g_k(n)$ be the maximal number of edges possible on a graph with $n$ vertices which does not contain a cycle with $k$ chords incident to a vertex on the cycle. Is it true that\\[g_k(n)=(k+1)n-(k+1)^2\\]for $n$ sufficiently large?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/767",
+        "start": 12236,
+        "end": 12473,
+        "exactness": "slice",
+        "sha256": "97153076992e4b69bc845a7ab0c0cf59d09f95e799aa560dc68a41969477c3b8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#767 : [Er64c] [Er69b] [Er75] graph theory | turan number Czipszer proved that $g_k(n)$ exists for all $k$, and in fact $g_k(n)\\leq (k+1)n$. Erdős wrote it is 'easy to see' that\\[g_k(n)\\geq (k+1)n-(k+1)^2.\\]Pósa proved that $g_1(n)=2n-4$ for $n\\geq 4$. Erdős could prove the conjectured equality for $n\\geq 2k+2$ when $k=2$ or $k=3$. The conjectured equality was proved for $n\\geq 3k+3$ by Jiang [Ji04] . Curiously, in [Er69b] Erdős mentions this problem, but states that his conjectured equality for $g_k(n)$ was disproved (for general $k$) by Lewin, citing oral communication. Perhaps Lewin only disproved this for small $n$, or perhaps Lewin's disproof was simply incorrect. Additional thanks to : Raphael Steiner Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 06 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #767, https://www.erdosproblems.com/767, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/767",
+        "start": 12473,
+        "end": 32640,
+        "exactness": "region",
+        "sha256": "b4832ac4e9a2370ac1378aa5bd4110cf227a16397176529219396c0009f50044"
+      }
+    }
+  ],
+  "source_sha256": "fb56e2f98dc4ae2ddc6dcd8506c00f69262ce6fc5c09267eac54db8bdfd2bf3c",
+  "refusals": []
+}

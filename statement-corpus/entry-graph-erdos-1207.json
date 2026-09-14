@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1207",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $P_d(n)$ be such that in any set of $n$ points in $\\mathbb{R}^d$ there exist at least $P_d(n)$ many points which do not contain an isosceles triangle. Estimate $P_d(n)$ - in particular, is it true that\\[P_2(n)<n^{1-c}\\]for some constant $c>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1207",
+        "start": 12257,
+        "end": 12516,
+        "exactness": "slice",
+        "sha256": "83f0bc10a88b3321ff4c1efdcd13347dc44bb38e12ef541c19c6b786c1ed6ec3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1207 : [Er80,p.110] geometry | distances Erdős [Er80] attributes this problem to Riddell, and states it is not hard to prove that $P_d(n)>n^{\\epsilon_d}$ where $\\epsilon_d\\to 0$ as $d\\to \\infty$. Indeed, one can take any subset of points with all distinct distances, whence\\[P_d(n)\\geq f_d(n) \\geq n^{\\frac{1}{3d-3}-o(1)}\\]with $f_d(n)$ defined as in [1208] . Erdős suggests that perhaps the worst set of points is the set of lattice points in a sphere of suitable radius. The case $d=1$ is equivalent to finding sets with no three-term arithmetic progressions, and is the $k=3$ case of [201] . The bound of Pach and Tardos [PaTa02] on the maximum number of isosceles triangles in a point set, together with a random deletion argument, shows that $P_2(n) \\gg n^{0.432}$. In Section 5.3 of [BMP05] they claim that the regular polygon shows that $P_2(n) \\ll n^{1/2}$ but give no details. This seems to be incorrect, since an isosceles triangle from the vertices of a regular polygon correspond to three points whose angles form an arithmetic progression. This shows that $P_2(n)\\ll r_3(n)$, where $r_3(n)$ is the maximum size of a subset of $\\{1,\\ldots,n\\}$ without a non-trivial three-term arithmetic progression (see [140] ). See [1208] (and also [657] ) for a variant in which we ask for all sets of three points to have distinct distances. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1207, https://www.erdosproblems.com/1207, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult JohanLand Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Different menu",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1207",
+        "start": 12516,
+        "end": 33507,
+        "exactness": "region",
+        "sha256": "cff2e539cae096014e710e3e9439d38bc8e00f23ee4d2ca5ff20e1cc9b2d66aa"
+      }
+    }
+  ],
+  "source_sha256": "e266b1a56648a699808cdb70157a0233a71b011f2e94d48c4b14668a2235a937",
+  "refusals": []
+}

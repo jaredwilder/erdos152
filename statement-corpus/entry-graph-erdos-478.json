@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/478",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $p$ be a prime and\\[A_p = \\{ k! \\pmod{p} : 1\\leq k<p\\}.\\]Is it true that\\[\\lvert A_p\\rvert \\sim (1-\\tfrac{1}{e})p?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/478",
+        "start": 12255,
+        "end": 12385,
+        "exactness": "slice",
+        "sha256": "2a27008e2bc9fa5024440662e8ae8942dc3da84a2d79d0c4938ca7d138237476"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#478 : [ErGr80,p.96] number theory | factorials Since $A_p/A_p=\\{1,\\ldots,p-1\\}$ it follows that $\\lvert A_p\\rvert \\gg p^{1/2}$. The best known lower bound is due to Grebennikov, Sagdeev, Semchankau, and Vasilevskii [GSSV24] ,\\[\\lvert A_p\\rvert \\geq (\\sqrt{2}-o(1))p^{1/2},\\]which follows from proving that $\\lvert A_pA_p\\rvert=(1+o(1))p$. Wilson's theorem implies $(p-2)!\\equiv 1\\pmod{p}$, and hence $\\lvert A_p\\rvert\\leq p-2$. Results on $\\lvert A_p\\rvert$ on average were obtained by Klurman and Munsch [KlMu17] . It is even open whether there are infinitely many primes $p$ such that $\\lvert A_p\\rvert=p-2$: in other words, such that $2!,\\ldots,(p-1)!$ are all distinct modulo $p$ (such primes are sometimes called socialist primes). Rokowska and Schinzel [RoSc60] have proved that any socialist prime is $5\\pmod{8}$, and must satisfy $-(\\frac{5}{p})=(\\frac{-23}{p})=1$. Moreover, the congruence class missing from $2!,\\ldots,(p-1)!$ must be $-(\\frac{p-1}{2})!$. The only known socialist prime is $p=5$. Trudgian [Tr13] has shown there are no other socialist primes $<10^9$. This was extended to $10^{11}$ by Andrejić and Tatarevic [AnTa16] . This is also discussed in problems A2 and F11 of Guy's collection [Gu04] . Additional thanks to : Zachary Chase, marinov, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (1) More information and links This page was last edited 12 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #478, https://www.erdosproblems.com/478, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A210184 Reactions Likes Alfaiz , hxypqr Open to collaboration hxypqr Currently working on None Looks difficult hxypqr Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/478",
+        "start": 12385,
+        "end": 33708,
+        "exactness": "region",
+        "sha256": "a0bae283d55b5cf40bb485c3606237884b9c96c0c5a627ddb9cd6333f2e42459"
+      }
+    }
+  ],
+  "source_sha256": "1909f0f942c4a8ee8be83d709a45f234b28c4df1aa35700188367a4dc63f3732",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/27",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "An $\\epsilon$-almost covering system is a set of congruences $a_i\\pmod{n_i}$ for distinct moduli $n_1<\\cdots<n_k$ such that the density of those integers which satisfy none of them is $\\leq \\epsilon$. Is there a constant $C>1$ such that for every $\\epsilon>0$ and $N\\geq 1$ there is an $\\epsilon$-almost covering system with $N\\leq n_1<\\cdots <n_k\\leq CN$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/27",
+        "start": 12241,
+        "end": 12632,
+        "exactness": "slice",
+        "sha256": "bd651d94969669113c68b33aba0ffcc1ec98ce05c962d461ddb088d1e26a87df"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#27 : [Er95,p.4] number theory | covering systems By a simple averaging argument the set of moduli $[m_1,m_2]\\cap \\mathbb{N}$ has a choice of residue classes which form an $\\epsilon(m_1,m_2)$-almost covering system with\\[\\epsilon(m_1,m_2)=\\prod_{m_1\\leq m\\leq m_2}(1-1/m).\\]A $0$-covering system is just a covering system, and so by Hough [Ho15] these only exist for $n_1<10^{18}$ (now $<616000$ thanks to [BBMST22] ). The answer is no, as proved by Filaseta, Ford, Konyagin, Pomerance, and Yu [FFKPY07] , who (among other results) prove that if\\[1< C \\leq N^{\\frac{\\log\\log\\log N}{4\\log\\log N}}\\]then, for any $N\\leq n_1<\\cdots< n_k\\leq CN$, the density of integers not covered for any fixed choice of residue classes is at least\\[(1-o(1))\\prod_{i}(1-1/n_i)\\](and this density is achieved for some choice of residue classes as above). Additional thanks to : Mehtaab Sawhney and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 16 July 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #27, https://www.erdosproblems.com/27, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes holyterror Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/27",
+        "start": 12632,
+        "end": 32644,
+        "exactness": "region",
+        "sha256": "80f616f1e3bac3c8034dbd3b2c5b460e8c00a422e818a2d6d440cd11f257ab37"
+      }
+    }
+  ],
+  "source_sha256": "f58b93782c1042555faeca8c028020a1bc4f6a950934cb053d921230cc07870a",
+  "refusals": []
+}

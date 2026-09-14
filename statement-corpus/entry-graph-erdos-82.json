@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/82",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $F(n)$ be maximal such that every graph on $n$ vertices contains a regular induced subgraph on at least $F(n)$ vertices. Prove that $F(n)/\\log n\\to \\infty$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/82",
+        "start": 12253,
+        "end": 12419,
+        "exactness": "slice",
+        "sha256": "6212ab62443d99eb07f23354025ef5e4d197034dee622a362136e35c97e31f62"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#82 : [Er93,p.340] [Er95] [Er97d] graph theory Conjectured by Erdős, Fajtlowicz, and Stanton. It is known that $F(5)=3$ and $F(7)=4$. Ramsey's theorem implies that $F(n)\\gg \\log n$. Bollobás observed that $F(n)\\ll n^{1/2+o(1)}$. Alon, Krivelevich, and Sudakov [AKS07] have improved this to $n^{1/2}(\\log n)^{O(1)}$. Dyson and McKay [DyMc26] have improved this further to $F(n) \\ll n^{1/2}$. In [Er93] Erdős asks whether, if $t(n)$ is the largest trivial (either empty or complete) subgraph which a graph on $n$ vertices must contain (so that $t(n) \\gg \\log n$ by Ramsey's theorem), then is it true that\\[F(n)-t(n)\\to \\infty?\\]Equivalently, and in analogue with the definition of Ramsey numbers, one can define $G(n)$ to be the minimal $m$ such that every graph on $m$ vertices contains a regular induced subgraph on at least $n$ vertices. This problem can be rephrased as asking whether $G(n) \\leq 2^{o(n)}$. Fajtlowicz, McColgan, Reid, and Staton [FMRS95] showed that $G(1)=1$, $G(2)=2$, $G(3)=5$, $G(4)=7$, and $G(5)\\geq 12$. Boris Alexeev and Brendan McKay (see the comments and this site ) have computed $G(5)=17$, $G(6)\\geq 21$, and $G(7)\\geq 29$. Dyson and McKay [DyMc26] have proved $G(7)\\geq 30$, and $G(k)\\geq \\frac{9}{163}k^2$ for all large $k$. See also [1031] for another question regarding induced regular subgraphs. Additional thanks to : Boris Alexeev, Zach Hunter, Brendan McKay, and videlec Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (24) Proof claims (0) More information and links This page was last edited 10 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #82, https://www.erdosproblems.com/82, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A120414 , A390256 , A390257 , A390919 , A392636 , A394400 , A394462 , A394539 , A394563 , A394564 , A394573 , A394574 , A394930 , A394933 Reactions Likes Dogmachine <div class=\"problem-info-data-row problem-reac",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/82",
+        "start": 12419,
+        "end": 36962,
+        "exactness": "region",
+        "sha256": "d65dd8495a2738d3dbb0d60f2a07a94954c266707a83d586ad24406c7276a927"
+      }
+    }
+  ],
+  "source_sha256": "2c78787f8bf49bf7b39407ea96358700c2d583dcfab20085e36638c691e25932",
+  "refusals": []
+}

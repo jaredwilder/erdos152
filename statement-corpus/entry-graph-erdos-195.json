@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/195",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is the largest $k$ such that in any permutation of $\\mathbb{Z}$ there must exist a monotone $k$-term arithmetic progression $x_1<\\cdots<x_k$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/195",
+        "start": 12255,
+        "end": 12415,
+        "exactness": "slice",
+        "sha256": "fcb0e18f6e42a4994c272b7d99788ed527e1548b5ea02473bbafcc44f746987d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#195 : [ErGr79] [ErGr80] arithmetic progressions Geneson [Ge19] proved that $k\\leq 5$. Adenwalla [Ad22] proved that $k\\leq 4$. See also [194] and [196] . Additional thanks to : Boris Alexeev, Stijn Cambie, and Dustin Mixon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #195, https://www.erdosproblems.com/195, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Adenwalla , Fedir , Dogmachine , Aron , Terrez1000 , fefemath Open to collaboration Adenwalla , VPendyala Currently working on Terrez1000 , VPendyala Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/195",
+        "start": 12415,
+        "end": 32530,
+        "exactness": "region",
+        "sha256": "293568d18276b45f546d26c34fe5957931a18f971f5939d9c9b88cc7543105e0"
+      }
+    }
+  ],
+  "source_sha256": "93156b015a9a3e030138ebf4d00f7daf24af866231e1c322f34366dfbfb3322c",
+  "refusals": []
+}

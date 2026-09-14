@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/717",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a graph on $n$ vertices with chromatic number $\\chi(G)$ and let $\\sigma(G)$ be the maximal $k$ such that $G$ contains a subdivision of $K_k$. Is it true that\\[\\chi(G) \\ll \\frac{n^{1/2}}{\\log n}\\sigma(G)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/717",
+        "start": 12236,
+        "end": 12458,
+        "exactness": "slice",
+        "sha256": "9e0d1bb74579071a3dd63fed0c47c5433ff0eaefeb35e51f28743827466e7edc"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#717 : [ErFa81] [Er81] graph theory Hajós originally conjectured that $\\chi(G)\\leq \\sigma(G)$, which was proved by Dirac [Di52] when $\\chi(G)=4$. Catlin [Ca74] disproved Hajós' conjecture for all $\\chi(G)\\geq 7$, and Erdős and Fajtlowicz [ErFa81] disproved it in a strong form, showing that in fact for almost all graphs on $n$ vertices,\\[\\chi(G) \\gg \\frac{n^{1/2}}{\\log n}\\sigma(G).\\]The answer is yes, proved by Fox, Lee, and Sudakov [FLS13] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #717, https://www.erdosproblems.com/717, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/717",
+        "start": 12458,
+        "end": 32022,
+        "exactness": "region",
+        "sha256": "f1577632d9bc56f99d5af105df00f57c1b5fd1ce7fd496a0783a829ae8359722"
+      }
+    }
+  ],
+  "source_sha256": "0e5372abe1f8ee7fbe70101693ac3ff0d9d2beaf6174b58de48015c496342f5d",
+  "refusals": []
+}

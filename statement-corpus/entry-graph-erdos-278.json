@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/278",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{n_1<\\cdots<n_r\\}$ be a finite set of positive integers. What is the maximum density of integers covered by a suitable choice of congruences $a_i\\pmod{n_i}$? Is the minimum density achieved when all the $a_i$ are equal?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/278",
+        "start": 12255,
+        "end": 12503,
+        "exactness": "slice",
+        "sha256": "4d20bc12151ae5da0ebcef8d840fe1a229845cb5689125dbff19b50e9f673827"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#278 : [ErGr80,p.28] number theory | covering systems Simpson [Si86] has observed that the density of integers covered is at least\\[\\sum_i \\frac{1}{n_i}-\\sum_{i<j}\\frac{1}{[n_i,n_j]}+\\sum_{i<j<k}\\frac{1}{[n_i,n_j,n_k]}-\\cdot\\](where $[\\cdots]$ denotes the least common multiple) which is achieved when all $a_i$ are equal, settling the second question. Additional thanks to : Sarosh Adenwalla Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (1) More information and links This page was last edited 20 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #278, https://www.erdosproblems.com/278, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/278",
+        "start": 12503,
+        "end": 31760,
+        "exactness": "region",
+        "sha256": "367c45592a8d30198c8227bb13315e2f72ceea150d1bfb779384871e303dbe5b"
+      }
+    }
+  ],
+  "source_sha256": "41879291c465fd5624f07bca7bd99de87bbc8c15aa9c539cb765aa0fc64a8c84",
+  "refusals": []
+}

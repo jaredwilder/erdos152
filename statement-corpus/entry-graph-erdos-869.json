@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/869",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $A_1,A_2$ are disjoint additive bases of order $2$ (i.e. $A_i+A_i$ contains all large integers) then must $A=A_1\\cup A_2$ contain a minimal additive basis of order $2$ (one such that deleting any element creates infinitely many $n\\not\\in A+A$)?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/869",
+        "start": 12236,
+        "end": 12489,
+        "exactness": "slice",
+        "sha256": "3f7b95dca7e343868cb02fcff7501be802f5e3a49657595f535ea720754da658"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#869 : [ErNa88] [Er92c,p.44] number theory | additive basis A question of Erdős and Nathanson [ErNa88] . Härtter [Ha56] and Nathanson [Na74] proved that there exist additive bases which do not contain any minimal additive bases. Larsen has given a negative answer to this question; indeed, the three potential measures of 'robustness' of an additive basis, $1_A\\ast 1_A(n)\\to \\infty$ as $n\\to \\infty$, $A$ is the union of two disjoint bases, and $A$ contains a minimal additive basis, are independent, in that Larsen constructs examples of bases satisfying any combination of these three properties (see [868] and [871] for other problems about the implication between these properties). Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 02 May 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #869, https://www.erdosproblems.com/869, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/869",
+        "start": 12489,
+        "end": 32597,
+        "exactness": "region",
+        "sha256": "012dfbf1326ebcd5a861d474a63e15cad15c2a1ea6b2f233ad954f172c78e1f7"
+      }
+    }
+  ],
+  "source_sha256": "2c44fbc9e518d929769ea0a818f5fc9d1db6dee7804704f5c3e9f63e43d1c7ce",
+  "refusals": []
+}

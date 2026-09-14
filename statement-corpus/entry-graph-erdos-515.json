@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/515",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(z)$ be an entire function, not a polynomial. Does there exist a locally rectifiable path $C$ tending to infinity such that, for every $\\lambda>0$, the integral\\[\\int_C \\lvert f(z)\\rvert^{-\\lambda} \\mathrm{d}z\\]is finite?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/515",
+        "start": 12236,
+        "end": 12473,
+        "exactness": "slice",
+        "sha256": "3e135866c23e634b74b8775f33b7444dccfd8842510c0cfc7b866c1df480d6bd"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#515 : [Er61,p.249] [Er82e] analysis Huber [Hu57] proved that for every $\\lambda>0$ there is such a path $C_\\lambda$ such that this integral is finite. This is true. The case when $f$ has finite order was proved by Zhang [Zh77] . The general case was proved by Lewis, Rossi, and Weitsman [LRW84] , who in fact proved this with $\\lvert f\\rvert$ replaced by $e^u$ where $u$ is any subharmonic function. Additional thanks to : Cedric Pilatte, Mark Sellke, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 19 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #515, https://www.erdosproblems.com/515, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/515",
+        "start": 12473,
+        "end": 32097,
+        "exactness": "region",
+        "sha256": "2641a10b935de8507aab08fe15ecd0f356c716751ce43b2ffa9e806064672c13"
+      }
+    }
+  ],
+  "source_sha256": "fc28ecd000606625dd74c521c409de856687a3a5286fb4b37b92e4ae07a3c310",
+  "refusals": []
+}

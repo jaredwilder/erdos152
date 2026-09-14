@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/282",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq \\mathbb{N}$ be an infinite set and consider the following greedy algorithm for a rational $x\\in (0,1)$: choose the minimal $n\\in A$ such that $n\\geq 1/x$ and repeat with $x$ replaced by $x-\\frac{1}{n}$. If this terminates after finitely many steps then this produces a representation of $x$ as the sum of distinct unit fractions with denominators from $A$. Does this process always terminate if $x$ has odd denominator and $A$ is the set of odd numbers? More generally, for which pairs $x$ and $A$ does this process terminate?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/282",
+        "start": 12255,
+        "end": 12810,
+        "exactness": "slice",
+        "sha256": "fb356bc083a99f3ccd2c06f24aa804ff8972be66997ed759f142505801d7b535"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#282 : [ErGr80,p.30] number theory | unit fractions In 1202 Fibonacci observed that this process terminates for any $x$ when $A=\\mathbb{N}$. The problem when $A$ is the set of odd numbers is due to Stein. Graham [Gr64b] has shown that $\\frac{m}{n}$ is the sum of distinct unit fractions with denominators $\\equiv a\\pmod{d}$ if and only if\\[\\left(\\frac{n}{(n,(a,d))},\\frac{d}{(a,d)}\\right)=1.\\]Does the greedy algorithm always terminate in such cases? Graham [Gr64c] has also shown that $x$ is the sum of distinct unit fractions with square denominators if and only if $x\\in [0,\\pi^2/6-1)\\cup [1,\\pi^2/6)$. Does the greedy algorithm for this always terminate? Erdős and Graham believe not - indeed, perhaps it fails to terminate almost always. See also [206] . Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #282, https://www.erdosproblems.com/282, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Alfaiz , Vjeko_Kovac Open to collaboration Vjeko_Kovac Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/282",
+        "start": 12810,
+        "end": 32837,
+        "exactness": "region",
+        "sha256": "fd65581d5453b7a8ba64b34deecbc5f756cf2e77571f9d8ea72770c9e2239d0d"
+      }
+    }
+  ],
+  "source_sha256": "b30939a0fe824ddae13b1670f51eb527fe90aa2c308a3b93f1e08f563b8fd6c7",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/677",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $M(n,k)=[n+1,\\ldots,n+k]$ be the least common multiple of $\\{n+1,\\ldots,n+k\\}$. Is it true that for all $m\\geq n+k$\\[M(n,k) \\neq M(m,k)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/677",
+        "start": 12255,
+        "end": 12410,
+        "exactness": "slice",
+        "sha256": "5823d9f834903fdafbeda4e5cf88045b0fc91486f56be028fc595ee470ae40d3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#677 : [Er79] [Er79d] [ErGr80] number theory The Thue-Siegel theorem implies that, for fixed $k$, there are only finitely many $m,n$ such that $m\\geq n+k$ and $M(n,k)=M(m,k)$. In general, how many solutions does $M(n,k)=M(m,l)$ have when $m\\geq n+k$ and $l>1$? Erdős expects very few (and none when $l\\geq k$). The only solutions Erdős knew were $M(4,3)=M(13,2)$ and $M(3,4)=M(19,2)$. In [Er79d] Erdős conjectures the stronger fact that (aside from a finite number of exceptions) if $k>2$ and $m\\geq n+k$ then $\\prod_{i\\leq k}(n+i)$ and $\\prod_{i\\leq k}(m+i)$ cannot have the same set of prime factors. See also [678] , [686] , and [850] . This is discussed in problem B35 of Guy's collection [Gu04] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (0) More information and links This page was last edited 30 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #677, https://www.erdosproblems.com/677, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Alfaiz , qrdl Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/677",
+        "start": 12410,
+        "end": 32813,
+        "exactness": "region",
+        "sha256": "92d22f08980b550d2659a004dac32e1aa4cb7b161a834fcb7612fb5cc024a9a4"
+      }
+    }
+  ],
+  "source_sha256": "84b88a617193021c934d419a39ec380ae273df06203e74d8b3b02f5d37dd1db0",
+  "refusals": []
+}

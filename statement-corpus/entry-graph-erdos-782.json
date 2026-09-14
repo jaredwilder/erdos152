@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/782",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Do the squares contain arbitrarily long quasi-progressions? That is, does there exist some constant $C>0$ such that, for any $k$, the squares contain a sequence $x_1,\\ldots,x_k$ where, for some $d$ and all $1\\leq i<k$,\\[x_i+d\\leq x_{i+1}\\leq x_i+d+C.\\]Do the squares contain arbitrarily large cubes\\[a+\\left\\{ \\sum_i \\epsilon_ib_i : \\epsilon_i\\in \\{0,1\\}\\right\\}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/782",
+        "start": 12255,
+        "end": 12634,
+        "exactness": "slice",
+        "sha256": "1f34bdca86d987bc7652975391c9bd26125bc9ce72d63e82d8af531ce65fdb72"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#782 : [BEF90] number theory A question of Brown, Erdős, and Freedman [BEF90] . It is a classical fact that the squares do not contain arithmetic progressions of length $4$. An affirmative answer to the first question implies an affirmative answer to the second. Solymosi [So07] conjectured the answer to the second question is no. Cilleruelo and Granville [CiGr07] have observed that the answer to the second question is no conditional on the Bombieri-Lang conjecture . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #782, https://www.erdosproblems.com/782, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/782",
+        "start": 12634,
+        "end": 32149,
+        "exactness": "region",
+        "sha256": "824605ec7d326074d6c384d97b383e3648e514f71ecdbfa7f13b360702cf93fa"
+      }
+    }
+  ],
+  "source_sha256": "1f58392edd7d460481572c0ded8ee3d8faaf04d50dc5aef9803d2ad91bf1e84c",
+  "refusals": []
+}

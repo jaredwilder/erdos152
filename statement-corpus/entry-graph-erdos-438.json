@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/438",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "How large can $A\\subseteq \\{1,\\ldots,N\\}$ be if $A+A$ contains no square numbers?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/438",
+        "start": 12262,
+        "end": 12350,
+        "exactness": "slice",
+        "sha256": "ba2fa61b177f06bc7150a76d1ff274123ce7525a77572966b9070b58216d63e3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#438 : [Er80,p.105] [Er80c] [ErGr80,p.87] [Er82e,p.68] number theory Taking all integers $\\equiv 1\\pmod{3}$ shows that $\\lvert A\\rvert\\geq N/3$ is possible. This can be improved to $\\tfrac{11}{32}N$ by taking all integers $\\equiv 1,5,9,13,14,17,21,25,26,29,30\\pmod{32}$, as observed by Massias. Lagarias, Odlyzko, and Shearer [LOS83] proved this is sharp for the modular version of the problem; that is, if $A\\subseteq \\mathbb{Z}/N\\mathbb{Z}$ is such that $A+A$ contains no squares then $\\lvert A\\rvert\\leq \\tfrac{11}{32}N$. They also prove the general upper bound of $\\lvert A\\rvert\\leq 0.475N$ for the integer problem. In fact $\\frac{11}{32}$ is sharp in general, as shown by Khalfalah, Lodha, and Szemerédi [KLS02] , who proved that the maximal such $A$ satisfies $\\lvert A\\rvert\\leq (\\tfrac{11}{32}+o(1))N$. See also [439] and [587] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 07 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #438, https://www.erdosproblems.com/438, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A363069 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/438",
+        "start": 12350,
+        "end": 32944,
+        "exactness": "region",
+        "sha256": "b48f50af290fd9435ac8f4c55ef1a527163d3bd5f7c8d4447a6d9d86bd722078"
+      }
+    }
+  ],
+  "source_sha256": "cd387a2161f82328ac5b19518b42909c26850ccbb0d1a65f530228738a32efc8",
+  "refusals": []
+}

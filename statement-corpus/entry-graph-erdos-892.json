@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/892",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a necessary and sufficient condition for a sequence of integers $b_1<b_2<\\cdots$ that ensures there exists a primitive sequence $a_1<a_2<\\cdots$ (i.e. no element divides another) with $a_n \\ll b_n$ for all $n$? In particular, is this always possible if there are no non-trivial solutions to $(b_i,b_j)=b_k$? Similarly, find necessary and sufficient conditions on a sequence $n_1<n_2<\\cdots$ that ensure there exists a primitive set $A$ such that\\[\\lvert A\\cap [1,2^{n_i}]\\rvert \\gg 2^{n_i}\\]for every $i$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/892",
+        "start": 12255,
+        "end": 12813,
+        "exactness": "slice",
+        "sha256": "c106bf42de18039253c4dca01e67dd56093ab446c9d78ba6267280382d65ec30"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#892 : [Er80,p.101] [Er98] number theory | primitive sets A problem of Erdős, Sárközi, and Szemerédi [ESS68] . It is known that\\[\\sum \\frac{1}{b_n\\log b_n}<\\infty\\]and\\[\\sum_{b_n<x}\\frac{1}{b_n} =o\\left(\\frac{\\log x}{\\sqrt{\\log\\log x}}\\right)\\]are both necessary. (The former is due to Erdős [Er35] , the latter to Erdős, Sárközy, and Szemerédi [ESS67] .) One can ask a similar question for sequences of real numbers, as in [143] . In [Er80] Erdős suggests the first question is 'difficult and perhaps has no reasonable solution', and perhaps the the final question is more reasonable. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 06 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #892, https://www.erdosproblems.com/892, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/892",
+        "start": 12813,
+        "end": 32685,
+        "exactness": "region",
+        "sha256": "1b5b51aa696cade150b294b629187236bd91c1d38cfaf4c2fed162b7c82d7807"
+      }
+    }
+  ],
+  "source_sha256": "72f44e019430bed0ed474411fac2d75f9be9b6ee043d64c63bb1b045ddb93c2b",
+  "refusals": []
+}

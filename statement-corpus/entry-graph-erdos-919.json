@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/919",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a graph $G$ with vertex set $\\omega_2^2$ and chromatic number $\\aleph_2$ such that every subgraph whose vertices have a lesser type has chromatic number $\\leq \\aleph_0$? What if instead we ask for $G$ to have chromatic number $\\aleph_1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/919",
+        "start": 12255,
+        "end": 12514,
+        "exactness": "slice",
+        "sha256": "976b186ead867a2e322abc69ddd2e068071842eef01926bd478a85a5f840c46b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#919 : [Er69b] graph theory | chromatic number This question was inspired by a theorem of Babai, that if $G$ is a graph on a well-ordered set with chromatic number $\\geq \\aleph_0$ there is a subgraph on vertices with order-type $\\omega$ with chromatic number $\\aleph_0$. Erdős and Hajnal showed this does not generalise to higher cardinals - they (see [Er69b] ) constructed a set on $\\omega_1^2$ with chromatic number $\\aleph_1$ such that every strictly smaller subgraph has chromatic number $\\leq \\aleph_0$ as follows: the vertices of $G$ are the pairs $(x_\\alpha,y_\\beta)$ for $1\\leq \\alpha,\\beta <\\omega_1$, ordered lexicographically. We connect $(x_{\\alpha_1},y_{\\beta_1})$ and $(x_{\\alpha_2},y_{\\beta_2})$ if and only if $\\alpha_1<\\alpha_2$ and $\\beta_1<\\beta_2$. A similar construction produces a graph on $\\omega_2^2$ with chromatic number $\\aleph_2$ such that every smaller subgraph has chromatic number $\\leq \\aleph_1$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #919, https://www.erdosproblems.com/919, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/919",
+        "start": 12514,
+        "end": 32212,
+        "exactness": "region",
+        "sha256": "57da7f8211db5cea3336cb98289de8bad82b910c432c0472262db5c5130d17f6"
+      }
+    }
+  ],
+  "source_sha256": "0755b8d5fcbe382633765160d3181f5bfaa5b8ab2250edb46f9746d0e8d0d06a",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/408",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\phi(n)$ be the Euler totient function and $\\phi_k(n)$ be the iterated $\\phi$ function, so that $\\phi_1(n)=\\phi(n)$ and $\\phi_k(n)=\\phi(\\phi_{k-1}(n))$. Let\\[f(n) = \\min \\{ k : \\phi_k(n)=1\\}.\\]Does $f(n)/\\log n$ have a distribution function? Is $f(n)/\\log n$ almost always constant? What can be said about the largest prime factor of $\\phi_k(n)$ when, say, $k=\\log\\log n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/408",
+        "start": 12255,
+        "end": 12639,
+        "exactness": "slice",
+        "sha256": "8de653a4bc48b390559853146057d628723f61e76765b36e8f87e5f9089ad49f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#408 : [ErGr80,p.80] number theory | iterated functions Pillai [Pi29] was the first to investigate this function, and proved\\[\\log_3 n < f(n) < \\log_2 n\\]for all large $n$. Shapiro [Sh50] proved that $f(n)$ is essentially multiplicative. Erdős, Granville, Pomerance, and Spiro [EGPS90] have proved that the answer to the first two questions is yes, conditional on a form of the Elliott-Halberstam conjecture. It is likely true that, if $k\\to \\infty$ however slowly with $n$, then for almost all $n$ the largest prime factor of $\\phi_k(n)$ is $\\leq n^{o(1)}$. This is discussed in problem B41 of Guy's collection [Gu04] . Additional thanks to : Zachary Chase Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 30 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #408, https://www.erdosproblems.com/408, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A049108 Reactions Likes None Open to collaboration None Currently working on Svyable Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/408",
+        "start": 12639,
+        "end": 32976,
+        "exactness": "region",
+        "sha256": "b342632b2115263412621906bd23ce67c1449922a247de4f70399e49280db378"
+      }
+    }
+  ],
+  "source_sha256": "9e78033d0765c4a7ce3a863a9d1c251e1c58f355d0becc58407db0d217da8193",
+  "refusals": []
+}

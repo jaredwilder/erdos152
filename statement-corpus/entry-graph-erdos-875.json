@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/875",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{a_1<a_2<\\cdots\\}\\subset \\mathbb{N}$ be an infinite set such that the sets\\[S_r = \\{ a_1+\\cdots +a_r : a_1<\\cdots<a_r\\in A\\}\\]are disjoint for distinct $r\\geq 1$. How fast can such a sequence grow? How small can $a_{n+1}-a_n$ be? In particular, for which $c$ is it possible that $a_{n+1}-a_n\\leq n^{c}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/875",
+        "start": 12255,
+        "end": 12589,
+        "exactness": "slice",
+        "sha256": "e7cc8dd03312dc111a9ddb8933859aeff9a76414d1d17de46a976137c10bcf00"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#875 : [Er98] additive combinatorics A problem of Deshouillers and Erdős (an infinite version of [874] ). Such sets are sometimes called admissible. Erdős writes 'it [is not] completely trivial to find such a sequence for which $a_{n+1}/a_n\\to 1$'. It is not clear from this whether Deshouillers and Erdős knew of such a sequence. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #875, https://www.erdosproblems.com/875, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/875",
+        "start": 12589,
+        "end": 31568,
+        "exactness": "region",
+        "sha256": "6be9363a0a0483f8e4d33b38f0bccc4c2e58279e4fe23e9f3710609fdc29729e"
+      }
+    }
+  ],
+  "source_sha256": "7cec2f00747595e53e7c9939ef19b84da67cb6bc5739eac23197d7665009cc38",
+  "refusals": []
+}

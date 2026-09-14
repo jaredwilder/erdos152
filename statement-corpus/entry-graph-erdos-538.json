@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/538",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 2$ and suppose that $A\\subseteq\\{1,\\ldots,N\\}$ is such that, for any $m$, there are at most $r$ solutions to $m=pa$ where $p$ is prime and $a\\in A$. Give the best possible upper bound for\\[\\sum_{n\\in A}\\frac{1}{n}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/538",
+        "start": 12255,
+        "end": 12488,
+        "exactness": "slice",
+        "sha256": "c337f1f3e3b94215084cffbbfe13a1547dabe8e1328d52ad3d60071525930aca"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#538 : [Er73] number theory Erdős observed that\\[\\sum_{n\\in A}\\frac{1}{n}\\sum_{p\\leq N}\\frac{1}{p}\\leq r\\sum_{m\\leq N^2}\\frac{1}{m}\\ll r\\log N,\\]and hence\\[\\sum_{n\\in A}\\frac{1}{n} \\ll r\\frac{\\log N}{\\log\\log N}.\\]See also [536] and [537] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #538, https://www.erdosproblems.com/538, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult Prasannam Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/538",
+        "start": 12488,
+        "end": 31567,
+        "exactness": "region",
+        "sha256": "6555b323092f86cae677cb544bb3feb6667b53e13997d6611cd4de635217665a"
+      }
+    }
+  ],
+  "source_sha256": "ae50b954b0b4411fb16a8e93b501d368e3204630e1594e0ad7c170c58d4ece6f",
+  "refusals": []
+}

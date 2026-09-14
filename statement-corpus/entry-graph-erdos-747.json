@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/747",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "How large should $\\ell(n)$ be such that, almost surely, a random $3$-uniform hypergraph on $3n$ vertices with $\\ell(n)$ edges must contain $n$ vertex-disjoint edges?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/747",
+        "start": 12262,
+        "end": 12433,
+        "exactness": "slice",
+        "sha256": "745529c74fed0ed79b6cbc9b16e97d38dd7479679b141f529ba10bf19dec03c5"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#747 : [Er81] combinatorics | hypergraphs Asked to Erdős by Shamir in 1979. This is often known as Shamir's problem. Erdős writes: 'Many of the problems on random hypergraphs can be settled by the same methods as used for ordinary graphs and usually one can guess the answer almost immediately. Here we have no idea of the answer.' This is now essentially completely understood: Johansson, Kahn, and Vu [JKV08] proved that the threshold is $\\ell(n)\\asymp n\\log n$. The precise asymptotic was given by Kahn [Ka23] , proving that the threshold is $\\sim n\\log n$ (also for the general problem over $r$-uniform hypergraphs). Additional thanks to : Mehtaab Sawhney Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #747, https://www.erdosproblems.com/747, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/747",
+        "start": 12433,
+        "end": 32014,
+        "exactness": "region",
+        "sha256": "ca2eeae49bc2711527ff1ce169767b4596b3c37e4f028ba2ea28b9ebedee16e0"
+      }
+    }
+  ],
+  "source_sha256": "47ee241d786055a837439003e213ea1518f27ffc001440ff660b003e8c33d5cc",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/584",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a graph with $n$ vertices and $\\delta n^{2}$ edges. Are there subgraphs $H_1,H_2\\subseteq G$ such that $H_1$ has $\\gg \\delta^3n^2$ edges and every two edges in $H_1$ are contained in a cycle of length at most $6$, and furthermore if two edges share a vertex they are on a cycle of length $4$, and $H_2$ has $\\gg \\delta^2n^2$ edges and every two edges in $H_2$ are contained in a cycle of length at most $8$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/584",
+        "start": 12255,
+        "end": 12707,
+        "exactness": "slice",
+        "sha256": "8fd2a9588417956b55a18e8eac48d8e53e0af7894dbea554dafe9f21162ef45a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#584 : [DuEr82] [DER84] graph theory | cycles A problem of Erdős, Duke, and Rödl. Duke and Erdős [DuEr82] proved the first if $n$ is sufficiently large depending on $\\delta$. The real challenge is to prove this when $\\delta=n^{-c}$ for some $c>0$. Duke, Erdős, and Rödl [DER84] proved the first statement with a $\\delta^5$ in place of a $\\delta^3$. Fox and Sudakov [FoSu08b] have proved the second statement when $\\delta >n^{-1/5}$. See also the entry in the graphs problem collection . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 22 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #584, https://www.erdosproblems.com/584, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/584",
+        "start": 12707,
+        "end": 32450,
+        "exactness": "region",
+        "sha256": "1a02b1b1ca4a905479ef02bc645a9fe82a2bd895f215dfbe21a637bf89d37ec4"
+      }
+    }
+  ],
+  "source_sha256": "9da60f73ed3d388202121a86099af7ee520df77ec9265f61d658da0789217e24",
+  "refusals": []
+}

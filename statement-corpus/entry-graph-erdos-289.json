@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/289",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that, for all sufficiently large $k$, there exist finite intervals $I_1,\\ldots,I_k\\subset \\mathbb{N}$, distinct, not overlapping or adjacent, with $\\lvert I_i\\rvert \\geq 2$ for $1\\leq i\\leq k$ such that\\[1=\\sum_{i=1}^k \\sum_{n\\in I_i}\\frac{1}{n}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/289",
+        "start": 12255,
+        "end": 12520,
+        "exactness": "slice",
+        "sha256": "9e713c4ddba0d3fdddb88dae92abb2ed6a821f7773e5c5bd91f968f403271bff"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#289 : [ErGr80] number theory | unit fractions Erdős and Graham posed this in [ErGr80] without the stipulation the intervals be distinct, non-overlapping, or adjacent, but Kovac in the comments has provided a simple argument showing that it is easily possible without this restriction, and likely [ErGr80] just forgot to mention this natural restriction. As an example representing $2$ rather than $1$, Hickerson and Montgomery, in the solution to AMS Monthly problem E2689 proposed by Hahn, found\\[2=\\sum_{i=1}^5 \\sum_{n\\in I_i}\\frac{1}{n}\\]where $I_1=[2,7]$, $I_2=[9,10]$, $I_3=[17,18]$, $I_4=[34,35]$, and $I_5=[84,85]$. Additional thanks to : Vjekoslav Kovac Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 22 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #289, https://www.erdosproblems.com/289, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Vjeko_Kovac , Dogmachine , jgold Open to collaboration jgold Currently working on jgold Looks difficult None Looks tractable None Could be formalisable None Working on formalising Yuren_Tang Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/289",
+        "start": 12520,
+        "end": 32515,
+        "exactness": "region",
+        "sha256": "9c39192c34c9175376de0947b4289bf4a60c59be7732779a466c7cb05b02cb18"
+      }
+    }
+  ],
+  "source_sha256": "6d18935759748036b246a48e09d3f71f60fc0ad05c422ce7b6adff9d3b934315",
+  "refusals": []
+}

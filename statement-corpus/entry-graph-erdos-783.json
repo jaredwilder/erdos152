@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/783",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Fix some constant $C>0$ and let $N$ be large. Let $A\\subseteq \\{2,\\ldots,N\\}$ be such that $(a,b)=1$ for all $a\\neq b\\in A$ and $\\sum_{n\\in A}\\frac{1}{n}\\leq C$. What choice of such an $A$ minimises the number of integers $m\\leq N$ not divisible by any $a\\in A$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/783",
+        "start": 12262,
+        "end": 12542,
+        "exactness": "slice",
+        "sha256": "f17a661acee2b2baaf66e67b8618fd7e1dc82a124dafebe99b548bc2198471c0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#783 : [Er73,p.135] number theory Erdős [Er73] suggests that, if $p_i$ is the $i$th prime, then choosing $A=\\{p_r<\\cdots<p_t\\}$, where $p_t$ is the largest prime $\\leq N$ and $r$ is minimal such that $\\sum_{p\\in A}\\frac{1}{p}\\leq C$ 'either gives the extremal sequence (or at least nearly gives the minimum)'. Chojecki has proved this is the extremal sequence when $C\\leq \\log 2$. Hunter in the comments notes that there are cases where this is not the literal extremal sequence, since small improving perturbations are possible. Tao suggests the problem (which is likely what Erdős meant) of whether the minimum number of integers in $[1,N]$ not divisible by any $a\\in A$ is\\[(\\rho(e^C)+o(1))N,\\]which the construction above shows is achievable. Hildebrand [Hi87b] has proved that this weak form of the conjecture is true if $A$ is a set of primes (answering a question of Erdős and Ruzsa [ErRu80] ). Tao has resolved this question (asymptotically at least), showing that the number of integers not divisible by any $a\\in A$ is at least\\[(\\rho(e^C)+o(1))N,\\]where the $o(1)$ term $\\to 0$ as $N\\to \\infty$ with fixed $C$. See also [784] and [1200] . Additional thanks to : Przemek Chojeckl, Wouter van Doorn, Zach Hunter, and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (28) Proof claims (0) More information and links This page was last edited 28 May 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #783, https://www.erdosproblems.com/783, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable TerenceTao , Przemek Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/783",
+        "start": 12542,
+        "end": 33374,
+        "exactness": "region",
+        "sha256": "6c1666bc11e8d4c62e36e64e9795ee122ba9b7679316a9d48c7fc66bf8caec28"
+      }
+    }
+  ],
+  "source_sha256": "d1663450b7cc6051c659a94d35fb1f55bae070b1757dd67dfd3aa06facf85b5c",
+  "refusals": []
+}

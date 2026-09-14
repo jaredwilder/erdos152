@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/322",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$ and $A\\subset \\mathbb{N}$ be the set of $k$th powers. What is the order of growth of $1_A^{(k)}(n)$, i.e. the number of representations of $n$ as the sum of $k$ many $k$th powers? Does there exist some $c>0$ and infinitely many $n$ such that\\[1_A^{(k)}(n) >n^c?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/322",
+        "start": 12255,
+        "end": 12546,
+        "exactness": "slice",
+        "sha256": "e61eccde6e3668d683bfb05cf563da5028937c219f6ab88eb3362254ad9be003"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#322 : [Er65b] [ErGr80] number theory | powers Connected to Waring's problem. The famous Hypothesis $K$ of Hardy and Littlewood was that $1_A^{(k)}(n)\\leq n^{o(1)}$, but this was disproved by Mahler [Ma36] for $k=3$, who constructed infinitely many $n$ such that\\[1_A^{(3)}(n)\\gg n^{1/12}\\](where $A$ is the set of cubes). Erdős believed Hypothesis $K$ fails for all $k\\geq 4$, but this is unknown. Hardy and Littlewood made the weaker Hypothesis $K^*$ that for all $N$ and $\\epsilon>0$\\[\\sum_{n\\leq N}1_A^{(k)}(n)^2 \\ll_\\epsilon N^{1+\\epsilon}.\\]Erdős and Graham remark: 'This is probably true but no doubt very deep. However, it would suffice for most applications.' Independently Erdős [Er36] and Chowla proved that for all $k\\geq 3$ and infinitely many $n$\\[1_A^{(k)}(n) \\gg n^{c/\\log\\log n}\\]for some constant $c>0$ (depending on $k$). In [Er65b] Erdős claims an unpublished proof that, if $B$ is the set of $k$th powers of any set of positive density, then\\[\\limsup 1_B^{(k)}(n)=\\infty.\\]This is discussed in problem D4 of Guy's collection [Gu04] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 30 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #322, https://www.erdosproblems.com/322, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A025456 , A025418 Reactions Likes None Open to collaboration None Currently working on boolean_matrix Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Different menu on mobile --",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/322",
+        "start": 12546,
+        "end": 33492,
+        "exactness": "region",
+        "sha256": "ce690126f6e59b2249aaec68e070ea73f8a2e71be91670b1481bd40d5f751238"
+      }
+    }
+  ],
+  "source_sha256": "147c19d4a628ed32eb00a36e1edd91ccfcc6fc3a4f77aca9248e96cc521e9684",
+  "refusals": []
+}

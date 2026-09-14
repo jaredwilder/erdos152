@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/120",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq\\mathbb{R}$ be an infinite set. Must there be a set $E\\subset \\mathbb{R}$ of positive measure which does not contain any set of the shape $aA+b$ for some $a,b\\in\\mathbb{R}$ and $a\\neq 0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/120",
+        "start": 12262,
+        "end": 12470,
+        "exactness": "slice",
+        "sha256": "e5e15320dd3ee8531cee28b717ccba765369d55041d4ac36f5ad02036deb3098"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#120 : [Er74b] [Er81b,p.29] [Er83d] [Er90] [Er97f] [Va99,2.46] combinatorics The Erdős similarity problem. This is true if $A$ is unbounded or dense in some interval. It therefore suffices to prove this when $A=\\{a_1>a_2>\\cdots\\}$ is a countable strictly monotone sequence which converges to $0$. Steinhaus [St20] has proved this is false whenever $A$ is a finite set. This conjecture is known in many special cases (but, for example, it is open when $A=\\{1,1/2,1/4,\\ldots\\}$, which is Problem 94 on Green's open problems list ). For an overview of progress we recommend a nice survey by Svetic [Sv00] on this problem. A survey of more recent progress was written by Jung, Lai, and Mooroogen [JLM24] . Additional thanks to : Vjekoslav Kovac Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #120, https://www.erdosproblems.com/120, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes jleng01 , Dogmachine , naprienko , WOOSUNGMATH Open to collaboration None Currently working on sneed-and-feed , naprienko Looks difficult Vjeko_Kovac Looks tractable naprienko Could be formalisable None Working on formalising None Previous Next <!-- Different menu on",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/120",
+        "start": 12470,
+        "end": 33508,
+        "exactness": "region",
+        "sha256": "3e940de9c9b823822c23324c9ffc42ea9c74867820cc15f09d0e06af545eb324"
+      }
+    }
+  ],
+  "source_sha256": "f4091bf6da042a50d0f7e2382b35c5b767f34ddd163d1d51354b0c8f3c1d4319",
+  "refusals": []
+}

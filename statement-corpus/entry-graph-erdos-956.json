@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/956",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $C,D\\subseteq \\mathbb{R}^2$ then the distance between $C$ and $D$ is defined by\\[\\delta(C,D)=\\inf_{\\substack{c\\in C\\\\ d\\in D}}\\| c-d\\|.\\]Let $h(n)$ be the maximal number of unit distances between disjoint convex translates. That is, the maximal $m$ such that there is a compact convex set $C\\subset \\mathbb{R}^2$ and a set $X$ of size $n$ such that all $(C+x)_{x\\in X}$ are disjoint and there are $m$ pairs $x_1,x_2\\in X$ such that\\[\\delta(C+x_1,C+x_2)=1.\\]Determine $h(n)$ - in particular, prove that there exists a constant $c>0$ such that $h(n)>n^{1+c}$ for all large $n$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/956",
+        "start": 12255,
+        "end": 12851,
+        "exactness": "slice",
+        "sha256": "ce165d748c1c035da6463f2bcf87e6badc43ba5815a1aaac5195e41f19ff0555"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#956 : [ErPa90] geometry | distances | convex A problem of Erdős and Pach [ErPa90] , who proved that $h(n) \\ll n^{4/3}$. They also consider the related function where we consider $n$ disjoint convex sets (not necessarily translates), for which they give an upper bound of $\\ll n^{7/5}$. It is trivial that $h(n)\\geq f(n)$, where $f(n)$ is the maximal number of unit distances determined by $n$ points in $\\mathbb{R}^2$ (see [90] ). Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #956, https://www.erdosproblems.com/956, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/956",
+        "start": 12851,
+        "end": 32353,
+        "exactness": "region",
+        "sha256": "35cba48fc3e526ee7827917175816f189184bb37198f8f0bd79df6b796f5d072"
+      }
+    }
+  ],
+  "source_sha256": "c2d0b9946a270b74a0f64a9e5dace41ab3025b80b93e8253c076d87fb04e5ace",
+  "refusals": []
+}

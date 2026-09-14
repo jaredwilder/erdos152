@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/704",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G_n$ be the unit distance graph in $\\mathbb{R}^n$, with two vertices joined by an edge if and only if the distance between them is $1$. Estimate the chromatic number $\\chi(G_n)$. Does it grow exponentially in $n$? Does\\[\\lim_{n\\to \\infty}\\chi(G_n)^{1/n}\\]exist?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/704",
+        "start": 12255,
+        "end": 12534,
+        "exactness": "slice",
+        "sha256": "c2d6da45106fadf22c7c73156acc1c574b34dc8369d7624bc3a5feef08d64241"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#704 : [Er81] graph theory | geometry | chromatic number A generalisation of the Hadwiger-Nelson problem (which addresses $n=2$). Frankl and Wilson [FrWi81] proved exponential growth:\\[\\chi(G_n) \\geq (1+o(1))1.2^n.\\]This was improved to\\[\\chi(G_n)\\geq (1.239\\cdots+o(1))^n\\]by Raigorodsky [Ra00] . The trivial colouring (by tiling with cubes) gives\\[\\chi(G_n) \\leq (2+\\sqrt{n})^n.\\]Larman and Rogers [LaRo72] improved this to\\[\\chi(G_n) \\leq (3+o(1))^n,\\]and conjecture the truth may be $(2^{3/2}+o(1))^n$. (Note that $2^{3/2}\\approx 2.828$.) Prosanov [Pr20] has given an alternative proof of this upper bound. See also [508] , [705] , and [706] . Additional thanks to : Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 10 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #704, https://www.erdosproblems.com/704, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes pollodumas Open to collaboration pollodumas Currently working on pollodumas Looks difficult Vjeko_Kovac , pollodumas Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/704",
+        "start": 12534,
+        "end": 33031,
+        "exactness": "region",
+        "sha256": "2f15f8d05cb67afc19ec395ba46f4b521a1f6cdb7c13a7ca01abd8f1d8433864"
+      }
+    }
+  ],
+  "source_sha256": "2a1417bea57defe7e5405b701d1064c233c317ab6de862537b081887e75cafac",
+  "refusals": []
+}

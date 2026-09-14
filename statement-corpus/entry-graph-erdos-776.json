@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/776",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 2$ and $A_1,\\ldots,A_m\\subseteq \\{1,\\ldots,n\\}$ be such that $A_i\\not\\subseteq A_j$ for all $i\\neq j$ and for any $t$ if there exists some $i$ with $\\lvert A_i\\rvert=t$ then there must exist at least $r$ sets of that size. How large must $n$ be (as a function of $r$) to ensure that there is such a family which achieves $n-3$ distinct sizes of sets?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/776",
+        "start": 12255,
+        "end": 12629,
+        "exactness": "slice",
+        "sha256": "8b4717228ecac5a0cc5229c06fcaf88f5996b95bca3ecab36b7520790be8d8b0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#776 : [Er81i] [Gu83] combinatorics A problem of Erdős and Trotter. For $r=1$ and $n>3$ the maximum possible is $n-2$. For $r>1$ and $n$ sufficiently large $n-3$ is achievable, but $n-2$ is never achievable. Let $n_0(r)$ be such that whenever $n>n_0(r)$ there exists such a family with $n-3$ distinct set sizes. He and Tang [HeTa26b] (with ChatGPT) have proved that $n_0(2)=3$, $n_0(3)=8$, and for all $r\\geq 4$\\[2r+2\\leq n_0(r)\\leq 2r+2\\log_2r+O(\\log\\log r),\\]and hence $n_0(r)\\sim 2r$ as $r\\to \\infty$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (2) More information and links This page was last edited 10 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #776, https://www.erdosproblems.com/776, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes mthiim Open to collaboration mthiim Currently working on mthiim Looks difficult None Looks tractable None Could be formalisable mthiim Working on formalising mthiim Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/776",
+        "start": 12629,
+        "end": 32360,
+        "exactness": "region",
+        "sha256": "e5fdf9eeee1b12a323ba42f264a09213be7b80cbb15f21c35dc3c586421620e4"
+      }
+    }
+  ],
+  "source_sha256": "3be35b0887300368b3fadcfb6ef3b0b3481d55734eaaffe1ddc0901d71dbd754",
+  "refusals": []
+}

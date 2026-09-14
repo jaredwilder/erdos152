@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/386",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $2\\leq k\\leq n-2$. Can $\\binom{n}{k}$ be the product of consecutive primes infinitely often? For example\\[\\binom{21}{2}=2\\cdot 3\\cdot 5\\cdot 7.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/386",
+        "start": 12255,
+        "end": 12410,
+        "exactness": "slice",
+        "sha256": "e77d3b62d18a91d77fd58130d12dd7af4d7ad93cbaf190a44639e7673fa70ca6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#386 : [ErGr80,p.74] number theory | binomial coefficients Erdős and Graham write that 'a proof that this cannot happen infinitely often for $\\binom{n}{2}$ seems hopeless; probably this can never happen for $\\binom{n}{k}$ if $3\\leq k\\leq n-3$.' Weisenberg has provided four easy examples that show Erdős and Graham were too optimistic here:\\[\\binom{7}{3}=5\\cdot 7,\\]\\[\\binom{10}{4}= 2\\cdot 3\\cdot 5\\cdot 7,\\]\\[\\binom{14}{4} = 7\\cdot 11\\cdot 13,\\]and\\[\\binom{15}{6}=5\\cdot 7\\cdot 11\\cdot 13.\\]The known values of $n$ for which $\\binom{n}{2}$ is the product of consecutive primes are $4,6,15,21,715$ (see A280992 ). Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (13) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #386, https://www.erdosproblems.com/386, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A280992 Reactions Likes PedroMartins Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising PedroMartins Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/386",
+        "start": 12410,
+        "end": 32442,
+        "exactness": "region",
+        "sha256": "294ce56cbaf3c3bade900dd721adb93c7d0fb1a0660eeb5d13b393ede05debab"
+      }
+    }
+  ],
+  "source_sha256": "f1000bfb9a21b7b174855b992b0d0bdc5300d07494ca175a4422df3202e0ee94",
+  "refusals": []
+}

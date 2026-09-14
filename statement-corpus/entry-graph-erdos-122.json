@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/122",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For which number theoretic functions $f$ is it true that, for any $F(n)$ such that $F(n)/f(n)\\to 0$ for almost all $n$, there are infinitely many $x$ such that\\[\\frac{\\#\\{ n\\in \\mathbb{N} : n+f(n)\\in (x,x+F(x))\\}}{F(x)}\\to \\infty?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/122",
+        "start": 12255,
+        "end": 12493,
+        "exactness": "slice",
+        "sha256": "6316e41387bfdf5fa7a4d877846cf742a20060561f3b76d498b2244558e1172a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#122 : [Er97,p.155] [Er97e,p.533] [EPS97] number theory In [Er97] Erdős is only considering number theoretic functions which grow 'slowly' (i.e. slower than $(\\log n)^{1-c}$ for some $c>0$). This is considered by Erdős, Pomerance, and Sárközy [EPS97] , who prove in particular that if $\\omega(n)$ counts the number of distinct prime divisors of $n$, then for all large $x$ there are intervals $I,J\\subset [1,x]$ of width\\[\\lvert I\\rvert\\asymp \\left(\\frac{\\log x}{\\log\\log x}\\right)^{1/2}\\]and\\[\\lvert J\\rvert \\asymp (\\log\\log x)^{1/2}\\]such that if $n\\in I$ then $n+\\omega(n)\\in J$. (Note the normal order of $\\omega$ is $\\log\\log x$, and hence $(\\log\\log n)^{1/2}/\\omega(n)\\to 0$ for almost all $n$.) In [Er97] and [Er97e] Erdős reports that he, Pomerance, and Sárkzözy can prove the more general claim above for $f$ being $\\tau(n)$, the divisor function, or $\\omega(n)$, and states it 'probably fails' for $\\phi(n)$ or $\\sigma(n)$. Additional thanks to : Stijn Cambie and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 01 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #122, https://www.erdosproblems.com/122, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes SkyYang , Desenyon Open to collaboration None Currently working on SkyYang , erichou , Desenyon Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/122",
+        "start": 12493,
+        "end": 33174,
+        "exactness": "region",
+        "sha256": "b2ffe869e803db2e8b37267a85f010d6d6acdc70b7b76b95f4353ce773ef1c69"
+      }
+    }
+  ],
+  "source_sha256": "3406546d6853743695e314a9f4b4974f0f6869f6671d84b9313f05d214232a46",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/415",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any $n$ let $F(n)$ be the largest $k$ such that any of the $k!$ possible ordering patterns appears in some sequence of $\\phi(m+1),\\ldots,\\phi(m+k)$ with $m+k\\leq n$. Is it true that\\[F(n)=(c+o(1))\\log\\log\\log n\\]for some constant $c$? Is the first pattern which fails to appear always\\[\\phi(m+1)>\\phi(m+2)>\\cdots >\\phi(m+k)?\\]Is it true that the 'natural' ordering which mimics what happens to $\\phi(1),\\ldots,\\phi(k)$ is the most likely to appear?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/415",
+        "start": 12255,
+        "end": 12725,
+        "exactness": "slice",
+        "sha256": "32812b7d745df1a942be549253016692c859ee76419a234f501efafeac092056"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#415 : [ErGr80,p.82] number theory In [ErGr80] it is left ambiguous whether an 'ordering pattern' involves strict inequalities or allows equality. Weisenberg has observed that the final question only makes sense if we allow equality. In [ErGr80] it is claimed that Erdős [Er36b] proved that\\[F(n)\\asymp \\log\\log\\log n,\\]and similarly if we replace $\\phi$ with $\\sigma$ or $\\tau$ or $\\nu$ or any 'decent' additive or multiplicative function, but this does not seem to be present in [Er36b] , which only shows that the number of $m\\leq n$ such that $\\phi(m)<\\phi(m+1)$ is $\\sim n/2$, and similarly for $\\phi(m)>\\phi(m+1)$. The following asymptotic shows that such a result is false regardless. Pollack, Pomerance, and Treviño [PPT13] have proved that, if $G(n)$ is the maximum $k$ such that\\[\\phi(m+1)> \\phi(m+2)>\\cdots > \\phi(m+k)\\]for some $m$ with $m+k\\leq n$, then\\[G(n)\\sim \\frac{\\log\\log\\log n}{\\log\\log\\log\\log\\log\\log n}.\\]The same asymptotic holds if we replace $>$ with $<,\\leq,\\geq$. Since $F(n)\\leq G(n)$ trivially, this answers the first question in the negative. Chojecki and GPT-5.4 have sketched how the proof of [PPT13] can be adapted to obtain the same asymptotic for an arbitrary pattern of (strict) inequalities. Note that a positive answer to the final question would imply that there exist infinitely many $n$ with $\\phi(n)=\\phi(n+1)$, which is the subject of [1003] . Additional thanks to : Przemek Chojecki, Wouter van Doorn, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 28 May 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #415, https://www.erdosproblems.com/415, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None <div class=\"problem-additio",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/415",
+        "start": 12725,
+        "end": 34024,
+        "exactness": "region",
+        "sha256": "8608f89993204e253db0720eeeae3f79b9231af1568004f5f30cf19a587997a5"
+      }
+    }
+  ],
+  "source_sha256": "f8bef18ebc4e89a813726dd42c2be86cf20643e71d75da335d8b5124463bfc64",
+  "refusals": []
+}

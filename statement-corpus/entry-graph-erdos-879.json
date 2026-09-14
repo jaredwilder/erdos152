@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/879",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Call a set $S\\subseteq \\{1,\\ldots,n\\}$ admissible if $(a,b)=1$ for all $a\\neq b\\in S$. Let\\[G(n) = \\max_{S\\subseteq \\{1,\\ldots,n\\}} \\sum_{a\\in S}a\\]and\\[H(n)=\\sum_{p<n}p+ n\\pi(n^{1/2}).\\]Is it true that\\[G(n) >H(n)-n^{1+o(1)}?\\]Is it true that, for every $k\\geq 2$, if $n$ is sufficiently large then the admissible set which maximises $G(n)$ contains at least one integer with at least $k$ prime factors?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/879",
+        "start": 12255,
+        "end": 12671,
+        "exactness": "slice",
+        "sha256": "23d516c7d416ceceb46eeae39cd5625278e586c8f9e5be61edb2ec1be60f4891"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#879 : [Er84e] [Er98] number theory Erdős and Van Lint proved that\\[H(n)-n^{3/2-o(1)}<G(n)<H(n)\\]and\\[\\frac{H(n)-G(n)}{n}\\to \\infty.\\]They proved that $G(n)>H(n)-n^{1+o(1)}$ assuming 'plausible (but hopeless) assumptions about the distribution of primes'. They also prove the second claim when $k=2$. See also [878] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #879, https://www.erdosproblems.com/879, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A186736 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/879",
+        "start": 12671,
+        "end": 32180,
+        "exactness": "region",
+        "sha256": "3d40fafc97fb88e2c0e911a6bdf1ac347adeba923696f1bd47de1b5cbc2dfbf1"
+      }
+    }
+  ],
+  "source_sha256": "c58c69bb4a77243a5261caabce10ad8a1aee96a7409025ea375f981fab12d750",
+  "refusals": []
+}

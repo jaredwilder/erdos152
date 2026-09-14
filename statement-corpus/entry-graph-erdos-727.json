@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/727",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 2$. Does\\[(n+k)!^2 \\mid (2n)!\\]for infinitely many $n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/727",
+        "start": 12255,
+        "end": 12327,
+        "exactness": "slice",
+        "sha256": "5d1b38122143240b3336f2bd8fcd545dbdd26d3ab6e29ea5bf86fcbb2c3b1e41"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#727 : [EGRS75] number theory | factorials A conjecture of Erdős, Graham, Ruzsa, and Straus [EGRS75] . It is open even for $k=2$. Balakran [Ba29] proved this holds for $k=1$ - that is, $(n+1)^2\\mid \\binom{2n}{n}$ for infinitely many $n$. It is a classical fact that $(n+1)\\mid \\binom{2n}{n}$ for all $n$ (see Catalan numbers ). Erdős, Graham, Ruzsa, and Straus observe that the method of Balakran can be further used to prove that there are infinitely many $n$ such that\\[(n+k)!(n+1)! \\mid (2n)!\\](in fact this holds whenever $k<c \\log n$ for some small constant $c>0$). Erdős [Er68c] proved that if $a!b!\\mid n!$ then $a+b\\leq n+O(\\log n)$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #727, https://www.erdosproblems.com/727, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A002503 , A343507 , A389396 Reactions Likes Fedir , Dogmachine Open to collaboration ryin Currently working on ryin , boolean_matrix Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/727",
+        "start": 12327,
+        "end": 33252,
+        "exactness": "region",
+        "sha256": "1886a6b3f0349a4e2779d92af058f51515186bcfe50b9b07e1d3bb960620ad71"
+      }
+    }
+  ],
+  "source_sha256": "70e4e06d12070b5861621d849e166195d1fa0f5420a19fb9e29d1a7eda0248e2",
+  "refusals": []
+}

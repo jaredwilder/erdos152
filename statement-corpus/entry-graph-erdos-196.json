@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/196",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Must every permutation of $\\mathbb{N}$ contain a monotone 4-term arithmetic progression? In other words, given a permutation $x$ of $\\mathbb{N}$ must there be indices with either $i<j<k<l$ or $i>j>k>l$ such that $x_i,x_j,x_k,x_l$ are an arithmetic progression?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/196",
+        "start": 12255,
+        "end": 12541,
+        "exactness": "slice",
+        "sha256": "fdd2175193ab73ec7594f14d017221c142be115c45bfffe6e74c97703b7a3055"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#196 : [ErGr79] [ErGr80] arithmetic progressions Davis, Entringer, Graham, and Simmons [DEGS77] have shown that there must exist a monotone 3-term arithmetic progression and need not contain a 5-term arithmetic progression. See also [194] and [195] . Additional thanks to : Boris Alexeev, Moritz Firsching, Dustin Mixon, and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #196, https://www.erdosproblems.com/196, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Adenwalla , Dogmachine Open to collaboration Adenwalla Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/196",
+        "start": 12541,
+        "end": 32143,
+        "exactness": "region",
+        "sha256": "586f8cbead4c54875057947ded4f4c9f191267eea8ee72ceec9b899047704c92"
+      }
+    }
+  ],
+  "source_sha256": "8b46045cb637a57ef46f8858688424f4cdcff3cdf359a8bc49b14191bf2f6e46",
+  "refusals": []
+}

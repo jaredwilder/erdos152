@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:182",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$. What is the maximum number of edges that a graph on $n$ vertices can contain if it does not have a $k$-regular subgraph? Is it $\\ll n^{1+o(1)}$?",
+      "provenance": {
+        "source": "erdos:182",
+        "start": 11934,
+        "end": 12165,
+        "exactness": "slice",
+        "sha256": "e03e4209902834e34ed67e748e7b6a31e823513b56d1c16dfe33bb2118e156f3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "Asked by Erd\\H{o}s and Sauer. The prize of \\$100 is offered in \\cite{Er78} for the case $k=3$ (perhaps just for settling whether the answer is $\\ll n$ or not). Resolved by Janzer and Sudakov \\cite{JaSu23}, who proved that there exists some $C=C(k)>0$ such that any graph on $n$ vertices with at least $Cn\\log\\log n$ edges contains a $k$-regular subgraph. Chakraborti, Janzer, Methuku, and Montgomery \\cite{CJMM24b} have shown that one can take $C(k)\\ll k^2$, which is the best possible up to an absolute constant. A construction due to Pyber, R\\\"{o}dl, and Szemer\\'{e}di \\cite{PRS95} shows that this is best possible. In \\cite{Er75} Erd\\H{o}s mentions a similar question of Szemer\\'{e}di, in which the $k$-regular subgraph must be connected. Let $F(n,k)$ be the smallest number of edges on $n$ vertices which guarantee a connected $k$-regular subgraph. Erd\\H{o}s \\cite{Er75} proved $F(n,3) \\ll n^{5/3}$.",
+      "provenance": {
+        "source": "erdos:182",
+        "start": 12165,
+        "end": 26184,
+        "exactness": "region",
+        "sha256": "6efbbe3f4c888ae42f74a39ff14cb740fbd3ff35d0c7c8f5964adc57ae28834c"
+      }
+    }
+  ],
+  "source_sha256": "d057760cb4c2e5c252874e893c71f8c5ec1965e71460e8ffe8ad2384a79243f5",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/9",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A$ be the set of all odd integers $\\geq 1$ not of the form $p+2^{k}+2^l$ (where $k,l\\geq 0$ and $p$ is prime). Is the upper density of $A$ positive?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/9",
+        "start": 12251,
+        "end": 12410,
+        "exactness": "slice",
+        "sha256": "26fc22e69d6787786e9f4715352df0df03473ba37f6c036539dd0e36fad637c3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#9 : [Er77c] [Er80,p.96] [ErGr80] [Er85c] [Er92c] [Er95,p.167] [Er97] [Er97c] [Er97e] number theory | additive basis | primes Crocker [Cr71] proved that there are infinitely many odd integers not of this form; his proof in fact proves there are $\\gg\\log\\log N$ such integers in $\\{1,\\ldots,N\\}$. Pan [Pa11] improved this to $\\gg_\\epsilon N^{1-\\epsilon}$ for any $\\epsilon>0$. Erdős believed this cannot be proved by covering systems, i.e. integers of the form $p+2^k+2^l$ exist in every infinite arithmetic progression. The sequence of such numbers is A006286 in the OEIS. In [Er80] Erdős conjectured 'with some trepidation' that for any finite set of primes $P$ all large integers $n$ can be written as $n=m+2^k+2^l$ where $m$ is a multiple of one of the primes in $P$. See also [10] , [11] , and [16] . This is discussed in problem A19 of Guy's collection [Gu04] . Additional thanks to : Ralf Stephan Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 07 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #9, https://www.erdosproblems.com/9, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A006286 Reactions Likes Dogmachine , holyterror Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/9",
+        "start": 12410,
+        "end": 34311,
+        "exactness": "region",
+        "sha256": "e831bfab2257ea89d170fb937b22c4e6ffd21a13299dd1c278513ad4a503ae59"
+      }
+    }
+  ],
+  "source_sha256": "1c4a2015d13f7e92e677d2f92244d2ca62e8a2a87e4dff156c0e4563f77642c6",
+  "refusals": []
+}

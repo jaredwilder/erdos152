@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/450",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "How large must $y=y(\\epsilon,n)$ be such that the number of integers in $(x,x+y)$ with a divisor in $(n,2n)$ is at most $\\epsilon y$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/450",
+        "start": 12255,
+        "end": 12394,
+        "exactness": "slice",
+        "sha256": "60d8e8263dbe9ab20febd5856cd2e5ba05393a99376a55bcaa890be0f96ba47e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#450 : [ErGr80,p.89] number theory | divisors It is not clear what the intended quantifier on $x$ is. Cambie has observed that if this is intended to hold for all $x$ then, provided\\[\\epsilon(\\log n)^\\delta (\\log\\log n)^{3/2}\\to \\infty\\]as $n\\to \\infty$, where $\\delta=0.086\\cdots$, there is no such $y$, which follows from an averaging argument and the work of Ford [Fo08] . On the other hand, Cambie has observed that if $\\epsilon\\ll 1/n$ then $y(\\epsilon,n)\\sim 2n$: indeed, if $y<2n$ then this is impossible taking $x+n$ to be a multiple of the lowest common multiple of $\\{n+1,\\ldots,2n-1\\}$. On the other hand, for every fixed $\\delta\\in (0,1)$ and $n$ large every $2(1+\\delta)n$ consecutive elements contains many elements which are a multiple of an element in $(n,2n)$. Additional thanks to : Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #450, https://www.erdosproblems.com/450, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/450",
+        "start": 12394,
+        "end": 32079,
+        "exactness": "region",
+        "sha256": "6201279f9ae3d5acbe36a743d8295df09dde69965c87ab5260a897930c71af5e"
+      }
+    }
+  ],
+  "source_sha256": "d17078af3a4964e27481cc436fd05a44a119cfed9b92fda9f4afb59c2efb6a2e",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/55",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "A set of integers $A$ is Ramsey $r$-complete if, whenever $A$ is $r$-coloured, all sufficiently large integers can be written as a monochromatic sum of elements of $A$. Prove any non-trivial bounds about the growth rate of such an $A$ for $r>2$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/55",
+        "start": 12267,
+        "end": 12522,
+        "exactness": "slice",
+        "sha256": "8ee4400345af04733403c4d29da2c24658e9ce0ae8662e99f098f1beb0b2be4a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#55 : [Er95] number theory | ramsey theory A paper of Burr and Erdős [BuEr85] proves both upper and lower bounds for $r=2$, showing that there exists some $c>0$ such that it cannot be true that\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert \\leq c(\\log N)^2\\]for all large $N$, and also constructing a Ramsey $2$-complete $A$ such that for all large $N$\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert \\ll (\\log N)^3.\\]Burr has shown that the sequence of $k$th powers is Ramsey $r$-complete for every $r,k\\geq 1$. Solved by Conlon, Fox, and Pham [CFP21] , who constructed for every $r\\geq 2$ an $r$-Ramsey complete $A$ such that for all large $N$\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert \\ll r(\\log N)^2,\\]and showed that this is best possible, in that there exists some constant $c>0$ such that if $A\\subset \\mathbb{N}$ satisfies\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert \\leq cr(\\log N)^2\\]for all large $N$ then $A$ cannot be $r$-Ramsey complete. See also [54] and [843] . Additional thanks to : Mehtaab Sawhney Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #55, https://www.erdosproblems.com/55, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/55",
+        "start": 12522,
+        "end": 32567,
+        "exactness": "region",
+        "sha256": "087f4b420cfae46d15a3f703cc0d9b75eda15f99cbcfdd200f9fcf67acbb34c1"
+      }
+    }
+  ],
+  "source_sha256": "e75a606a4bbf104849a40694db4b749d26abd3b6d1c3a44e02494f01a8d7abbb",
+  "refusals": []
+}

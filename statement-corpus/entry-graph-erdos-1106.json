@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1106",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $p(n)$ denote the partition function of $n$ and let $F(n)$ count the number of distinct prime factors of\\[\\prod_{1\\leq k\\leq n}p(k).\\]Does $F(n)\\to \\infty$ with $n$? Is $F(n)>n$ for all sufficiently large $n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1106",
+        "start": 12257,
+        "end": 12613,
+        "exactness": "slice",
+        "sha256": "6d451f28dc31acec754af544dd36d51718ec8ef0684fc635893913e926a7730b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1106 : [Ob1] number theory Asked by Erdős at Oberwolfach in 1986. Schinzel noted in the Oberwolfach problem book that $F(n)\\to \\infty$ follows from the asymptotic formula for $p(n)$ and a result of Tijdeman [Ti73] . This is not obvious; details are given in a paper of Erdős and Ivić (see page 69 of [ErIv90] ). Schinzel and Wirsing [ScWi87] have proved $F(n) \\gg \\log n$. Ono [On00] has proved that every prime divides $p(n)$ for some $n\\geq 1$ (indeed this holds, for any fixed prime, for a positive density set of $n$). Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 16 November 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1106, https://www.erdosproblems.com/1106, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A194259 , A194260 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1106",
+        "start": 12613,
+        "end": 32921,
+        "exactness": "region",
+        "sha256": "0ceea1ab0db9d869ebd2667148c53fb21310eede2550ca61fed23c8dc39eb3fd"
+      }
+    }
+  ],
+  "source_sha256": "0547e0de03aa87d194bbb22500c7c202a6b6c0064516fae4583418985ef8fb07",
+  "refusals": []
+}

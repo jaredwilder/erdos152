@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/284",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(k)$ be the maximal value of $n_1$ such that there exist $n_1<n_2<\\cdots <n_k$ with\\[1=\\frac{1}{n_1}+\\cdots+\\frac{1}{n_k}.\\]Is it true that\\[f(k)=(1+o(1))\\frac{k}{e-1}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/284",
+        "start": 12236,
+        "end": 12430,
+        "exactness": "slice",
+        "sha256": "1535c3b95e0c7c68c904d9bcbfbd6a052aa093cf3c9e7d0facd4d0acc761fd9f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#284 : [ErGr80] number theory | unit fractions The upper bound $f(k) \\leq (1+o(1))\\frac{k}{e-1}$ is trivial since for any $u\\geq 1$ we have\\[\\sum_{u\\leq n\\leq eu}\\frac{1}{n}=1+o(1),\\]and hence if $f(k)=u$ then we must have $k\\geq (e-1-o(1))u$. Essentially solved by Croot [Cr01] , who showed that for any $N>1$ there exists some $k\\geq 1$ and\\[N<n_1<\\cdots <n_k \\leq (e+o(1))N\\]with $1=\\sum \\frac{1}{n_i}$. Additional thanks to : Zachary Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #284, https://www.erdosproblems.com/284, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/284",
+        "start": 12430,
+        "end": 31926,
+        "exactness": "region",
+        "sha256": "7bb6cff27652716b4d2381d2786f0dc281d4eecfda3d89f464681643dad6eceb"
+      }
+    }
+  ],
+  "source_sha256": "04bf814af9c46672cc300d688c68414e3f73c485cee999184041ac25888efdae",
+  "refusals": []
+}

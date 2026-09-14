@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:466",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $N(X,\\delta)$ denote the maximum number of points $P_1,\\ldots,P_n$ which can be chosen in a circle of radius $X$ such that\\[\\| \\lvert P_i-P_j\\rvert \\| \\geq \\delta\\]for all $1\\leq i<j\\leq n$. (Here $\\|x\\|$ is the distance from $x$ to the nearest integer.) Is there some $\\delta>0$ such that\\[\\lim_{x\\to \\infty}N(X,\\delta)=\\infty?\\]",
+      "provenance": {
+        "source": "erdos:466",
+        "start": 11934,
+        "end": 12353,
+        "exactness": "slice",
+        "sha256": "a7d4b3e6ef4f96fb444557d87dba9b0693c7a4f14a97e71c28801d6e6da33a1b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "Graham proved this is true, and in fact\\[N(X,1/10)> \\frac{\\log X}{10}.\\]This was substantially improved by S\\'{a}rk\\\"{o}zy \\cite{Sa76}, who proved that for, all sufficiently small $\\delta>0$,\\[N(X,\\delta)>X^{1/2-\\delta^{1/7}}.\\]See also [465] for upper bounds and [953] for a similar problem.",
+      "provenance": {
+        "source": "erdos:466",
+        "start": 12353,
+        "end": 25142,
+        "exactness": "region",
+        "sha256": "4bb4a6cf0c0f05426666cf989bfee027f0f23e3c4b6adbfa0c18aee6ed56fe82"
+      }
+    }
+  ],
+  "source_sha256": "6bb674f6c646f3873d41130688abb2487004b569f1f3326b9a343439976aea72",
+  "refusals": []
+}

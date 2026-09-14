@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/378",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 0$. Does the density of integers $n$ for which $\\binom{n}{k}$ is squarefree for at least $r$ values of $1\\leq k<n$ exist? Is this density $>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/378",
+        "start": 12236,
+        "end": 12403,
+        "exactness": "slice",
+        "sha256": "c419da7526b3e3a35f6fb7fa2cd3d4446163b7e98312986c3e3320d0d2db4fcb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#378 : [ErGr80,p.72] number theory | binomial coefficients Erdős and Graham state they can prove that, for $k$ fixed and large, the density of $n$ such that $\\binom{n}{k}$ is squarefree is $o_k(1)$. They can also prove that there are infinitely many $n$ such that $\\binom{n}{k}$ is not squarefree for $1\\leq k<n$, and expect that the density of such $n$ is positive. Aggarwal and Cambie have observed this problem is resolved by the results of Granville and Ramaré [GrRa96] , who in particular show that the density of the set of those $n$ such that $\\binom{n}{k}$ is squarefree for exactly $2m+2$ many values of $k$ exists. If this density is $\\eta_m$, then the density in the original question is simply\\[1-\\sum_{0\\leq m\\leq \\frac{r-1}{2}}\\eta_m.\\]This density is positive since $\\eta_{r+1}>0$. Additional thanks to : Anay Aggarwal and Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 28 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #378, https://www.erdosproblems.com/378, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/378",
+        "start": 12403,
+        "end": 32128,
+        "exactness": "region",
+        "sha256": "881dbc50c5c286c6d6997d07e777993784c016140fcc9e909b8fb69c463a8b56"
+      }
+    }
+  ],
+  "source_sha256": "dbd7d8b48f5bb286045cf79aea045f15ca0082d4333d70f30afa275458c33130",
+  "refusals": []
+}

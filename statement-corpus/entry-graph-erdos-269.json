@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/269",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $P$ be a finite set of primes with $\\lvert P\\rvert \\geq 2$ and let $\\{a_1<a_2<\\cdots\\}=\\{ n\\in \\mathbb{N} : \\textrm{if }p\\mid n\\textrm{ then }p\\in P\\}$. Is the sum\\[\\sum_{n=1}^\\infty \\frac{1}{[a_1,\\ldots,a_n]},\\]where $[a_1,\\ldots,a_n]$ is the lowest common multiple of $a_1,\\ldots,a_n$, irrational?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/269",
+        "start": 12255,
+        "end": 12572,
+        "exactness": "slice",
+        "sha256": "5c76238efb44eb5db36d3c92a9f0e5fadd9b955d8714658c24ed6e117b36fff4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#269 : [ErGr80,p.65] [Er88c,p.106] irrationality If $P$ is infinite this sum is always irrational (in [Er88c] Erdős says this is a 'simple exercise'). This problem was asked by Erdős in a letter to the editor written January 1st 1973 in issue 12 of the Fibonacci Quarterly, 1974, p. 335. In that letter he says that he can prove the sum is irrational if duplicate summands are removed. Additional thanks to : Alfaiz Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 28 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #269, https://www.erdosproblems.com/269, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Steve_Fan Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/269",
+        "start": 12572,
+        "end": 32017,
+        "exactness": "region",
+        "sha256": "93833ae1673e5fa685052a2f9048682bd4f495c00674d3f0ace301b1f5d91b98"
+      }
+    }
+  ],
+  "source_sha256": "83aa6db0d9e410af6621c7a01d07ca07b0120e600f85d36927003d96689a98ec",
+  "refusals": []
+}

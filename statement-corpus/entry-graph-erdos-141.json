@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/141",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$. Are there $k$ consecutive primes in arithmetic progression?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/141",
+        "start": 12255,
+        "end": 12335,
+        "exactness": "slice",
+        "sha256": "03b8077fb6d3c6616916f9584c2de34cf898fe99611a1cebaf58465d79adba73"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#141 : [Er75b] [Er83] [Er97c] additive combinatorics | primes | arithmetic progressions Green and Tao [GrTa08] have proved that there must always exist some $k$ primes in arithmetic progression, but these need not be consecutive. Erdős called this conjecture 'completely hopeless at present'. The existence of such progressions for small $k$ has been verified for $k\\leq 10$, see the Wikipedia page . It is open, even for $k=3$, whether there are infinitely many such progressions. See also [219] . This is discussed in problem A6 of Guy's collection [Gu04] . Additional thanks to : Prakrish Acharya Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 28 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #141, https://www.erdosproblems.com/141, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A006560 Reactions Likes KStar Open to collaboration None Currently working on None Looks difficult KStar Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/141",
+        "start": 12335,
+        "end": 32977,
+        "exactness": "region",
+        "sha256": "97f461b866d2d5b5d110416a3f37e1fa1d99a91fe9bdb658b659ffa843d88737"
+      }
+    }
+  ],
+  "source_sha256": "7f50db3d8cd2aba34c018a3e47d8053ac986c34c95d723e6bcf7a08a430247a9",
+  "refusals": []
+}

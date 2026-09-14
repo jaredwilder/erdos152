@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/836",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 2$ and $G$ be a $r$-uniform hypergraph with chromatic number $3$ (that is, there is a $3$-colouring of the vertices of $G$ such that no edge is monochromatic). Suppose any two edges of $G$ have a non-empty intersection. Must $G$ contain $O(r^2)$ many vertices? Must there be two edges which meet in $\\gg r$ many vertices?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/836",
+        "start": 12255,
+        "end": 12604,
+        "exactness": "slice",
+        "sha256": "6794b6056c8a9de95397a0dc46f3eecff22cfdc35f2ca8db891cfd72736c3577"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#836 : [Er74d] graph theory | hypergraphs | chromatic number A problem of Erdős and Shelah. The Fano geometry gives an example where there are no two edges which meet in $r-1$ vertices. Are there any other examples? Erdős and Lovász [ErLo75] proved that there must be two edges which meet in $\\gg \\frac{r}{\\log r}$ many vertices. Alon has provided the following counterexample to the first question: as vertices take two sets $X$ and $Y$ of sizes $2r-2$ and $\\frac{1}{2}\\binom{2r-2}{r-1}$ respectively, where $Y$ corresponds to all partitions of $X$ into two equal parts. The edges are all subsets of $X$ of size $r$, and also all sets consisting of a subset of $X$ of size $r-1$ together with the unique element of $Y$ corresponding to the induced partition of $X$. This hypergraph is intersecting, its chromatic number is $3$, and it has $\\asymp 4^r/\\sqrt{r}$ many vertices. Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #836, https://www.erdosproblems.com/836, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/836",
+        "start": 12604,
+        "end": 32380,
+        "exactness": "region",
+        "sha256": "b39ec27460a9dbde48b0ba98b0a8d4218082c0e5314bef1956eec814a1109d34"
+      }
+    }
+  ],
+  "source_sha256": "85bbfae1423aa3ff84d020c6e9c7fe752875a77168aa2841818e832217efca0d",
+  "refusals": []
+}

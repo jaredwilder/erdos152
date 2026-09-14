@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/292",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A$ be the set of $n\\in \\mathbb{N}$ such that there exist $1\\leq m_1<\\cdots <m_k=n$ with $\\sum\\tfrac{1}{m_i}=1$. Explore $A$. In particular, does $A$ have density $1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/292",
+        "start": 12236,
+        "end": 12421,
+        "exactness": "slice",
+        "sha256": "5995d343ae14c772a0644c7b9e3cc7b10d0b44c27a726ec5f6f5ea9253d6fe72"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#292 : [ErGr80,p.35] number theory | unit fractions Straus observed that $A$ is closed under multiplication. Furthermore, it is easy to see that $A$ does not contain any prime power. The answer is yes, as proved by Martin [Ma00] , who in fact proved that if $B=\\mathbb{N}\\backslash A$ then, for all large $x$,\\[\\frac{\\lvert B\\cap [1,x]\\rvert}{x}\\asymp \\frac{\\log\\log x}{\\log x},\\]and also gave an essentially complete description of $B$ as those integers which are small multiples of prime powers. van Doorn has observed that if $n\\in A$ (with $n>1$) then $2n\\in A$ also, since if $\\sum \\frac{1}{m_i}=1$ then $\\frac{1}{2}+\\sum\\frac{1}{2m_i}=1$ also. Additional thanks to : Zach Hunter, Wouter van Doorn and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 20 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #292, https://www.erdosproblems.com/292, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A092671 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/292",
+        "start": 12421,
+        "end": 32443,
+        "exactness": "region",
+        "sha256": "e915c9d2da1fed84255164bffc2e1fe53b45177aaf21274d36e56ba18ba7132a"
+      }
+    }
+  ],
+  "source_sha256": "53efb21180d34a55aacf5387d629d2236d9ef4dc2cf50b308c6d8b2b1f197944",
+  "refusals": []
+}

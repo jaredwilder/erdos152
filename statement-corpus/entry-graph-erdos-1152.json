@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1152",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For $n\\geq 1$ fix some sequence of $n$ distinct numbers $x_{1n},\\ldots,x_{nn}\\in [-1,1]$. Let $\\epsilon=\\epsilon(n)\\to 0$. Does there always exist a continuous function $f:[-1,1]\\to \\mathbb{R}$ such that if $p_n$ is a sequence of polynomials, with degrees $\\deg p_n<(1+\\epsilon(n))n$, such that $p_n(x_{kn})=f(x_{kn})$ for all $1\\leq k\\leq n$, then $p_n(x)\\not\\to f(x)$ for almost all $x\\in [-1,1]$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1152",
+        "start": 12257,
+        "end": 12674,
+        "exactness": "slice",
+        "sha256": "cff04fcd17b5fecabbe7013bab7023a19984ebf1e0a9acc3e9feae0dae011647"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1152 : [Va99,2.42] analysis | polynomials Erdős, Kroó, and Szabados [EKS89] proved that, if $\\epsilon>0$ is fixed and does not $\\to 0$, then there exist sequences $x_{ij}$ such that, for any continuous function $f$, there exists a sequence of polynomials $p_n$, with degrees $\\deg p_n<(1+\\epsilon)n$, such that $p_n(x_{kn})=f(x_{kn})$ for all $1\\leq k\\leq n$, and $p_n(x)\\to f(x)$ uniformly for all $x\\in [-1,1]$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1152, https://www.erdosproblems.com/1152, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1152",
+        "start": 12674,
+        "end": 31860,
+        "exactness": "region",
+        "sha256": "7705849c18cf14abacc2d3ba8891b7834445ba12e914a0960b0a538eda0693f2"
+      }
+    }
+  ],
+  "source_sha256": "a555b11fab1232109c90d26d7c82e3280f8361354299af4f0991b821fbe36770",
+  "refusals": []
+}

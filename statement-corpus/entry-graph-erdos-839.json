@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/839",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $1\\leq a_1<a_2<\\cdots$ be a sequence of integers such that no $a_i$ is the sum of consecutive $a_j$ for $j<i$. Is it true that\\[\\limsup \\frac{a_n}{n}=\\infty?\\]Or even\\[\\lim \\frac{1}{\\log x}\\sum_{a_n<x}\\frac{1}{a_n}=0?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/839",
+        "start": 12255,
+        "end": 12500,
+        "exactness": "slice",
+        "sha256": "bc6682c40a0297ed96900e34940565b12d15e8104d25057fc2ee142aa566d73b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#839 : [Er78f] [Er92c] number theory Erdős writes that it is easy to see that $\\liminf a_n/n<\\infty$ is possible, and that one can have\\[\\sum_{a_n< x}\\frac{1}{a_n}\\gg \\log\\log x.\\]The upper density of such a sequence can be $1/2$, but Erdős thought it probably could not be $>1/2$. In fact this is false - Freud [Fr93] constructed a sequence with upper density $19/36$. See also [359] and [867] . Additional thanks to : Boris Alexeev Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #839, https://www.erdosproblems.com/839, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/839",
+        "start": 12500,
+        "end": 31979,
+        "exactness": "region",
+        "sha256": "a63f1ce612ea5e18177cda0da9db1c8feb4b44803bb09b5a072d7e24ab614604"
+      }
+    }
+  ],
+  "source_sha256": "fe9797738b26cab7ab09a8664af6a2971210f18b840e48ff1dbf0423742e3ba2",
+  "refusals": []
+}

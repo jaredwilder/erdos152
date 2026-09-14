@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/920",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f_k(n)$ be the maximum possible chromatic number of a graph with $n$ vertices which contains no $K_k$. Is it true that, for $k\\geq 4$,\\[f_k(n) \\gg \\frac{n^{1-\\frac{1}{k-1}}}{(\\log n)^{c_k}}\\]for some constant $c_k>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/920",
+        "start": 12262,
+        "end": 12501,
+        "exactness": "slice",
+        "sha256": "e503454d8993473d34e85b86d7135586d33bcf0d87f11ff5a7058f80d98cf136"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#920 : [Er69b] graph theory | chromatic number Graver and Yackel [GrYa68] proved that\\[f_k(n) \\ll \\left(n\\frac{\\log\\log n}{\\log n}\\right)^{1-\\frac{1}{k-1}}.\\]It is known that $f_3(n)\\asymp (n/\\log n)^{1/2}$ (see [1104] ). The lower bound $R(4,m) \\gg m^3/(\\log m)^4$ of Mattheus and Verstraete [MaVe23] (see [166] ) implies\\[f_4(n) \\gg \\frac{n^{2/3}}{(\\log n)^{4/3}}.\\]A positive answer to this question for all $k\\geq 5$ follows from the lower bound in [986] given by Bradač [Br26] . See [1104] (and also [1013] ) for the case $k=3$. Additional thanks to : Xiao Hu Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (2) More information and links This page was last edited 25 July 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #920, https://www.erdosproblems.com/920, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes mosesluajh Open to collaboration None Currently working on mosesluajh , lzicar1 Looks difficult None Looks tractable None Could be formalisable None Working on formalising mosesluajh Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/920",
+        "start": 12501,
+        "end": 33001,
+        "exactness": "region",
+        "sha256": "381056a141cee129bfbcdbb839802df64ee663bc5d8a938863e3fc6e5a5997e3"
+      }
+    }
+  ],
+  "source_sha256": "32435ff523a73ed03497d38a24e9f969d14af0ffd78ff246a4cb6f34dd06fd88",
+  "refusals": []
+}

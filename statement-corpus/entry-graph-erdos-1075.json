@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1075",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 3$. There exists $c_r>r^{-r}$ such that, for any $\\epsilon>0$, if $n$ is sufficiently large, the following holds. Any $r$-uniform hypergraph on $n$ vertices with at least $(1+\\epsilon)(n/r)^r$ many edges contains a subgraph on $m$ vertices with at least $c_rm^r$ edges, where $m=m(n)\\to \\infty$ as $n\\to \\infty$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1075",
+        "start": 12257,
+        "end": 12601,
+        "exactness": "slice",
+        "sha256": "3ccf4f1536dd2eca5cbc8655b0a28303464f8628311312076113e41e07c30cf3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1075 : [Er74c,p.80] hypergraphs Erdős [Er64f] proved that this is true with $c_r=r^{-r}$ whenever the graph has at least $\\epsilon n^r$ many edges. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 05 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1075, https://www.erdosproblems.com/1075, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on dumbprime Looks difficult None Looks tractable zach_hunter Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1075",
+        "start": 12601,
+        "end": 31563,
+        "exactness": "region",
+        "sha256": "8d454aef63feeb958096aa11cae6025c738603ea6961ebd4a9d9e79a26e08176"
+      }
+    }
+  ],
+  "source_sha256": "8e6c4efccca48707689c21a83b4f0dd57103f3e68d404c2e0481c48cbfa03bad",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1178",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For $r\\geq 3$ let $d_r(e)$ be the minimal $d$ such that\\[\\mathrm{ex}_r(n,\\mathcal{F})=o(n^2),\\]where $\\mathcal{F}$ is the family of $r$-uniform hypergraphs on $d$ vertices with $e$ edges. Prove that\\[d_r(e)=(r-2)e+3\\]for all $r,e\\geq 3$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1178",
+        "start": 12257,
+        "end": 12507,
+        "exactness": "slice",
+        "sha256": "3c19937b15dee0732d25c642ae0449f9891f6471a6ee1c7b3c7c9653c92a441d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1178 : [BES73] [Er75b] [Er81] graph theory | hypergraphs A conjecture of Brown, Erdős, and Sós [BES73] , who proved that $d_r(e)\\geq (r-2)e+3$ (see also [1076] ). Ruzsa and Szemerédi [RuSz78] proved $d_3(3)=6$ (see [716] ). Erdős, Frankl, and Rödl [EFR86] proved\\[d_r(3)= (r-2)3+3\\]for all $r\\geq 3$. Sárközy and Selkow [SaSe05] proved\\[d_r(e) \\leq (r-2)e+2+\\lfloor \\log_2 e\\rfloor\\]for all $r,e\\geq 3$. Solymosi and Solymosi [SoSo17] proved that $d_3(10)\\leq 14$. Conlon, Gishboliner, Levanzov, and Shapira [CGLS23] proved\\[d_3(e)\\leq e+O\\left(\\frac{\\log e}{\\log\\log e}\\right)\\]for all $e\\geq 3$. In [Er75b] Erdős even asks whether, if $\\mathcal{F}$ is the family of $3$-uniform hypergraphs on $k$ vertices with $k-3$ edges,\\[\\mathrm{ex}_3(n,\\mathcal{F})\\asymp n r_{k-3}(n),\\]where $r_{k-3}(n)$ is the maximal size of a subset of $\\{1,\\ldots,n\\}$ that does not contain a non-trivial arithmetic progression of length $k-3$. He states that Ruzsa has proved the lower bound for $k=6,7,8$. See [1157] for the general case. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 26 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1178, https://www.erdosproblems.com/1178, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes zach_hunter Open to collaboration None Currently working on None Looks difficult zach_hunter Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Redirect links and searches when in dual view mod",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1178",
+        "start": 12507,
+        "end": 33534,
+        "exactness": "region",
+        "sha256": "7a9c9fa41d8197a6924aa69de442c9ec11e10b30175575ebbff4195f982fc048"
+      }
+    }
+  ],
+  "source_sha256": "78d9c9a0adb561efa2f2b62c1d9a18f15c8b59356952a888fdb8adb616a72419",
+  "refusals": []
+}

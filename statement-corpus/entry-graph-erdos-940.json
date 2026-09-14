@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/940",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 3$. A number $n$ is $r$-powerful if for every prime $p$ which divides $n$ we have $p^r\\mid n$. Are there infinitely many integers which are not the sum of at most $r$ many $r$-powerful numbers? Does the set of integers which are the sum of at most $r$ $r$-powerful numbers have density $0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/940",
+        "start": 12255,
+        "end": 12570,
+        "exactness": "slice",
+        "sha256": "3a06bbde1e12edb882319898f92fbd2801494782c4dadc051769ad5b9a8e622f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#940 : [Er76d,p.33] [Ob1] number theory | powerful Erdős [Er76d] claims that the claim that the set has density $0$ is 'easy' for $r=2$ (a potential 'easy argument' is given in the comments by Tao; this was first proved in the literature by Baker and Brüdern [BaBr94] ). For $r=3$ it is not even known if those integers which are the sum of at most three cubes has density $0$. In the Oberwolfach problem book this is recorded in 1986 as a problem of Erdős and Ivić. In [Er76d] Erdős claims that 'a simple counting argument' implies that there are infinitely many integers which are not the sum of at most $r$ many $r$-powerful numbers, but Schinzel pointed out he made a mistake. Heath-Brown [He88] has proved that all large numbers are the sum of at most three $2$-powerful numbers, see [941] . See also [1081] for a more refined question concerning the case $r=2$, and [1107] for the case of $r+1$ summands. Additional thanks to : Dogmachine and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (0) More information and links This page was last edited 03 November 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #940, https://www.erdosproblems.com/940, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Dogmachine , Basile_Beyer_de_Ryke Open to collaboration None Currently working on Basile_Beyer_de_Ryke Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Redirect links and s",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/940",
+        "start": 12570,
+        "end": 33561,
+        "exactness": "region",
+        "sha256": "f3fa78aebab679b814bfd49a1ca8a6eabde0047c7443a696548e3c4568d625c9"
+      }
+    }
+  ],
+  "source_sha256": "b6df0bfd1e26389d160b88c8d5e4ba6333eac0db854d4b3eeca6fdd8940f5926",
+  "refusals": []
+}

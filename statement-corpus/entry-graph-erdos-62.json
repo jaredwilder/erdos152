@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/62",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $G_1,G_2$ are two graphs with chromatic number $\\aleph_1$ then must there exist a graph $G$ whose chromatic number is $4$ (or even $\\aleph_0$) which is a subgraph of both $G_1$ and $G_2$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/62",
+        "start": 12253,
+        "end": 12453,
+        "exactness": "slice",
+        "sha256": "61ed468a1a69eb0c5101c2198fdd24ec0609382c2023d9b95dc1e442a6976d40"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#62 : [Er87] [Er90] [Er95d] [Va99,7.89] graph theory Erdős also asked [Er87] about finding a common subgraph $H$ (with chromatic number either $4$ or $\\aleph_0$) in any finite collection of graphs with chromatic number $\\aleph_1$. Every graph with chromatic number $\\aleph_1$ contains all sufficiently large odd cycles (which have chromatic number $3$), see [594] . This was proved by Erdős, Hajnal, and Shelah [EHS74] . Erdős wrote [Er87] that 'probably' every graph with chromatic number $\\aleph_1$ contains as subgraphs all graphs with chromatic number $4$ with sufficiently large girth. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #62, https://www.erdosproblems.com/62, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/62",
+        "start": 12453,
+        "end": 32367,
+        "exactness": "region",
+        "sha256": "bbc6960c13941738a8bfb6ae0a865adcdfa52ed62ba27cadee2e6893eb354993"
+      }
+    }
+  ],
+  "source_sha256": "967f37ebdbe295c552761594bc4d0fbb1b3a0cb5c86e4ec66d519ebc5963b519",
+  "refusals": []
+}

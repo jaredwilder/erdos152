@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1120",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f\\in \\mathbb{C}[z]$ be a monic polynomial of degree $n$, all of whose roots satisfy $\\lvert z\\rvert\\leq 1$. Let\\[E= \\{ z : \\lvert f(z)\\rvert \\leq 1\\}.\\]What is the shortest length of a path in $E$ joining $z=0$ to $\\lvert z\\rvert =1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1120",
+        "start": 12257,
+        "end": 12503,
+        "exactness": "slice",
+        "sha256": "07310c72ba487735c2bbe06e18889db7f9e85b0dd1dec3cf0e35ff1f1eb7b04b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1120 : [Ha74] analysis This is Problem 4.22 in [Ha74] , where it is attributed to Erdős. In [Ha74] it is reported that Clunie and Netanyahu (personal communication) showed that a path always exists which joins $z=0$ to $\\lvert z\\rvert=1$ in $A$. Erdős wrote 'presumably this tends to infinity with $n$, but not too fast'. The trivial lower bound for the length of this path is $1$, which is achieved for $f(z)=z^n$. The interesting side of this question is what the worst case behaviour is (as a function of $n$). See also [1041] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 30 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1120, https://www.erdosproblems.com/1120, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes thomas , ebarschkis , VPendyala Open to collaboration VPendyala Currently working on VPendyala Looks difficult kasko37 Looks tractable None Could be formalisable VPendyala Working on formalising VPendyala Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1120",
+        "start": 12503,
+        "end": 32353,
+        "exactness": "region",
+        "sha256": "966c619865c2fbc2ba3b4ce4770d5aae5c1d6ef7cd2c510caf13b11619ba7d39"
+      }
+    }
+  ],
+  "source_sha256": "4a4561931277c72afa488fa588d46458e5598e84dbc01b41fc1490874e5fa476",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/796",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 2$ and let $g_k(n)$ be the largest possible size of $A\\subseteq \\{1,\\ldots,n\\}$ such that every $m$ has $<k$ solutions to $m=a_1a_2$ with $a_1<a_2\\in A$. Is it true that\\[g_3(n)=\\frac{\\log\\log n}{\\log n}n+(c+o(1))\\frac{n}{\\log n}\\]for some constant $c$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/796",
+        "start": 12255,
+        "end": 12540,
+        "exactness": "slice",
+        "sha256": "96bbcfdb2d92052cce8cd09907212108556676f9198f273914f790d2167e4434"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#796 : [Er69,p.80] number theory Erdős [Er64d] proved that if $2^{r-1}<k\\leq 2^r$ then\\[g_k(n) \\sim \\frac{(\\log\\log n)^{r-1}}{(r-1)!\\log n}n\\](which is the asymptotic count of those integers $\\leq n$ with $r$ distinct prime factors). In particular the asymptotics of $g_k(n)$ are known; in [Er69b] Erdős discussed the second order terms, and this question is implicit (especially when compared to the explicit question [425] he asked on several occasions). In [Er69] this question actually appears with a denominator of $(\\log n)^2$ in the second term. Furthermore, for $k=3$ he claims he could prove the existence of some $0<c_1\\leq c_2$ such that\\[\\frac{\\log\\log n}{\\log n}n+c_1\\frac{n}{(\\log n)^2}\\leq g_3(n)\\leq \\frac{\\log\\log n}{\\log n}n+c_2\\frac{n}{(\\log n)^2}.\\]This is strange, since in [Er64d] both the upper and lower bound techniques that he used in fact prove\\[\\frac{\\log\\log n}{\\log n}n+c_1\\frac{n}{\\log n}\\leq g_3(n)\\leq \\frac{\\log\\log n}{\\log n}n+c_2\\frac{n}{\\log n}\\]for some constants $0<c_1\\leq c_2$. My best guess is that the denominator of $(\\log n)^2$ in [Er69] is just an unfortunate repeated typo, and $\\log n$ was intended in both the reported bounds and the main question. This correction is thanks to Tang, who noted independently (see the comments) the improved lower bound given above (indeed with an improvement in the constant $c_1$). The special case $k=2$ is the subject of [425] . Additional thanks to : Rishika Agrawal, Terence Tao, and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (2) More information and links This page was last edited 16 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #796, https://www.erdosproblems.com/796, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/796",
+        "start": 12540,
+        "end": 33746,
+        "exactness": "region",
+        "sha256": "b2b4349b9a85652ab8bd84130b8a820da2ed5bb2a1c4cd57a1a9e5df641a7e3a"
+      }
+    }
+  ],
+  "source_sha256": "31778f9746d3dc33070c7bb84f7534716f58f7b56d96173e10d3e92c69214449",
+  "refusals": []
+}

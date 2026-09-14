@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/999",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any function $f:\\mathbb{N}\\to \\mathbb{N}$ the property that, for almost all $\\alpha$\\[\\left\\lvert \\alpha-\\frac{p}{q}\\right\\rvert < \\frac{f(q)}{q}\\]has infinitely many solutions with $(p,q)=1$, is equivalent to\\[\\sum_{q\\geq 1}\\phi(q)\\frac{f(q)}{q}=\\infty.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/999",
+        "start": 12236,
+        "end": 12506,
+        "exactness": "slice",
+        "sha256": "f5c8a117e24226ff54ac851b85d0ae27990a6918abdb8fa62097c997fa164cbd"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#999 : [Er64b] number theory | diophantine approximation The Duffin-Schaeffer conjecture . It is easy to prove that the latter follows from the former. Erdős proved this in the special case when $f(q)q$ is bounded. The full conjecture was proved by Koukoulopoulos and Maynard [KoMa20] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #999, https://www.erdosproblems.com/999, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/999",
+        "start": 12506,
+        "end": 31658,
+        "exactness": "region",
+        "sha256": "dc4af4b727fc861c07c3108f1d3e8aa0ef999bc8c58b6b62ac96e16a0ed2222e"
+      }
+    }
+  ],
+  "source_sha256": "f9b20e806513797b2e0fa9d81b7d72f16f6d1b09bdf0c6a13f7c0231ab9775e4",
+  "refusals": []
+}

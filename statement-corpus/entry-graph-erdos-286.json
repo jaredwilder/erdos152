@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/286",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 2$. Is it true that there exists an interval $I$ of width $(e-1+o(1))k$ and integers $n_1<\\cdots<n_k\\in I$ such that\\[1=\\frac{1}{n_1}+\\cdots+\\frac{1}{n_k}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/286",
+        "start": 12236,
+        "end": 12418,
+        "exactness": "slice",
+        "sha256": "cc63f635e0506ba48844236680fb85f53a27eae42607c07f71924b50e2f12406"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#286 : [ErGr80,p.33] number theory | unit fractions The answer is yes, proved by Croot [Cr01] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 28 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #286, https://www.erdosproblems.com/286, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/286",
+        "start": 12418,
+        "end": 31272,
+        "exactness": "region",
+        "sha256": "b888cc25645539b95a103681937ed0c78829b2853b0ad3eaf93c6bcf9e8b2fe5"
+      }
+    }
+  ],
+  "source_sha256": "300bc393297696f054268ff243bd38a5a3c9df19cf6832091c2ab32887cb359b",
+  "refusals": []
+}

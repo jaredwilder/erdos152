@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/989",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $A=\\{z_1,z_2,\\ldots \\}\\in \\mathbb{R}^2$ is an infinite sequence then let\\[f(r)=\\max_C \\left\\lvert \\lvert A\\cap C\\rvert-\\pi r^2\\right\\rvert,\\]where the maximum is taken over all circles $C$ of radius $r$. Is $f(r)$ unbounded for every $A$? How fast does $f(r)$ grow?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/989",
+        "start": 12262,
+        "end": 12543,
+        "exactness": "slice",
+        "sha256": "a7124a5d529f1165afd61c5965560b2b774ca347afbc829c1e20b4577f7b3a69"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#989 : [Er64b] discrepancy This was settled by Beck [Be87] , who proved that\\[f(r) \\gg r^{1/2}\\]for all $A$, and there exists $A$ such that\\[f(r) \\ll (r\\log r)^{1/2}.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #989, https://www.erdosproblems.com/989, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/989",
+        "start": 12543,
+        "end": 31610,
+        "exactness": "region",
+        "sha256": "86362c145768535df3954ebdab1b0eeb62e8578bb78e8f95b833508f7bc51c0c"
+      }
+    }
+  ],
+  "source_sha256": "f47bfb27d6752c88b7f71120a5b0290056e0b9c1d78d995a7ccbef891bf84629",
+  "refusals": []
+}

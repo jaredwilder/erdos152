@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/882",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is the size of the largest $A\\subseteq \\{1,\\ldots,n\\}$ such that in the set\\[\\left\\{ \\sum_{a\\in S} a : \\emptyset\\neq S\\subseteq A\\right\\}\\]no two distinct elements divide each other?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/882",
+        "start": 12262,
+        "end": 12455,
+        "exactness": "slice",
+        "sha256": "f1b6e608da27d4be0598365dc971a6404b237d26954a2a185469ab31b4db9d46"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#882 : [Er98] number theory | primitive sets A problem of Erdős and Sárkőzy. The greedy algorithm shows that\\[\\lvert A\\rvert\\geq (1-o(1))\\log_3 n\\]is possible, but Erdős and Sárkőzy speculated that $\\lvert A\\rvert=(1-o(1))\\log_2n$ is possible. In [Er98] Erdős reports (but gives no reference) that Sándor has proved that $\\lvert A\\rvert=(1-o(1))\\log_2 n$ is achievable, taking $A=\\{ 2^i+m2^m : 0\\leq i<m\\}$ and $n=2^{m-1}+m2^m$. Erdős, Lev, Rauzy, Sándor, and Sárközy [ELRSS99] proved that\\[\\lvert A\\rvert > \\log_2 n -1\\]is achievable, taking $A=\\{2^m-2^{m-1},2^m-2^{m-2},\\ldots,2^m-1\\}$. This property also implies that $\\sum_{a\\in S}a$ are distinct for distinct subsets $S$, whence [1] implies\\[\\lvert A\\rvert \\leq \\log_2 n+\\tfrac{1}{2}\\log_2\\log n+O(1),\\]and likely $\\lvert A\\rvert\\leq \\log_2n+O(1)$. See also [13] . Additional thanks to : Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #882, https://www.erdosproblems.com/882, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/882",
+        "start": 12455,
+        "end": 32626,
+        "exactness": "region",
+        "sha256": "44bfbea44737c4c834c3c93748bbe8ccb819d6519a48d95c4d767b4a43c48073"
+      }
+    }
+  ],
+  "source_sha256": "11f3969fa6f389d31147408018d71bf39c5766e03aa2964f7bb81fd21d2eff75",
+  "refusals": []
+}

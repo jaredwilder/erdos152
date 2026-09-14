@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/409",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "How many iterations of $n\\mapsto \\phi(n)+1$ are needed before a prime is reached? Can infinitely many $n$ reach the same prime? What is the density of $n$ which reach any fixed prime?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/409",
+        "start": 12255,
+        "end": 12444,
+        "exactness": "slice",
+        "sha256": "8a109d97160d2455eaa57bd858abf6219b483a5a6325ab68ed501dd70cdc4f98"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#409 : [ErGr80,p.81] number theory | iterated functions A problem of Finucane. One can also ask similar questions about $n\\mapsto \\sigma(n)-1$: do iterates of this always reach a prime? If so, how soon? (It is easily seen that iterates of this cannot reach the same prime infinitely often, since they are non-decreasing.) This problem is somewhat ambiguously phrased. Let $F(n)$ count the number of iterations of $n\\mapsto \\phi(n)+1$ before reaching a prime. The number of iterations required is A039651 in the OEIS. Cambie notes in the comments that $F(n)=o(n)$ is trivial, and $F(n)=1$ infinitely often. Presumably the intended question is to find 'good' upper bounds for $F(n)$. This is discussed in problem B41 of Guy's collection [Gu04] . Additional thanks to : Stijn Cambie and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (0) More information and links This page was last edited 20 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #409, https://www.erdosproblems.com/409, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A039651 , A229487 Reactions Likes None Open to collaboration None Currently working on None Looks difficult SkyYang Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/409",
+        "start": 12444,
+        "end": 32945,
+        "exactness": "region",
+        "sha256": "a1840de5edc6248b282993345cd82fc1e738da7f207f35b14e0a29d21f7dcd4c"
+      }
+    }
+  ],
+  "source_sha256": "67ae1e5c856731b78ce50a1db3908b20081f5272f1fc4f5093474dfbfa5916d0",
+  "refusals": []
+}

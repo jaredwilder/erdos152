@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/302",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(N)$ be the size of the largest $A\\subseteq \\{1,\\ldots,N\\}$ such that there are no solutions to\\[\\frac{1}{a}= \\frac{1}{b}+\\frac{1}{c}\\]with distinct $a,b,c\\in A$? Estimate $f(N)$. In particular, is $f(N)=(\\tfrac{1}{2}+o(1))N$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/302",
+        "start": 12255,
+        "end": 12504,
+        "exactness": "slice",
+        "sha256": "5da89fbea0c3da70cc98420f2ff8b343c27d8eb836c7fc64d3700862119c8404"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#302 : [ErGr80] number theory | unit fractions The colouring version of this is [303] , which was solved by Brown and Rödl [BrRo91] . One can take either $A$ to be all odd integers in $[1,N]$ or all integers in $[N/2,N]$ to show $f(N)\\geq (1/2+o(1))N$. Wouter van Doorn has proved (see this note ) that\\[f(N) \\leq (9/10+o(1))N.\\]Stijn Cambie has observed that\\[f(N)\\geq (5/8+o(1))N,\\]taking $A$ to be all odd integers $\\leq N/4$ and all integers in $[N/2,N]$. Stijn Cambie has also observed that, if we allow $b=c$, then there is a solution to this equation when $\\lvert A\\rvert \\geq (\\tfrac{2}{3}+o(1))N$, since then there must exist some $n,2n\\in A$. See also [301] and [327] . Additional thanks to : Stijn Cambie, Zachary Hunter, Mehtaab Sawhney, and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #302, https://www.erdosproblems.com/302, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A390395 Reactions Likes Dogmachine , khanukov Open to collaboration Woett , Quanyu_Tang Currently working on Woett , Quanyu_Tang , khanukov Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- For expanding",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/302",
+        "start": 12504,
+        "end": 33468,
+        "exactness": "region",
+        "sha256": "e0d7bff6910abf39ab1e7902ead3b32eaa59bca7551ef490cff605e54955e734"
+      }
+    }
+  ],
+  "source_sha256": "0c354c978ab440923ee075c1432ee541af0721cbcfe7a0c0e2cf16a622503cc9",
+  "refusals": []
+}

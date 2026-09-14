@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/119",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $z_i$ be an infinite sequence of complex numbers such that $\\lvert z_i\\rvert=1$ for all $i\\geq 1$, and for $n\\geq 1$ let\\[p_n(z)=\\prod_{i\\leq n} (z-z_i).\\]Let $M_n=\\max_{\\lvert z\\rvert=1}\\lvert p_n(z)\\rvert$. Is it true that $\\limsup M_n=\\infty$? Is it true that there exists $c>0$ such that for infinitely many $n$ we have $M_n > n^c$? Is it true that there exists $c>0$ such that, for all large $n$,\\[\\sum_{k\\leq n}M_k > n^{1+c}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/119",
+        "start": 12314,
+        "end": 12795,
+        "exactness": "slice",
+        "sha256": "33210961862f7994f6bdbebf4b24492cbd155d6b217e43db85775973892cddb9"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#119 : [Er57] [Er61] [Er64b] [Ha74] [Er82e] [Er90] [Er97f,p.8] [Va99,2.38] analysis | polynomials This is Problem 4.1 in [Ha74] where it is attributed to Erdős. The weaker conjecture that $\\limsup M_n=\\infty$ was proved by Wagner [Wa80] , who show that there is some $c>0$ with $M_n>(\\log n)^c$ infinitely often. The second question was answered by Beck [Be91] , who proved that there exists some $c>0$ such that\\[\\max_{n\\leq N} M_n > N^c.\\]Erdős (e.g. see [Ha74] ) gave a construction of a sequence with $M_n\\leq n+1$ for all $n$. Linden [Li77] improved this to give a sequence with $M_n\\ll n^{1-c}$ for some $c>0$. The \\$100 prize was offered for the third question in [Er97f] . This was resolved by GPT 5.6 and Korsky (see the proof claims), who proved that\\[\\sum_{k\\leq n}M_k \\gg \\frac{n^{5/4}}{\\sqrt{\\log n}}\\](and hence for infinitely many $n$ we have $M_n> n^{1/4-o(1)}$). Additional thanks to : Winston Heap and Samuel Korsky Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (2) More information and links This page was last edited 19 July 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #119, https://www.erdosproblems.com/119, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes SamKorsky , danielvarga , Saw-mon-and-Natalie Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None </deta",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/119",
+        "start": 12795,
+        "end": 34206,
+        "exactness": "region",
+        "sha256": "2bb3bb2b7b10e704db341cc4ae1f8a0e437e2ee3f830b1feae955e847fa0aadd"
+      }
+    }
+  ],
+  "source_sha256": "33fd72fe0e5ead5bec6245f2523440217aa307f9c4a4a0bd398cfd5ffb20dd44",
+  "refusals": []
+}

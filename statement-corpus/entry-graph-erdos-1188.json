@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1188",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Call a set of distinct integers $1<n_1<\\cdots<n_k$ with associated congruence classes $a_i\\pmod{n_i}$ a distinct covering system if every integer satisfies at least one of these congruences. A minimal distinct covering system is one such that no proper subset forms a covering system. Let $F(x)$ count the number of minimal distinct covering systems with all moduli in $[1,x]$. Estimate $F(x)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1188",
+        "start": 12257,
+        "end": 12676,
+        "exactness": "slice",
+        "sha256": "46be38486b8b6be4c589cd48e8446da2932b9e522b01656f324e8be6aa058b8d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1188 : [Er80,p.95] number theory | covering systems Erdős [Er80] asked this without the minimal assumption, but otherwise this is trivial (since e.g. any system containing some fixed covering system would work, resulting in $\\gg 2^x$ many such systems). He expected $F(x)\\to \\infty$ as $x\\to \\infty$ 'very slowly'. In [Er80] Erdős also asked to estimate the number of irreducible covering sets in $[1,x]$ (that is, those sets of moduli which contain no proper sets of moduli which form a covering system, perhaps with a different choice of congruence class). If this count is $G(x)$ then trivially $G(x)\\leq F(x)$. See [1189] for more on irreducible covering sets. It follows from the solution of Hough [Ho15] to [2] that $F(x)\\to \\infty$ as $x\\to \\infty$ (although a lower bound of $F(x) \\gg \\log x$ is easily established by elementary means, as observed by van Doorn in the comments). The lower bound construction of Balister, Bollobás, Morris, Sahasrabudhe, and Tiba [BBMST24] implies that there are at least $\\exp(k^{3+o(1)})$ many minimal distinct covering systems, all of whose moduli are at most $\\prod_{p<k}p=e^{(1+o(1))k}$, which implies\\[F(x)\\geq \\exp((\\log x)^{3-o(1)})\\](in particular $F(x)$ grows faster than any polynomial, perhaps contradicting Erdős' guess that it should grow 'very slowly', although it is possible he was thinking of the number of different moduli possible). The trivial upper bound is\\[F(x) \\leq \\exp(O(x\\log x)).\\] Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (1) More information and links This page was last edited 17 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1188, https://www.erdosproblems.com/1188, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous N",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1188",
+        "start": 12676,
+        "end": 33819,
+        "exactness": "region",
+        "sha256": "b60708a6fcf106d12c6d156fe9817da2c7a842d4ef8fe883eb3d010775c0edd6"
+      }
+    }
+  ],
+  "source_sha256": "ae5bcb3ecab580cbad947dfcf06e3f16fb266f79d5b76b5a20191852d75b92ae",
+  "refusals": []
+}

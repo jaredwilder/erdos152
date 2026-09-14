@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/906",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there an entire non-zero function $f:\\mathbb{C}\\to \\mathbb{C}$ such that, for any infinite sequence $n_1<n_2<\\cdots$, the set\\[\\{ z: f^{(n_k)}(z)=0 \\textrm{ for some }k\\geq 1\\}\\]is everywhere dense?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/906",
+        "start": 12255,
+        "end": 12470,
+        "exactness": "slice",
+        "sha256": "b37368f4f7e1d5b3478e60a91c787d28fb7d47bd2bd1fa6a2a5488275f48317f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#906 : [Er56d] [Er82e,p.72] analysis | iterated functions Erdős [Er82e] writes that this was solved in the affirmative 'more than ten years ago', but gives no reference or indication who solved it. From context he seems to attribute this to Barth and Schneider [BaSc72] , but this paper contains no such result. Tang points out that the problem is trivial if we take $f$ to be a polynomial, so presumably it is intended the function $f$ is transcendental. Additional thanks to : Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (13) Proof claims (1) More information and links This page was last edited 01 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #906, https://www.erdosproblems.com/906, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Quanyu_Tang , Aexl , erichou Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable erichou Working on formalising erichou Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/906",
+        "start": 12470,
+        "end": 32358,
+        "exactness": "region",
+        "sha256": "d11bfe6cee70ab258a9230022e33142b53b20001b54de8ae9cfdacf34c99a685"
+      }
+    }
+  ],
+  "source_sha256": "f28384f9c70ee769ce300e5410575549d4cbc9eda1c191aeb840730747a59b14",
+  "refusals": []
+}

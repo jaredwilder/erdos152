@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/319",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is the size of the largest $A\\subseteq \\{1,\\ldots,N\\}$ such that there is a function $\\delta:A\\to \\{-1,1\\}$ such that\\[\\sum_{n\\in A}\\frac{\\delta_n}{n}=0\\]and\\[\\sum_{n\\in A'}\\frac{\\delta_n}{n}\\neq 0\\]for all non-empty $A'\\subsetneq A$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/319",
+        "start": 12255,
+        "end": 12500,
+        "exactness": "slice",
+        "sha256": "b1e189cc1ad04e416e876ba5e6d979603a7624d21d3e7925c896f3f8723ddac9"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#319 : [ErGr80] number theory | unit fractions Adenwalla has observed that a lower bound of\\[\\lvert A\\rvert\\geq (1-\\tfrac{1}{e}+o(1))N\\]follows from the main result of Croot [Cr01] , which states that there exists some set of integers $B\\subset [(\\frac{1}{e}-o(1))N,N]$ such that $\\sum_{b\\in B}\\frac{1}{b}=1$. Since the sum of $\\frac{1}{m}$ for $m\\in [c_1N,c_2N]$ is asymptotic to $\\log(c_2/c_1)$ we must have $\\lvert B\\rvert \\geq (1-\\tfrac{1}{e}+o(1))N$. We may then let $A=B\\cup\\{1\\}$ and choose $\\delta(n)=-1$ for all $n\\in B$ and $\\delta(1)=1$. This problem has been formalised in Lean as part of the Google DeepMind Formal Conjectures project . Additional thanks to : Sarosh Adenwalla and Hayato Egami Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #319, https://www.erdosproblems.com/319, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/319",
+        "start": 12500,
+        "end": 32607,
+        "exactness": "region",
+        "sha256": "406c7279252205c4b2eb67c96a6f637e38df7d881bc921d661c28824513ffe01"
+      }
+    }
+  ],
+  "source_sha256": "d275694933b7bc569a457a4936f9c2cb315844e847bb98f36ef8da5696539168",
+  "refusals": []
+}

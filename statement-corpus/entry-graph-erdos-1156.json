@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1156",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a random graph on $n$ vertices, in which every edge is included independently with probability $1/2$. Is there some constant $C$ such that that chromatic number $\\chi(G)$ is, almost surely, concentrated on at most $C$ values? Is it true that, if $\\omega(n)\\to \\infty$ sufficiently slowly, then for every function $f(n)$\\[\\mathbb{P}(\\lvert\\chi(G)-f(n)\\rvert<\\omega(n))<1/2\\]if $n$ is sufficiently large?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1156",
+        "start": 12257,
+        "end": 12700,
+        "exactness": "slice",
+        "sha256": "06d29eb5bb4723368490ba432e19c5fad83ba9819c84a6dd672479febd129e5d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1156 : [AlSp92] [Va99,3.6] graph theory | chromatic number Bollobás [Bo88] proved that $\\chi(G) \\sim \\frac{n}{2\\log_2n}$ with high probability. Shamir and Spencer [ShSp87] proved that, for any function $\\omega(n)$ such that $\\omega(n)/\\sqrt{n}\\to \\infty$, there is a function $f(n)$ such that\\[\\mathbb{P}(\\lvert\\chi(G)-f(n)\\rvert<\\omega(n))\\to 1\\]as $n\\to \\infty$. This is proved with $\\omega(n)\\frac{\\log n}{\\sqrt{n}}\\to \\infty$ in Exercise 3 of Section 7.9 of Alon and Spencer [AlSp16] (a proof is also given by Scott [Sc17] ). Heckel [He21] proved that if $f$ and $\\omega$ are such that\\[\\mathbb{P}(\\lvert\\chi(G)-f(n)\\rvert<\\omega(n))\\to 1\\]as $n\\to \\infty$ then, for any $c<1/4$, there are infinitely many $n$ such that $\\omega(n)>n^c$. This was improved to any $c<1/2$ by Heckel and Riordan [HeRi23] . Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 27 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1156, https://www.erdosproblems.com/1156, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1156",
+        "start": 12700,
+        "end": 33121,
+        "exactness": "region",
+        "sha256": "0e50c2a4add29b44d7320d73236a19578c8e58795864567c71e3103680fc97b5"
+      }
+    }
+  ],
+  "source_sha256": "8f415387ff4c0d977f61b93c8575257e3956a08e8587aab0b86af5bf7111f635",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/577",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $G$ is a graph with $4k$ vertices and minimum degree at least $2k$ then $G$ contains $k$ vertex-disjoint $4$-cycles.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/577",
+        "start": 12236,
+        "end": 12361,
+        "exactness": "slice",
+        "sha256": "70c1def8d4cb3b03a07d2496828eada88a72c0001304f9acec85c5521cbcffab"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#577 : [Er90c] graph theory A conjecture of Erdős and Faudree. Proved by Wang [Wa10] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #577, https://www.erdosproblems.com/577, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/577",
+        "start": 12361,
+        "end": 31123,
+        "exactness": "region",
+        "sha256": "c81893297b4952d14727ed8bf6838368a0a360e348f7424c42838547f652774c"
+      }
+    }
+  ],
+  "source_sha256": "99e865e5bce15940e8191bf67d904ce36a2770b923cf5d981d5145db7c685beb",
+  "refusals": []
+}

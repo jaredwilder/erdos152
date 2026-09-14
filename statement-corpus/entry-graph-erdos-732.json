@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/732",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Call a sequence $1< X_1\\leq \\cdots \\leq X_m\\leq n$ block-compatible if there is a pairwise balanced block design $A_1,\\ldots,A_m\\subseteq \\{1,\\ldots,n\\}$ such that $\\lvert A_i\\rvert=X_i$ for $1\\leq i\\leq m$. (A pairwise block design means that every pair in $\\{1,\\ldots,n\\}$ is contained in exactly one of the $A_i$.) Are there necessary and sufficient conditions for $(X_i)$ to be block-compatible? Is there some constant $c>0$ such that for all large $n$ there are\\[\\geq \\exp(c n^{1/2}\\log n)\\]many block-compatible sequences for $\\{1,\\ldots,n\\}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/732",
+        "start": 12236,
+        "end": 12811,
+        "exactness": "slice",
+        "sha256": "eb1e98d2efd2adb2bfcf82618239a1033da15a3596dc1453d6aa5f6bb2c7b17e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#732 : [Er81] combinatorics Erdős noted that a trivial necessary condition is $\\sum_i \\binom{X_i}{2}=\\binom{n}{2}$, but wasn't sure if there would be a reasonable necessary and sufficient condition. He could prove that there are\\[\\leq \\exp(O(n^{1/2}\\log n))\\]many block-compatible sequences for $\\{1,\\ldots,n\\}$. Alon has proved there are at least\\[2^{(\\frac{1}{2}+o(1))n^{1/2}\\log n}\\]many sequences which are block-compatible for $n$. See also [733] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #732, https://www.erdosproblems.com/732, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/732",
+        "start": 12811,
+        "end": 32080,
+        "exactness": "region",
+        "sha256": "deb23959c7c6fc72aca9df74061f2127237d9fc56c995c36f2340202df392d39"
+      }
+    }
+  ],
+  "source_sha256": "30ca1146fe577d8fa9bb3385dbc4ed0b05996e71cca26568758e55a24ea0eeab",
+  "refusals": []
+}

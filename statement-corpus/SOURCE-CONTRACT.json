@@ -1,0 +1,94 @@
+{
+  "erdos:339": {
+    "file": "erdos-339.tex",
+    "bytes": 523,
+    "sha256": "2dea361e93e9b8e4449953c0a936eb0316cb4400e09cd52305c6b2e613cb6f6c",
+    "origin": "https://www.erdosproblems.com/latex/339",
+    "db_sha256": "c741a71d71ff1ae0a7d9fbeeba42caa80aa0fad1efb561c805726746cc314983",
+    "db_origin": "teorth/erdosproblems data/problems.yaml @ 2026-08-28",
+    "closure": "CLOSED",
+    "lean": "NOT FORMALIZED (db formal_status=unformalized; absent from local formal-conjectures; page text carries no Lean notice)",
+    "raw_page": {
+      "file": "raw/erdos-339.html",
+      "bytes": 24955,
+      "sha256": "c859d725687932ebe1b4f58639aa4b0a4f8a778842c40cbd554f4800d1d69980",
+      "note": "THE canonical source. The sibling .tex is a LOSSY flattening kept only because the first formalizer pass was run against it; it destroys the question/resolution boundary."
+    }
+  },
+  "erdos:444": {
+    "file": "erdos-444.tex",
+    "bytes": 314,
+    "sha256": "d955fbb62686276e71026acfdd4ce0523628e0efc0a0c53e7dbbc6272d9d6112",
+    "origin": "https://www.erdosproblems.com/latex/444",
+    "db_sha256": "c741a71d71ff1ae0a7d9fbeeba42caa80aa0fad1efb561c805726746cc314983",
+    "db_origin": "teorth/erdosproblems data/problems.yaml @ 2026-08-28",
+    "closure": "CLOSED",
+    "lean": "NOT FORMALIZED (db formal_status=unformalized; absent from local formal-conjectures; page text carries no Lean notice)",
+    "raw_page": {
+      "file": "raw/erdos-444.html",
+      "bytes": 24707,
+      "sha256": "db9d67375b6d22cd171729e936544f17e8e7b7fe9ef23ed51e302ff25550012c",
+      "note": "THE canonical source. The sibling .tex is a LOSSY flattening kept only because the first formalizer pass was run against it; it destroys the question/resolution boundary."
+    }
+  },
+  "erdos:157": {
+    "raw_page": {
+      "file": "raw/erdos-157.html",
+      "bytes": 24494,
+      "sha256": "3c400545a86bb443fb50b7021798759e2218aa668c0aa75fd033bb90463b0b22"
+    },
+    "origin": "https://www.erdosproblems.com/latex/157",
+    "closure": "CLOSED",
+    "lean": "NOT FORMALIZED"
+  },
+  "erdos:92": {
+    "raw_page": {
+      "file": "raw/erdos-92.html",
+      "bytes": 26091,
+      "sha256": "fb266c520560219498e8e9f3cb58bafe6fc2a9a8e96296e9001f5c7bd088ff48"
+    },
+    "origin": "https://www.erdosproblems.com/latex/92",
+    "closure": "CLOSED",
+    "lean": "NOT FORMALIZED"
+  },
+  "erdos:136": {
+    "raw_page": {
+      "file": "raw/erdos-136.html",
+      "bytes": 25166,
+      "sha256": "12676af34c0693856c71f671d8becac18e52fc5608726780a56c2411622b18ec"
+    },
+    "origin": "https://www.erdosproblems.com/latex/136",
+    "closure": "CLOSED",
+    "lean": "NOT FORMALIZED"
+  },
+  "erdos:182": {
+    "raw_page": {
+      "file": "raw/erdos-182.html",
+      "bytes": 26186,
+      "sha256": "d057760cb4c2e5c252874e893c71f8c5ec1965e71460e8ffe8ad2384a79243f5"
+    },
+    "origin": "https://www.erdosproblems.com/latex/182",
+    "closure": "CLOSED",
+    "lean": "NOT FORMALIZED"
+  },
+  "erdos:449": {
+    "raw_page": {
+      "file": "raw/erdos-449.html",
+      "bytes": 25424,
+      "sha256": "f8124f65c89ac98d918fd1c33888587d9bb41423612eb99a72e4c05f4c8aafe8"
+    },
+    "origin": "https://www.erdosproblems.com/latex/449",
+    "closure": "CLOSED",
+    "lean": "NOT FORMALIZED"
+  },
+  "erdos:466": {
+    "raw_page": {
+      "file": "raw/erdos-466.html",
+      "bytes": 25144,
+      "sha256": "6bb674f6c646f3873d41130688abb2487004b569f1f3326b9a343439976aea72"
+    },
+    "origin": "https://www.erdosproblems.com/latex/466",
+    "closure": "CLOSED",
+    "lean": "NOT FORMALIZED"
+  }
+}

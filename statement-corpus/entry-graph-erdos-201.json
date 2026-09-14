@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/201",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G_k(N)$ be such that any set of $N$ integers contains a subset of size at least $G_k(N)$ which does not contain a $k$-term arithmetic progression. Determine the size of $G_k(N)$. How does it relate to $R_k(N)$, the size of the largest subset of $\\{1,\\ldots,N\\}$ without a $k$-term arithmetic progression? Is it true that\\[\\lim_{N\\to \\infty}\\frac{R_3(N)}{G_3(N)}=1?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/201",
+        "start": 12255,
+        "end": 12632,
+        "exactness": "slice",
+        "sha256": "8fb1e41f153237ae34023e35a5d53d0fbc8e50747fabbdc6b55b2e9f03ba7917"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#201 : [Er73] [Er75b] [ErGr79] [Er80,p.109] [ErGr80] additive combinatorics | arithmetic progressions First asked and investigated by Riddell [Ri69] . It is trivial that $G_k(N)\\leq R_k(N)$, and it is possible that $G_k(N) <R_k(N)$ (for example $G_3(5)=3$ and $R_3(5)=4$, and $G_3(14)\\leq 7$ and $R_3(14)=8$). Komlós, Sulyok, and Szemerédi [KSS75] have shown that $R_k(N) \\ll_k G_k(N)$. Additional thanks to : Zachary Chase Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #201, https://www.erdosproblems.com/201, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A003002 , A003003 , A003004 , A003005 , possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/201",
+        "start": 12632,
+        "end": 33710,
+        "exactness": "region",
+        "sha256": "9d462d5129231bcf3f5e17a513f21b10e929ccaeffd45c1eafd9d22a1166b1e1"
+      }
+    }
+  ],
+  "source_sha256": "9c3e90ba5798f30e76cf2e52bca27228aec4bb8436a9f587950d7c0c8840d47f",
+  "refusals": []
+}

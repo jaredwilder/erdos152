@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/233",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $d_n=p_{n+1}-p_n$, where $p_n$ is the $n$th prime. Prove that\\[\\sum_{1\\leq n\\leq N}d_n^2 \\ll N(\\log N)^2.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/233",
+        "start": 12255,
+        "end": 12372,
+        "exactness": "slice",
+        "sha256": "310604121e45c1ed1bcd898dfdf47599b1f7bf885c60d1e5c83d2ee05b3c2dc1"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#233 : [Er40,p.440] [Er55c,p.2] [Er65b,p.205] number theory | primes Cramer [Cr36] proved an upper bound of $O(N(\\log N)^4)$ conditional on the Riemann hypothesis. Selberg [Se43] improved this slightly (still assuming the Riemann hypothesis) to\\[\\sum_{1\\leq n\\leq N}\\frac{d_n^2}{n}\\ll (\\log N)^4.\\]The prime number theorem immediately implies a lower bound of\\[\\sum_{1\\leq n\\leq N}d_n^2\\gg N(\\log N)^2.\\]This would imply in particular that $d_n\\ll n^{1/2}\\log n$ for all $n$, which is known only the assumption of the Riemann Hypothesis. The values of the sum are listed at A074741 on the OEIS. This is discussed in problem A8 of Guy's collection [Gu04] . Additional thanks to : Dogmachine and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (16) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #233, https://www.erdosproblems.com/233, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A074741 Reactions Likes Dogmachine , Aron , ssssasasaaasrhs , FDmd-233 Open to collaboration None Currently working on None Looks difficult TerenceTao Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/233",
+        "start": 12372,
+        "end": 33279,
+        "exactness": "region",
+        "sha256": "ac8c793cbba24f54149775dfe8c428e49012901b32029f6355fe8b49a0d7874c"
+      }
+    }
+  ],
+  "source_sha256": "eb8527169c7ac0e7ae7f9e7fef9df903d63c88aff39981f8d96f227ebbf98b80",
+  "refusals": []
+}

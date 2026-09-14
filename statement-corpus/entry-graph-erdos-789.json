@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/789",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $h(n)$ be maximal such that if $A\\subseteq \\mathbb{Z}$ with $\\lvert A\\rvert=n$ then there is $B\\subseteq A$ with $\\lvert B\\rvert \\geq h(n)$ such that if $a_1+\\cdots+a_r=b_1+\\cdots+b_s$ with $a_i,b_i\\in B$ then $r=s$. Estimate $h(n)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/789",
+        "start": 12255,
+        "end": 12505,
+        "exactness": "slice",
+        "sha256": "dcbc21cdfba913201cbe04dba24f6358a99c46c2ea98eca64615905d46d5e9f5"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#789 : [Er65] [Er73] additive combinatorics Erdős [Er62c] proved $h(n) \\ll n^{5/6}$. Straus [St66] proved $h(n) \\ll n^{1/2}$. Erdős noted the bound $h(n)\\gg n^{1/3}$, taking\\[B=\\{ a: \\{ \\alpha a\\} \\in n^{-1/3}+\\tfrac{1}{2} (-n^{-2/3},n^{-2/3})\\}\\]for a random $\\alpha\\in [0,1]$. [Er62c] and Choi [Ch74b] improved this to $h(n) \\gg (n\\log n)^{1/3}$. See also [186] and [874] . Additional thanks to : Sarosh Adenwalla Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #789, https://www.erdosproblems.com/789, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/789",
+        "start": 12505,
+        "end": 32577,
+        "exactness": "region",
+        "sha256": "0d7e02bb07d1c10864533ac5021ee467ba6ea45ed5ffa72fe25c2b0254b148af"
+      }
+    }
+  ],
+  "source_sha256": "d72cda36d9aa0dc20ab930bb561eccc2bf1502a82b2637fe7048be59e986184f",
+  "refusals": []
+}

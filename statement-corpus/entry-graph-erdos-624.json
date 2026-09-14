@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/624",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $X$ be a finite set of size $n$ and $H(n)$ be such that there is a function $f:\\{A : A\\subseteq X\\}\\to X$ so that for every $Y\\subseteq X$ with $\\lvert Y\\rvert \\geq H(n)$ we have\\[\\{ f(A) : A\\subseteq Y\\}=X.\\]Prove that\\[H(n)-\\log_2 n \\to \\infty.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/624",
+        "start": 12255,
+        "end": 12513,
+        "exactness": "slice",
+        "sha256": "74207e543292efc96a4f23b213f64a82ddb4a08fdda888966e8725d1a75154f8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#624 : [ErHa68] [Er99] combinatorics A problem of Erdős and Hajnal [ErHa68] who proved that\\[\\log_2 n \\leq H(n) < \\log_2n +(3+o(1))\\log_2\\log_2n.\\]Erdős said that even the weaker statement that for $n=2^k$ we have $H(n)\\geq k+1$ is open, but Alon has provided the following simple proof: by the pigeonhole principle there are $\\frac{n-1}{2}$ subsets $A_i$ of size $2$ such that $f(A_i)$ is the same. Any set $Y$ of size $k$ containing at least $k/2$ of them can have at most\\[2^k-\\lfloor k/2\\rfloor+1< 2^k=n\\]distinct elements in the union of the images of $f(A)$ for $A\\subseteq Y$. For this weaker statement, Erdős and Gyárfás conjectured the stronger form that if $\\lvert X\\rvert=2^k$ then, for any $f:\\{A : A\\subseteq X\\}\\to X$, there must exist some $Y\\subset X$ of size $k$ such that\\[\\#\\{ f(A) : A\\subseteq Y\\}< 2^k-k^C\\]for every $C$ (with $k$ sufficiently large depending on $C$). This was proved by Alon (personal communication), who proved the stronger version that there exists some absolute constant $c>0$ such that, if $k$ is large enough, there must exist some $Y\\subset X$ of size $k$ such that\\[\\#\\{ f(A) : A\\subseteq Y\\}<(1-c)2^k.\\]Alon also proved that, provided $k$ is large enough, if $\\lvert X\\rvert=2^k$ there exists some $f:\\{A: A\\subseteq X\\}\\to X$ such that, if $Y\\subset X$ with $\\lvert Y\\rvert=k$, then\\[\\#\\{ f(A) : A\\subseteq Y\\}>\\tfrac{1}{4}2^k.\\] Additional thanks to : Noga Alon and Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 27 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #624, https://www.erdosproblems.com/624, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/624",
+        "start": 12513,
+        "end": 33174,
+        "exactness": "region",
+        "sha256": "1405b4d1857f5da484f5895d4c478242deb6f0e3f0f901d41635349a529a53c4"
+      }
+    }
+  ],
+  "source_sha256": "8589c1065d34c61890fa73952cf6de307489c70c7fb8885c2feefc3d75c945c6",
+  "refusals": []
+}

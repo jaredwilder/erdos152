@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:444",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq\\mathbb{N}$ be infinite and $d_A(n)$ count the number of $a\\in A$ which divide $n$. Is it true that, for every $k$,\\[\\limsup_{x\\to \\infty} \\frac{\\max_{n<x}d_A(n)}{\\left(\\sum_{n\\in A\\cap[1,x)}\\frac{1}{n}\\right)^k}=\\infty?\\]",
+      "provenance": {
+        "source": "erdos:444",
+        "start": 11934,
+        "end": 12248,
+        "exactness": "slice",
+        "sha256": "1737589c1c695b4333b71e6a426f1e48f43d63baae2022b7ae979eda9d8d839e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "The answer is yes, proved by Erd\\H{o}s and S\\'{a}rk\\H{o}zy \\cite{ErSa80}.",
+      "provenance": {
+        "source": "erdos:444",
+        "start": 12248,
+        "end": 24705,
+        "exactness": "region",
+        "sha256": "4976f3e3dc694dfd23d41e2e28be50e65c9dde0e1888d37187cbe714bedca9da"
+      }
+    }
+  ],
+  "source_sha256": "db9d67375b6d22cd171729e936544f17e8e7b7fe9ef23ed51e302ff25550012c",
+  "refusals": []
+}

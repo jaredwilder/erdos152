@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/669",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $F_k(n)$ be minimal such that for any $n$ points in $\\mathbb{R}^2$ there exist at most $F_k(n)$ many distinct lines passing through at least $k$ of the points, and $f_k(n)$ similarly but with lines passing through exactly $k$ points. Estimate $f_k(n)$ and $F_k(n)$ - in particular, determine $\\lim F_k(n)/n^2$ and $\\lim f_k(n)/n^2$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/669",
+        "start": 12255,
+        "end": 12604,
+        "exactness": "slice",
+        "sha256": "f321dcb9c62d3695f5f8aaba84bce688f8847ff6a14e10ed9bbb1db64d8556b3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#669 : [Er97f] geometry Trivially $f_k(n)\\leq F_k(n)$ and $f_2(n)=F_2(n)=\\binom{n}{2}$. The problem with $k=3$ is the classical 'Orchard problem' of Sylvester. Burr, Grünbaum, and Sloane [BGS74] have proved that\\[f_3(n)=\\frac{n^2}{6}-O(n)\\]and\\[F_3(n)=\\frac{n^2}{6}-O(n).\\]There is a trivial upper bound of $F_k(n) \\leq \\binom{n}{2}/\\binom{k}{2}$, and hence\\[\\lim F_k(n)/n^2 \\leq \\frac{1}{k(k-1)}.\\]See also [101] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 27 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #669, https://www.erdosproblems.com/669, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A003035 , A006065 , A008997 , possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/669",
+        "start": 12604,
+        "end": 32747,
+        "exactness": "region",
+        "sha256": "4af7c92261ff62ccf43b8a3bcb6c866cd499d19afc510c2a2861e70cd69bb350"
+      }
+    }
+  ],
+  "source_sha256": "c093325596082ed714685a272a25545f35b1958b412eccd58cd2d7554b79d481",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/811",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Suppose $n\\equiv 1\\pmod{m}$. We say that an edge-colouring of $K_n$ using $m$ colours is balanced if every vertex sees exactly $\\lfloor n/m\\rfloor$ many edges of each colours. For which graphs $G$ is it true that, if $m=e(G)$, for all large $n\\equiv 1\\pmod{m}$, every balanced edge-colouring of $K_n$ with $m$ colours contains a rainbow copy of $G$? (That is, a subgraph isomorphic to $G$ where each edge receives a different colour.)",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/811",
+        "start": 12255,
+        "end": 12703,
+        "exactness": "slice",
+        "sha256": "8c5ee71dccdbe799541531ef855f5703b42abfb5b14aa45f53bfa497e527405d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#811 : [Er91] [Er93,p.346] [ErTu93] [Er96] graph theory | ramsey theory In [Er91] Erdős credits this problem to himself, Pyber, and Tuza. This problem was explored in a paper of Erdős and Tuza [ErTu93] . In [Er96] Erdős seems to suggest that this might be true for every graph $G$, and specifically asks specific challenge posed in [Er91] and [Er96] is whether, in any balanced edge-colouring of $K_{6n+1}$ by $6$ colours there must exist a rainbow $C_6$ and $K_4$. In general, one can ask for a quantitative version, defining $d_G(n)$ to be minimal (if it exists) such that if $n$ is sufficiently large and the edges of $K_n$ are coloured with $e(G)$ many colours such that the minimum degree of each colour class is $\\geq d_G(n)$ then there is a rainbow copy of $G$. Erdős and Tuza [ErTu93] proved that\\[\\lfloor n/6\\rfloor \\leq d_{C_4}(n) \\leq \\left(\\frac{1}{4}-c\\right)n\\]for some constant $c>0$. Axenovich and Clemen [AxCl24] have proved that there exist infinitely many graphs without this property. In particular, they show that for any odd $\\ell \\geq 3$ and $m=\\lfloor \\sqrt{\\ell}+3.5\\rfloor$ there exist arbitrarily large $n$ such that $K_n$ has a balanced edge-colouring using $\\ell$ colours which contains no rainbow $K_m$. They conjecture that $K_m$ lacks this property for all $m\\geq 4$. Clemen and Wagner [ClWa23] proved that $K_4$ does lack this property. Additional thanks to : msellke Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 14 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #811, https://www.erdosproblems.com/811, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/811",
+        "start": 12703,
+        "end": 34307,
+        "exactness": "region",
+        "sha256": "d4b7f6bed40db1463ba166fcc3513e022137b428d30295a075676c41be46988c"
+      }
+    }
+  ],
+  "source_sha256": "c23b5b80c30c15913b55a3aa08f1fe360ccb4b499a2b65018f3ce00edc75cd22",
+  "refusals": []
+}

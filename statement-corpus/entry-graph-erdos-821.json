@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/821",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $g(n)$ count the number of $m$ such that $\\phi(m)=n$. Is it true that, for every $\\epsilon>0$, there exist infinitely many $n$ such that\\[g(n) > n^{1-\\epsilon}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/821",
+        "start": 12255,
+        "end": 12435,
+        "exactness": "slice",
+        "sha256": "929bfff39cf040dd19eb3c18a2eb5e54161302e6d11e4177c607e7655684f11b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#821 : [Er74b] number theory Pillai proved that $\\limsup g(n)=\\infty$ and Erdős [Er35b] proved that there exists some constant $c>0$ such that $g(n) >n^c$ for infinitely many $n$. This conjecture would follow if we knew that, for every $\\epsilon>0$, there are $\\gg_\\epsilon \\frac{x}{\\log x}$ many primes $p<x$ such that all prime factors of $p-1$ are $<p^\\epsilon$. The best known bound is that there are infinitely many $n$ such that\\[g(n) > n^{0.71568\\cdots},\\]obtained by Lichtman [Li22] as a consequence of proving that there are $\\geq \\frac{x}{(\\log x)^{O(1)}}$ many primes $p\\leq x$ such that all prime factors of $p-1$ are $\\leq x^{0.2843\\cdots}$ (which improves a number of previous exponents, most recently Baker and Harman [BaHa98] ). The average size of $g(n)$ was investigated by Luca and Pollack [LuPo11] . See also [416] . Additional thanks to : Boris Alexeev Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 01 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #821, https://www.erdosproblems.com/821, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A014197 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/821",
+        "start": 12435,
+        "end": 33067,
+        "exactness": "region",
+        "sha256": "d8f273ccf22a4528063f4576eda299cbd93cca02928037defdd74a0c57362bfb"
+      }
+    }
+  ],
+  "source_sha256": "256993cc38fe85805e306a91a4d696043bf19c9f150b902971abbc6ec1f383d5",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/534",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is the largest possible subset $A\\subseteq\\{1,\\ldots,N\\}$ which contains $N$ such that $\\mathrm{gcd}(a,b)>1$ for all $a\\neq b\\in A$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/534",
+        "start": 12262,
+        "end": 12409,
+        "exactness": "slice",
+        "sha256": "dbfe1dc02ac66d1909fa92f957c166013a4b23b9a1994ad11e6cb8daaacf99fa"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#534 : [Er73] [Er80,p.113] number theory | intersecting family A problem of Erdős and Graham (in [Er73] it was stated with $(a,b)=1$ instead but this is clearly a typo). They conjecture that this maximum is either $N/p$ (where $p$ is the smallest prime factor of $N$) or it is the number of integers $\\{2t: t\\leq N/2\\textrm{ and }(2t,N)> 1\\}$. Ahlswede and Khachatrian [AhKh96] observe that it is 'easy' to find a counterexample to this conjecture, which they informed Erdős about in 1992. Erdős then gave a refined conjecture, that if $N=q_1^{k_1}\\cdots q_r^{k_r}$ (where $q_1<\\cdots <q_r$ are distinct primes) then the maximum is achieved by, for some $1\\leq j\\leq r$, those integers in $[1,N]$ which are a multiple of at least one of\\[\\{2q_1,\\ldots,2q_j,q_1\\cdots q_j\\}.\\]This conjecture was proved by Ahlswede and Khachatrian [AhKh96] . See also [56] . Additional thanks to : Liang Wang and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #534, https://www.erdosproblems.com/534, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A387543 , A387698 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/534",
+        "start": 12409,
+        "end": 33243,
+        "exactness": "region",
+        "sha256": "342bb2f7c87d05898ec0b82cc0574fbfbea4e231604f870feadd72b92a73c950"
+      }
+    }
+  ],
+  "source_sha256": "7a268116f59d258240d3552a3a3a0366f6e2ad297e290a4712f4dc173ec95c40",
+  "refusals": []
+}

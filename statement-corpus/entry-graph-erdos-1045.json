@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1045",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $z_1,\\ldots,z_n\\in \\mathbb{C}$ with $\\lvert z_i-z_j\\rvert\\leq 2$ for all $i,j$, and\\[\\Delta(z_1,\\ldots,z_n)=\\prod_{i\\neq j}\\lvert z_i-z_j\\rvert.\\]What is the maximum possible value of $\\Delta$? Is it maximised by taking the $z_i$ to be the vertices of a regular polygon?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1045",
+        "start": 12257,
+        "end": 12537,
+        "exactness": "slice",
+        "sha256": "5194b05c46079c56d9a04f896dcf4f2f08fa623ce00ce558bb2a09e9ddea6af0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1045 : [EHP58,p.143] analysis A problem of Erdős, Herzog, and Piranian [EHP58] , who proved that, for any monic polynomial $f$, if $\\{ z: \\lvert f(z)\\rvert <1\\}$ is connected and $f$ has roots $z_1,\\ldots,z_n$ then $\\prod_{i\\neq j}\\lvert z_i-z_j\\rvert <n^n$. The value of $\\Delta$ when the $z_i$ are the vertices of a regular polygon is $n^n$ when $n$ is even and\\[\\cos(\\pi/2n)^{-n(n-1)}n^n \\sim e^{\\pi^2/8}n^n\\]when $n$ is odd. Pommerenke [Po61] proved that $\\Delta \\leq 2^{O(n)}n^n$ for all $z_i$ with $\\lvert z_i-z_j\\rvert \\leq 2$. Hu and Tang (see the comments) found examples when $n=4$ and $n=6$ that show that vertices of a regular polygon do not maximise $\\Delta$. Cambie (also in the comments) showed that, in general, the vertices of a regular polygon are not a maximiser for all even $n\\geq 4$. There is a lot of discussion of this problem in the comments (see also the papers of Sothanaphan [So25] and Cambie, Decadt, Dong, Hu, and Tang [CDDHT26] ). It is now known that, for even $n$,\\[\\liminf \\frac{\\max \\Delta}{n^n}\\geq C\\]for some $C>0$. The best value of $C$ available is $C\\approx 1.268$, proved in [CDDHT26] . If we restrict to $n$ divisible by $6$ this can be improved to $C\\approx 1.304$. It remains possible that the regular polygon is a maximiser for odd $n$; this is explicitly conjectured in [CDDHT26] . It is not yet known whether, for odd $n$,\\[\\lim \\frac{\\max \\Delta}{n^n}=e^{\\pi^2/8}\\approx 3.433.\\]The paper [CDDHT26] also contains a number of structural results about the form of an extremal set of points. Additional thanks to : Stijn Cambie, Nat Sothanaphan, and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (48) Proof claims (0) More information and links This page was last edited 02 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1045, https://www.erdosproblems.com/1045, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes StijnC , Quanyu_Tang , epistemologist , Dogmachine Open to collaboration StijnC , epistemologist Currently working on epistemologist Looks difficult None Looks tractable None Could be formalisable None Working on formalising None </di",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1045",
+        "start": 12537,
+        "end": 34162,
+        "exactness": "region",
+        "sha256": "1ca11fc3e300792f25f9dc8b2fe7cd7028125cfee958b21fa2dab6fd372271bb"
+      }
+    }
+  ],
+  "source_sha256": "6153931864be91b5cdcb44445c0fe0dddd29e8b27371a48144df601a647a225f",
+  "refusals": []
+}

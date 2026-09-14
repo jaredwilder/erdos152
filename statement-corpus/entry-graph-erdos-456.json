@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/456",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $p_n$ be the smallest prime $\\equiv 1\\pmod{n}$ and let $m_n$ be the smallest integer such that $n\\mid \\phi(m_n)$. Is it true that $m_n<p_n$ for almost all $n$? Does $p_n/m_n\\to \\infty$ for almost all $n$? Are there infinitely many primes $p$ such that $p-1$ is the only $n$ for which $m_n=p$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/456",
+        "start": 12255,
+        "end": 12568,
+        "exactness": "slice",
+        "sha256": "e0225fd9a7e911bfb51e3c82df9b7d648391708eaabf2515c1076af7b9f2c6d2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#456 : [Er79e,p.80] [ErGr80,p.91] number theory Linnik's theorem implies that $p_n\\leq n^{O(1)}$. It is trivial that $m_n\\leq p_n$ always. If $n=q-1$ for some prime $q$ then $m_n=p_n$. Erdős [Er79e] writes it is 'easy to show' that for infinitely many $n$ we have $m_n <p_n$, and that $m_n/n\\to \\infty$ for almost all $n$. van Doorn in the comments has noted that if $n=2^{2k+1}$ then $m_n\\leq 2n$ and $p_n\\geq 2n+1$. Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 07 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #456, https://www.erdosproblems.com/456, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A034694 , A061026 , possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/456",
+        "start": 12568,
+        "end": 32869,
+        "exactness": "region",
+        "sha256": "1878bab2e524ea6730c9a86e253ea964734c617a72854c4b94ceea9047d1a426"
+      }
+    }
+  ],
+  "source_sha256": "3c4b4172447270a0e6ef4cdf2236986c3c1272d4220664757b70c36bfcba2741",
+  "refusals": []
+}

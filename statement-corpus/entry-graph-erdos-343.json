@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/343",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $A\\subseteq \\mathbb{N}$ is a multiset of integers such that\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert\\gg N\\]for all $N$ then must $A$ be subcomplete? That is, must\\[P(A) = \\left\\{\\sum_{n\\in B}n : B\\subseteq A\\textrm{ finite }\\right\\}\\]contain an infinite arithmetic progression?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/343",
+        "start": 12236,
+        "end": 12516,
+        "exactness": "slice",
+        "sha256": "e618ba70d397960159243652f0f50df2a05d1aa734ba5f47649d83a64ddd0caf"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#343 : [ErGr80,p.54] number theory | complete sequences A problem of Folkman. Folkman [Fo66] showed that this is true if\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert\\gg N^{1+\\epsilon}\\]for some $\\epsilon>0$ and all $N$. The original question was answered by Szemerédi and Vu [SzVu06] (who proved that the answer is yes). This is best possible, since Folkman [Fo66] showed that for all $\\epsilon>0$ there exists a multiset $A$ with\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert\\gg N^{1-\\epsilon}\\]for all $N$, such that $A$ is not subcomplete. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 02 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #343, https://www.erdosproblems.com/343, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/343",
+        "start": 12516,
+        "end": 32178,
+        "exactness": "region",
+        "sha256": "f5612d9c213a51656802f26a5417cde22a2905191c890155c01412af763037f2"
+      }
+    }
+  ],
+  "source_sha256": "79bcd65d35a43cee9467e75ce0b171008404510486ac72c1aaab8587c3a0ca2b",
+  "refusals": []
+}

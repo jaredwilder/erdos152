@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1175",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\kappa$ be an uncountable cardinal. Must there exist a cardinal $\\lambda$ such that every graph with chromatic number $\\lambda$ contains a triangle-free subgraph with chromatic number $\\kappa$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1175",
+        "start": 12257,
+        "end": 12461,
+        "exactness": "slice",
+        "sha256": "26c6b1d1f6846acfc14458c3ea8a5a7c26d8d54296074905fb6c1b436dc0c1ca"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1175 : [Va99,7.92] set theory | chromatic number Shelah proved that a negative answer is consistent if $\\kappa=\\lambda=\\aleph_1$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1175, https://www.erdosproblems.com/1175, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1175",
+        "start": 12461,
+        "end": 31265,
+        "exactness": "region",
+        "sha256": "16144e04baeca6478252882ca14c0d99b27f1b810d3bfd78ada2a5f9a17e0d5e"
+      }
+    }
+  ],
+  "source_sha256": "196ea2ca10d44cc952dca46a0d7d62f77859198961b82f49f40cfe76258c035f",
+  "refusals": []
+}

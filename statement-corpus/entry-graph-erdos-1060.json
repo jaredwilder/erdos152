@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1060",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ count the number of solutions to $k\\sigma(k)=n$, where $\\sigma(k)$ is the sum of divisors of $k$. Is it true that $f(n)\\leq n^{o(\\frac{1}{\\log\\log n})}$? Perhaps even $\\leq (\\log n)^{O(1)}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1060",
+        "start": 12257,
+        "end": 12464,
+        "exactness": "slice",
+        "sha256": "81c1314cc46f1479b7906297ce2f01f6c3a4807e36ee5e5fe53b7f6c2473e625"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1060 : [Gu04] number theory This is discussed in problem B11 of Guy's collection [Gu04] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 28 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1060, https://www.erdosproblems.com/1060, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A327153 Reactions Likes skominers Open to collaboration skominers Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1060",
+        "start": 12464,
+        "end": 31849,
+        "exactness": "region",
+        "sha256": "dca4879d5076d076aae7e05b924df7702a4a353c8fb698e7932031e85f92e376"
+      }
+    }
+  ],
+  "source_sha256": "4a426474fdba98ef2ed28ec48fe075d72c8f86b8b0dcb776671056fc8053ffee",
+  "refusals": []
+}

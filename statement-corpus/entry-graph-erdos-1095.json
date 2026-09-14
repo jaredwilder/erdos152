@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1095",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $g(k)>k+1$ be the smallest $n$ such that all prime factors of $\\binom{n}{k}$ are $>k$. Estimate $g(k)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1095",
+        "start": 12257,
+        "end": 12378,
+        "exactness": "slice",
+        "sha256": "407811a7c975c241b56e0309b0be45e7c77465c8a1dc80ffa3b1c735ff1b697f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1095 : [EES74] number theory | binomial coefficients A question of Ecklund, Erdős, and Selfridge [EES74] , who proved\\[k^{1+c}<g(k)\\leq \\exp((1+o(1))k)\\]for some constant $c>0$, and conjectured $g(k)<L_k=[1,\\ldots,k]$, the least common multiple of all integers $\\leq k$, for all large $k$. In [EES74] they further conjecture that\\[\\limsup \\frac{g(k+1)}{g(k)}=\\infty\\]and\\[\\liminf \\frac{g(k+1)}{g(k)}=0.\\]The lower bound was improved by Erdős, Lacampagne, and Selfridge [ELS93] and Granville and Ramaré [GrRa96] . The current record is\\[g(k) \\gg \\exp(c(\\log k)^2)\\]for some $c>0$, due to Konyagin [Ko99b] . Erdős, Lacampagne, and Selfridge [ELS93] write 'it is clear to every right-thinking person' that $g(k)\\geq\\exp(c\\frac{k}{\\log k})$ for some constant $c>0$. Sorenson, Sorenson, and Webster [SSW20] give heuristic evidence that\\[\\log g(k) \\asymp \\frac{k}{\\log k}.\\]See also [451] and [1094] . Additional thanks to : Amelburg and Jake Mallen Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (0) More information and links This page was last edited 21 June 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1095, https://www.erdosproblems.com/1095, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A003458 Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Redirect lin",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1095",
+        "start": 12378,
+        "end": 33571,
+        "exactness": "region",
+        "sha256": "3d2cd8ca1cdda0c9bfa7aa6b05f2ee7a26e9a9fc9583dfb1e528c48c1245ecb8"
+      }
+    }
+  ],
+  "source_sha256": "0a08e2d3d646a443d7287cd69f0f7dcbe4c84d4098832db9803f0e81523a8735",
+  "refusals": []
+}

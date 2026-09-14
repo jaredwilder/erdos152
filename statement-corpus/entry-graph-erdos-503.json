@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/503",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is the size of the largest $A\\subseteq \\mathbb{R}^d$ such that every three points from $A$ determine an isosceles triangle? That is, for any three points $x,y,z$ from $A$, at least two of the distances $\\lvert x-y\\rvert,\\lvert y-z\\rvert,\\lvert x-z\\rvert$ are equal.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/503",
+        "start": 12255,
+        "end": 12531,
+        "exactness": "slice",
+        "sha256": "52d50f256f44ee0552ed26ceb191897510a0ce60ba0d86f4ccdba171a9180ed2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#503 : [ErKe47] [Er61,p.244] geometry | distances When $d=2$ the answer is $6$ (due to Kelly [ErKe47] - an alternative proof is given by Kovács [Ko24c] ). When $d=3$ the answer is $8$ (due to Croft [Cr62] ). The best upper bound known in general is due to Blokhuis [Bl84] who showed that\\[\\lvert A\\rvert \\leq \\binom{d+2}{2}.\\]Alweiss has observed a lower bound of $\\binom{d+1}{2}$ follows from considering the subset of $\\mathbb{R}^{d+1}$ formed of all vectors $e_i+e_j$ where $e_i,e_j$ are distinct coordinate vectors. This set can be viewed as a subset of some $\\mathbb{R}^d$, and is easily checked to have the required property. Weisenberg observed in the comments that an additional point can be added to Alweiss' construction, giving a lower bound of $\\binom{d+1}{2}+1$. The fact that the truth for $d=3$ is $8$ suggests that neither of these bounds is the truth. See also [1088] for a generalisation. Additional thanks to : Ryan Alweiss and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (16) Proof claims (0) More information and links This page was last edited 28 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #503, https://www.erdosproblems.com/503, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A175769 Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/503",
+        "start": 12531,
+        "end": 33391,
+        "exactness": "region",
+        "sha256": "b7f8efbe40091dc8507ddd98daf5a207615b75ffd5dcba05566540d9d7d0d2ce"
+      }
+    }
+  ],
+  "source_sha256": "f8559fb4f9e08b9eb21a07be74e54adc07b5f9f9b7883632cf28128a30a0902c",
+  "refusals": []
+}

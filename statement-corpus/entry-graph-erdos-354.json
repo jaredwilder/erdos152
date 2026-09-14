@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/354",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\alpha,\\beta\\in \\mathbb{R}_{>0}$ such that $\\alpha/\\beta$ is irrational. Is the multiset\\[\\{ \\lfloor \\alpha\\rfloor,\\lfloor 2\\alpha\\rfloor,\\lfloor 4\\alpha\\rfloor,\\ldots\\}\\cup \\{ \\lfloor \\beta\\rfloor,\\lfloor 2\\beta\\rfloor,\\lfloor 4\\beta\\rfloor,\\ldots\\}\\]complete? That is, can all sufficiently large natural numbers $n$ be written as\\[n=\\sum_{s\\in S}\\lfloor 2^s\\alpha\\rfloor+\\sum_{t\\in T}\\lfloor 2^t\\beta\\rfloor\\]for some finite $S,T\\subset \\mathbb{N}$? What if $2$ is replaced by some $\\gamma\\in(1,2)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/354",
+        "start": 12255,
+        "end": 12778,
+        "exactness": "slice",
+        "sha256": "3cbfc75886141fd39242bcb3f33d0b13958643ef08dc8eafe3ebf9fd1fab2183"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#354 : [ErGr80,p.58] number theory | complete sequences This question was first mentioned by Graham [Gr71] . Hegyvári [He89] proved that this holds if $\\alpha=m/2^n$ is a dyadic rational and $\\beta$ is not. He later [He91] proved that, for any fixed $\\alpha>0$, the set of $\\beta$ for which this holds either has measure $0$ or infinite measure. In [He94] he proved that the set of $(\\alpha,\\beta)$ for which the corresponding set of sums does not contain an infinite arithmetic progression has cardinality continuum. Hegyvári [He89] proved that the sequence is not complete if $\\alpha\\geq 2$ and $\\beta =2^k\\alpha$ for some $k\\geq 0$. Jiang and Ma [JiMa24] and Fang and He [FaHe25] prove that the sequence is not complete if $1<\\alpha<2$ and $\\beta=2^k\\alpha$ for some sufficiently large $k$. It is likely (and Hegyvári conjectures) that the assumption $\\alpha/\\beta$ irrational can be weakened to $\\alpha/\\beta \\neq 2^k$ and either $\\alpha$ or $\\beta$ not a dyadic rational. In the comments van Doorn proves the sequence is complete if $\\alpha < 2<\\beta<3$, and also proves that if either $\\alpha$ or $\\beta$ is not a dyadic rational then the corresponding sequence with ceiling functions replacing the floor functions is complete. Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (10) Proof claims (0) More information and links This page was last edited 01 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #354, https://www.erdosproblems.com/354, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Woett , jbbaehr22 , kasko37 Open to collaboration Woett , jbbaehr22 Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/354",
+        "start": 12778,
+        "end": 33981,
+        "exactness": "region",
+        "sha256": "130fbf7430f674b46b09a4f2f671472f9f87a16b18f02fa81ac0852a3ee68c71"
+      }
+    }
+  ],
+  "source_sha256": "27c3555a88851aa16bac77d23ff5c1ccaabb75ebda60f1a8e5706c13862e21de",
+  "refusals": []
+}

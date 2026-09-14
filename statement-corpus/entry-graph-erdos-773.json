@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/773",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is the size of the largest Sidon subset $A\\subseteq\\{1,2^2,\\ldots,N^2\\}$? Is it $N^{1-o(1)}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/773",
+        "start": 12255,
+        "end": 12359,
+        "exactness": "slice",
+        "sha256": "b33c6863ff13b6c8ac57ac6e9905e1a5b2ecab73203f415756c14dadfc91ab06"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#773 : [Er80,p.109] [AlEr85] number theory | sidon sets | squares A question of Alon and Erdős [AlEr85] , who proved $\\lvert A\\rvert \\geq N^{2/3-o(1)}$ is possible (via a random subset), and observed that\\[\\lvert A\\rvert \\ll \\frac{N}{(\\log N)^{1/4}},\\]since (as shown by Landau) the density of the sums of two squares decays like $(\\log N)^{-1/2}$. This upper bound was improved to\\[\\lvert A\\rvert \\leq N^{1-\\frac{c}{\\log\\log N}}\\]for some constant $c>0$ by Croot, Mao, and Yip (see the comments). The lower bound was improved to\\[\\lvert A\\rvert \\gg N^{2/3}\\]by Lefmann and Thiele [LeTh95] . In [Er80] Erdős further defines $g(A)$ to be the maximal size of a Sidon set of $\\{a^2 : a\\in A\\}$, and asks whether $g(A)\\geq g(\\{1,\\ldots,N\\})$ where $N=\\lvert A\\rvert$. (See [530] for the linear analogue.) He further asks the infinite analogue: is there an infinite set $A\\subset \\mathbb{N}$ such that $\\lvert A\\cap [1,N]\\rvert \\geq N^{1-o(1)}$ for all large $N$ and $\\{a^2 : a \\in A\\}$ is a Sidon set? See [1206] for a similar question for higher powers. Additional thanks to : Ernie Croot and Akshat Mudgal Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (11) Proof claims (0) More information and links This page was last edited 24 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #773, https://www.erdosproblems.com/773, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A390813 Reactions Likes Sayan_Dutta Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/773",
+        "start": 12359,
+        "end": 33319,
+        "exactness": "region",
+        "sha256": "4197a2ff9bec986414662b92f04ecad80d6e308d11ef7b3751851cd3afb1b8d5"
+      }
+    }
+  ],
+  "source_sha256": "6d05dc741e47744607dcbfd889ed890b5b97616889dab0c416789ae5ec85d520",
+  "refusals": []
+}

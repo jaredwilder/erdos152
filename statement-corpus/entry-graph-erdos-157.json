@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:157",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does there exist an infinite Sidon set which is an asymptotic basis of order 3?",
+      "provenance": {
+        "source": "erdos:157",
+        "start": 11934,
+        "end": 12085,
+        "exactness": "slice",
+        "sha256": "d5d28a29bbfe3dbe5143045800cf50fffdd7908cd96947369732ab6520641904"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "Yes, as shown by Pilatte \\cite{Pi23}.",
+      "provenance": {
+        "source": "erdos:157",
+        "start": 12085,
+        "end": 24492,
+        "exactness": "region",
+        "sha256": "64adf5542bd2c7d4b971972022d0c6a7d7cd10f960d6f216473f386da72a3d1e"
+      }
+    }
+  ],
+  "source_sha256": "3c400545a86bb443fb50b7021798759e2218aa668c0aa75fd033bb90463b0b22",
+  "refusals": []
+}

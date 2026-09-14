@@ -1,0 +1,18 @@
+{
+  "schema": "oracle.frontier-formalizer.source-graph.v1",
+  "source": {
+    "name": "erdos-339.tex",
+    "sha256": "2dea361e93e9b8e4449953c0a936eb0316cb4400e09cd52305c6b2e613cb6f6c",
+    "bytes": 523
+  },
+  "nodes": [],
+  "edges": [],
+  "environments": {},
+  "summary": {
+    "nodes": 0,
+    "edges": 0,
+    "by_kind": {},
+    "targets": 0,
+    "unresolved_refs": []
+  }
+}

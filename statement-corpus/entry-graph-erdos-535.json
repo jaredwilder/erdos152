@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/535",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 3$, and let $f_r(N)$ denote the size of the largest subset of $\\{1,\\ldots,N\\}$ such that no subset of size $r$ has the same pairwise greatest common divisor between all elements. Estimate $f_r(N)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/535",
+        "start": 12255,
+        "end": 12469,
+        "exactness": "slice",
+        "sha256": "580f3a4ce23c245d95ad3996cf891bbf0ef59509020990828bcabbff378288c6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#535 : [Er69] [Er70] [Er73] number theory Erdős [Er64] proved that\\[f_r(N) \\leq N^{\\frac{3}{4}+o(1)},\\]and Abbott and Hanson [AbHa70] improved this exponent to $1/2$. Erdős [Er64] proved the lower bound, for any $r \\geq 3$,\\[f_r(N) > N^{\\frac{c_r}{\\log\\log N}}\\]for some constant $c_r>0$, and conjectured this should also be an upper bound. This is intimately connected with the sunflower problem [20] . Indeed, Erdős [Er64] noted that a positive solution to [20] would imply\\[f_r(N) \\leq N^{\\frac{C_r}{\\log\\log N}}\\]for some constant $C_r>0$. Using the recent bounds of Alweiss, Lovett, Wu, and Zhang [ALWZ20] for the sunflower problem yields\\[f_r(N) \\leq N^{C_r\\frac{\\log\\log\\log N}{\\log\\log N}},\\]and in particular $f_r(N) \\leq N^{o(1)}$. An alternative description of the details of these lower and upper bounds was given by Abbott and Hanson [AbHa67] . (A similar detailed calculation is given in the comments by Hrishi.) See also [536] . Additional thanks to : Kireet Cheri, Cong, Sourish Kumrawat, and Hrishi Sunder Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (0) More information and links This page was last edited 29 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #535, https://www.erdosproblems.com/535, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Handle the",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/535",
+        "start": 12469,
+        "end": 33608,
+        "exactness": "region",
+        "sha256": "7c2bb388183a0e116d16503f5218ee321210fd448cea8732a66b069f29127b61"
+      }
+    }
+  ],
+  "source_sha256": "e66731e98ec0dab410dbff82fc9806f1b24e9bb9fddb0042118f0729c0179c3a",
+  "refusals": []
+}

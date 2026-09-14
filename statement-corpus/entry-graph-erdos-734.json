@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/734",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Find, for all large $n$, a non-trivial pairwise balanced block design $A_1,\\ldots,A_m\\subseteq \\{1,\\ldots,n\\}$ such that, for all $t$, there are $O(n^{1/2})$ many $i$ such that $\\lvert A_i\\rvert=t$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/734",
+        "start": 12255,
+        "end": 12459,
+        "exactness": "slice",
+        "sha256": "8dff20a0168316614c3c67f18c8db5e67912dcd44a4bd57f809d25c6ba1e4f43"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#734 : [Er81,p.35] combinatorics $A_1,\\ldots,A_m$ is a pairwise balanced block design if every pair in $\\{1,\\ldots,n\\}$ is contained in exactly one of the $A_i$. Erdős [Er81] writes 'this will be probably not be very difficult to prove but so far I was not successful'. Erdős and de Bruijn [dBEr48] proved that if $A_1,\\ldots,A_m\\subseteq \\{1,\\ldots,n\\}$ is a pairwise balanced block design then $m\\geq n$, and this implies there must be some $t$ such that there are $\\gg n^{1/2}$ many $t$ with $\\lvert A_i\\rvert=t$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #734, https://www.erdosproblems.com/734, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/734",
+        "start": 12459,
+        "end": 32003,
+        "exactness": "region",
+        "sha256": "d7d4167813a0febfe6a6ce259573188aa73f41a52165fc5895f2b3687792abea"
+      }
+    }
+  ],
+  "source_sha256": "93403264f091e1be464660ffa3ad1f336150530064e5a04a8af7cd7b25fd2052",
+  "refusals": []
+}

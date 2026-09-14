@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1055",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "A prime $p$ is in class $1$ if the only prime divisors of $p+1$ are $2$ or $3$. In general, a prime $p$ is in class $r$ if every prime factor of $p+1$ is in some class $\\leq r-1$, with equality for at least one prime factor. Are there infinitely many primes in each class? If $p_r$ is the least prime in class $r$, then how does $p_r^{1/r}$ behave?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1055",
+        "start": 12257,
+        "end": 12618,
+        "exactness": "slice",
+        "sha256": "2f98c759d0d28fd5d8388492c128ff991af2e33fe899f6c66f6323f1d353d04d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1055 : [Er77] number theory | primes A classification due to Erdős and Selfridge. It is easy to prove that the number of primes $\\leq n$ in class $r$ is at most $n^{o(1)}$. The sequence $p_r$ begins $2,13,37,73,1021$ ( A005113 in the OEIS). Erdős thought $p_r^{1/r}\\to \\infty$, while Selfridge thought it quite likely to be bounded. A similar question can be asked replacing $p+1$ with $p-1$. This is problem A18 in Guy's collection [Gu04] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1055, https://www.erdosproblems.com/1055, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A005113 Reactions Likes None Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1055",
+        "start": 12618,
+        "end": 32418,
+        "exactness": "region",
+        "sha256": "94d055992692e313732cfc27df0f46b53b8512ca026e9ce127e0527577d44f90"
+      }
+    }
+  ],
+  "source_sha256": "c0dec7893dfdc1e2a96bef238c850501cdb8771ae1cc26b9ac48d421b42897f7",
+  "refusals": []
+}

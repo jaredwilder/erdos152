@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/629",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "The list chromatic number $\\chi_L(G)$ is defined to be the minimal $k$ such that for any assignment of a list of $k$ colours to each vertex of $G$ (perhaps different lists for different vertices) a colouring of each vertex by a colour on its list can be chosen such that adjacent vertices receive distinct colours. Determine the minimal number of vertices $n(k)$ of a bipartite graph $G$ such that $\\chi_L(G)>k$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/629",
+        "start": 12255,
+        "end": 12684,
+        "exactness": "slice",
+        "sha256": "5cd6f0e76370ca908a5e4beb434477218b625d235663a840bf0aa9523fb6031f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#629 : [ERT80] graph theory | chromatic number A problem of Erdős, Rubin, and Taylor [ERT80] , who proved that\\[2^{k-1}<n(k) <k^22^{k+2}.\\]They also prove that if $m(k)$ is the size of the smallest family of $k$-sets without property B (i.e. the smallest number of $k$-sets in a graph with chromatic number $3$) then $m(k)\\leq n(k)\\leq m(k+1)$. Bounds on $m(k)$ are the subject of [901] . The lower bounds on $m(k)$ by Radhakrishnan and Srinivasan [RaSr00] imply that\\[2^k \\left(\\frac{k}{\\log k}\\right)^{1/2}\\ll n(k).\\]Erdős, Rubin, and Taylor [ERT80] proved $n(2)=6$ and Hanson, MacGillivray, and Toft [HMT96] proved $n(3)=14$ and\\[n(k) \\leq kn(k-2)+2^k.\\]See also the entry in the graphs problem collection . Additional thanks to : Zach Hunter and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 28 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #629, https://www.erdosproblems.com/629, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/629",
+        "start": 12684,
+        "end": 33089,
+        "exactness": "region",
+        "sha256": "9de86404e2c1594481e45a9f3611f410494be09db6a13dbd6edb4d81e7c942fb"
+      }
+    }
+  ],
+  "source_sha256": "2097a8f7e8b46fe5e09ce1fbd2e13d56809379623e6c18568a6a310f626c8541",
+  "refusals": []
+}

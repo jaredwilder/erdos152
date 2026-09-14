@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1016",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $h(n)$ be minimal such that there is a graph on $n$ vertices with $n+h(n)$ edges which contains a cycle on $k$ vertices, for all $3\\leq k\\leq n$. Estimate $h(n)$. In particular, is it true that\\[h(n) \\geq \\log_2n+\\log_*n-O(1),\\]where $\\log_*n$ is the iterated logarithmic function?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1016",
+        "start": 12257,
+        "end": 12548,
+        "exactness": "slice",
+        "sha256": "406a076b2acaf9ce34a03f0525c1ece489918b85469e9d86df3c64bc1de7eddc"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1016 : [Er71] graph theory | cycles Such graphs are called pancyclic. A problem of Bondy [Bo71] , who claimed a proof (without details) of\\[\\log_2(n-1)-1\\leq h(n) \\leq \\log_2n+\\log_*n+O(1).\\]Erdős [Er71] believed the upper bound is closer to the truth, but could not even prove $h(n)-\\log_2n\\to \\infty$. A proof of the above lower bound is provided by Griffin [Gr13] . The first published proof of the upper bound appears to be in Chapter 4.5 of George, Khodkar, and Wallis [GKW16] . Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 27 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1016, https://www.erdosproblems.com/1016, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A105206 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1016",
+        "start": 12548,
+        "end": 32693,
+        "exactness": "region",
+        "sha256": "d1268b4e47b7089998ab24363bd5595566be385453e0193dd891d01948a8a4d1"
+      }
+    }
+  ],
+  "source_sha256": "c406402ee3c197384206def186bc29e63d70b2831f2d48e2d146b4dc2ab1a466",
+  "refusals": []
+}

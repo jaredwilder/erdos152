@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/520",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f$ be a Rademacher multiplicative function: a random $\\{-1,0,1\\}$-valued multiplicative function, where for each prime $p$ we independently choose $f(p)\\in \\{-1,1\\}$ uniformly at random, and for square-free integers $n$ we extend $f(p_1\\cdots p_r)=f(p_1)\\cdots f(p_r)$ (and $f(n)=0$ if $n$ is not squarefree). Does there exist some constant $c>0$ such that, almost surely,\\[\\limsup_{N\\to \\infty}\\frac{\\sum_{m\\leq N}f(m)}{\\sqrt{N\\log\\log N}}=c?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/520",
+        "start": 12255,
+        "end": 12715,
+        "exactness": "slice",
+        "sha256": "1a1ed96b02b66b3653714f77d03223414b1500938dba5ccd38b4f9bc0826c8d1"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#520 : [Er61,p.251] number theory | probability Note that if we drop the multiplicative assumption, and simply assign $f(m)=\\pm 1$ at random, then this statement is true (with $c=\\sqrt{2}$), the law of the iterated logarithm . Wintner [Wi44] proved that, almost surely,\\[\\sum_{m\\leq N}f(m)\\ll N^{1/2+o(1)},\\]and Erdős improved the right-hand side to $N^{1/2}(\\log N)^{O(1)}$. Lau, Tenenbaum, and Wu [LTW13] have shown that, almost surely,\\[\\sum_{m\\leq N}f(m)\\ll N^{1/2}(\\log\\log N)^{2+o(1)}.\\]Caich [Ca24b] has improved this to\\[\\sum_{m\\leq N}f(m)\\ll N^{1/2}(\\log\\log N)^{3/4+o(1)}.\\]Harper [Ha13] has shown that the sum is almost surely not $O(N^{1/2}/(\\log\\log N)^{5/2+o(1)})$, and conjectured that in fact Erdős' conjecture is false, and almost surely\\[\\sum_{m\\leq N}f(m) \\ll N^{1/2}(\\log\\log N)^{1/4+o(1)}.\\] Additional thanks to : Mehtaab Sawhney Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (2) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #520, https://www.erdosproblems.com/520, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/520",
+        "start": 12715,
+        "end": 32896,
+        "exactness": "region",
+        "sha256": "2844041f105212598bdc08bca27363819d5e3a033d9f997e04580a894f64c7c8"
+      }
+    }
+  ],
+  "source_sha256": "c412ffa6e68dcfc784b7ee1f4adf212f1b31d61481a1b06441bdc12a7818221b",
+  "refusals": []
+}

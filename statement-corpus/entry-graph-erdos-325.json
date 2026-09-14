@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/325",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$ and $f_{k,3}(x)$ denote the number of integers $\\leq x$ which are the sum of three nonnegative $k$th powers. Is it true that\\[f_{k,3}(x) \\gg x^{3/k}\\]or even $\\gg_\\epsilon x^{3/k-\\epsilon}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/325",
+        "start": 12255,
+        "end": 12466,
+        "exactness": "slice",
+        "sha256": "97311eedddd795b5b783c4df7cbc8e272081731fae4dd3895288b044bec7d693"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#325 : [ErGr80] number theory | powers Mahler and Erdős [ErMa38] proved that $f_{k,2}(x) \\gg x^{2/k}$. For $k=3$ the best known is due to Wooley [Wo15] ,\\[f_{3,3}(x) \\gg x^{0.917\\cdots}.\\]This problem has been formalised in Lean as part of the Google DeepMind Formal Conjectures project . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #325, https://www.erdosproblems.com/325, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A004825 , A004832 , A004843 , A004854 , A004865 , possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/325",
+        "start": 12466,
+        "end": 33286,
+        "exactness": "region",
+        "sha256": "0b140b308d25e38a2eb0bad97b6b9f78cefc56a1ebde94485e0642b75fcaec56"
+      }
+    }
+  ],
+  "source_sha256": "a63ef0109a88a77501b246dabd81624f27c24fd7dbfe926b20280bf5d08fdf50",
+  "refusals": []
+}

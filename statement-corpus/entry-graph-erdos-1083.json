@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1083",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $d\\geq 3$, and let $f_d(n)$ be the minimal $m$ such that every set of $n$ points in $\\mathbb{R}^d$ determines at least $m$ distinct distances. Estimate $f_d(n)$ - in particular, is it true that\\[f_d(n)=n^{\\frac{2}{d}-o(1)}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1083",
+        "start": 12257,
+        "end": 12492,
+        "exactness": "slice",
+        "sha256": "904e87d36a3b86161a128e27fd959669d9c7758c189c1f7668bd1cd374095ae2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1083 : [Er46b] [Er75f,p.101] geometry | distances A generalisation of the distinct distance problem [89] to higher dimensions. Erdős [Er46b] proved\\[n^{1/d}\\ll_d f_d(n)\\ll_d n^{2/d},\\]the upper bound construction being given by a set of lattice points. Clarkson, Edelsbrunner, Gubias, Sharir, and Welzl [CEGSW90] proved $f_3(n)\\gg n^{1/2}$. Aronov, Pach, Sharir, and Tardos [APST04] proved $f_d(n)\\gg n^{\\frac{1}{d-90/77}-o(1)}$ for any $d\\geq 3$ (for example, $f_3(n)\\gg n^{0.546}$). Solymosi and Vu [SoVu08] proved $f_3(n) \\gg n^{3/5}$ and\\[ f_d(n)\\gg_d n^{\\frac{2}{d}-\\frac{c}{d^2}}\\]for all $d\\geq 4$ for some constant $c>0$. (The result in their paper for $d=3$ is slightly weaker than stated here, but uses as a black box the bound for distinct distances in $2$ dimensions; we have recorded the consequence of combining their method with the work of Guth and Katz on [89] .) The function $f_d(n)$ is essentially the inverse of the function $g_d(n)$ considered in [1089] - with our definitions, $g_d(n)>m$ if and only if $f_d(m)<n$. The emphasis in this problem is, however, on the behaviour as $d$ is fixed and $n\\to \\infty$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 16 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1083, https://www.erdosproblems.com/1083, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A186704 , possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1083",
+        "start": 12492,
+        "end": 33622,
+        "exactness": "region",
+        "sha256": "98cd67ebf8856f29e28b62d388cdf1a41673fe457bbcead83d4c1145902faecf"
+      }
+    }
+  ],
+  "source_sha256": "c3a609cbd7552516979bf02a21ca9068492263aa6e8369cec899e15bf1a16db6",
+  "refusals": []
+}

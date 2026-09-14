@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1133",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $C>0$. There exists $\\epsilon>0$ such that if $n$ is sufficiently large the following holds. For any $x_1,\\ldots,x_n\\in [-1,1]$ there exist $y_1,\\ldots,y_n\\in [-1,1]$ such that, if $P$ is a polynomial of degree $m<(1+\\epsilon)n$ with $P(x_i)=y_i$ for at least $(1-\\epsilon)n$ many $1\\leq i\\leq n$, then\\[\\max_{x\\in [-1,1]}\\lvert P(x)\\rvert >C.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1133",
+        "start": 12257,
+        "end": 12633,
+        "exactness": "slice",
+        "sha256": "b9b131b82444a189d2d749414ca9a7c03285bcfd226fe2f06d3d4d609cdab86c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1133 : [Er67,p.72] analysis | polynomials Erdős proved that, for any $C>0$, there exists $\\epsilon>0$ such that if $n$ is sufficiently large and $m=\\lfloor (1+\\epsilon)n\\rfloor$ then for any $x_1,\\ldots,x_m\\in [-1,1]$ there is a polynomial $P$ of degree $n$ such that $\\lvert P(x_i)\\rvert\\leq 1$ for $1\\leq i\\leq m$ and\\[\\max_{x\\in [-1,1]}\\lvert P(x)\\rvert>C.\\]The conjectured statement would also imply this, but Erdős in [Er67] says he could not even prove it for $m=n$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 31 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1133, https://www.erdosproblems.com/1133, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1133",
+        "start": 12633,
+        "end": 31939,
+        "exactness": "region",
+        "sha256": "c64657b16c8aadd624299b4e85446fc329eb31a21ac9a3aa5a1f8994830e153e"
+      }
+    }
+  ],
+  "source_sha256": "e04f3cecb11f552c13b2ab859971abe65bf8b24376bdb23de403bbde0b8aad7c",
+  "refusals": []
+}

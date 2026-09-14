@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/463",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a function $f$ with $f(n)\\to \\infty$ as $n\\to \\infty$ such that, for all large $n$, there is a composite number $m$ such that\\[n+f(n)<m<n+p(m)?\\](Here $p(m)$ is the least prime factor of $m$.)",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/463",
+        "start": 12255,
+        "end": 12470,
+        "exactness": "slice",
+        "sha256": "0d3366e0ca29fa55cdefb0b168d95c60a204dc3ee794a2cde49676a481911328"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#463 : [ErGr80] [Er92e] number theory | primes In [Er92e] Erdős asks about\\[F(n)=\\min_{m>n}(m-p(m)),\\]and whether $n-F(n)\\sim cn^{1/2}$ for some $c>0$. See also [385] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #463, https://www.erdosproblems.com/463, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/463",
+        "start": 12470,
+        "end": 31824,
+        "exactness": "region",
+        "sha256": "c02545963c2c6a884b2f08668dee308b54d5507955239a75eb0f25f8de169646"
+      }
+    }
+  ],
+  "source_sha256": "2528f9e4ea41d078b96da5fe16bc383e0b9cd83d9790411da6fa88cb99e0dae2",
+  "refusals": []
+}

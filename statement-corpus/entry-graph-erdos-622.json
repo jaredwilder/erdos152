@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/622",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a regular graph with $2n$ vertices and degree $n+1$. Must $G$ have $\\gg 2^{2n}$ subsets that are spanned by a cycle?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/622",
+        "start": 12236,
+        "end": 12369,
+        "exactness": "slice",
+        "sha256": "559ee12c4ae185c07c505fa86e37d0d2ea53954857d47178e8cd635e2c40435c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#622 : [Er99] graph theory A problem of Erdős and Faudree. Erdős writes 'it is easy to see' that there are at least $(\\frac{1}{2}+o(1))2^{2n}$ sets that are not on a cycle. If the regularity condition is replaced by minimum degree $n+1$ then the answer is no (consider $K_{n,n}$ with a spanning star in each part). Similarly this is false with degree $n$, as $K_{n,n}$ shows. This has been resolved by Draganić, Keevash, and Müyesser [DKM25] , who prove the asymptotically tight result that there are at least\\[(\\tfrac{1}{2}+o(1))2^{2n}\\]subsets which are spanned by a cycle. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #622, https://www.erdosproblems.com/622, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/622",
+        "start": 12369,
+        "end": 31859,
+        "exactness": "region",
+        "sha256": "5ff57077ca567879b8efcf1805fe175c4fdbef08eb2686a6e997296de2b5c1d3"
+      }
+    }
+  ],
+  "source_sha256": "9028adebe473060650f10b2e9a860d848c1fd41978e2359a206b824e56773043",
+  "refusals": []
+}

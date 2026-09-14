@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/545",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a graph with $m$ edges and no isolated vertices. Is the Ramsey number $R(G)$ maximised when $G$ is 'as complete as possible'? That is, if $m=\\binom{n}{2}+t$ edges with $0\\leq t<n$ then is\\[R(G)\\leq R(H),\\]where $H$ is the graph formed by connecting a new vertex to $t$ of the vertices of $K_n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/545",
+        "start": 12255,
+        "end": 12570,
+        "exactness": "slice",
+        "sha256": "0ab4435cbaa123a14293a82d22ed4979bbe7969ee3cbd7f9a160c374d96b2206"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#545 : [ErGr75,p.526] [Er84b,p.11] graph theory | ramsey theory A question of Erdős and Graham. The weaker question of whether\\[R(G) \\leq 2^{O(m^{1/2})}\\]is the subject of [546] . (This is true, and was proved by Sudakov [Su11] .) LouisD in the comments has noted this fails for small $m$ (in particular for $2\\leq m\\leq 5$ and $7\\leq m\\leq 9$). This problem is #10 in Ramsey Theory in the graphs problem collection. Additional thanks to : Sarosh Adenwalla, LouisD, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (16) Proof claims (0) More information and links This page was last edited 02 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #545, https://www.erdosproblems.com/545, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A059442 , possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/545",
+        "start": 12570,
+        "end": 32806,
+        "exactness": "region",
+        "sha256": "e914a194b9c87eb90a7f6146daeb251aa822f9dcc64f46bec02c672a7883da6b"
+      }
+    }
+  ],
+  "source_sha256": "455312aa66309ff3ca10016d4116bd127d26524d0b76682bacb090dcb7f361f8",
+  "refusals": []
+}

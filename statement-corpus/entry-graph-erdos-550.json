@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/550",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $m_1\\leq\\cdots\\leq m_k$ and $n$ be sufficiently large. If $T$ is a tree on $n$ vertices and $G$ is the complete multipartite graph with vertex class sizes $m_1,\\ldots,m_k$ then prove that\\[R(T,G)\\leq (\\chi(G)-1)(R(T,K_{m_1,m_2})-1)+m_1.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/550",
+        "start": 12255,
+        "end": 12503,
+        "exactness": "slice",
+        "sha256": "2d3bce40fe60bb114321f44fc297f90a4bfd64eb10eb31ce5e035d869f8a06ee"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#550 : [EFRS85] graph theory | ramsey theory Chvátal [Ch77] proved that $R(T,K_m)=(m-1)(n-1)+1$. This problem is #16 in Ramsey Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #550, https://www.erdosproblems.com/550, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/550",
+        "start": 12503,
+        "end": 31548,
+        "exactness": "region",
+        "sha256": "6970376f6403c34f6006ce287eb5a37ad7d85571b86cce3799415a7aed57cde3"
+      }
+    }
+  ],
+  "source_sha256": "9fa15cc4ee4b50e58a218b2f02eb016632b0bcd644dc4d9ce4cc1c31ed4cd46f",
+  "refusals": []
+}

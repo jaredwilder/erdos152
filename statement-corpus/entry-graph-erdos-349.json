@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/349",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For what values of $t,\\alpha \\in (0,\\infty)$ is the sequence $\\lfloor t\\alpha^n\\rfloor$ complete (that is, all sufficiently large integers are the sum of distinct integers of the form $\\lfloor t\\alpha^n\\rfloor$)?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/349",
+        "start": 12255,
+        "end": 12473,
+        "exactness": "slice",
+        "sha256": "5f63c3392f9952c00004b826afd197da00475bae8cf24d15287de4dfb7af6806"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#349 : [ErGr80,p.57] number theory | complete sequences Even in the range $t\\in (0,1)$ and $\\alpha\\in (1,2)$ the behaviour is surprisingly complex. For example, Graham [Gr64e] has shown that for any $k$ there exists some $t_k\\in (0,1)$ such that the set of $\\alpha$ such that the sequence is complete consists of at least $k$ disjoint line segments. It seems likely that the sequence is complete for all $t>0$ and all $1<\\alpha < \\frac{1+\\sqrt{5}}{2}$. Proving this seems very difficult, since we do not even know whether $\\lfloor (3/2)^n\\rfloor$ is odd or even infinitely often. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (12) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #349, https://www.erdosproblems.com/349, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Woett , Dogmachine , hider1alduha Open to collaboration Woett , hider1alduha Currently working on hider1alduha Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/349",
+        "start": 12473,
+        "end": 32204,
+        "exactness": "region",
+        "sha256": "936138841a59f32a5087910e24008408736b5f0a9c21bc885541d412c0683d7a"
+      }
+    }
+  ],
+  "source_sha256": "7ca81d571ca56dee91933862288aa7ea1cd8a1fc7a952e129a5ce533e5d99348",
+  "refusals": []
+}

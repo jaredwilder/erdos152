@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/938",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{n_1<n_2<\\cdots\\}$ be the sequence of powerful numbers (if $p\\mid n$ then $p^2\\mid n$). Are there only finitely many three-term progressions of consecutive terms $n_k,n_{k+1},n_{k+2}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/938",
+        "start": 12255,
+        "end": 12469,
+        "exactness": "slice",
+        "sha256": "b0e6bd5283e248687b2dce6f8625b598f5cb8e1bf8dcf4d0de8f0320930a6589"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#938 : [Er76d] number theory | powerful Erdős also conjectured (see [364] ) that there are no triples of powerful numbers of the shape $n,n+1,n+2$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 31 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #938, https://www.erdosproblems.com/938, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A001694 , A076446 , possible Reactions Likes Woett Open to collaboration Woett Currently working on SkyYang Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/938",
+        "start": 12469,
+        "end": 32205,
+        "exactness": "region",
+        "sha256": "a8398b8a62ca730b78e49dd05dacc4cac6ba1c2ad74bbaedfdf4712770daa5d5"
+      }
+    }
+  ],
+  "source_sha256": "3f3b5369b0295180e1d6f8eadda57a3767ec5b988b59ba47ebb1be5e39634260",
+  "refusals": []
+}

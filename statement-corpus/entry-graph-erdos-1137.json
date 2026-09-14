@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1137",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $d_n=p_{n+1}-p_n$, where $p_n$ denotes the $n$th prime. Is it true that\\[\\frac{\\max_{n<x}d_{n}d_{n-1}}{(\\max_{n<x}d_n)^2}\\to 0\\]as $x\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1137",
+        "start": 12257,
+        "end": 12420,
+        "exactness": "slice",
+        "sha256": "71ea1a5f81327a52d08c44efeeb6398367f4b657807c34130bf531e03b4c56ad"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1137 : [Va99,1.2] number theory | primes Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1137, https://www.erdosproblems.com/1137, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A083550 , A005250 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1137",
+        "start": 12420,
+        "end": 31812,
+        "exactness": "region",
+        "sha256": "a706d3a43536747938ac727c58fc7622e3cb304009cf3e0f56889675520e567c"
+      }
+    }
+  ],
+  "source_sha256": "cfefc72b49fb10d7b9c0e0d1edd9614ac68a9bb4bfa0bb253c44386ba8a5c5f8",
+  "refusals": []
+}

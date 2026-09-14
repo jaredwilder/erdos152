@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/137",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "We say that $N$ is powerful if whenever $p\\mid N$ we also have $p^2\\mid N$. Let $k\\geq 3$. Can the product of any $k$ consecutive positive integers ever be powerful?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/137",
+        "start": 12255,
+        "end": 12426,
+        "exactness": "slice",
+        "sha256": "fec21002ee7880c9bc83032e599b73efa4c9576368d2705feb9bd79f5bd5a9bd"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#137 : [ErGr80] [Er82c,p.28] [Er97c] number theory | powerful Conjectured by Erdős and Selfridge. There are infinitely many $n$ such that $n(n+1)$ is powerful (see [364] ). Erdős and Selfridge [ErSe75] proved that the product of $k\\geq 3$ consecutive positive integers can never be a perfect power. Erdős remarked that this 'seems hopeless at present'. In [Er82c] he further conjectures that, if $k$ is fixed and $n$ is sufficiently large, then, for all $m$, there must be at least $k$ distinct primes $p$ such that\\[p\\mid m(m+1)\\cdots (m+n)\\]and yet $p^2$ does not divide the right-hand side. See also [364] . Additional thanks to : Julius Schmerling and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 20 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #137, https://www.erdosproblems.com/137, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult JuanClaver Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/137",
+        "start": 12426,
+        "end": 32537,
+        "exactness": "region",
+        "sha256": "2e87de77db7f1ed822513440f4a7c4a4ffdabe3d21d7c18f130ffc41c3088269"
+      }
+    }
+  ],
+  "source_sha256": "f1318a0e70cf706d49af1112be547e0b8900be9505d2c13f42a5cbade348d9be",
+  "refusals": []
+}

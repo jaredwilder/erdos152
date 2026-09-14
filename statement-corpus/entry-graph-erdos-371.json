@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/371",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $P(n)$ denote the largest prime factor of $n$. Show that the set of $n$ with $P(n)<P(n+1)$ has density $1/2$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/371",
+        "start": 12255,
+        "end": 12378,
+        "exactness": "slice",
+        "sha256": "73f957eac6e5133a0765d958c48b8f869c976c3293cd0dc69b91ba0d816572c3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#371 : [ErPo78,p.320] [Er79e] [ErGr80,p.70] [Er85c,p.82] [Va99,1.10] number theory Conjectured by Erdős and Pomerance [ErPo78] , who proved that this set and its complement both have positive upper density. The best unconditional lower bound available is due to Lü and Wang [LuWa25] , who prove that\\[\\#\\{ n<x :P(n)<P(n+1)\\} > (0.2017-o(1))x,\\]and the same lower bound for the complement. In [Er79e] Erdős also asks whether, for every $\\alpha$, the density of the set of $n$ where\\[P(n+1)>P(n)n^\\alpha\\]exists. Teräväinen [Te18] has proved that the logarithmic density of the set of $n$ for which $P(n)<P(n+1)$ is $1/2$. Tao and Teräväinen [TaTe19] have proved that the asymptotic density is $1/2$ at 'almost all scales'. More generally, for any $0\\leq \\alpha \\leq1$, Teräväinen [Te18] proved that the logarithmic density of the set of $n$ for which $P(n+1)>P(n)n^\\alpha$ exists and is equal to\\[\\int_{[0,1]^2}1_{y\\geq x+\\alpha}u(x)u(y)\\mathrm{d}x\\mathrm{d}y\\]where $u(x)=x^{-1}\\rho(x^{-1}-1)$ and $\\rho$ is the Dickman function . Wang [Wa21] has proved the same value holds for the asymptotic density (and in particular provided an affirmative answer to the original question) conditional on the Elliott-Halberstam conjecture for friable integers. The sequence of such $n$ is A070089 in the OEIS. See also [372] and [928] . Additional thanks to : Alfaiz, Agustin Meza, Terence Tao, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #371, https://www.erdosproblems.com/371, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A070089 Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/371",
+        "start": 12378,
+        "end": 34676,
+        "exactness": "region",
+        "sha256": "963089b5be46039a737e2fd55d930380145b0de08e27fab0206eff9d18e93312"
+      }
+    }
+  ],
+  "source_sha256": "cc7173df3d814fae885894c2954cc96c85a28c7e997aa697b66c96e7da3ec351",
+  "refusals": []
+}

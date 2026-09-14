@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1159",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Determine whether there exists a constant $C>1$ such that the following holds. Let $P$ be a finite projective plane . Must there exist a set of points $S$ such that $1\\leq \\lvert S\\cap \\ell\\rvert \\leq C$ for all lines $\\ell$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1159",
+        "start": 12257,
+        "end": 12613,
+        "exactness": "slice",
+        "sha256": "b039fb43b157f575e9534ae8ac3ac67cb3e94629b5d71bcfd0a8113e79bdff13"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1159 : [Va99,4.70] combinatorics A set which meets all lines at once is called a blocking set. In [Er81] Erdős asks the stronger question of whether this is true for all pairwise balanced block designs. Erdős, Silverman, and Stein [ESS83] proved this is true with $\\lvert S\\cap\\ell \\rvert\\ll \\log n$ for all lines $\\ell$ (where $n$ is the order of the projective plane). See also [664] for a stronger question. This problem is mentioned after Problem 68 on Green's open problems list . Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 10 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1159, https://www.erdosproblems.com/1159, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1159",
+        "start": 12613,
+        "end": 32294,
+        "exactness": "region",
+        "sha256": "56096c8c158c68a16b45e21a7fba6423fb86fcb193bc747abee7522d4a8e16c1"
+      }
+    }
+  ],
+  "source_sha256": "8a741f8808cedeb4f10e8532a98bdb7be7ed8a579cf39923049cf357d00bf428",
+  "refusals": []
+}

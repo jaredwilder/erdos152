@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/210",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be minimal such that the following holds. For any $n$ points in $\\mathbb{R}^2$, not all on a line, there must be at least $f(n)$ many lines which contain exactly 2 points (called 'ordinary lines'). Does $f(n)\\to \\infty$? How fast?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/210",
+        "start": 12236,
+        "end": 12483,
+        "exactness": "slice",
+        "sha256": "8607418552b22373686c5b7db070ef2be4ca6e869e4a36793d7c3e05603fff59"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#210 : [Er61,p.245] [Er75f,p.105] [Er81] [Er83c] [Er84] [Er85] geometry Conjectured by Erdős and de Bruijn. The Sylvester-Gallai theorem states that $f(n)\\geq 1$. The fact that $f(n)\\geq 1$ was conjectured by Sylvester in 1893. Erdős rediscovered this conjecture in 1933 and told it to Gallai who proved it. That $f(n)\\to \\infty$ was proved by Motzkin [Mo51] . Kelly and Moser [KeMo58] proved that $f(n)\\geq\\tfrac{3}{7}n$ for all $n$. This is best possible for $n=7$. Motzkin conjectured that for $n\\geq 13$ there are at least $n/2$ such lines. Csima and Sawyer [CsSa93] proved a lower bound of $f(n)\\geq \\tfrac{6}{13}n$ when $n\\geq 8$. Green and Tao [GrTa13] proved that $f(n)\\geq n/2$ for sufficiently large $n$. (A proof that $f(n)\\geq n/2$ for large $n$ was earlier claimed by Hansen but this proof was flawed.) The bound of $n/2$ is best possible for even $n$, since one could take $n/2$ points on a circle and $n/2$ points at infinity. Surprisingly, Green and Tao [GrTa13] show that if $n$ is odd (and sufficiently large) then $f(n)\\geq 3\\lfloor n/4\\rfloor$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 16 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #210, https://www.erdosproblems.com/210, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A003034 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/210",
+        "start": 12483,
+        "end": 33697,
+        "exactness": "region",
+        "sha256": "2aab8d5cb2b3dc3c989ac83a54a73789129ad76d519974530fcf1bc99864081c"
+      }
+    }
+  ],
+  "source_sha256": "373e6283b99522059a8751398f06e1e3c92a878949346594e7fcc5b1829349e6",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/54",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "A set of integers $A$ is Ramsey $2$-complete if, whenever $A$ is $2$-coloured, all sufficiently large integers can be written as a monochromatic sum of elements of $A$. Burr and Erdős [BuEr85] showed that there exists a constant $c>0$ such that it cannot be true that\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert \\leq c(\\log N)^2\\]for all large $N$ and that there exists a Ramsey $2$-complete $A$ such that for all large $N$\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert < (2\\log_2N)^3.\\]Improve either of these bounds.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/54",
+        "start": 12267,
+        "end": 12896,
+        "exactness": "slice",
+        "sha256": "1ecddf90a3c54e7c031ec0e7b9d86359ad3ea172e95d0926a0921eda6b049e9a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#54 : [Er95,p.172] number theory | ramsey theory The stated bounds are due to Burr and Erdős [BuEr85] . Resolved by Conlon, Fox, and Pham [CFP21] , who constructed a Ramsey $2$-complete $A$ such that\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert \\ll (\\log N)^2\\]for all large $N$. See also [55] and [843] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 28 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #54, https://www.erdosproblems.com/54, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/54",
+        "start": 12896,
+        "end": 32195,
+        "exactness": "region",
+        "sha256": "b17b430a929d3784ccbce271c5c7107138fc3d3d432073e803db9c8021b3c542"
+      }
+    }
+  ],
+  "source_sha256": "21a4f9f9d05977df4f2e7688dfc9347b87f116da5c4ecec05768bbcf0d5fb872",
+  "refusals": []
+}

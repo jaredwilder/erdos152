@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/801",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $G$ is a graph on $n$ vertices containing no independent set on $>n^{1/2}$ vertices then there is a set of $\\leq n^{1/2}$ vertices containing $\\gg n^{1/2}\\log n$ edges.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/801",
+        "start": 12236,
+        "end": 12417,
+        "exactness": "slice",
+        "sha256": "7628203aaa5fc61c39dda983306b20f1f4e7d1f2f14a592abbe208b67ec4a518"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#801 : [Er79g] graph theory | ramsey theory Proved by Alon [Al96b] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #801, https://www.erdosproblems.com/801, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/801",
+        "start": 12417,
+        "end": 31198,
+        "exactness": "region",
+        "sha256": "3e06130ce2e4726934d4fc9f1cb8458a43e5ff2414ccabf40903212969e92e83"
+      }
+    }
+  ],
+  "source_sha256": "dea4a660ee4cb4c10f34e03bdcc4fa5f30e5977e8b697494e4b22ffc92f2eda2",
+  "refusals": []
+}

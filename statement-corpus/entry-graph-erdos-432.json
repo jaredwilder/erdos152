@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/432",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A,B\\subseteq \\mathbb{N}$ be two infinite sets. How dense can $A+B$ be if all elements of $A+B$ are pairwise relatively prime?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/432",
+        "start": 12255,
+        "end": 12391,
+        "exactness": "slice",
+        "sha256": "3c87a10c8c5f1ba72c8c6288aabe15f316405a582afba818dea90ab1482226c3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#432 : [ErGr80,p.85] number theory Asked by Straus, inspired by a problem of Ostmann (see [431] ). Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #432, https://www.erdosproblems.com/432, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult TerenceTao Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/432",
+        "start": 12391,
+        "end": 31201,
+        "exactness": "region",
+        "sha256": "2d89a4ddb12d0296026ddd032af129f22e045add941928946f93609baa04233b"
+      }
+    }
+  ],
+  "source_sha256": "4eea6281765ccc20d963f18de8aa650f3944fccfebc9b93024b23c528d58526b",
+  "refusals": []
+}

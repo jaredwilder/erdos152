@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/585",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is the maximum number of edges that a graph on $n$ vertices can have if it does not contain two edge-disjoint cycles with the same vertex set?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/585",
+        "start": 12255,
+        "end": 12408,
+        "exactness": "slice",
+        "sha256": "6f0c7eddedd1594805f387eaebbd6a3f62079fa81cb2154b17cb40727cc49e29"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#585 : [Er76b] graph theory | cycles Pyber, Rödl, and Szemerédi [PRS95] constructed such a graph with $\\gg n\\log\\log n$ edges. Chakraborti, Janzer, Methuku, and Montgomery [CJMM24] have shown that such a graph can have at most $n(\\log n)^{O(1)}$ many edges. Indeed, they prove that there exists a constant $C>0$ such that for any $k\\geq 2$ there is a $c_k$ such that if a graph has $n$ vertices and at least $c_kn(\\log n)^{C}$ many edges then it contains $k$ pairwise edge-disjoint cycles with the same vertex set. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #585, https://www.erdosproblems.com/585, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/585",
+        "start": 12408,
+        "end": 32006,
+        "exactness": "region",
+        "sha256": "fee290bb5041245c9feb9651ff50971a413a73fc926832cf1942e46053f0bba4"
+      }
+    }
+  ],
+  "source_sha256": "8b5636aa5edd32ed53560dd6beabd3a631481ba35c020842854e5a0ae98fc41e",
+  "refusals": []
+}

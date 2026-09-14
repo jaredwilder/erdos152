@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/338",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "The restricted order of a basis is the least integer $t$ (if it exists) such that every large integer is the sum of at most $t$ distinct summands from $A$. What are necessary and sufficient conditions that this exists? Can it be bounded (when it exists) in terms of the order of the basis? What are necessary and sufficient conditions that this is equal to the order of the basis?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/338",
+        "start": 12255,
+        "end": 12641,
+        "exactness": "slice",
+        "sha256": "7ed9392629569848d397bf7aef6530ea20ed342e21a79f0e7c202faefbf1e033"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#338 : [ErGr80] [ErGr80b] number theory | additive basis Bateman has observed that for $h\\geq 3$ there is a basis of order $h$ with no restricted order, taking\\[A=\\{1\\}\\cup \\{x>0 : h\\mid x\\}.\\]Kelly [Ke57] has shown that any basis of order $2$ has restricted order at most $4$ and conjectured it always has restricted order at most $3$ (which he proved under the additional assumption that the basis has positive lower density). Kelly's conjecture was disproved by Hennecart [He05] , who constructed a basis of order $2$ with restricted order $4$. The set of squares has order $4$ and restricted order $5$ (see [Pa33] ) and the set of triangular numbers has order $3$ and restricted order $3$ (see [Sc54] ). Is it true that if $A\\backslash F$ is a basis for all finite sets $F$ then $A$ must have a restricted order? What if they are all bases of the same order? Hegyvári, Hennecart, and Plagne [HHP07] have shown that for all $k\\geq2$ there exists a basis of order $k$ which has restricted order at least\\[2^{k-2}+k-1.\\] Additional thanks to : Euro Sampaio Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 14 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #338, https://www.erdosproblems.com/338, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Dogmachine , Desenyon , JJ_ Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/338",
+        "start": 12641,
+        "end": 33358,
+        "exactness": "region",
+        "sha256": "ca88d838673a12ce4110c1b95c3ef208ed874f08716deee859a793a8f92980a5"
+      }
+    }
+  ],
+  "source_sha256": "74605eb157296c2d1042d0dd486c9ee2682f3122232ec5f87badbf52ea8b0ea2",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/501",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For every $x\\in\\mathbb{R}$ let $A_x\\subset \\mathbb{R}$ be a bounded set with outer measure $<1$. Must there exist an infinite independent set, that is, some infinite $X\\subseteq \\mathbb{R}$ such that $x\\not\\in A_y$ for all $x\\neq y\\in X$? If the sets $A_x$ are closed and have measure $<1$, then must there exist an independent set of size $3$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/501",
+        "start": 12255,
+        "end": 12620,
+        "exactness": "slice",
+        "sha256": "7207fe5d6eda356aa0bc077c72910828d884e60a3f9e747ea88aa6c4f8008046"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#501 : [Er61] [ErHa71] combinatorics | set theory Erdős and Hajnal [ErHa60] proved the existence of arbitrarily large finite independent sets (under the assumptions in the first problem). Gladysz [Gl62] proved the existence of an independent set of size $2$ under the assumptions of the second question. Hechler [He72] has shown the answer to the first question is no, assuming the continuum hypothesis. Newelski, Pawlikowski, and Seredyński [NPS87] proved that if all the $A_x$ are closed with measure $<1$ then there is an infinite independent set, giving a strong affirmative answer to the second question. Additional thanks to : Boris Alexeev Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (12) Proof claims (1) More information and links This page was last edited 25 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #501, https://www.erdosproblems.com/501, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes ElliotGlazer Open to collaboration ElliotGlazer Currently working on ElliotGlazer Looks difficult None Looks tractable ElliotGlazer Could be formalisable ElliotGlazer Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/501",
+        "start": 12620,
+        "end": 32856,
+        "exactness": "region",
+        "sha256": "743c27b9b7b892f308a892a7caf9bddd6ce4a0fef65e18b66b6bba73d370f685"
+      }
+    }
+  ],
+  "source_sha256": "15dc023c445ca699a1aad01d429648e65e6e98ab30f78cc9d220b1d7119fc53c",
+  "refusals": []
+}

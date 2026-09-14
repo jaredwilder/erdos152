@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/985",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that, for every prime $p$, there is a prime $q<p$ which is a primitive root modulo $p$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/985",
+        "start": 12255,
+        "end": 12363,
+        "exactness": "slice",
+        "sha256": "1afe425f90852d54debc5118fa9634a800b424651802cea2d62340460b91b7e2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#985 : [Er65b] number theory Artin conjectured that $2$ is a primitive root for infinitely many primes $p$, which Hooley [Ho67b] proved assuming the Generalised Riemann Hypothesis. Heath-Brown [He86b] proved that at least one of $2$, $3$, or $5$ is a primitive root for infinitely many primes $p$. Additional thanks to : Euro Vidal Sampaio Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #985, https://www.erdosproblems.com/985, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A002233 , A219429 , A103309 , possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/985",
+        "start": 12363,
+        "end": 32657,
+        "exactness": "region",
+        "sha256": "0d63949b57c82e9b792830f2f345027f5ed2d51772a50d6bb10b87fde11b299c"
+      }
+    }
+  ],
+  "source_sha256": "45893b36e06ec2c9b6f146f1ba37352b0bc4dcb60d9826ac54cf2e8ccd73e84a",
+  "refusals": []
+}

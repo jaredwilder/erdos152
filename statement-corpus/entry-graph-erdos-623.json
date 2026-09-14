@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/623",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $X$ be a set of cardinality $\\aleph_\\omega$ and $f$ be a function from the finite subsets of $X$ to $X$ such that $f(A)\\not\\in A$ for all $A$. Must there exist an infinite $Y\\subseteq X$ that is independent - that is, for all finite $B\\subset Y$ we have $f(B)\\not\\in Y$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/623",
+        "start": 12255,
+        "end": 12535,
+        "exactness": "slice",
+        "sha256": "0c0c8784ca62f5cfcffaf505682d179c860507cc889ddac223053d614ab41d1a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#623 : [ErHa58] [Er99] set theory A problem of Erdős and Hajnal [ErHa58] , who proved that if $\\lvert X\\rvert <\\aleph_\\omega$ then the answer is no. Erdős suggests in [Er99] that this problem is 'perhaps undecidable'. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #623, https://www.erdosproblems.com/623, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Ritvik_Nayak , ElliotGlazer , kauauicel Open to collaboration None Currently working on Ritvik_Nayak Looks difficult None Looks tractable None Could be formalisable None Working on formalising Ritvik_Nayak Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/623",
+        "start": 12535,
+        "end": 32010,
+        "exactness": "region",
+        "sha256": "765a488cf77b447feb5c2047c86e4a9bcf70544e73370a5e27e6e67c325b3478"
+      }
+    }
+  ],
+  "source_sha256": "e94870069c7415d9240cd5275882b8539bc0361c8ee6c7d394a08e2a69474d77",
+  "refusals": []
+}

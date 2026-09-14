@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/153",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A$ be a finite Sidon set and $A+A=\\{s_1<\\cdots<s_t\\}$. Is it true that\\[\\frac{1}{t}\\sum_{1\\leq i<t}(s_{i+1}-s_i)^2 \\to \\infty\\]as $\\lvert A\\rvert\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/153",
+        "start": 12255,
+        "end": 12435,
+        "exactness": "slice",
+        "sha256": "b367146c1480abf12ff9320a9cbb30999b3bf3d6d844283c36e2fcc6897a0967"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#153 : [ESS94] sidon sets A similar problem can be asked for infinite Sidon sets. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #153, https://www.erdosproblems.com/153, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes orenegaillard Open to collaboration None Currently working on orenegaillard Looks difficult orenegaillard Looks tractable None Could be formalisable None Working on formalising RajveerKapoor Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/153",
+        "start": 12435,
+        "end": 31318,
+        "exactness": "region",
+        "sha256": "3b04d840a7cd363fb3d9e7fe531d92040dbeb9182b57dec244f7019d7b9902be"
+      }
+    }
+  ],
+  "source_sha256": "0f287bf250500c99da63faad165091af4ec353b15f80b1a3109e08d93f2cca1e",
+  "refusals": []
+}

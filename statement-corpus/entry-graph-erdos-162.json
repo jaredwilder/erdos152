@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/162",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\alpha>0$ and $n\\geq 1$. Let $F(n,\\alpha)$ be the largest $k$ such that there exists some 2-colouring of the edges of $K_n$ in which any induced subgraph $H$ on at least $k$ vertices contains more than $\\alpha\\binom{\\lvert H\\rvert}{2}$ many edges of each colour. Prove that for every fixed $0\\leq \\alpha \\leq 1/2$, as $n\\to\\infty$,\\[F(n,\\alpha)\\sim c_\\alpha \\log n\\]for some constant $c_\\alpha$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/162",
+        "start": 12255,
+        "end": 12672,
+        "exactness": "slice",
+        "sha256": "02935e5bb5b573be2d6e81657b91aa973a88149c000492b36e004f62abc34087"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#162 : [Er90b,p.21] combinatorics | ramsey theory | discrepancy It is easy to show with the probabilistic method that there exist $c_1(\\alpha),c_2(\\alpha)$ such that\\[c_1(\\alpha)\\log n < F(n,\\alpha) < c_2(\\alpha)\\log n.\\] Additional thanks to : Wouter Cames van Batenberg and KoishiChan Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 30 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #162, https://www.erdosproblems.com/162, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/162",
+        "start": 12672,
+        "end": 31743,
+        "exactness": "region",
+        "sha256": "168a15fed56b9d656d6a3b78c8d13ad565d1a9cdd7205e4b00999f72ccf741de"
+      }
+    }
+  ],
+  "source_sha256": "8ca67912548ec10d8ef237617d9d66c328cf11b06d6c7b04ed4558221fbadab9",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/714",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that\\[\\mathrm{ex}(n; K_{r,r}) \\gg n^{2-1/r}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/714",
+        "start": 12255,
+        "end": 12318,
+        "exactness": "slice",
+        "sha256": "50425ecc74985206f12ea085f4413b3ee10e57bdb5a63ac190c1be75343589e0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#714 : [Er64c] [Er67b] [Er69] [Er71,p.103] [Er74c,p.77] [Er75] [Er81] [Er93,p.334] graph theory | turan number Kövári, Sós, and Turán [KST54] proved\\[\\mathrm{ex}(n; K_{r,r}) \\ll n^{2-1/r}\\]for all $r\\geq 2$. Brown [Br66] and, independently, Erdős, Rényi, and Sós [ERS66] , proved the conjectured lower bound when $r=3$. When $r=2$ it is known that\\[\\mathrm{ex}(n;K_{2,2})=\\left(\\frac{1}{2}+o(1)\\right)n^{3/2}\\](see [768] , since $K_{2,2}=C_4$). See also [147] . The generalisation to hypergraphs is [1158] . Additional thanks to : Rishika Agrawal Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #714, https://www.erdosproblems.com/714, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/714",
+        "start": 12318,
+        "end": 33158,
+        "exactness": "region",
+        "sha256": "3a7a3c66aeae4e742df93b710e95e91def4461a59f8961edfe3220f7b106bfa9"
+      }
+    }
+  ],
+  "source_sha256": "aa6aa664980868c252bfd90c368a796da5ef2517ebc1b33562c5834003b20dd1",
+  "refusals": []
+}

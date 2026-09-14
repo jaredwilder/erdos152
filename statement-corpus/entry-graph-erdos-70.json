@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/70",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\mathfrak{c}$ be the ordinal of the real numbers, $\\beta$ be any countable ordinal, and $2\\leq n<\\omega$. Is it true that $\\mathfrak{c}\\to (\\beta, n)_2^3$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/70",
+        "start": 12253,
+        "end": 12423,
+        "exactness": "slice",
+        "sha256": "f0662272c976987e4895be74b4b966fd09ba59168107c67ef1e247874f178a2b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#70 : [Er87] [Va99,7.83] graph theory | ramsey theory | set theory Erdős and Rado proved that $\\mathfrak{c}\\to (\\omega+n,4)_2^3$ for any $2\\leq n<\\omega$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #70, https://www.erdosproblems.com/70, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult padillajignacio Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/70",
+        "start": 12423,
+        "end": 31464,
+        "exactness": "region",
+        "sha256": "97890bafa40e6303ab3542b4c074e89117c4981931eae0c0e55cadce776ac60c"
+      }
+    }
+  ],
+  "source_sha256": "fb2efd9aabb57bbf11db2a144c2327d093bc1550d36bcdf0fabf3c06908928f6",
+  "refusals": []
+}

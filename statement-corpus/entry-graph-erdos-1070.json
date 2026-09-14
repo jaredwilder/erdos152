@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1070",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be maximal such that, given any $n$ points in $\\mathbb{R}^2$, there exist $f(n)$ points such that no two are distance $1$ apart. Estimate $f(n)$. In particular, is it true that $f(n)\\geq n/4$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1070",
+        "start": 12257,
+        "end": 12466,
+        "exactness": "slice",
+        "sha256": "b06e289e0fa2851481a328910d33525736a9878a816835f8f12245a97a98218b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1070 : [Er87b,p.171] geometry In other words, estimate the minimal independence number of a unit distance graph with $n$ vertices. If $\\omega$ is the independence number and $\\chi$ is the chromatic number then $\\omega \\chi\\geq n$, and hence $f(n)\\geq n/\\chi$, where $\\chi$ is the answer to the Hadwiger-Nelson problem [508] . The Moser spindle shows $f(n)\\leq \\frac{2}{7}n\\approx 0.285n$. Larman and Rogers [LaRo72] noted that if $m_1$ is the supremum of the upper densities of measurable subsets of $\\mathbb{R}^2$ which have no unit distance pairs then\\[f(n)\\geq m_1n.\\]Croft [Cr67] gave the best-known lower bound of $m_1\\geq 0.22936$ and hence\\[0.22936n \\leq f(n) \\leq \\frac{2}{7}n\\approx 0.285n.\\]Ambrus, Csiszárik, Matolcsi, Varga, and Zsámboki [ACMVZ23] have proved that $m_1\\leq 0.247$, and hence this approach cannot achieve $f(n)\\geq n/4$. See [232] for more on $m_1$. Matolcsi, Ruzsa, Varga, and Zsámboki [MRVZ23] have improved the upper bound to\\[f(n) \\leq \\left(\\frac{1}{4}+o(1)\\right)n.\\]They conjecture that $m_1=0.22936\\cdots$ (the lower bound of Croft mentioned above) and $f(n)=(1/4+o(1))n$. If we also insist that no two points are distance $<1$ apart then this is problem becomes [1066] . Additional thanks to : Daniel Varga Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (1) More information and links This page was last edited 22 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1070, https://www.erdosproblems.com/1070, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- For expanding threads",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1070",
+        "start": 12466,
+        "end": 33462,
+        "exactness": "region",
+        "sha256": "b94863ec3477c37d8739018d3a1d5017fddcc1d34a8686248a329913070247a6"
+      }
+    }
+  ],
+  "source_sha256": "df6966fe37376be350308770bd17d33f6a59a55d5e2ef9f52d497ba2733bd201",
+  "refusals": []
+}

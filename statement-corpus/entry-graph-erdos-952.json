@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/952",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there an infinite sequence of distinct Gaussian primes $x_1,x_2,\\ldots$ such that\\[\\lvert x_{n+1}-x_n\\rvert \\ll 1?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/952",
+        "start": 12255,
+        "end": 12380,
+        "exactness": "slice",
+        "sha256": "6648f65ee3079304a842a7683b72226cb57b98e438dc5af4f47d07d2e3523e0e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#952 : [Er77c] [Er80,p.114] number theory The Gaussian moat problem . This is not actually a problem of Erdős, but has been erroneously attributed to him in the past. In [Er77c] Erdős recalls: 'The conjecture was told me by Motzkin at the Pasadena number theory meeting 1963 November and it was apparently raised by Basil Gordon and Motzkin. I naturally liked it very much and told it right away to many people, naturally attributing it to Motzkin, but this was later forgotten. Thus the problem is returned to its rightful owners.' In [Er80] Erdős writes 'the answer is almost certainly negative'. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #952, https://www.erdosproblems.com/952, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes old-bielefelder Open to collaboration None Currently working on None Looks difficult TerenceTao Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/952",
+        "start": 12380,
+        "end": 32182,
+        "exactness": "region",
+        "sha256": "c260ef50b980013ba6a6222707b3757ac1ce18af37426de2b5c719cde468201e"
+      }
+    }
+  ],
+  "source_sha256": "60a1b9d0e08edbc6fab8ac352f175250b63bf053df098585fc040ec01c9e4b67",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1073",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A(x)$ count the number of composite $u<x$ such that $n!+1\\equiv 0\\pmod{u}$ for some $n$. Is it true that $A(x)\\leq x^{o(1)}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1073",
+        "start": 12257,
+        "end": 12397,
+        "exactness": "slice",
+        "sha256": "f1d7bbba42456710716c986bf7459e8746e838d73505cc74e43e3c948542e9a5"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1073 : [HaSu02] number theory A question of Erdős raised in discussions with Hardy and Subbarao [HaSu02] . The sequence of such $u$ begins\\[25,121,169,437,\\ldots\\]and is A256519 in the OEIS. Wilson's theorem states that $u$ is prime if and only if $(u-1)!+1\\equiv 0\\pmod{u}$. This is mentioned in problem A2 of Guy's collection. Additional thanks to : Stijn Cambie and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 06 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1073, https://www.erdosproblems.com/1073, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A256519 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1073",
+        "start": 12397,
+        "end": 32326,
+        "exactness": "region",
+        "sha256": "6875d98a2698bb4130ee421ba3e1d4a81ea3c0a4e30d0738dd8229cadae92e38"
+      }
+    }
+  ],
+  "source_sha256": "8f01eb330a6b39601e73b6da9a81a1ce26937f6ff9b6a5581ad603bfa6a5e199",
+  "refusals": []
+}

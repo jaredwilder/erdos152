@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/529",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $d_k(n)$ be the expected distance from the origin after taking $n$ random steps from the origin in $\\mathbb{Z}^k$ (conditional on no self intersections) - that is, a self-avoiding walk . Is it true that\\[\\lim_{n\\to \\infty}\\frac{d_2(n)}{n^{1/2}}= \\infty?\\]Is it true that\\[d_k(n)\\ll n^{1/2}\\]for $k\\geq 3$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/529",
+        "start": 12255,
+        "end": 12687,
+        "exactness": "slice",
+        "sha256": "1215eb4602ab410958ff2a83fa0a931817a5f261f51ca35d1d0f4ec6ff4de8b4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#529 : [Er61,p.254] geometry | probability Slade [Sl87] proved that, for $k$ sufficiently large, $d_k(n)\\sim Dn^{1/2}$ for some constant $D>0$ (independent of $k$). Hara and Slade ( [HaSl91] and [HaSl92] ) proved this for all $k\\geq 5$. For $k=2$ Duminil-Copin and Hammond [DuHa13] have proved that $d_2(n)=o(n)$. It is now conjectured that $d_k(n)\\ll n^{1/2}$ is false for $k=3$ and $k=4$, and more precisely (see for example Section 1.4 of [MaSl93] ) that $d_2(n)\\sim Dn^{3/4}$, $d_3(n)\\sim n^{\\nu}$ where $\\nu\\approx 0.59$, and $d_4(n)\\sim D(\\log n)^{1/8}n^{1/2}$. Madras and Slade [MaSl93] have a monograph on the topic of self-avoiding walks. See also [528] . Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 27 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #529, https://www.erdosproblems.com/529, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration Sam_Petkov Currently working on Sam_Petkov Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/529",
+        "start": 12687,
+        "end": 32970,
+        "exactness": "region",
+        "sha256": "274a9ed4fb2664a7ff24d48812e1a18b475b07d0a300539c4e78a5c6fed7532b"
+      }
+    }
+  ],
+  "source_sha256": "ee39a51b8c6af05170b8fe69a8a92b226648f9e4d5e89a92dc56bfcbd13a4c64",
+  "refusals": []
+}

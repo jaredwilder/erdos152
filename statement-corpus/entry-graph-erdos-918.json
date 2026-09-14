@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/918",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a graph with $\\aleph_2$ vertices and chromatic number $\\aleph_2$ such that every subgraph on $\\aleph_1$ vertices has chromatic number $\\leq\\aleph_0$? Is there a graph with $\\aleph_{\\omega+1}$ vertices and chromatic number $\\aleph_1$ such that every subgraph on $\\aleph_\\omega$ vertices has chromatic number $\\leq\\aleph_0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/918",
+        "start": 12255,
+        "end": 12599,
+        "exactness": "slice",
+        "sha256": "113b63b869c3a2cc0d899e03c73e2f487f5ccd03e42ce19b0f822f70c32f6906"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#918 : [ErHa68b] [Er69b,p.28] graph theory | chromatic number A question of Erdős and Hajnal [ErHa68b] , who proved that for every finite $k$ there is a graph with chromatic number $\\aleph_1$ where each subgraph on less than $\\aleph_k$ vertices has chromatic number $\\leq \\aleph_0$. In [Er69b] it is asked with chromatic number $=\\aleph_0$, but in the comments louisd observes this is (assuming subgraph and not induced subgraph was intended) trivially impossible, and hence presumably the problem was intended as written here (which is how it is posed in [ErHa68b] ). Additional thanks to : louisd and Salvatore Mercuri Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 24 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #918, https://www.erdosproblems.com/918, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/918",
+        "start": 12599,
+        "end": 32474,
+        "exactness": "region",
+        "sha256": "a07b315c2cd002bd7d39361dcab9e09e8fddf2284aa3ebf0aced2e99eb4e4cae"
+      }
+    }
+  ],
+  "source_sha256": "ecd91c7aa91888cac64b89b27c8783fd876586b1f6433e35a94b1787e1f36e94",
+  "refusals": []
+}

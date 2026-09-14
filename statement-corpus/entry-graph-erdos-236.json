@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/236",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ count the number of solutions to $n=p+2^k$ for prime $p$ and $k\\geq 0$. Is it true that $f(n)=o(\\log n)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/236",
+        "start": 12255,
+        "end": 12377,
+        "exactness": "slice",
+        "sha256": "a886e77f166c25d29887b10ebccfc0b8f2e475b8677fdb1ca25f6e7ffeee6a59"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#236 : [Er55c] [Er61] [Er77c] number theory | primes Erdős [Er50] proved that there are infinitely many $n$ such that $f(n)\\gg \\log\\log n$. Erdős could not even prove that there do not exist infinitely many integers $n$ such that for all $1< 2^k<n$ the number $n-2^k$ is prime - see [1142] . The sequence of values of $f(n)$ is A109925 on the OEIS. See also [237] . Additional thanks to : Alfaiz and Ralf Stephan Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #236, https://www.erdosproblems.com/236, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A039669 , A109925 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/236",
+        "start": 12377,
+        "end": 32816,
+        "exactness": "region",
+        "sha256": "e0068b3350d825bbcfd08a4b9362510e865693c5dbc9d756fafa6b5360f96c3f"
+      }
+    }
+  ],
+  "source_sha256": "d7656ecdf988d75d4531c0c90b3aee79b38b15d6a36cc89c2cbb9a8e0cde1c79",
+  "refusals": []
+}

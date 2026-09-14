@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/323",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $1\\leq m\\leq k$ and $f_{k,m}(x)$ denote the number of integers $\\leq x$ which are the sum of $m$ many nonnegative $k$th powers. Is it true that\\[f_{k,k}(x) \\gg_\\epsilon x^{1-\\epsilon}\\]for all $\\epsilon>0$? Is it true that if $m<k$ then\\[f_{k,m}(x) \\gg x^{m/k}\\]for sufficiently large $x$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/323",
+        "start": 12255,
+        "end": 12563,
+        "exactness": "slice",
+        "sha256": "1a38d546ea60c9238e4a889f36ab8c6af880687b762cd4433b5da8e67254bad1"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#323 : [ErGr80] number theory | powers This would have significant applications to Waring's problem. Erdős and Graham describe this as 'unattackable by the methods at our disposal'. The case $k=2$ was resolved by Landau, who showed\\[f_{2,2}(x) \\sim \\frac{cx}{\\sqrt{\\log x}}\\]for some constant $c>0$. For $k>2$ it is not known if $f_{k,k}(x)=o(x)$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #323, https://www.erdosproblems.com/323, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A004825 , A004831 , A004832 , A004833 , A004842 , A004843 , A004844 , A004845 , A004857 , A004869 , possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/323",
+        "start": 12563,
+        "end": 34084,
+        "exactness": "region",
+        "sha256": "aab0e426a58c26ab3789d33466f4aaa5442ad8dcb0865aec70868187c9025fd8"
+      }
+    }
+  ],
+  "source_sha256": "f834eb87df6e15cc2f691c59536fa834f9c6e32b99a4a0b8e15721f16cd0e5ad",
+  "refusals": []
+}

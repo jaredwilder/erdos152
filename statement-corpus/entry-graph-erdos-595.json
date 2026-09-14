@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/595",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there an infinite graph $G$ which contains no $K_4$ and is not the union of countably many triangle-free graphs?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/595",
+        "start": 12262,
+        "end": 12383,
+        "exactness": "slice",
+        "sha256": "6a33e9b04223eb403d82faeb3e173b079c2c1185dbd0421f83f38411f05f7b61"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#595 : [Er87] graph theory | set theory A problem of Erdős and Hajnal. Folkman [Fo70] and Nešetřil and Rödl [NeRo75] have proved that for every $n\\geq 1$ there is a graph $G$ which contains no $K_4$ and is not the union of $n$ triangle-free graphs. See also [582] and [596] . Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #595, https://www.erdosproblems.com/595, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine , Sam_Petkov , kauauicel Open to collaboration Sam_Petkov Currently working on Sam_Petkov Looks difficult None Looks tractable Sam_Petkov Could be formalisable Sam_Petkov Working on formalising Sam_Petkov Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/595",
+        "start": 12383,
+        "end": 32219,
+        "exactness": "region",
+        "sha256": "99a4508c76eb0f56ac8d4227ade159b86c86a073d852172f49b3164aad422a0d"
+      }
+    }
+  ],
+  "source_sha256": "933a01d57c58f5df63d620c5942d6e82ad155ee0725d8e1310775bab6d9e093e",
+  "refusals": []
+}

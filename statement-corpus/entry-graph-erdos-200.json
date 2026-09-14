@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/200",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does the longest arithmetic progression of primes in $\\{1,\\ldots,N\\}$ have length $o(\\log N)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/200",
+        "start": 12255,
+        "end": 12355,
+        "exactness": "slice",
+        "sha256": "275dbff6b1624d31a7e92723675ba72ba6d3f9b3409d1408486b3e4efcae1e15"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#200 : [ErGr79] [ErGr80] primes | arithmetic progressions It follows from the prime number theorem that such a progression has length $\\leq(1+o(1))\\log N$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #200, https://www.erdosproblems.com/200, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A005115 Reactions Likes Prasannam Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/200",
+        "start": 12355,
+        "end": 31749,
+        "exactness": "region",
+        "sha256": "93c0fb03bc09795afb6cf085c5844834aa954b64374a98901e4cd2da13ebcbaf"
+      }
+    }
+  ],
+  "source_sha256": "8e37bf90cec03bbbb5bbd3026a8cbdc646adbb2129684f4a298c32745c5bcd2e",
+  "refusals": []
+}

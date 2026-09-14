@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1186",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\delta_k$ be such that in any $2$-colouring of $\\{1,\\ldots,n\\}$ there exist at least $(\\delta_k+o(1))n^2$ many monochromatic $k$-term arithmetic progressions. Give reasonable bounds (or even an asymptotic formula) for $\\delta_k$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1186",
+        "start": 12257,
+        "end": 12497,
+        "exactness": "slice",
+        "sha256": "7b0d0b27fe2f65a76095ae70817a77093d4f3e171cc69101c169b7af93e6c795"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1186 : [Er80,p.93] additive combinatorics | arithmetic progressions In [Er80] Erdős said 'perhaps one can get an asymptotic formula' for $\\delta_k$, but this seems unlikely. Van der Waerden's theorem implies $\\delta_k\\gg_k 1$. The probabilistic method implies\\[\\delta_k \\leq \\frac{1}{(k-1)2^{k}}.\\]Parrilo, Robertson, and Saracino [PRS08] have proved\\[0.0511\\approx \\frac{1675}{32768}\\leq \\delta_3 \\leq \\frac{117}{2192}\\approx 0.0533,\\]and conjectured the upper bound is correct. They also report that Graham offered \\$100 for determining the value of $\\delta_3$ at a conference in 1999. It is easier to study this quantity if we replace $\\{1,\\ldots,n\\}$ with a finite field $\\mathbb{F}_p$; let this analogue be denoted by $\\tilde{\\delta}_k$. A random colouring implies $\\tilde{\\delta}_k\\leq 1/2^{k}$. It is straightforward to prove that $\\tilde{\\delta}_3=1/8$ (see, for example, [Wo10] ). Improving on work of Cameron, Cilleruelo, and Serra [CCS07] , Wolf [Wo10] proved\\[\\frac{1}{32}\\leq \\tilde{\\delta}_4\\leq \\left(1-\\frac{1}{259200}\\right)\\frac{1}{16}.\\]These bounds were improved by Lu and Peng [LuPe12] to\\[\\frac{7}{192}\\leq \\tilde{\\delta}_4\\leq \\frac{17}{300}.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1186, https://www.erdosproblems.com/1186, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes DaPoWi Open to collaboration None Currently working on DaPoWi Looks difficult DaPoWi Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1186",
+        "start": 12497,
+        "end": 33347,
+        "exactness": "region",
+        "sha256": "f9575edfbbccc41445bd91fd48e88821537659b22a54742237f795a48ebdf888"
+      }
+    }
+  ],
+  "source_sha256": "2c10c5a56bb8d5721665031456b8fe686b44b9d005732c352d4f37d44f027fd1",
+  "refusals": []
+}

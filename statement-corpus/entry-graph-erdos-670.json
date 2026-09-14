@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/670",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq \\mathbb{R}^d$ be a set of $n$ points such that all pairwise distances differ by at least $1$. Is the diameter of $A$ at least $(1+o(1))n^2$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/670",
+        "start": 12255,
+        "end": 12417,
+        "exactness": "slice",
+        "sha256": "c566f18b4912dcd12a2e90d77bf86a99058fae04042daff07bdd507f3b6d5ea8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#670 : [Er97f,p.6] geometry | distances The lower bound of $\\binom{n}{2}$ for the diameter is trivial. Erdős [Er97f] proved the claim when $d=1$. The quantifiers are slightly ambiguous, but likely Erdős had in mind the regime where $d$ is fixed and the $o(1)$ term $\\to 0$ as $n\\to \\infty$ (perhaps at a rate which depends on $d$). This was disproved if $n$ grows with $d$ by Ho [Ho26] : there exist infinitely many $n$ and, with $d=n^2-n$, a set $A\\subset \\mathbb{R}^d$ such that all pairwise distances differ by at least $1$, with diameter at most\\[\\left(1-\\frac{1}{\\pi^2}+o(1)\\right)n^2\\approx 0.898n^2.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 17 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #670, https://www.erdosproblems.com/670, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Alfaiz , Aron Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/670",
+        "start": 12417,
+        "end": 31993,
+        "exactness": "region",
+        "sha256": "5855e819452ab874721288baed418097fae328657e47f80d6a559e3d748df221"
+      }
+    }
+  ],
+  "source_sha256": "54fd61bee6955694ec0acbd850cb59be00a63055a917cc3c5418a06afd6bd964",
+  "refusals": []
+}

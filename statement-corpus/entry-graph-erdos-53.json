@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/53",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A$ be a finite set of integers. Is it true that, for every $k$, if $\\lvert A\\rvert$ is sufficiently large depending on $k$, then there are least $\\lvert A\\rvert^k$ many integers which are either the sum or product of distinct elements of $A$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/53",
+        "start": 12272,
+        "end": 12525,
+        "exactness": "slice",
+        "sha256": "1d39eb74b01e082dcc015a5fb85a1ceb6745f45429ef4dfbe8c47ed1863afe00"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#53 : [Er77c] [ErGr80] [ErSz83] [Er91] [Er97] [Er97e] number theory | additive combinatorics Asked by Erdős and Szemerédi [ErSz83] . Solved in this form by Chang [Ch03] . Erdős and Szemerédi proved that there exist arbitrarily large sets $A$ such that the number of integers which are the sum or product of distinct elements of $A$ is at most\\[\\exp\\left(c (\\log \\lvert A\\rvert)^2\\log\\log\\lvert A\\rvert\\right)\\]for some constant $c>0$. See also [52] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #53, https://www.erdosproblems.com/53, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/53",
+        "start": 12525,
+        "end": 32644,
+        "exactness": "region",
+        "sha256": "cc3129f738c4be375d488a0b4f983bab930c6769152e68858ed7b80f54e38de6"
+      }
+    }
+  ],
+  "source_sha256": "55d2a909de43e3aafe68038dba3cc812869ff671928d2fdaf7fe37d35b0fad88",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/422",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(1)=f(2)=1$ and for $n>2$\\[f(n) = f(n-f(n-1))+f(n-f(n-2)).\\]Does $f(n)$ miss infinitely many integers? What is its behaviour?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/422",
+        "start": 12255,
+        "end": 12396,
+        "exactness": "slice",
+        "sha256": "c730654a6ce8bc1d053e450fd04940fdfad3e171ba552d609345aa6d679a17b4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#422 : [ErGr80] number theory Asked by Hofstadter. The sequence begins $1,1,2,3,3,4,\\ldots$ and is A005185 in the OEIS. It is not even known whether $f(n)$ is well-defined for all $n$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #422, https://www.erdosproblems.com/422, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A005185 Reactions Likes Rafikzeraoulia2025 , zendenfell , lof310 , rithvikr Open to collaboration Rafikzeraoulia2025 Currently working on Rafikzeraoulia2025 Looks difficult Rafikzeraoulia2025 Looks tractable lof310 Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/422",
+        "start": 12396,
+        "end": 32220,
+        "exactness": "region",
+        "sha256": "9dac2a577f677aa7c3759220bcd13e31fa79ca82453f7d7a34c63ad265d05154"
+      }
+    }
+  ],
+  "source_sha256": "983042e68a5742eb44ab02f371434d73f5d387d3211f25dbeee8fe7f29a6f32e",
+  "refusals": []
+}

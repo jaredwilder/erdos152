@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/208",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $s_1<s_2<\\cdots$ be the sequence of squarefree numbers. Is it true that, for any $\\epsilon>0$ and large $n$,\\[s_{n+1}-s_n \\ll_\\epsilon s_n^{\\epsilon}?\\]Is it true that\\[s_{n+1}-s_n \\leq (1+o(1))\\frac{\\pi^2}{6}\\frac{\\log s_n}{\\log\\log s_n}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/208",
+        "start": 12255,
+        "end": 12515,
+        "exactness": "slice",
+        "sha256": "e6f41779c40ff2fb1e629fb8d8926a2750c276f71b856ae8c031775c430b1013"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#208 : [Er51] [Er61] [Er65b] [Er79] [Er81h,p.176] number theory Erdős [Er51] showed that there are infinitely many $n$ such that\\[s_{n+1}-s_n > (1+o(1))\\frac{\\pi^2}{6}\\frac{\\log s_n}{\\log\\log s_n},\\]so this bound would be the best possible. In [Er79] Erdős says perhaps $s_{n+1}-s_n \\ll \\log s_n$, but he is 'very doubtful'. Filaseta and Trifonov [FiTr92] proved an upper bound of $s_n^{1/5+o(1)}$. Pandey [Pa24] has improved this exponent to $1/5-c$ for some constant $c>0$. Granville [Gr98] showed that $s_{n+1}-s_n\\ll_\\epsilon s_n^\\epsilon$ for all $\\epsilon>0$ follows from the ABC conjecture . See also [489] and [145] . A more general form of this problem is given in [1101] . Additional thanks to : Zachary Chase and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 19 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #208, https://www.erdosproblems.com/208, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A005117 , A076259 Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/208",
+        "start": 12515,
+        "end": 34056,
+        "exactness": "region",
+        "sha256": "907d255fa591c75e10f7a2eb1b1b8a4bf5d64c158f0ee5a2569698227379509a"
+      }
+    }
+  ],
+  "source_sha256": "0f25537599bd2327fe74ece3e9ea4933653fff2bb95305a8e33463d3f8330ad1",
+  "refusals": []
+}

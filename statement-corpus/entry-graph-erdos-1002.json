@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1002",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any $0<\\alpha<1$, let\\[f(\\alpha,n)=\\frac{1}{\\log n}\\sum_{1\\leq k\\leq n}(\\tfrac{1}{2}-\\{ \\alpha k\\}).\\]Does $f(\\alpha,n)$ have an asymptotic distribution function? In other words, is there a non-decreasing function $g$ such that $g(-\\infty)=0$, $g(\\infty)=1$, and\\[\\lim_{n\\to \\infty}\\lvert \\{ \\alpha\\in (0,1): f(\\alpha,n)\\leq c\\}\\rvert=g(c)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1002",
+        "start": 12257,
+        "end": 12627,
+        "exactness": "slice",
+        "sha256": "1f6ebfff864e3b0c6cce029ec6afeaae9e6f85e50295744d0898411e1aed4740"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1002 : [Er64b] analysis | diophantine approximation Kesten [Ke60] proved that if\\[f(\\alpha,\\beta,n)=\\frac{1}{\\log n}\\sum_{1\\leq k\\leq n}(\\tfrac{1}{2}-\\{\\beta+\\alpha k\\})\\]then $f(\\alpha,\\beta,n)$ has asymptotic distribution function\\[g(c)=\\frac{1}{\\pi}\\int_{-\\infty}^{\\rho c}\\frac{1}{1+t^2}\\mathrm{d}t,\\]where $\\rho>0$ is an explicit constant. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (2) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1002, https://www.erdosproblems.com/1002, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1002",
+        "start": 12627,
+        "end": 31768,
+        "exactness": "region",
+        "sha256": "949f97133a9cc2c1cc521d7fd485b73a712d090d37d0b017370c6652c994cd00"
+      }
+    }
+  ],
+  "source_sha256": "5b58d6cf65a55034e1c9f7a627101a05fd03d6a40a78dc95e5bf038c797ce5f6",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/710",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be minimal such that in $(n,n+f(n))$ there exist distinct integers $a_1,\\ldots,a_n$ such that $k\\mid a_k$ for all $1\\leq k\\leq n$. Obtain an asymptotic formula for $f(n)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/710",
+        "start": 12261,
+        "end": 12449,
+        "exactness": "slice",
+        "sha256": "4641e399dbd1ffebe57e92cda3908a34efbf50491640053ef257313faac925e4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#710 : [ErPo80] [Er92c] number theory A problem of Erdős and Pomerance [ErPo80] , who proved\\[(2/\\sqrt{e}+o(1))n\\left(\\frac{\\log n}{\\log\\log n}\\right)^{1/2}\\leq f(n)\\leq (1.7398\\cdots+o(1))n(\\log n)^{1/2}.\\]In [Er92c] Erdős offered 2000 rupees for an asymptotic formula; for uniform comparison across prizes I have converted this using the 1992 exchange rates. See also [711] . Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #710, https://www.erdosproblems.com/710, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A390246 Reactions Likes Alfaiz , SkyYang , skominers , henriquenobile Open to collaboration skominers Currently working on SkyYang Looks difficult Steven_Tolbert , SkyYang , skominers Looks tractable Prasannam Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/710",
+        "start": 12449,
+        "end": 32969,
+        "exactness": "region",
+        "sha256": "41ce1e9943b81e524b75c9c4a08ec7d300ba3072aad3e7b22b98efbda7ee5d07"
+      }
+    }
+  ],
+  "source_sha256": "5f7e3db9960e6950905d06f0e0f2d607e30adf5905b5f9894a8d2155d6a7af8b",
+  "refusals": []
+}

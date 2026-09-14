@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/133",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be minimal such that every triangle-free graph $G$ with $n$ vertices and diameter $2$ contains a vertex with degree $\\geq f(n)$. What is the order of growth of $f(n)$? Does $f(n)/\\sqrt{n}\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/133",
+        "start": 12236,
+        "end": 12461,
+        "exactness": "slice",
+        "sha256": "3893bc9e77ff16508cb798cf25a0637c633bfd84d387e106a093f2d277ba253a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#133 : [Er97b] graph theory Asked by Erdős and Pach. The lower bound $f(n)\\geq (1-o(1))\\sqrt{n}$ follows from the fact that a graph with maximum degree $d$ and diameter $2$ has at most $1+d+d(d-1)=d^2+1$ many vertices. Simonovits observed that the subsets of $[3m-1]$ of size $m$, two sets joined by edge if and only if they are disjoint, forms a triangle-free graph of diameter $2$ which is regular of degree $\\binom{2m-1}{m}$. This construction proves that\\[f(n) \\leq n^{(1+o(1))\\frac{2}{3H(1/3)}}=n^{0.7182\\cdots},\\]where $H(x)$ is the binary entropy function. In [Er97b] Erdős encouraged the reader to try and find a better construction. In this note Alon provides a simple construction that proves $f(n) \\ll \\sqrt{n\\log n}$: take a triangle-free graph with independence number $\\ll \\sqrt{n\\log n}$ (the existence of which is the lower bound in [165] ) and add edges until it has diameter $2$; the neighbourhood of any set is an independent set and hence the maximum degree is still $\\ll \\sqrt{n\\log n}$. Hanson and Seyffarth [HaSe84] proved that $f(n)\\leq (\\sqrt{2}+o(1))\\sqrt{n}$ using a Cayley graph on $\\mathbb{Z}/n\\mathbb{Z}$, with the generating set given by some symmetric complete sum-free set of size $\\sim \\sqrt{n}$. An alternative construction of such a complete sum-free set was given by Haviv and Levy [HaLe18] . Füredi and Seress [FuSe94] proved that $f(n)\\leq (\\frac{2}{\\sqrt{3}}+o(1))\\sqrt{n}$. The precise asymptotics of $f(n)$ are unknown; Alon believes that the truth is $f(n)\\sim \\sqrt{n}$. Additional thanks to : Noga Alon, Ishay Haviv Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #133, https://www.erdosproblems.com/133, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Handle the",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/133",
+        "start": 12461,
+        "end": 33588,
+        "exactness": "region",
+        "sha256": "1888511043d6d63ba9534b37c9037e6dacb3db1a725fa863b7d6f6e4d1b9abc2"
+      }
+    }
+  ],
+  "source_sha256": "2e8cfa2b1ce37e3df9cfeb1f113a26f00eb06c2fe9c6c2316406304fa24ff8db",
+  "refusals": []
+}

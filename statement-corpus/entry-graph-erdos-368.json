@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/368",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "How large is the largest prime factor of $n(n+1)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/368",
+        "start": 12255,
+        "end": 12311,
+        "exactness": "slice",
+        "sha256": "2860d4ba15532c9e0a62fad0e519a979cb14fb5bd2ac9e269a48a6999336e15c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#368 : [Er65b,p.218] [Er76d,p.27] [ErGr80,p.69] number theory Let $F(n)$ be the prime in question. Pólya [Po18] proved that $F(n)\\to \\infty$ as $n\\to\\infty$. Mahler [Ma35] showed that $F(n)\\gg \\log\\log n$. Schinzel [Sc67b] observed that for infinitely many $n$ we have $F(n)\\leq n^{O(1/\\log\\log\\log n)}$. The truth is probably $F(n)\\gg (\\log n)^2$ for all $n$. Erdős [Er76d] conjectured that, for every $\\epsilon>0$, there are infinitely many $n$ such that $F(n) <(\\log n)^{2+\\epsilon}$. Pasten [Pa24b] has proved that\\[F(n) \\gg \\frac{(\\log\\log n)^2}{\\log\\log\\log n}.\\]The largest prime factors of $n(n+1)$ are listed as A074399 in the OEIS. Additional thanks to : Ralf Stephan and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #368, https://www.erdosproblems.com/368, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A074399 Reactions Likes ebarschkis Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/368",
+        "start": 12311,
+        "end": 33027,
+        "exactness": "region",
+        "sha256": "139f1aa6c5e3b2b2ddbbd0692e615e8e543abd5cf2a3a8d81f3dbfda202d4f7c"
+      }
+    }
+  ],
+  "source_sha256": "3b8fb410d629afa5ec2bfedca670561f12e8e2db01957336f5000a83270453a1",
+  "refusals": []
+}

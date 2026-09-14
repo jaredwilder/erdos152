@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:136",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be the smallest number of colours required to colour the edges of $K_n$ such that every $K_4$ contains at least 5 colours. Determine the size of $f(n)$.",
+      "provenance": {
+        "source": "erdos:136",
+        "start": 11934,
+        "end": 12169,
+        "exactness": "slice",
+        "sha256": "4004b2b2fc958e542a0aef4368fb38a6bfb9038cb2153d7d4f4c2c078412743c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "Asked by Erd\\H{o}s and Gy\\'{a}rf\\'{a}s, who proved that\\[\\frac{5}{6}(n-1) < f(n)<n,\\]and that $f(9)=8$. Erd\\H{o}s believed the upper bound is closer to the truth. In fact the lower bound is: Bennett, Cushman, Dudek,and Pralat \\cite{BCDP22} have shown that\\[f(n) \\sim \\frac{5}{6}n.\\]Joos and Mubayi \\cite{JoMu22} have found a shorter proof of this. See also [135] .",
+      "provenance": {
+        "source": "erdos:136",
+        "start": 12169,
+        "end": 25164,
+        "exactness": "region",
+        "sha256": "261b599380981909a9dc59a100cce86541e875032379d5255f55c44583bf00ed"
+      }
+    }
+  ],
+  "source_sha256": "12676af34c0693856c71f671d8becac18e52fc5608726780a56c2411622b18ec",
+  "refusals": []
+}

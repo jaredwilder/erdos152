@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/32",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a set $A\\subset\\mathbb{N}$ such that\\[\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert = o((\\log N)^2)\\]and such that every large integer can be written as $p+a$ for some prime $p$ and $a\\in A$? Can the bound $O(\\log N)$ be achieved? Must such an $A$ satisfy\\[\\liminf \\frac{\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert}{\\log N}> 1?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/32",
+        "start": 12259,
+        "end": 12591,
+        "exactness": "slice",
+        "sha256": "a5a2a499ca6def6fd8731ca38c1b1ec3ac4f50222d2bb6f0370833faab1b2d85"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#32 : [Er56,p.132] [Er57,p.295] [Er59,p.117] [Er61,p.229] [Er65b,p.227] [Er73,p.133] [Er77c,p.62] [Va99,1.9] number theory | additive basis Such a set is called an additive complement to the primes. Erdős [Er54] proved that such a set $A$ exists with $\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert\\ll (\\log N)^2$ (improving a previous result of Lorentz [Lo54] who achieved $\\ll (\\log N)^3$). Wolke [Wo96] has shown that such a bound is almost true, in that we can achieve $\\ll (\\log N)^{1+o(1)}$ if we only ask for almost all integers to be representable. Kolountzakis [Ko96] improved this to $\\ll (\\log N)(\\log\\log N)$, and Ruzsa [Ru98c] further improved this to $\\ll \\omega(N)\\log N$ for any $\\omega\\to \\infty$. The answer to the third question is yes: Ruzsa [Ru98c] has shown that we must have\\[\\liminf \\frac{\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert}{\\log N}\\geq e^\\gamma\\approx 1.781.\\]This is discussed in problem E1 of Guy's collection [Gu04] , where it is stated that Erdős offered \\$50 for determining whether $O(\\log N)$ can be achieved. Additional thanks to : Mark Sellke and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #32, https://www.erdosproblems.com/32, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine , holyterror Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None </det",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/32",
+        "start": 12591,
+        "end": 34150,
+        "exactness": "region",
+        "sha256": "3e72f3db56a8f9f1cb2eca35092b5da45ae3d835aa5013f7da80c3863ad4f43b"
+      }
+    }
+  ],
+  "source_sha256": "f336f5e682e88f41b0cd03e3a343d4bc02811ca52daad138db20006dbccf81b7",
+  "refusals": []
+}

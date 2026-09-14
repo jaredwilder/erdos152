@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1208",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For $d\\geq 2$ let $F_d(n)$ be minimal such that every set of $n$ points in $\\mathbb{R}^d$ contains a set of $F_d(n)$ points with distinct distances. Estimate $F_d(n)$ for fixed $d$ as $n\\to \\infty$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1208",
+        "start": 12257,
+        "end": 12461,
+        "exactness": "slice",
+        "sha256": "3cba51ac297d60bdba9523b569b5d794a138ec6a837c37608c9c17a7dd49ff52"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1208 : [Er57b] [Er80,p.110] geometry | distances It is known that\\[\\frac{n^{1/3}}{(\\log n)^{1/3}}\\ll F_2(n) \\ll \\frac{n^{1/2}}{(\\log n)^{1/4}}.\\]The upper bound is demonstrated by the set of integer lattice points in a square grid (which have $\\ll n/\\sqrt{\\log n}$ many distinct distances). The lower bound was proved by Charalambides [Ch13] . Thiele [Th95] proved $F_d(n) \\gg n^{\\frac{1}{3d-2}}$ for all $d\\geq 3$. This was improved to\\[F_d(n) \\gg_d n^{\\frac{1}{3d-3}}(\\log n)^{1/3-\\frac{2}{3d-3}}\\]by Conlon, Fox, Gasarch, Harris, Ulrich, and Zbarsky [CFGHUZ15] . The example of integer lattice points shows that $F_d(n)\\ll n^{1/d}$ for $d\\geq 2$. Erdős and Guy [ErGu70] consider the problem of determining the maximal size of such a subset of the $n^{1/d}\\times\\cdots \\times n^{1/d}$ integer grid, showing that it is at least $n^{\\frac{2}{3d}-o(1)}$ (and at most $n^{1/d}$). Lefmann and Thiele [LeTh95] have improved the lower bound to $n^{\\frac{2}{3d}}$. The case $d=1$ is the subject of [530] , and Komlós, Sulyok, and Szemerédi [KSS75] have proved that $F_1(n)\\asymp n^{1/2}$. See also [1207] . The behaviour of $F_d(n)$ for fixed $n\\geq 3$ as $d\\to \\infty$ is the subject of [1088] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1208, https://www.erdosproblems.com/1208, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A193838 , A271490 , possible Reactions Likes Lumantis Open to collaboration None Currently working on Lumantis Looks difficult Lumantis Looks tractable None Could be formalisable None Working on formalising None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1208",
+        "start": 12461,
+        "end": 34170,
+        "exactness": "region",
+        "sha256": "c4330cfaf7fadd56391e25b3fdd21f36f64c6db2199fee35a7931d1ffaa089b1"
+      }
+    }
+  ],
+  "source_sha256": "69996a7305b47163e4d66857b5509bf110645bd2fff4d660fcd8b9bcc3785902",
+  "refusals": []
+}

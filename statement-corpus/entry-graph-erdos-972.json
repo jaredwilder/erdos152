@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/972",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\alpha>1$ be irrational. Are there infinitely many primes $p$ such that $\\lfloor p\\alpha\\rfloor$ is also prime?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/972",
+        "start": 12255,
+        "end": 12381,
+        "exactness": "slice",
+        "sha256": "c72ba12f40ef1bf42199b3acefe1a738eabd0146a6bfef660cda4f21acfe2314"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#972 : [Er65b] number theory Vinogradov [Vi48] proved that the sequence $\\{p\\alpha\\}$ is uniformly distributed for every irrational $\\alpha$, and hence there are infinitely many primes $p$ of the shape $p=\\lfloor n\\alpha\\rfloor$ for every irrational $\\alpha>1$. Indeed, this occurs if and only if\\[\\frac{p}{\\alpha}\\leq n<\\frac{p+1}{\\alpha},\\]which is true if and only if $\\{p\\alpha^{-1}\\}>1-\\alpha^{-1}$, which happens infinitely often by the uniform distribution of $\\{p\\alpha^{-1}\\}$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #972, https://www.erdosproblems.com/972, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult ebarschkis Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/972",
+        "start": 12381,
+        "end": 31650,
+        "exactness": "region",
+        "sha256": "adbdd87b44fefd2d62826f01ff9942210f619475f2fd73e758d4fc16059e98d2"
+      }
+    }
+  ],
+  "source_sha256": "583c325217a1e3ce209b3b843f6fd681a6e8d3c3ce7f32a42ece652032900702",
+  "refusals": []
+}

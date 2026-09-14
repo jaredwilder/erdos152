@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/761",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "The cochromatic number of $G$, denoted by $\\zeta(G)$, is the minimum number of colours needed to colour the vertices of $G$ such that each colour class induces either a complete graph or empty graph. The dichromatic number of $G$, denoted by $\\delta(G)$, is the minimum number $k$ of colours required such that, in any orientation of the edges of $G$, there is a $k$-colouring of the vertices of $G$ such that there are no monochromatic oriented cycles. Must a graph with large chromatic number have large dichromatic number? Must a graph with large cochromatic number contain a graph with large dichromatic number?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/761",
+        "start": 12255,
+        "end": 12884,
+        "exactness": "slice",
+        "sha256": "2fb3f172d28db59e68d2cc99cf0e7cec3a4175eafd82b3c04d4ede1fb50da1dc"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#761 : [ErGi93] graph theory | chromatic number The first question is due to Erdős and Neumann-Lara. The second question is due to Erdős and Gimbel. A positive answer to the second question implies a positive answer to the first via the bound mentioned in [760] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #761, https://www.erdosproblems.com/761, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/761",
+        "start": 12884,
+        "end": 31827,
+        "exactness": "region",
+        "sha256": "1b786c96249ee7f17a94757eb432791562db2802282358c3b55a092167a6747c"
+      }
+    }
+  ],
+  "source_sha256": "8de3520be4255c4687c690de29cd02baee46b5653a4ad82ff437f83b6e3e23c9",
+  "refusals": []
+}

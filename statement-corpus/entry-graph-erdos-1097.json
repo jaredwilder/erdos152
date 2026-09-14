@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1097",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A$ be a set of $n$ integers. How many distinct $d$ can occur as the common difference of a three-term arithmetic progression in $A$? In particular, are there always $O(n^{3/2})$ many such $d$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1097",
+        "start": 12257,
+        "end": 12467,
+        "exactness": "slice",
+        "sha256": "30568a929998014d8d46241ed0e66f9f3ce9b735ccea5a4e9fd99773550a43e7"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1097 : [GWNT89] number theory | additive combinatorics A problem Erdős posed in the 1989 problem session of Great Western Number Theory. He states that Erdős and Ruzsa gave an explicit construction which achieved $n^{1+c}$ for some $c>0$, and Erdős and Spencer gave a probabilistic proof which achieved $n^{3/2}$, and speculated this may be the best possible. In the comment section, Chan has noticed that this problem is exactly equivalent to a sums-differences question of Bourgain [Bo99] , introduced as an arithmetic path towards the Kakeya conjecture: find the smallest $c\\in [1,2]$ such that, for any finite sets of integers $A$ and $B$ and $G\\subseteq A\\times B$ we have\\[\\lvert A\\overset{G}{-}B\\rvert \\ll \\max(\\lvert A\\rvert,\\lvert B\\rvert, \\lvert A\\overset{G}{+}B\\rvert)^c\\](where, for example, $A\\overset{G}{+}B$ denotes the set of $a+b$ with $(a,b)\\in G$). This is equivalent in the sense that the greatest exponent $c$ achievable for the main problem here is equal to the smallest constant achievable for the sums-differences question. The current best bounds known are thus\\[1.77898\\cdots \\leq c \\leq 11/6 \\approx 1.833.\\]The upper bound is due to Katz and Tao [KaTa99] . The lower bound is due to Lemm [Le15] (with a very small improvement found by AlphaEvolve [GGTW25] ). This resolves the second part of the question negatively, but the general question of the correct order of magnitude remains open. Additional thanks to : Koishi Chan and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (17) Proof claims (0) More information and links This page was last edited 01 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1097, https://www.erdosproblems.com/1097, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1097",
+        "start": 12467,
+        "end": 33397,
+        "exactness": "region",
+        "sha256": "b28595e1577dbec4d92f635cac5bd4585872cdaffa0be5591e8dff6d34be72f0"
+      }
+    }
+  ],
+  "source_sha256": "eaf074b3767e7395362944cdbbce5d3a35c6f7bda11e886b1490b507b78e3553",
+  "refusals": []
+}

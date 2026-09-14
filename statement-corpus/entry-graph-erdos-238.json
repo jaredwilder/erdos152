@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/238",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $c_1,c_2>0$. Is it true that, for any sufficiently large $x$, there exist more than $c_1\\log x$ many consecutive primes $\\leq x$ such that the difference between any two is $>c_2$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/238",
+        "start": 12255,
+        "end": 12453,
+        "exactness": "slice",
+        "sha256": "c0c550516f7a06166bfd5d240556827b787968ff336184db140f6516d888ee96"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#238 : [Er55c,p.7] number theory | primes Erdős [Er49c] proved this is true for any $c_2>0$ if $c_1>0$ is sufficiently small (depending on $c_2$). Additional thanks to : Zach Hunter, Yongxi Lin, and Will Sawin Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (10) Proof claims (0) More information and links This page was last edited 16 July 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #238, https://www.erdosproblems.com/238, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/238",
+        "start": 12453,
+        "end": 31570,
+        "exactness": "region",
+        "sha256": "0ea8ef8852c51a6988a3e15c0d26846352496f9f696979b697538d48febd5af8"
+      }
+    }
+  ],
+  "source_sha256": "fecc1882ee6e982aa1e9ec69cbdd5c44f0a4010d393fbbade703bf2885555730",
+  "refusals": []
+}

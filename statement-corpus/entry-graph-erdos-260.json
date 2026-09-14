@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/260",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $a_1<a_2<\\cdots$ be an increasing sequence such that $a_n/n\\to \\infty$. Is the sum\\[\\sum_n \\frac{a_n}{2^{a_n}}\\]irrational?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/260",
+        "start": 12255,
+        "end": 12396,
+        "exactness": "slice",
+        "sha256": "c9ba996b11444c99f9a1a6ba527aec128d5331b5e6f7413219b3bd47f73093ef"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#260 : [Er74b] [ErGr80] [Er81h,p.180] [Er88c,p.103] [Va99,1.33] irrationality Erdős [Er81l] proved this is true under either of the stronger assumptions that $a_{n+1}-a_n\\to \\infty$ or $a_n \\gg n\\sqrt{\\log n\\log\\log n}$. Erdős and Graham speculate that the condition $\\limsup a_{n+1}-a_n=\\infty$ is not sufficient, but know of no example. In [Va99] this is asked with $a_n/n\\to \\infty$ replaced by $a_{n+1}-a_n\\to \\infty$, which as above was proved by Erdős in [Er81l] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (1) More information and links This page was last edited 01 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #260, https://www.erdosproblems.com/260, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration Hanziwww Currently working on Hanziwww Looks difficult None Looks tractable None Could be formalisable None Working on formalising Hanziwww Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/260",
+        "start": 12396,
+        "end": 32488,
+        "exactness": "region",
+        "sha256": "a6d567ae84db1e542fc6fa36a652eb259ac39e3eaad6df208e1200a53ff0b016"
+      }
+    }
+  ],
+  "source_sha256": "56ffe522d02f87db275e3647332043486019e4d146150c58759813653077fe30",
+  "refusals": []
+}

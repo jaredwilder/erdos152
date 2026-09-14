@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1053",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Call a number $k$-perfect if $\\sigma(n)=kn$, where $\\sigma(n)$ is the sum of the divisors of $n$. Must $k=o(\\log\\log n)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1053",
+        "start": 12257,
+        "end": 12384,
+        "exactness": "slice",
+        "sha256": "122cce7aeedc8245275e1f32434ecf6e4f17705add8a550b56df565614f23503"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1053 : [Gu04] number theory A question of Erdős, as reported in problem B2 of Guy's collection [Gu04] . Guy further writes 'It has even been suggested that there may be only finitely many $k$-perfect numbers with $k\\geq 3$.' The largest $k$ for which a $k$-perfect number has been found is $k=11$ - see this page for more information. These are known as multiply perfect numbers . When $k=2$ this is the definition of a perfect number . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1053, https://www.erdosproblems.com/1053, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A007539 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1053",
+        "start": 12384,
+        "end": 32298,
+        "exactness": "region",
+        "sha256": "e537abba70a109e0cade5f165899f45bc102ea08d26ffe3b8f6710925dfbdc8c"
+      }
+    }
+  ],
+  "source_sha256": "2c50ac5ce15f746d68a8b23771368a693970ce0fb3379c5ef9a01d018355aaed",
+  "refusals": []
+}

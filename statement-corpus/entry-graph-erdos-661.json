@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/661",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Are there, for all large $n$, some points $x_1,\\ldots,x_n,y_1,\\ldots,y_n\\in \\mathbb{R}^2$ such that the number of distinct distances $d(x_i,y_j)$ is\\[o\\left(\\frac{n}{\\sqrt{\\log n}}\\right)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/661",
+        "start": 12261,
+        "end": 12457,
+        "exactness": "slice",
+        "sha256": "7ea8ecb9a0026579de62b23564567ebd8dfa00be4e7a4ca3b39616d3671d0e84"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#661 : [ErPa90] [Er92e] [Er97e] [Er97f] geometry | distances One can also ask this for points in $\\mathbb{R}^3$. In $\\mathbb{R}^4$ Lenz observed that there are $x_1,\\ldots,x_n,y_1,\\ldots,y_n\\in \\mathbb{R}^4$ such that $d(x_i,y_j)=1$ for all $i,j$, taking the points on two orthogonal circles. More generally, if $F(2n)$ is the minimal number of such distances, and $f(2n)$ is minimal number of distinct distances between any $2n$ points in $\\mathbb{R}^2$, then is $F =o(f)$? See also [89] . Additional thanks to : Sarosh Adenwalla Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 11 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #661, https://www.erdosproblems.com/661, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/661",
+        "start": 12457,
+        "end": 32361,
+        "exactness": "region",
+        "sha256": "9261289314e89496c99fc51d4190b3c804bea3f94796c75adaddc461dcb1ca20"
+      }
+    }
+  ],
+  "source_sha256": "9f002ba2e9e346abc893730d4d1e51deafcf69eeafd73fee4b0099ce2324c824",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/471",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Given a finite set of primes $Q=Q_0$, define a sequence of sets $Q_i$ by letting $Q_{i+1}$ be $Q_i$ together with all primes formed by adding three distinct elements of $Q_i$. Is there some initial choice of $Q$ such that the $Q_i$ become arbitrarily large?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/471",
+        "start": 12236,
+        "end": 12499,
+        "exactness": "slice",
+        "sha256": "03166375fe5c94710f77423957948379c0bc68913b299f927ff5e411fb8bdf2e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#471 : [ErGr80,p.94] number theory A problem of Ulam. In particular, what about $Q=\\{3,5,7,11\\}$? Mrazović and Kovač, and independently Alon, have observed that the existence of some valid choice of $Q$ follows easily from Vinogradov's theorem that every large odd integer is the sum of three distinct primes. In particular, there exists some $N$ such that every prime $>N$ is the sum of three distinct (smaller) primes. We may then take $Q_0$ to be the set of all primes $\\leq N$ (in which case all primes are eventually in some $Q_i$). Additional thanks to : Noga Alon, Rudi Mrazovic, and Vjekoslav Kovac Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #471, https://www.erdosproblems.com/471, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/471",
+        "start": 12499,
+        "end": 32018,
+        "exactness": "region",
+        "sha256": "99a9374e3d28e34c71c7f0040858cecfd46965832c222c6bb5ab8712e428a861"
+      }
+    }
+  ],
+  "source_sha256": "08a9f55057f57303848875e98aa3a67cd3359c452675d3157668acf8737ab51e",
+  "refusals": []
+}

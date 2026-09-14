@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/676",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is every sufficiently large integer of the form\\[ap^2+b\\]for some prime $p$ and integer $a\\geq 1$ and $0\\leq b<p$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/676",
+        "start": 12255,
+        "end": 12379,
+        "exactness": "slice",
+        "sha256": "d3aa175ca7d6efb4b7c24e47311bddd3daec8805b578171664b00abb525c3ea1"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#676 : [Er79] [Er79d] [Er80,p.107] number theory The sieve of Eratosthenes implies that almost all integers are of this form, and the Brun-Selberg sieve implies the number of exceptions in $[1,x]$ is $\\ll x/(\\log x)^c$ for some constant $c>0$. Erdős [Er79] believed it is 'rather unlikely' that all large integers are of this form. What if the condition that $p$ is prime is omitted? Selfridge and Wagstaff made a 'preliminary computer search' and suggested that there are infinitely many $n$ not of this form even without the condition that $p$ is prime. It should be true that the number of exceptions in $[1,x]$ is $<x^c$ for some constant $c<1$. Most generally, given some infinite set $A\\subseteq \\mathbb{N}$ and function $f:A\\to \\mathbb{N}$ one can ask for sufficient conditions on $A$ and $f$ that guarantee every large number (or almost all numbers) can be written as\\[am^2+b\\]for some $m\\in A$ and $a\\geq 1$ and $0\\leq b<f(m)$. In another direction, one can ask what is the minimal $c_n$ such that $n$ can be written as $n=ap^2+b$ with $0\\leq b<c_np$ for some $p\\leq \\sqrt{n}$. This problem asks whether $c_n\\leq 1$ eventually, but in [Er79d] Erdős suggests that in fact $\\limsup c_n=\\infty$. Is it true that $c_n<n^{o(1)}$? Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (1) More information and links This page was last edited 07 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #676, https://www.erdosproblems.com/676, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A390181 , in progress Reactions Likes old-bielefelder , tenesiss Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/676",
+        "start": 12379,
+        "end": 33345,
+        "exactness": "region",
+        "sha256": "123aa096f795dcc49e2bcd6b9f4946c11f327374fceae9ae8420abc4c3be91a6"
+      }
+    }
+  ],
+  "source_sha256": "671c98308375a7b48249e098029bc296d72b4c1318a63dfbbd7345461a5c25f2",
+  "refusals": []
+}

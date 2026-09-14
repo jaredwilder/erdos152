@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/863",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 2$ and let $A\\subseteq \\{1,\\ldots,N\\}$ be a set of maximal size such that there are at most $r$ solutions to $n=a+b$ with $a\\leq b$ for any $n$. (That is, $A$ is a $B_2[r]$ set.) Similarly, let $B\\subseteq \\{1,\\ldots,N\\}$ be a set of maximal size such that there are at most $r$ solutions to $n=a-b$ for any $n\\geq 1$. If $\\lvert A\\rvert\\sim c_rN^{1/2}$ as $N\\to \\infty$ and $\\lvert B\\rvert \\sim c_r'N^{1/2}$ as $N\\to \\infty$ then is it true that $c_r\\neq c_r'$ for $r\\geq 2$? Is it true that $c_r'<c_r$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/863",
+        "start": 12236,
+        "end": 12776,
+        "exactness": "slice",
+        "sha256": "ef94b3d4e612955bd271c2ab47afd72fcd9e6a97b193b2e5883f32897d1a1711"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#863 : [Er92c,p.39] number theory | sidon sets | additive combinatorics According to Erdős, first formulated in conversation with Berend, and later independently reformulated with Freud. It is true that $c_1=c_1'$, and the classical bound on the size of Sidon sets (see [30] ) implies $c_1=c_1'=1$. Ho and GPT-5.4 Pro have noted that a positive solution follows from arguments in the literature. Indeed, a routine adaptation of the Erdős-Tuán bound for Sidon sets proves that\\[\\lvert B\\rvert\\leq (\\sqrt{r}+o(1))N^{1/2},\\]while Cilleruelo, Ruzsa, and Trujilo [CRT02] have constructed $A$ with\\[\\lvert A\\rvert \\geq \\left(\\frac{r+\\lfloor r/2\\rfloor}{\\sqrt{r+2\\lfloor r/2\\rfloor}}\\right) N^{1/2}.\\]Therefore, provided $r\\geq 2$,\\[c_r'\\leq \\sqrt{r}<\\frac{r+\\lfloor r/2\\rfloor}{\\sqrt{r+2\\lfloor r/2\\rfloor}}\\leq c_r.\\](For example, when $r=2$ these give $c_r'\\leq \\sqrt{2}\\approx 1.41$ and $c_r\\geq 3/2=1.5$.) Additional thanks to : Ho Boon Suan Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 24 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #863, https://www.erdosproblems.com/863, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/863",
+        "start": 12776,
+        "end": 32807,
+        "exactness": "region",
+        "sha256": "cea502abb28d1a2afda5d947bd6309ec9666b4a1b20e5884214f883de4d2c9eb"
+      }
+    }
+  ],
+  "source_sha256": "fd1b419265a5aacd1155d05ea85858b475fef0aa04c6ad3c514078b5396f747f",
+  "refusals": []
+}

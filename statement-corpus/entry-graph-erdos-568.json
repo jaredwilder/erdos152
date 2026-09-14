@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/568",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a graph such that $R(G,T_n)\\ll n$ for any tree $T_n$ on $n$ vertices and $R(G,K_n)\\ll n^2$. Is it true that, for any $H$ with $m$ edges and no isolated vertices,\\[R(G,H)\\ll m?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/568",
+        "start": 12255,
+        "end": 12449,
+        "exactness": "slice",
+        "sha256": "9836a447d1c408f15d5f63185e3d65a7f4310852c5fe0d42aef87a5a721171a6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#568 : [EFRS93] graph theory | ramsey theory In other words, is $G$ Ramsey size linear? This problem is #33 in Ramsey Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #568, https://www.erdosproblems.com/568, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/568",
+        "start": 12449,
+        "end": 31415,
+        "exactness": "region",
+        "sha256": "6a2f2a587f7cdfad8d9af3b6734ca5fd3d7a8e99f717c92ae3cbe04e598e8b1d"
+      }
+    }
+  ],
+  "source_sha256": "df58d12aa725a87a15ca1eced812097879c12df1ec81c688a8a30c4ff3154af7",
+  "refusals": []
+}

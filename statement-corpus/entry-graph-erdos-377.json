@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/377",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there some absolute constant $C>0$ such that\\[\\sum_{p\\leq n}1_{p\\nmid \\binom{2n}{n}}\\frac{1}{p}\\leq C\\]for all $n$ (where the summation is restricted to primes $p\\leq n$)?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/377",
+        "start": 12255,
+        "end": 12439,
+        "exactness": "slice",
+        "sha256": "12c10725a9cbdcd1f490f7dfb0030b16edeb4dd5728a73849d86b3090cbe374d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#377 : [EGRS75] [Er79] [ErGr80] number theory | binomial coefficients A question of Erdős, Graham, Ruzsa, and Straus [EGRS75] , who proved that if $f(n)$ is the sum in question then\\[\\lim_{x\\to \\infty}\\frac{1}{x}\\sum_{n\\leq x}f(n) = \\sum_{k=2}^\\infty \\frac{\\log k}{2^k}=\\gamma_0\\]and\\[\\lim_{x\\to \\infty}\\frac{1}{x}\\sum_{n\\leq x}f(n)^2 = \\gamma_0^2,\\]so that for almost all integers $f(m)=\\gamma_0+o(1)$. They also prove that, for all large $n$,\\[f(n) \\leq c\\log\\log n\\]for some constant $c<1$. (It is trivial from Mertens estimates that $f(n)\\leq (1+o(1))\\log\\log n$.) A positive answer would imply that\\[\\sum_{p\\leq n}1_{p\\mid \\binom{2n}{n}}\\frac{1}{p}=(1-o(1))\\log\\log n,\\]and Erdős, Graham, Ruzsa, and Straus say there is 'no doubt' this latter claim is true. This is mentioned in problem B33 of Guy's collection [Gu04] . Additional thanks to : Julius Schmerling Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 30 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #377, https://www.erdosproblems.com/377, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult TerenceTao Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/377",
+        "start": 12439,
+        "end": 32650,
+        "exactness": "region",
+        "sha256": "6492b3a98afc9b0dc7be73c4231211cb9eb66a9ba1c930e5ef09da03e6d59134"
+      }
+    }
+  ],
+  "source_sha256": "8f73ba6fbd04ed119fabeac05e29a08059b943a8ab2783ee3691b55db9cb7edb",
+  "refusals": []
+}

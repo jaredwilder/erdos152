@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/810",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does there exist some $\\epsilon>0$ such that, for all sufficiently large $n$, there exists a graph $G$ on $n$ vertices with at least $\\epsilon n^2$ many edges such that the edges can be coloured with $n$ colours so that every $C_4$ receives $4$ distinct colours?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/810",
+        "start": 12255,
+        "end": 12527,
+        "exactness": "slice",
+        "sha256": "51728e8c45d46d4053938cbb958619223bb1cb75324360900d15d47d8f8e4059"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#810 : [BEGS8,p.273] [Er91,p.399] graph theory | ramsey theory A problem of Burr, Erdős, Graham, and Sós [BEGS89] , who believed the answer is no. Equivalently, if $\\chi_S(n,e,G)$ is the anti-Ramsey number, the smallest $r$ such that there is a graph with $n$ vertices and $e$ edges with an $r$-colouring of its edges in which every copy of $G$ has entirely distinct edge colours, then this asks whether there exists an $\\epsilon>0$ such that\\[\\chi_S(n,\\epsilon n^2,C_4)\\leq n\\]for all large $n$. In [BEGS89] they prove there does not exist such $\\epsilon$ if we replace $C_4$ with $P_4$. In [BEGS89] they ask the stronger question as to whether, for fixed $\\epsilon>0$,\\[\\chi_S(n,\\epsilon n^2,G)/n\\to \\infty\\]as $n\\to \\infty$ for all connected bipartite $G$ which is not a star. This was proved for all such $G$ except complete bipartite graphs by Sárközy and Selkow [SaSe06] . It remains open in particular for $C_4$. In [BEGS89] they also observe that, for some constant $c>0$,\\[\\chi_S(n, cg(n;7,4),C_4)\\leq n,\\]where $g(n;7,4)$ is the maximum number of edges in a $3$-uniform hypergraph on $n$ vertices in which no $7$ vertices contain $4$ edges. It is unknown whether (but likely) that $g(n;7,4)=o(n^2)$ (see [1178] ). See also [809] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (0) More information and links This page was last edited 01 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #810, https://www.erdosproblems.com/810, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/810",
+        "start": 12527,
+        "end": 33487,
+        "exactness": "region",
+        "sha256": "a3fde5db2d3661cf13b5c3689f1f988fe059663b3d77dd56781513b502dcaeeb"
+      }
+    }
+  ],
+  "source_sha256": "19dddf50af33943dde60a40e96818531f4aeac68e13fe275363f76571ba28ee9",
+  "refusals": []
+}

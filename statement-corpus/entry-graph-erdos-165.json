@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:165",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Give an asymptotic formula for $R(3,k)$.",
+      "provenance": {
+        "source": "erdos:165",
+        "start": 11934,
+        "end": 12046,
+        "exactness": "slice",
+        "sha256": "72ca5ef1ec4c35d0f87d202c1cd294a20185d7b9cdc0fa5bccb32cd7d1a6cc89"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "It is known that there exists some constant $c>0$ such that for large $k$\\[(c+o(1))\\frac{k^2}{\\log k}\\leq R(3,k) \\leq (1+o(1))\\frac{k^2}{\\log k}.\\]The lower bound is due to Kim \\cite{Ki95}, the upper bound is due to Shearer \\cite{Sh83}, improving an earlier bound of Ajtai, Koml\\'{o}s, and Szemer\\'{e}di \\cite{AKS80}. The value of $c$ in the lower bound has seen a number of improvements. Kim's original proof gave $c\\geq 1/162$. The bound $c\\geq 1/4$ was proved independently by Bohman and Keevash \\cite{BoKe21} and Pontiveros, Griffiths and Morris \\cite{PGM20}. The latter collection of authors conjecture that this lower bound is the true order of magnitude. This was, however, improved by Campos, Jenssen, Michelen, and Sahasrabudhe \\cite{CJMS25} to $c\\geq 1/3$, and further by Hefty, Horn, King, and Pfender \\cite{HHKP25} to $c\\geq 1/2$. Both of these papers conjecture that $c=1/2$ is the correct asymptotic. See also [544] , and [986] for the general case. See [1013] for a related function.",
+      "provenance": {
+        "source": "erdos:165",
+        "start": 12046,
+        "end": 26542,
+        "exactness": "region",
+        "sha256": "22cec676d708ed1682244def4d8c3cbf0e94a4c88abdc0f49180ef236accebe5"
+      }
+    }
+  ],
+  "source_sha256": "6db345d379bd23844b052bb7a8a94e54da3b529bc7d15b417f8ad028fbfee80c",
+  "refusals": []
+}

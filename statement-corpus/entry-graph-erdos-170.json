@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/170",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $F(N)$ be the smallest possible size of $A\\subset \\{0,1,\\ldots,N\\}$ such that $\\{0,1,\\ldots,N\\}\\subset A-A$. Find the value of\\[\\lim_{N\\to \\infty}\\frac{F(N)}{N^{1/2}}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/170",
+        "start": 12255,
+        "end": 12434,
+        "exactness": "slice",
+        "sha256": "770095063652a72eefbe5375d9f37dee2b560933bff4dcde22d886159ef368ec"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#170 : [ErGa48] additive combinatorics The Sparse Ruler problem. Rédei asked whether this limit exists, which was proved by Erdős and Gál [ErGa48] . Bounds on the limit were improved by Leech [Le56] . The limit is known to be in the interval $[1.56,\\sqrt{3}]$. The lower bound is due to Leech [Le56] , the upper bound is due to Wichmann [Wi63] . Computational evidence by Pegg [Pe20] suggests that the upper bound is the truth. A similar question can be asked without the restriction $A\\subset \\{0,1,\\ldots,N\\}$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #170, https://www.erdosproblems.com/170, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A046693 Reactions Likes Steve_Fan Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/170",
+        "start": 12434,
+        "end": 32704,
+        "exactness": "region",
+        "sha256": "52b2d98576d9888462ef25261df81a87f1493ec1123770277ee9d6fde0d2788a"
+      }
+    }
+  ],
+  "source_sha256": "95f5bdcaf616ad13367faab39c564145c59552015450d968c7c137be61c3254a",
+  "refusals": []
+}

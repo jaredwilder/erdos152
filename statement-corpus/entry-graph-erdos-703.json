@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/703",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 1$ and define $T(n,r)$ to be maximal such that there exists a family $\\mathcal{F}$ of subsets of $\\{1,\\ldots,n\\}$ of size $T(n,r)$ such that $\\lvert A\\cap B\\rvert\\neq r$ for all $A,B\\in \\mathcal{F}$. Estimate $T(n,r)$ for $r\\geq 2$. In particular, is it true that for every $\\epsilon>0$ there exists $\\delta>0$ such that for all $\\epsilon n<r<(1/2-\\epsilon) n$ we have\\[T(n,r)<(2-\\delta)^n?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/703",
+        "start": 12243,
+        "end": 12679,
+        "exactness": "slice",
+        "sha256": "eadba4a59e14e6665118ca37644314b95275a6b12e0d79d98d77318668b3b428"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#703 : [Er75f,p.108] [Er76b] [Er81] [Er82e] combinatorics It is trivial that $T(n,0)=2^{n-1}$. Frankl and Füredi [FrFu84b] proved that, for fixed $r$ and $n$ sufficiently large in terms of $r$, the maximal $T(n,r)$ is achieved by taking\\[\\mathcal{F} = \\left\\{ A\\subseteq \\{1,\\ldots,n\\} : \\lvert A\\rvert> \\frac{n+r}{2}\\textrm{ or }\\lvert A\\rvert < r\\right\\}\\]when $n+r$ is odd, and\\[\\mathcal{F} = \\left\\{ A\\subseteq \\{1,\\ldots,n\\} : \\lvert A\\backslash \\{1\\}\\rvert\\geq \\frac{n+r}{2}\\textrm{ or }\\lvert A\\rvert < r\\right\\}\\]when $n+r$ is even. (Frankl [Fr77b] had earlier proved this for $r=1$ and all $n$.) An affirmative answer to the second question implies that the chromatic number of the unit distance graph in $\\mathbb{R}^n$ (with two points joined by an edge if the distance between them is $1$) grows exponentially in $n$, which was proved by alternative methods by Frankl and Wilson [FrWi81] - see [704] . The answer to the second question is yes, proved by Frankl and Rödl [FrRo87] . See also [702] . Additional thanks to : Mehtaab Sawhney Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 16 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #703, https://www.erdosproblems.com/703, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A390645 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous <a href=\"/7",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/703",
+        "start": 12679,
+        "end": 33810,
+        "exactness": "region",
+        "sha256": "891f4c92811f981fbc408f2e1f73debb2bef997f9b9378d39532520ac1a8da32"
+      }
+    }
+  ],
+  "source_sha256": "e48f6f7f3c907029c1f461efc06a086ddeffb7b341531c74240a3ba9d425c9f0",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/842",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a graph on $3n$ vertices formed by taking $n$ vertex disjoint triangles and adding a Hamiltonian cycle (with all new edges) between these vertices. Does $G$ have chromatic number at most $3$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/842",
+        "start": 12236,
+        "end": 12444,
+        "exactness": "slice",
+        "sha256": "4a02c4d39e24f4fa9bcc3f2682582f6217e66750081a1570913e4641d0511dc9"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#842 : [Er92b] graph theory | chromatic number The answer is yes, proved by Fleischner and Stiebitz [FlSt92] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #842, https://www.erdosproblems.com/842, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/842",
+        "start": 12444,
+        "end": 31271,
+        "exactness": "region",
+        "sha256": "c7998df1299607f8387dcfd394f8927d61cf3f23a27101951e46204a796b564c"
+      }
+    }
+  ],
+  "source_sha256": "4cc33bc66ccc7afca907ff8b51c34f820c55887cb2872233956df3487fad1ea5",
+  "refusals": []
+}

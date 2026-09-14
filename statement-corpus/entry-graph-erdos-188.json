@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/188",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "What is the smallest $k$ such that $\\mathbb{R}^2$ can be red/blue coloured with no pair of red points unit distance apart, and no $k$-term arithmetic progression of blue points with distance $1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/188",
+        "start": 12255,
+        "end": 12456,
+        "exactness": "slice",
+        "sha256": "b4d8b4fccc50c24e6ac706fbaed8082a1cd866606fa70a64bebd9e73afdec993"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#188 : [ErGr79] [ErGr80] geometry | ramsey theory Erdős, Graham, Montgomery, Rothschild, Spencer, and Straus [EGMRSS75] proved $k\\geq 5$. Tsaturian [Ts17] improved this to $k\\geq 6$. Erdős and Graham claim that $k\\leq 10000000$ ('more or less'), but give no proof. Erdős and Graham asked this with just any $k$-term arithmetic progression in blue (not necessarily with distance $1$), but Alon has pointed out that in fact no such $k$ exists: in any red/blue colouring of the integer points on a line either there are two red points distance $1$ apart, or else the set of blue points and the same set shifted by $1$ cover all integers, and hence by van der Waerden's theorem there are arbitrarily long blue arithmetic progressions. It seems most likely, from context, that Erdős and Graham intended to restrict the blue arithmetic progression to have distance $1$ (although they do not write this restriction in their papers). Additional thanks to : Noga Alon and msellke Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 14 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #188, https://www.erdosproblems.com/188, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/188",
+        "start": 12456,
+        "end": 32570,
+        "exactness": "region",
+        "sha256": "457b041c00458ecdfbd043a880341c069e821c6bbcf66efb4e17096a5b68f266"
+      }
+    }
+  ],
+  "source_sha256": "fb3b06f48cc24168168afb808b0e56af22480c85497ace115ca5944a7b5fd5c6",
+  "refusals": []
+}

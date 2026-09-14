@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/766",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n;k,l)=\\min \\mathrm{ex}(n;G)$, where $G$ ranges over all graphs with $k$ vertices and $l$ edges. Give good estimates for $f(n;k,l)$ in the range $k<l\\leq k^2/4$. For fixed $k$ and large $n$ is $f(n;k,l)$ a strictly monotone function of $l$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/766",
+        "start": 12255,
+        "end": 12520,
+        "exactness": "slice",
+        "sha256": "ad6bcede1248107484dca8a3512a883875968d051e5e2542a031a468467a52ca"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#766 : [Er64c] graph theory | turan number Dirac and Erdős proved independently that when $l=\\lfloor k^2/4\\rfloor+1$\\[f(n;k,l)\\leq \\lfloor n^2/4\\rfloor+1.\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #766, https://www.erdosproblems.com/766, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/766",
+        "start": 12520,
+        "end": 31507,
+        "exactness": "region",
+        "sha256": "e8d5bb8804129abce9b50aeb5850985802b7515d3627b866ba23b7724dfc673c"
+      }
+    }
+  ],
+  "source_sha256": "67df369f24838844c5e91635cf8b74b59f4f324582a0221a8d259d287170bdaf",
+  "refusals": []
+}

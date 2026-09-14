@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/991",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Suppose $A=\\{w_1,\\ldots,w_n\\}\\subset S^2$ maximises\\[\\prod_{i<j}\\lvert w_i-w_j\\rvert\\]over all possible sets of size $n$. Is it true that\\[\\max_C\\lvert \\lvert A\\cap C\\rvert - \\alpha_C n\\rvert =o(n),\\]where the maximum is taken over all spherical caps $C$ and $\\alpha_C$ is the area of $C$ (normalised so that the entire sphere has area $1$)?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/991",
+        "start": 12236,
+        "end": 12595,
+        "exactness": "slice",
+        "sha256": "9788de98f8ef7e16fe3ef507ad34ddc56470ed7848bb97ea90ff945ae7537bb6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#991 : [Er64b] discrepancy This is certainly solved, although it is unclear exactly who to attribute this to. Brauchart [Br08] says that this qualitative result follows from 'classical potential theory', and proves a quantitative decay rate of\\[\\max_C\\lvert \\lvert A\\cap C\\rvert - \\alpha_C n\\rvert \\ll n^{3/4}.\\]Marzo and Mas [MaMa21] cite an improvement of $\\ll n^{2/3}$ due to Wolff in an unpublished manuscript, and themselves give a proof of $\\ll n^{2/3}$ (as a special case of a more general result). See also [988] . Additional thanks to : Stefan Steinerberger Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 16 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #991, https://www.erdosproblems.com/991, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/991",
+        "start": 12595,
+        "end": 32173,
+        "exactness": "region",
+        "sha256": "ce336cdcd94a2fddbb175b58e217130fb19687f8b44df47ba5ff6e79e7d75311"
+      }
+    }
+  ],
+  "source_sha256": "146bc9d9df45a7c2297e8bcc0e2865a60d1a4fa2f94014db4e1bd66f1aa4ecec",
+  "refusals": []
+}

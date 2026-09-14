@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/915",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a graph with $1+n(m-1)$ vertices and $1+n\\binom{m}{2}$ edges. Must $G$ contain two points which are connected by $m$ disjoint paths?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/915",
+        "start": 12262,
+        "end": 12411,
+        "exactness": "slice",
+        "sha256": "642424bdd465f7d5b74b36328e5aa920f385cd22b551633a5c50b4aec5872675"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#915 : [BoEr62] [Er67b,p.4] graph theory A conjecture of Bollobás and Erdős [BoEr62] . This would be the best possible, as demonstrated by $n$ copies of $K_m$ which share a single vertex (but are otherwise disjoint). It is unclear whether disjoint here is to mean edge-disjoint or (internally) vertex-disjoint. The above construction is valid for either interpretation. Let $k_m(n)$ denote the minimum number of edges such that any graph with $n$ vertices and $k_m(n)$ edges contains two vertices which are connected by at least $m$ vertex-disjoint paths. One can similarly consider $\\ell_m(n)$, defined similarly but with edge-disjoint paths (so that in particular $\\ell_m(n)\\leq k_m(n)$). We summarise the known results below, first for $k_m(n)$, then for $\\ell_m(n)$. The conjecture in the main problem is that, for all $m\\geq 2$,\\[k_m(1+(m-1)n)=1+\\binom{m}{2}n.\\](In particular, $k_m(n)=\\frac{m}{2}n+O(1)$.) It is trivial that $k_2(n)=n$. Bártfai [Ba60] proved that $k_3(2n)=3n-1$ and $k_3(2n+1)=3n+1$. Bollobás [Bo66] proved $k_4(n)=2n-1$. Leonard [Le73] disproved this conjecture for $m=5$, giving an explicit counterexample with $57$ vertices and $141$ edges. More generally, Leonard proved the existence of a $c>0$ such that, for all large $n$, $k_5(n)>(\\frac{5}{2}+c)n-O(1)$ (an examination of his paper suggests that one can take $c=\\frac{3}{80}$). Sørensen and Thomassen [SoTh74] proved that $k_5(n)=\\lfloor\\frac{8}{3}n\\rfloor-3$ for $n\\geq 13$. They also prove that the conjectured bound of Bollobás and Erdős holds if the graph is $3$-connected. Mader [Ma73] disproved the conjecture in general, proving that, for all $m\\geq 6$ and any $C>0$, there exists an $n$ such that $k_m(n)> \\frac{m}{2}n+C$. Sørensen and Thomassen [SoTh74] proved that, for any fixed $m\\geq 2$, for infinitely many $n$,\\[k_m(n) > \\frac{m(m-1)-2}{2m-3}(n-m).\\] The results for $\\ell_m$ are summarised below. Leonard [Le72] proved $\\ell_m(n)=k_m(n)$ for $2\\leq m\\leq 4$ and $\\ell_5(2n)=5n-2$ and $\\ell_5(2n+1)=5n+1$. Leonard [Le73b] proved $\\ell_6(n)=3n-2$. Mader [Ma73] proved that if a graph with $n$ vertices has\\[> \\frac{m}{2}(n-1)-\\frac{1}{2}(e_0(G)+\\cdots+e_{m-2}(G))\\]edges then $G$ contains two vertices connected by $m$ edge-disjoint paths (where $e_r(G)$ counts the number of vertices of degree $\\leq r$). In particular, this confirms (and is stronger than) the conjecture, and in general establishes\\[\\ell_m(n)=\\left\\lfloor \\frac{m}{2}(n-1)+1\\right\\rfloor\\]for all $m\\geq 2$. Additional thanks to : Sarosh Adenwalla, Stijn Cambie, Jake Mallen, and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (16) Proof claims (0) More information and links This page was last edited 08 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #915, https://www.erdosproblems.com/915, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/915",
+        "start": 12411,
+        "end": 35148,
+        "exactness": "region",
+        "sha256": "105ee07c169357ca1333b236eef91ff566f541f77643ebe1d4b0cc5eb61466f0"
+      }
+    }
+  ],
+  "source_sha256": "75ee56568c84ecc6680ae412a9da78476c239df2878800b45b514b44a9539cc3",
+  "refusals": []
+}

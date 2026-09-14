@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/492",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{a_1<a_2<\\cdots\\}\\subseteq \\mathbb{N}$ be infinite such that $a_{i+1}/a_i\\to 1$. For any $x\\geq a_1$ let\\[f(x) = \\frac{x-a_i}{a_{i+1}-a_i}\\in [0,1),\\]where $x\\in [a_i,a_{i+1})$. Is it true that, for almost all $\\alpha$, the sequence $f(\\alpha n)$ is uniformly distributed in $[0,1)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/492",
+        "start": 12236,
+        "end": 12541,
+        "exactness": "slice",
+        "sha256": "510568b10fcdddf88a98d6b2c9c579dfa6b635eb3e97b2ec9e7ac77c5fe5477b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#492 : [Er61] [Er64b] number theory For example if $A=\\mathbb{N}$ then $f(x)=\\{x\\}$ is the usual fractional part operator. A problem due to Le Veque [LV53] , who proved it in some special cases. Davenport and LeVeque [DaLe63] proved this under the assumption that $a_n-a_{n-1}$ is monotonic. Davenport and Erdős [DaEr63] proved it is true if $a_n \\gg n^{1/2+\\epsilon}$ for some $\\epsilon>0$. The general conjecture is false, as shown by Schmidt [Sc69] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #492, https://www.erdosproblems.com/492, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/492",
+        "start": 12541,
+        "end": 32131,
+        "exactness": "region",
+        "sha256": "012f3ceb63b962c60ce007d232042ba122dea1e7a840baf3a3b9684d1cb5b296"
+      }
+    }
+  ],
+  "source_sha256": "97aa2b24b3e4775abc0b519d42348dcc0d3c0e4a09d98688ad512c5d95798617",
+  "refusals": []
+}

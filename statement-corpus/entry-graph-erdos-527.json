@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/527",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $a_n\\in \\mathbb{R}$ be such that $\\sum_n \\lvert a_n\\rvert^2=\\infty$ and $\\lvert a_n\\rvert=o(1/\\sqrt{n})$. Is it true that, for almost all $\\epsilon_n=\\pm 1$, there exists some $z$ with $\\lvert z\\rvert=1$ (depending on the choice of signs) such that\\[\\sum_n \\epsilon_n a_n z^n\\]converges?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/527",
+        "start": 12236,
+        "end": 12533,
+        "exactness": "slice",
+        "sha256": "8eb591421f54f19125402eb61273d05248ae2be78ce811199157abe57dfb1eff"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#527 : [Er61,p.254] analysis | probability It is unclear to me whether Erdős also intended to assume that $\\lvert a_{n+1}\\rvert\\leq \\lvert a_n\\rvert$. It is 'well known' that, for almost all $\\epsilon_n=\\pm 1$, the series diverges for almost all $\\lvert z\\rvert=1$ (assuming only $\\sum \\lvert a_n\\rvert^2=\\infty$). Dvoretzky and Erdős [DE59] showed that if $\\lvert a_n\\rvert >c/\\sqrt{n}$ then, for almost all $\\epsilon_n=\\pm 1$, the series diverges for all $\\lvert z\\rvert=1$. This is true, and was proved by Michelen and Sawhney [MiSa25] , who in fact proved that the set of such $z$ has Hausdorff dimension $1$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #527, https://www.erdosproblems.com/527, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/527",
+        "start": 12533,
+        "end": 31987,
+        "exactness": "region",
+        "sha256": "833666f6a0c3389acabd7fd2f154e84e17296e24f289a8e97fa2fb400486c087"
+      }
+    }
+  ],
+  "source_sha256": "bb95a7d22ad9164c69a7c9b7ac30b5eec1ade5c99f37bdcec6d10933c4618247",
+  "refusals": []
+}

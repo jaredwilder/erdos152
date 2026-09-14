@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/573",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that\\[\\mathrm{ex}(n;\\{C_3,C_4\\})\\sim (n/2)^{3/2}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/573",
+        "start": 12255,
+        "end": 12323,
+        "exactness": "slice",
+        "sha256": "f9869c9cf3791ef87fe0b05cb9015ef6e7af9b9058c455973f2e3b4ce53a6388"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#573 : [Er71,p.103] [Er75] [ErSi82] [Er93,p.336] graph theory | turan number A problem of Erdős and Simonovits, who proved that\\[\\mathrm{ex}(n;\\{C_4,C_5\\})=(n/2)^{3/2}+O(n).\\]Kövári, Sós, and Turán [KST54] proved that the extremal number of edges for containing either $C_4$ or an odd cycle of any length is $\\sim (n/2)^{3/2}$. This problem is therefore asking whether the threshold is the same if we just forbid odd cycles of length $3$. See also [574] for the general case, and [765] for $\\mathrm{ex}(n;C_4)$. This problem is #48 in Extremal Graph Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #573, https://www.erdosproblems.com/573, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A006856 Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable Dharun Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/573",
+        "start": 12323,
+        "end": 32790,
+        "exactness": "region",
+        "sha256": "76e0557b4d92f3bf5ff8ad736629373a004060c4ff512d12927d6099249b0c8e"
+      }
+    }
+  ],
+  "source_sha256": "d33b5bb544b2d4c1f0c63c776da3907d83636209839cf47a59dab517b37bfaf4",
+  "refusals": []
+}

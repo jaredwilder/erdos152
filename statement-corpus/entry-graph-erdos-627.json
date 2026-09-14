@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/627",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\omega(G)$ denote the clique number of $G$ and $\\chi(G)$ the chromatic number. If $f(n)$ is the maximum value of $\\chi(G)/\\omega(G)$, as $G$ ranges over all graphs on $n$ vertices, then does\\[\\lim_{n\\to\\infty}\\frac{f(n)}{n/(\\log_2n)^2}\\]exist?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/627",
+        "start": 12255,
+        "end": 12509,
+        "exactness": "slice",
+        "sha256": "5d0ba6f41e2fce158a5af3af34ee972782e1720ea8ce5124a98650a76af2797a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#627 : [Er61d] [Er67c] [Er69b] graph theory | chromatic number Tutte and Zykov [Zy52] independently proved that for every $k$ there is a graph with $\\omega(G)=2$ and $\\chi(G)=k$. Erdős [Er61d] proved that for every $n$ there is a graph on $n$ vertices with $\\omega(G)=2$ and $\\chi(G)\\gg n^{1/2}/\\log n$, whence $f(n) \\gg n^{1/2}/\\log n$. Erdős [Er67c] proved that\\[f(n) \\asymp \\frac{n}{(\\log_2n)^2}\\]and that the limit in question, if it exists, must be in $[1/4,4]$. (The upper bound he states as $1$, but [AFM25] note the method actually gives $4$.) Araujo, Filipe, and Miyazaki [AFM25] prove that if $\\lim\\frac{\\log R(k)}{k}$ exists and is equal to $C$ (see [77] ), and also $R(s,t)\\leq R(k)$ for all $st\\leq k^2$, then the limit in this question also exists and is equal to $C^2$. Using this connection they improve the upper bound from $4$ to $\\approx 3.7$. See also the entry in the graphs problem collection . Additional thanks to : Alfaiz Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 08 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #627, https://www.erdosproblems.com/627, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next </body",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/627",
+        "start": 12509,
+        "end": 33438,
+        "exactness": "region",
+        "sha256": "286655d639b259de52c1132981fcd11b7a96f77151969288d61eed54786ed01b"
+      }
+    }
+  ],
+  "source_sha256": "dd297300a383d50131c75054ca271ab212db52eb4eea24ae0846117c668216e2",
+  "refusals": []
+}

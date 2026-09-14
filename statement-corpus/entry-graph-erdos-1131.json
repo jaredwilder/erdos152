@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1131",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For $x_1,\\ldots,x_n\\in [-1,1]$ let\\[l_k(x)=\\frac{\\prod_{i\\neq k}(x-x_i)}{\\prod_{i\\neq k}(x_k-x_i)},\\]which are such that $l_k(x_k)=1$ and $l_k(x_i)=0$ for $i\\neq k$. What is the minimal value of\\[I(x_1,\\ldots,x_n)=\\int_{-1}^1 \\sum_k \\lvert l_k(x)\\rvert^2\\mathrm{d}x?\\]In particular, is it true that\\[\\min I =2-(1+o(1))\\frac{1}{n}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1131",
+        "start": 12257,
+        "end": 12602,
+        "exactness": "slice",
+        "sha256": "3cd51ec70fdccec8575262a22775535b84ff28a8b2df9164ca5684972a148940"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1131 : [Er61,p.67] [ESVV94] [Er95e] [Va99,2.45] analysis | polynomials Erdős first conjectured this minimum was achieved by taking the $x_i$ to be the roots of the integral of the Legendre polynomial, since Fejer [Fe32] had earlier shown these to be minimisers of\\[\\max_{x\\in [-1,1]}\\sum_k \\lvert l_k(x)\\rvert^2.\\]This was disproved by Szabados [Sz66] for every $n>3$. Erdős, Szabados, Varma, and Vértesi [ESVV94] proved that\\[2-O\\left(\\frac{(\\log n)^2}{n}\\right)\\leq \\min I\\leq 2-\\frac{2}{2n-1}\\]where the upper bound is witnessed by the roots of the integral of the Legendre polynomial as above. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1131, https://www.erdosproblems.com/1131, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1131",
+        "start": 12602,
+        "end": 32538,
+        "exactness": "region",
+        "sha256": "15f32446390e3a6451a67ab3a0f82c295ca2901bc4e45e0d5f182bbf6af7e4be"
+      }
+    }
+  ],
+  "source_sha256": "8f6b66c8979f8fa2f8aacfdf915d5e9e9263c4527f0622b30b920c7e2bb9e7ab",
+  "refusals": []
+}

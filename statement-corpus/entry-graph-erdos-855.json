@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/855",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $\\pi(x)$ counts the number of primes in $[1,x]$ then is it true that (for large $x$ and $y$)\\[\\pi(x+y) \\leq \\pi(x)+\\pi(y)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/855",
+        "start": 12255,
+        "end": 12388,
+        "exactness": "slice",
+        "sha256": "5e7c963ca20b25c95408fac955f7d9e40dc68016c92f48217f837332d9f9bc54"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#855 : [Er61] [Er65b] [Er80,p.108] [Er82e] [Er85c] number theory | primes Commonly known as the second Hardy-Littlewood conjecture . In [Er85c] Erdős describes it as 'an old conjecture of mine which was probably already stated by Hardy and Littlewood'. This is probably false, since Hensley and Richards [HeRi73] have shown that this is false assuming the Hardy-Littlewood prime tuples conjecture . Indeed, assuming this conjecture, they prove that for every large $y$ there are infinitely many $x$ such that\\[\\pi(x+y)>\\pi(x)+\\pi(y)+(\\log 2-o(1))\\frac{y}{(\\log y)^2},\\]where the $o(1)$ term tends to $0$ as $y\\to \\infty$. Erdős [Er85c] reports Straus as remarking that the 'correct way' of stating this conjecture would have been\\[\\pi(x+y) \\leq \\pi(x)+2\\pi(y/2).\\]Clark and Jarvis [ClJa01] have shown this is also incompatible with the prime tuples conjecture. In [Er85c] Erdős conjectures the weaker result (which in particular follows from the conjecture of Straus) that\\[\\pi(x+y) \\leq \\pi(x)+\\pi(y)+O\\left(\\frac{y}{(\\log y)^2}\\right),\\]which the Hensley and Richards result shows (conditionally) would be best possible. Richards conjectured that this is false. Erdős and Richards further conjectured that the original inequality is true almost always - that is, the set of $x$ such that $\\pi(x+y)\\leq \\pi(x)+\\pi(y)$ for all $y<x$ has density $1$. They could only prove that this set has positive lower density. They also conjectured that for every $x$ the inequality $\\pi(x+y)\\leq \\pi(x)+\\pi(y)$ is true provided $y \\gg (\\log x)^C$ for some large constant $C>0$. In [Er80] Erdős conjectures that\\[\\pi(x+y)\\leq \\pi(x)+O\\left(\\frac{y}{\\log x}\\right)\\]for every $x\\geq y \\gg (\\log x)^C$ for some large constant $C>0$. Hardy and Littlewood proved\\[\\pi(x+y) \\leq \\pi(x)+O(\\pi(y)).\\]The best known in this direction is a result of Montgomery and Vaughan [MoVa73] , which shows\\[\\pi(x+y) \\leq \\pi(x)+2\\frac{y}{\\log y}.\\]This is discussed in problem A9 of Guy's collection [Gu04] . Additional thanks to : Sarosh Adenwalla Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #855, https://www.erdosproblems.com/855, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A023193 Reactions Likes None Open to collaboration ColoursX Currently working on None Looks difficult Dogmachine , Basile_Beyer_de_Ryke <div class=\"problem-info-dat",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/855",
+        "start": 12388,
+        "end": 35467,
+        "exactness": "region",
+        "sha256": "8e6443fd27805b3905ffee5f1b1a9e5a5a495d34d82a6f4acef242bdd98a0c13"
+      }
+    }
+  ],
+  "source_sha256": "5bd644134cd7f535273b94af94b6903780234fc39d30bc0ed884e931ca71f70a",
+  "refusals": []
+}

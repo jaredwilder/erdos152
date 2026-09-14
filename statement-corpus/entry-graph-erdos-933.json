@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/933",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $n(n+1)=2^k3^lm$, where $(m,6)=1$, then is it true that\\[\\limsup_{n\\to \\infty} \\frac{2^k3^l}{n\\log n}=\\infty?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/933",
+        "start": 12255,
+        "end": 12375,
+        "exactness": "slice",
+        "sha256": "5d031f74e90ba26d0bf190f884f1d7ec159270762cc2f33c7e5663d5c2db60bb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#933 : [Er76d] number theory Mahler proved (a more general result that implies in particular) that\\[2^k3^l<n^{1+o(1)}.\\]Erdős [Er76d] wrote 'it is easy to see' that for infinitely many $n$\\[2^k3^l>n\\log n.\\]Steinerberger has noted a simple proof of this fact follows from taking $n=2^{3^r}$ for any integer $r\\geq 1$, when $k=3^r$ and $l=r+1$. Additional thanks to : Stefan Steinerberger Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #933, https://www.erdosproblems.com/933, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes fschumann , aminb_el Open to collaboration None Currently working on johnseibert19 , fschumann , aminb_el Looks difficult None Looks tractable aminb_el Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/933",
+        "start": 12375,
+        "end": 32185,
+        "exactness": "region",
+        "sha256": "095f5c31d599e784122f425237b049c5c0f8a03e726b93f37ead902b2494f524"
+      }
+    }
+  ],
+  "source_sha256": "2ff00ed6d316c03afdec84fd47cf2062aa2d72b0480167354209e2f7902d6c9e",
+  "refusals": []
+}

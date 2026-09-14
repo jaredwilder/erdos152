@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/955",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let\\[s(n)=\\sigma(n)-n=\\sum_{\\substack{d\\mid n\\\\ d<n}}d\\]be the sum of proper divisors function. If $A\\subset \\mathbb{N}$ has density $0$ then $s^{-1}(A)$ must also have density $0$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/955",
+        "start": 12255,
+        "end": 12453,
+        "exactness": "slice",
+        "sha256": "e61a45a212d8cf496ddbd1831f6d95e3bc3c38d5df6fdf13ae937929d060c485"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#955 : [EGPS90] number theory A conjecture of Erdős, Granville, Pomerance, and Spiro [EGPS90] . It is possible for $s(A)$ to have positive density even if $A$ has zero density (for example taking $A$ to be the product of two distinct primes). Erdős [Er73b] proved that there are sets $A$ of positive density such that $s^{-1}(A)$ is empty. Pollack [Po14b] has shown that this is true if $A$ is the set of primes. Troupe [Tr15] has shown that this is true if $A$ is the set of integers with unusually many prime factors. Troupe [Tr20] has also shown this is true if $A$ is the set of integers which are the sum of two squares. Pollack, Pomerance, and Thompson [PPT18] prove that if $\\epsilon(x)=o(1)$ and $A\\subset \\mathbb{N}$ has size at most $x^{1/2+\\epsilon(x)}$ then\\[\\#\\{ n\\leq x: s(n)\\in A\\} =o(x)\\]as $x\\to \\infty$. It follows that (using $s(n)\\ll n\\log\\log n$) if $A$ grows like $\\lvert A\\cap [1,x]\\rvert\\leq x^{1/2+o(1)}$ then $s^{-1}(A)$ has density $0$. Alanen calls $k$ such that $s(n)=k$ has no solutions untouchable. These are discussed in problem B10 of Guy's collection [Gu04] . Additional thanks to : Alfaiz Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 30 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #955, https://www.erdosproblems.com/955, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/955",
+        "start": 12453,
+        "end": 33399,
+        "exactness": "region",
+        "sha256": "bfab52553050bf5666f0344ae231df7fbacfbd621d9a61ea38f0ae8f701a5c72"
+      }
+    }
+  ],
+  "source_sha256": "d77acf502664da0f7eeecd0847c1e84ff90a2a0883552e40104b28ca647410d0",
+  "refusals": []
+}

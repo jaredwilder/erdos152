@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/513",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f=\\sum_{n=0}^\\infty a_nz^n$ be a transcendental entire function. What is the greatest possible value of\\[\\liminf_{r\\to \\infty} \\frac{\\max_n\\lvert a_nr^n\\rvert}{\\max_{\\lvert z\\rvert=r}\\lvert f(z)\\rvert}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/513",
+        "start": 12255,
+        "end": 12470,
+        "exactness": "slice",
+        "sha256": "9b184727d58223216dd0a01e0d0a31554ec9383f23f7d9d5256a5c5b795374fc"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#513 : [Er61,p.249] analysis Let $B$ be the supremum of all such values. It is trivial that $B\\in [1/2,1]$. Kövári (unpublished) observed that it must be $>1/2$. Gray and Shah [GrSh63] give an argument of Clunie which shows $B\\leq 2/\\pi$. Clunie and Hayman [ClHa64] improved both bounds to\\[4/7< B \\leq 2/\\pi-c\\]for some absolute constant $c>0$. He and Tang [HeTa26] have improved the lower bound to\\[B> 0.5850724\\](note that $4/7\\approx 0.57143$). This was further improved slightly to $0.5850788$ by GPT (as prompted by Sothanaphan). Note that $2/\\pi \\approx 0.63662$. See also [227] . Additional thanks to : Kevin Barreto and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (1) More information and links This page was last edited 02 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #513, https://www.erdosproblems.com/513, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/513",
+        "start": 12470,
+        "end": 32332,
+        "exactness": "region",
+        "sha256": "ddeffd298db83aff5157a96485f6e44c56b1abed08e6a0ddbcc4e7821ab1645e"
+      }
+    }
+  ],
+  "source_sha256": "9a2d87d2f82280b98397a0509b319220022f461760b9729655c855a4e9a986a1",
+  "refusals": []
+}

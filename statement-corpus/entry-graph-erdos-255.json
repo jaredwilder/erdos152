@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/255",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $z_1,z_2,\\ldots \\in [0,1]$ be an infinite sequence, and define the discrepancy\\[D_N(I) = \\#\\{ n\\leq N : z_n\\in I\\} - N\\lvert I\\rvert.\\]Must there exist some interval $I\\subseteq [0,1]$ such that\\[\\limsup_{N\\to \\infty}\\lvert D_N(I)\\rvert =\\infty?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/255",
+        "start": 12274,
+        "end": 12531,
+        "exactness": "slice",
+        "sha256": "532a7a94d80398d1398c23c4fea5b99b3dc735993bd1026f6ee1811d50951026"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#255 : [Er61] [Er64b] discrepancy The answer is yes, as proved by Schmidt [Sc68] , who later showed [Sc72] that in fact this is true for all but countably many intervals of the shape $[0,x]$. Essentially the best possible result was proved by Tijdeman and Wagner [TiWa80] , who proved that, for almost all intervals of the shape $[0,x)$, we have\\[\\limsup_{N\\to \\infty}\\frac{\\lvert D_N([0,x))\\rvert}{\\log N}\\gg 1.\\] Additional thanks to : Cedric Pilatte and Stefan Steinerberger Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #255, https://www.erdosproblems.com/255, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/255",
+        "start": 12531,
+        "end": 32115,
+        "exactness": "region",
+        "sha256": "d719e78e219cee402094f0060cb8cc4411de4a85564efca7480514472327f7a9"
+      }
+    }
+  ],
+  "source_sha256": "5d7f94535a81852aff4ab9b89ccdfa36c1060816512290a5d3a05e0d94bd5605",
+  "refusals": []
+}

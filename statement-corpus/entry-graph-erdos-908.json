@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/908",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f:\\mathbb{R}\\to \\mathbb{R}$ be such that $f(x+h)-f(x)$ is measurable for every $h>0$. Is it true that\\[f=g+h+r\\]where $g$ is continuous, $h$ is additive (so $h(x+y)=h(x)+h(y)$), and $r(x+h)-r(x)=0$ for every $h$ and almost all (depending on $h$) $x$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/908",
+        "start": 12236,
+        "end": 12501,
+        "exactness": "slice",
+        "sha256": "115d0a2917c88381b6fbc75ee9722942d5140aef7d49dc1652bf7f5f32bea75b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#908 : [Er81b,p.31] [Er82e] analysis A conjecture of de Bruijn and Erdős. Answered in the affirmative by Laczkovich [La80] . See also [907] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 30 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #908, https://www.erdosproblems.com/908, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising mdelvecchio Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/908",
+        "start": 12501,
+        "end": 31590,
+        "exactness": "region",
+        "sha256": "929855c5d1df42d234e74a7e70a323747fcf17e585e794d4b30c8ae69e0dbb73"
+      }
+    }
+  ],
+  "source_sha256": "12782e93f52502cb06a6711e41af295ddcb8a361a98251f00f31f901daa66712",
+  "refusals": []
+}

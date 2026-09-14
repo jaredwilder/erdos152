@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/148",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $F(k)$ be the number of solutions to\\[ 1= \\frac{1}{n_1}+\\cdots+\\frac{1}{n_k},\\]where $1\\leq n_1<\\cdots<n_k$ are distinct integers. Find good estimates for $F(k)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/148",
+        "start": 12255,
+        "end": 12435,
+        "exactness": "slice",
+        "sha256": "ba265a6e3db5a4591f96603e9d5b400f64bb1d7b33fd9886268bc7976bff8eaf"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#148 : [ErGr80,p.32] number theory | unit fractions The current best bounds known are\\[2^{c^{\\frac{k}{\\log k}}}\\leq F(k) \\leq c_0^{(\\frac{1}{5}+o(1))2^k},\\]where $c>0$ is some absolute constant and $c_0=1.26408\\cdots$ is the 'Vardi constant'. The lower bound is due to Konyagin [Ko14] and the upper bound to Elsholtz and Planitzer [ElPl21] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 27 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #148, https://www.erdosproblems.com/148, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A076393 , A006585 Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/148",
+        "start": 12435,
+        "end": 32368,
+        "exactness": "region",
+        "sha256": "900bb973d30a0220b462df739a9f9e6876f9773b040dca5370e0a7b1a3ce4c26"
+      }
+    }
+  ],
+  "source_sha256": "0d9f851da7a734b96c1904fd304d7ad7e33ed51b5a7297c438a6628ecd63a69f",
+  "refusals": []
+}

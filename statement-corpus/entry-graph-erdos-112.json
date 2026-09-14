@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/112",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k=k(n,m)$ be minimal such that any directed graph on $k$ vertices must contain either an independent set of size $n$ or a transitive tournament of size $m$. Determine $k(n,m)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/112",
+        "start": 12255,
+        "end": 12442,
+        "exactness": "slice",
+        "sha256": "a8bf85c627f0161748696f5468c946f0cdbd0f462a60bd2e4d1b9a800ce2ad8c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#112 : [ErRa67] graph theory | ramsey theory A problem of Erdős and Rado [ErRa67] , who showed $k(n,m) \\ll_m n^{m-1}$, or more precisely,\\[k(n,m) \\leq \\frac{2^{m-1}(n-1)^m+n-2}{2n-3}.\\]Larson and Mitchell [LaMi97] improved the dependence on $m$, establishing in particular that $k(n,3)\\leq n^{2}$. Zach Hunter has observed that\\[R(n,m) \\leq k(n,m)\\leq R(n,m,m),\\]which in particular proves the upper bound $k(n,m)\\leq 3^{n+2m}$. See also the entry in the graphs problem collection - on this site the problem replaces transitive tournament with directed path, but Zach Hunter and Raphael Steiner have a simple argument that proves, for this alternative definition, that $k(n,m)=(n-1)(m-1)$. Additional thanks to : Zach Hunter and Raphael Steiner Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #112, https://www.erdosproblems.com/112, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/112",
+        "start": 12442,
+        "end": 32489,
+        "exactness": "region",
+        "sha256": "d52fb1aea9cdd2cabb7a0ea30ff26bac5e88ffea16bac0fb1eb090825694b9e4"
+      }
+    }
+  ],
+  "source_sha256": "b7fe014b352450a4c6d236d61af6fabd4577137a97402ad526bdb612442934ee",
+  "refusals": []
+}

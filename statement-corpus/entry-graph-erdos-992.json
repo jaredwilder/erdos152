@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/992",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $x_1<x_2<\\cdots$ be an infinite sequence of integers. Is it true that, for almost all $\\alpha \\in [0,1]$, the discrepancy\\[D(N)=\\max_{I\\subseteq [0,1]} \\lvert \\#\\{ n\\leq N : \\{ \\alpha x_n\\}\\in I\\} - \\lvert I\\rvert N\\rvert\\]satisfies\\[D(N) \\ll N^{1/2}(\\log N)^{o(1)}?\\]Or even\\[D(N)\\ll N^{1/2}(\\log\\log N)^{O(1)}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/992",
+        "start": 12236,
+        "end": 12568,
+        "exactness": "slice",
+        "sha256": "f363c4d7203fe78f9f0c6604d1952b9cdf200b8e3ae8c02f50805dd69a0c3ec8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#992 : [Er64b,p.56] discrepancy Erdős and Koksma [ErKo49] and Cassels [Ca50] independently proved that, for any sequence $x_i$ and almost all $\\alpha$, the discrepancy satisfies\\[D(N)\\ll N^{1/2}(\\log N)^{5/2+o(1)}.\\]Baker [Ba81] improved this to\\[D(N)\\ll N^{1/2}(\\log N)^{3/2+o(1)}.\\]Erdős and Gál (unpublished) proved $D(N) \\ll N^{1/2}(\\log\\log N)^{O(1)}$ for almost all $\\alpha$ if the sequence is lacunary - that is, $x_{i+1}/x_i > \\lambda>1$ for all $i$. This was disproved by Berkes and Philipp [BePh94] , who constructed a sequence of integers $x_1<x_2<\\cdots$ such that, for almost all $\\alpha\\in[0,1]$,\\[\\limsup_{N\\to \\infty}\\frac{D(N)}{(N\\log N)^{1/2}}>0.\\] Additional thanks to : Superhuman Reasoning team at Google DeepMind Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 29 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #992, https://www.erdosproblems.com/992, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/992",
+        "start": 12568,
+        "end": 32471,
+        "exactness": "region",
+        "sha256": "ce6cbedf6795ff6d930e70e41e4a0225727e320c0b3449bddc9828fb0acab30b"
+      }
+    }
+  ],
+  "source_sha256": "6f605cfb8516418473b0503762e555fefb6b4a102c88999dd1020ef09e6d6a88",
+  "refusals": []
+}

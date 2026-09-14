@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/651",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f_k(n)$ denote the smallest integer such that any $f_k(n)$ points in general position in $\\mathbb{R}^k$ contain $n$ which determine a convex polyhedron. Is it true that\\[f_k(n) > (1+c_k)^n\\]for some constant $c_k>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/651",
+        "start": 12236,
+        "end": 12471,
+        "exactness": "slice",
+        "sha256": "1858eb559fc19396c4d662e9492148dda090dd8bd183936611355d8f49f0119e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#651 : [Er97e] geometry | convex The function when $k=2$ is the subject of the Erdős-Klein-Szekeres conjecture, see [107] . One can show that\\[f_2(n)>f_3(n)>\\cdots.\\]The answer is no, even for $k=3$: Pohoata and Zakharov [PoZa22] have proved that\\[f_3(n)\\leq 2^{o(n)}.\\] Additional thanks to : Mehtaab Sawhney Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #651, https://www.erdosproblems.com/651, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/651",
+        "start": 12471,
+        "end": 31881,
+        "exactness": "region",
+        "sha256": "2942c50bd27dd120bb7b917ef1fddbe32c0b4b6b2538ac245ca430da085d60d5"
+      }
+    }
+  ],
+  "source_sha256": "96076a118446b51dcb127d7f20d76c3e3c1a194734687e2d8c5c05d7614aae15",
+  "refusals": []
+}

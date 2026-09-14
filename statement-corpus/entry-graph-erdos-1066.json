@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1066",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be a graph given by $n$ points in $\\mathbb{R}^2$, where any two distinct points are at least distance $1$ apart, and we draw an edge between two points if they are distance $1$ apart. Let $g(n)$ be maximal such that any such graph always has an independent set on at least $g(n)$ vertices. Estimate $g(n)$, or perhaps $\\lim \\frac{g(n)}{n}$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1066",
+        "start": 12257,
+        "end": 12618,
+        "exactness": "slice",
+        "sha256": "b749d023f5c0422f11a3633fcf6a08ad901ffa38cfe85ded439b486cd4884098"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1066 : [Er87b,p.171] graph theory | planar graphs Such graphs are always planar. Erdős initially thought that $g(n)=n/3$, but Chung and Graham, and independently Pach, gave a construction that shows $g(n)\\leq \\frac{6}{19}n$. Pach and Toth [PaTo96] improved this to $g(n)\\leq \\frac{5}{16}n$. Pollack [Po85] noted that the Four colour theorem implies $g(n)\\geq n/4$, since the graph is planar. Pollack reports that Pach observed that this in for unit distance graphs the four colour theorem can be proved by a simple induction. This lower bound has been improved to $\\frac{9}{35}n$ by Csizmadia [Cs98] and then $\\frac{8}{31}n$ by Swanepoel [Sw02] . The current record bounds are therefore\\[\\frac{8}{31}n \\approx 0.258n \\leq g(n) \\leq 0.3125n=\\frac{5}{16}n.\\]Pollack [Po85] also reports a letter from Erdős which poses the more general problem of, given $n$ points in $\\mathbb{R}^d$ with minimum distance $1$, let $g_d(n)$ be maximal such that there always exist at least $g_d(n)$ many points which have minimum distance $>1$. Is it true that $g_d(n) \\gg n/d$ in general? The upper bound $g_d(n) \\ll n/d$ is trivial, considering widely spaced unit simplices. See [1070] for the general estimate of independence number of unit distance graphs. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 02 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1066, https://www.erdosproblems.com/1066, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Tomodovodoo Open to collaboration Tomodovodoo Currently working on Tomodovodoo Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- To handle th",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1066",
+        "start": 12618,
+        "end": 33644,
+        "exactness": "region",
+        "sha256": "c3bee33095dd77cfebd07f5ac2cbbd6a714fa882df16a47b9b8e9901fee44b7c"
+      }
+    }
+  ],
+  "source_sha256": "e65802cf1808b5f69008ab3772952760a7fde008ce73ab5fb718be4884b60fc2",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/924",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 2$ and $l\\geq 3$. Is there a graph $G$ which contains no $K_{l+1}$ such that every $k$-colouring of the edges of $G$ contains a monochromatic copy of $K_l$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/924",
+        "start": 12236,
+        "end": 12409,
+        "exactness": "slice",
+        "sha256": "d25a36e3605d81d4710a7e371a305e1e44c0b9eac0c05848194e87305ddfb818"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#924 : [Er69b] [Er75b] graph theory | ramsey theory A question of Erdős and Hajnal. Folkman [Fo70] proved this when $k=2$. The case for general $k$ was proved by Nešetřil and Rödl [NeRo76] . See [582] for a special case and [966] for an arithmetic analogue. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #924, https://www.erdosproblems.com/924, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/924",
+        "start": 12409,
+        "end": 31755,
+        "exactness": "region",
+        "sha256": "763154d8e52387a5fc1a02e0fc2441ab0c129d9a84b3cd9e504925080ca3c41a"
+      }
+    }
+  ],
+  "source_sha256": "2ad31b80a7a8477bede51a4fd60288c355a6c9569570157637f8743ee6fdb41d",
+  "refusals": []
+}

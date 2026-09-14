@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1072",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any prime $p$, let $f(p)$ be the least integer such that $f(p)!+1\\equiv 0\\pmod{p}$. Is it true that there are infinitely many $p$ for which $f(p)=p-1$? Is it true that $f(p)/p\\to 0$ for almost all $p$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1072",
+        "start": 12257,
+        "end": 12478,
+        "exactness": "slice",
+        "sha256": "e8332054ae88918f6528e6c1dfda91c2cb7b30b8905a9278659eba6483192407"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1072 : [HaSu02] [Gu04] number theory Questions formulated by Erdős, Hardy, and Subbarao [HaSu02] , who believed that the number of $p\\leq x$ for which $f(p)=p-1$ is $o(x/\\log x)$. These are mentioned in problem A2 of Guy's collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 04 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1072, https://www.erdosproblems.com/1072, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A073944 , A072937 , A154554 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1072",
+        "start": 12478,
+        "end": 32479,
+        "exactness": "region",
+        "sha256": "7ded718c1a85e89864cf632d9606cacd7507e67217f86bd3c069060334b49ac6"
+      }
+    }
+  ],
+  "source_sha256": "bbf4fcbcae59dc8d460be4f6e54006dc5b0fecfa286287230d6cb2c6c3148d65",
+  "refusals": []
+}

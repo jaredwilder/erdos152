@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/817",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$ and define $g_k(n)$ to be the minimal $N$ such that $\\{1,\\ldots,N\\}$ contains some $A$ of size $\\lvert A\\rvert=n$ such that\\[\\langle A\\rangle = \\left\\{\\sum_{a\\in A}\\epsilon_aa: \\epsilon_a\\in \\{0,1\\}\\right\\}\\]contains no non-trivial $k$-term arithmetic progression. Estimate $g_k(n)$. In particular, is it true that\\[g_3(n) \\gg 3^n?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/817",
+        "start": 12255,
+        "end": 12608,
+        "exactness": "slice",
+        "sha256": "61746950e14a2c21ade4441119bd323b570dcf592ee34cc005dcd4dae7bf2a9c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#817 : [Er91] additive combinatorics A problem of Erdős and Sárközy who proved\\[g_3(n) \\gg \\frac{3^n}{n^{O(1)}}.\\] Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #817, https://www.erdosproblems.com/817, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes SamKorsky Open to collaboration None Currently working on SamKorsky Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/817",
+        "start": 12608,
+        "end": 31797,
+        "exactness": "region",
+        "sha256": "8dd359a0f38a82d7a94493e8a19fad505e4afad39830ad75722f6c875e34c43b"
+      }
+    }
+  ],
+  "source_sha256": "e51761bdef1eec65e3409cd51daa8c65d444f8abfe378acd3e03f9e33ce1d39a",
+  "refusals": []
+}

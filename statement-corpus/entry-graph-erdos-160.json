@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/160",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $h(N)$ be the smallest $k$ such that $\\{1,\\ldots,N\\}$ can be coloured with $k$ colours so that every four-term arithmetic progression must contain at least three distinct colours. Estimate $h(N)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/160",
+        "start": 12255,
+        "end": 12462,
+        "exactness": "slice",
+        "sha256": "5bc96fd9b2c171e1675c059e236427d26cf0f9207d99aec136d52afdbfaa222b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#160 : [Er89] additive combinatorics | arithmetic progressions Investigated by Erdős and Freud. This has been discussed on MathOverflow , where LeechLattice shows\\[h(N) \\ll N^{2/3}.\\]In the comments of this site Hunter improves this to\\[h(N) \\ll N^{\\frac{\\log 3}{\\log 22}+o(1)}\\](note $\\frac{\\log 3}{\\log 22}\\approx 0.355$). The observation of Zach Hunter in that question coupled with recent progress on the size of subsets without three-term arithmetic progression (see [BlSi23] which improves slightly on the bounds due to Kelley and Meka [KeMe23] ) imply that\\[h(N) \\gg \\exp(c(\\log N)^{1/9})\\]for some $c>0$. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (2) More information and links This page was last edited 02 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #160, https://www.erdosproblems.com/160, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes zach_hunter , ruizshi Open to collaboration None Currently working on ruizshi Looks difficult None Looks tractable ruizshi Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/160",
+        "start": 12462,
+        "end": 32735,
+        "exactness": "region",
+        "sha256": "f2a54f7233e162773cd6f67044a586c9fccec237e2e98a9aa583298e7d8b7c25"
+      }
+    }
+  ],
+  "source_sha256": "887d1c4b4d9b57267fe1a56f3cb421c074c9a0d1914b2b13344a0b16cdfa7f0d",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/559",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\hat{R}(G)$ denote the size Ramsey number, the minimal number of edges $m$ such that there is a graph $H$ with $m$ edges that is Ramsey for $G$. If $G$ has $n$ vertices and maximum degree $d$ then prove that\\[\\hat{R}(G)\\ll_d n.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/559",
+        "start": 12236,
+        "end": 12483,
+        "exactness": "slice",
+        "sha256": "d682c68c47628bd29d587ad237efc34895ea6afa8eb3c8dad34ea576ae220dbb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#559 : graph theory | ramsey theory A problem of Beck, and perhaps also Erdős, although I cannot now find a reference in which Erdős himself discusses this problem - it is asked by Beck in [Be83b] , a paper which answers a related question of Erdős [720] . Beck [Be83b] proved this when $G$ is a path. Friedman and Pippenger [FrPi87] proved this when $G$ is a tree. Haxell, Kohayakawa, and Luczak [HKL95] proved this when $G$ is a cycle. An alternative proof when $G$ is a cycle (with better constants) was given by Javadi, Khoeini, Omidi, and Pokrovskiy [JKOP19] . This was disproved for $d=3$ by Rödl and Szemerédi [RoSz00] , who constructed a graph on $n$ vertices with maximum degree $3$ such that\\[\\hat{R}(G)\\gg n(\\log n)^{c}\\]for some absolute constant $c>0$. Tikhomirov [Ti22b] has improved this to\\[\\hat{R}(G)\\gg n\\exp(c\\sqrt{\\log n}).\\]It is an interesting question how large $\\hat{R}(G)$ can be if $G$ has maximum degree $3$. Kohayakawa, Rödl, Schacht, and Szemerédi [KRSS11] proved an upper bound of $\\leq n^{5/3+o(1)}$ and Conlon, Nenadov, and Trujić [CNT22] proved $\\ll n^{8/5}$. The best known upper bound of $\\leq n^{3/2+o(1)}$ is due to Draganić and Petrova [DrPe22] . This problem is #28 in Ramsey Theory in the graphs problem collection. Additional thanks to : Zach Hunter and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #559, https://www.erdosproblems.com/559, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None <div class=\"pro",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/559",
+        "start": 12483,
+        "end": 34017,
+        "exactness": "region",
+        "sha256": "39bdbfa0bf0c150248eabdf77cc67269ac9c567427ed646dc743323ab81cc52c"
+      }
+    }
+  ],
+  "source_sha256": "1da9b187192450e7da0f41ccc851f145def33c26e2f498e0a6c63eebd80c122d",
+  "refusals": []
+}

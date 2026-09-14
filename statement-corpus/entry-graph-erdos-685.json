@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/685",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\epsilon>0$ and $n$ be large depending on $\\epsilon$. Is it true that for all $n^\\epsilon<k\\leq n^{1-\\epsilon}$ the number of distinct prime divisors of $\\binom{n}{k}$ is\\[(1+o(1))k\\sum_{k<p<n}\\frac{1}{p}?\\]Or perhaps even when $k \\geq (\\log n)^c$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/685",
+        "start": 12255,
+        "end": 12530,
+        "exactness": "slice",
+        "sha256": "4ef34b431e63c9286a556a0b91b63ecfcd6a98c4eaca8a1e37f132461e21da8a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#685 : [Er79d] number theory | primes | binomial coefficients It is trivial that the number of prime factors is\\[>\\frac{\\log \\binom{n}{k}}{\\log n},\\]and this inequality becomes (asymptotic) equality if $k>n^{1-o(1)}$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #685, https://www.erdosproblems.com/685, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes jakeweatherhead Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/685",
+        "start": 12530,
+        "end": 31446,
+        "exactness": "region",
+        "sha256": "6a087381d0897382cf1079ca8c6d192f77b826f338f8ceb955ff6e60a2fdafaa"
+      }
+    }
+  ],
+  "source_sha256": "7dd9210004fcdb03c14418cfa31aae1e58c9ef7248938c4e951484d77ce5fce8",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1132",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For $x_1,\\ldots,x_n\\in [-1,1]$ let\\[l_k(x)=\\frac{\\prod_{i\\neq k}(x-x_i)}{\\prod_{i\\neq k}(x_k-x_i)},\\]which are such that $l_k(x_k)=1$ and $l_k(x_i)=0$ for $i\\neq k$. Let $x_1,x_2,\\ldots\\in [-1,1]$ be an infinite sequence, and let\\[L_n(x) = \\sum_{1\\leq k\\leq n}\\lvert l_k(x)\\rvert,\\]where each $l_k(x)$ is defined above with respect to $x_1,\\ldots,x_n$. Must there exist $x\\in (-1,1)$ such that\\[L_n(x) >\\frac{2}{\\pi}\\log n-O(1)\\]for infinitely many $n$? Is it true that\\[\\limsup_{n\\to \\infty}\\frac{L_n(x)}{\\log n}\\geq \\frac{2}{\\pi}\\]for almost all $x\\in (-1,1)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1132",
+        "start": 12257,
+        "end": 12850,
+        "exactness": "slice",
+        "sha256": "d1e566f691d0e72e1e77cde0dcb7da6726bf2cd7f7ab6f8d8e6232b28d43c392"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1132 : [Er67,p.68] [Va99,2.43] analysis | polynomials A result of Bernstein [Be31] implies that the set of $x\\in(-1,1)$ for which\\[\\limsup_{n\\to \\infty}\\frac{L_n(x)}{\\log n}\\geq \\frac{2}{\\pi}\\]is everywhere dense. Erdős [Er61c] proved that, for any fixed $x_1,\\ldots,x_n\\in [-1,1]$,\\[\\max_{x\\in [-1,1]}\\sum_{1\\leq k\\leq n}\\lvert l_k(x)\\rvert>\\frac{2}{\\pi}\\log n-O(1).\\]Tao [Ta26b] has proved that for any function $\\omega(n)$ which tends to infinity with $n$ there exists a dense set of $x\\in (-1,1)$ such that\\[L_n(x)\\geq \\frac{2}{\\pi}\\log n-\\omega(n)\\]for infinitely many $n$. Tao also notes that it is unclear in the question of Erdős whether the constant in the $O(1)$ term may depend on $x$. See also [1129] for more on $L_n(x)$, and also [1153] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 01 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1132, https://www.erdosproblems.com/1132, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1132",
+        "start": 12850,
+        "end": 32869,
+        "exactness": "region",
+        "sha256": "31b627948ea03c32d2b6fcd184fa3d36b0b1c176ccbe21607df47e38c3c6d73a"
+      }
+    }
+  ],
+  "source_sha256": "330ffd5721f277a8439d1bb9831517b9934b5027d82407913205e9aa4d59d049",
+  "refusals": []
+}

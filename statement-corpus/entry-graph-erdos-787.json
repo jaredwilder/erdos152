@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/787",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $g(n)$ be maximal such that given any set $A\\subset \\mathbb{R}$ with $\\lvert A\\rvert=n$ there exists some $B\\subseteq A$ of size $\\lvert B\\rvert\\geq g(n)$ such that $b_1+b_2\\not\\in A$ for all $b_1\\neq b_2\\in B$. Estimate $g(n)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/787",
+        "start": 12255,
+        "end": 12500,
+        "exactness": "slice",
+        "sha256": "3e33b6ad93ca5b014bb5cdf8298b654680cd4ff764d7cd0c0e2ac05bbcca144d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#787 : [Er65,p.187] [Er73,p.130] [Va99,1.22] additive combinatorics This function was considered by Erdős and Moser. Choi observed that, without loss of generality, one can assume that $A\\subset \\mathbb{Z}$. Klarner proved $g(n) \\gg \\log n$ (indeed, a greedy construction suffices). Choi [Ch71] proved $g(n) \\ll n^{2/5+o(1)}$. The current best bounds known are\\[(\\log n)^{1+c} \\ll g(n) \\ll \\exp(\\sqrt{\\log n})\\]for some constant $c>0$, the lower bound due to Sanders [Sa21] and the upper bound due to Ruzsa [Ru05] . Beker [Be25] has proved\\[(\\log n)^{1+\\tfrac{1}{68}+o(1)} \\ll g(n).\\] Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #787, https://www.erdosproblems.com/787, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult Aron Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/787",
+        "start": 12500,
+        "end": 32756,
+        "exactness": "region",
+        "sha256": "93bfda365702051cfefdeb322295224ff41e71f753a2daff0d1a6f2cae561522"
+      }
+    }
+  ],
+  "source_sha256": "5ab5a00e21189cae03c205bd14c01d43ca5a8fede9964520fd4be900cad92de8",
+  "refusals": []
+}

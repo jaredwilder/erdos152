@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/485",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(k)$ be the minimum number of terms in $P(x)^2$, where $P\\in \\mathbb{Q}[x]$ ranges over all polynomials with exactly $k$ non-zero terms. Is it true that $f(k)\\to\\infty$ as $k\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/485",
+        "start": 12236,
+        "end": 12434,
+        "exactness": "slice",
+        "sha256": "5b6e970efb8a76a8a43d9ebd4d234d41785c7af424d5a4af073e3e48f4c63f6f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#485 : [Er61] [Ha74] [Er80,p.112] analysis | polynomials This is Problem 4.4 in [Ha74] , where it is attributed to Erdős. First investigated by Rényi and Rédei [Re47] . Erdős [Er49b] proved that $f(k)<k^{1-c}$ for some $c>0$. The conjecture that $f(k)\\to \\infty$ is due to Erdős and Rényi. This was solved by Schinzel [Sc87] , who proved that\\[f(k) > \\frac{\\log\\log k}{\\log 2}.\\]In fact Schinzel proves lower bounds for the corresponding problem with $P(x)^n$ for any integer $n\\geq 1$, where the coefficients of the polynomial can be from any field with zero or sufficiently large positive characteristic. Schinzel and Zannier [ScZa09] have improved this to\\[f(k) \\gg \\log k.\\] Additional thanks to : Stefan Steinerberger Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #485, https://www.erdosproblems.com/485, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/485",
+        "start": 12434,
+        "end": 32910,
+        "exactness": "region",
+        "sha256": "ad156bcff4c560bf048cb5a16a112cbcc5314b4685bab50d19e77fecf2fe06c2"
+      }
+    }
+  ],
+  "source_sha256": "9650b5a4e01c4acecf06156ce72e8c96eac8d18aca998f045d923b8354811d3d",
+  "refusals": []
+}

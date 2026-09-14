@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/460",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $a_0=0$ and $a_1=1$, and in general define $a_k$ to be the least integer $>a_{k-1}$ for which $(n-a_k,n-a_i)=1$ for all $0\\leq i<k$. Does\\[\\sum_{0<a_i< n}\\frac{1}{a_i}\\to \\infty\\]as $n\\to \\infty$? What about if we restrict the sum to those $i$ such that $n-a_j$ is divisible by some prime $\\leq a_j$, or the complement of such $i$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/460",
+        "start": 12255,
+        "end": 12612,
+        "exactness": "slice",
+        "sha256": "21399d3e7e6a5bdeafc579e6c559af25855a7a73f509ab9928175be6caa197cb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#460 : [Er77c,p.64] [ErGr80,p.91] number theory This question arose in work of Eggleton, Erdős, and Selfridge, who could prove that $a_k <k^{2+o(1)}$ for $k$ large enough depending on $n$, but conjectured that in fact $a_k\\ll k\\log k$ is true. The problem above is from [Er77c] . This question is stated slightly differently in [ErGr80] , which has $a_0=n$ instead of $a_0=0$ and $1\\leq i<k$ instead of $0\\leq i<k$. The material difference this makes is that the main formulation above has $(a_k,n)=1$ for all $k\\geq 1$, which is not imposed in the second formulation. Furthermore, in both [Er77c] and [ErGr80] this is stated without the restriction to $a_k<n$ in the sum, although perhaps this was implicitly intended. Without this condition the sum is infinite since the sequence of $a_k$ contains $n+p$ for all primes $p>n$ (this observation was made by Svyable using ChatGPT). Unfortunately, although both sources mention a forthcoming paper of Eggleton, Erdős, and Selfridge, I cannot find a candidate paper of theirs with this problem in, and hence the motivation behind this problem, and what the precise problem intended was, is unclear. Chojecki has noted in the comments that a positive solution to the main problem would follow if\\[f(n) = \\sum_{a<n}1_{P^-(n-a)>a}\\frac{1}{a}\\to \\infty,\\]where $P^-(\\cdot)$ is the least prime factor. Standard estimates on rough numbers show that $\\frac{1}{N}\\sum_{n\\leq N}f(n)\\gg \\log\\log N$, so $f(n)$ does diverge on average, but it is unclear whether $f(n)\\to \\infty$ for all $n$. Additional thanks to : Kevin Barreto, Przemek Chojecki, and Svyable Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (22) Proof claims (0) More information and links This page was last edited 14 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #460, https://www.erdosproblems.com/460, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) The original source is ambiguous as to what the problem is — please add a comment if you have an opinion. Reactions Likes hunterbates Open to collaboration None Currently working on Svyable Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/460",
+        "start": 12612,
+        "end": 33783,
+        "exactness": "region",
+        "sha256": "51f39b9d4c7220ee5661fca9e567d211b899651310800f527cbde7249aab3273"
+      }
+    }
+  ],
+  "source_sha256": "85edcea436a6416a588c675fcee0c62f0dcd99052353ce225f0e3ce5420a3e2e",
+  "refusals": []
+}

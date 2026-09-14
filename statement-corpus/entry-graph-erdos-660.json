@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/660",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $x_1,\\ldots,x_n\\in \\mathbb{R}^3$ be the vertices of a convex polyhedron. Are there at least\\[(1-o(1))\\frac{n}{2}\\]many distinct distances between the $x_i$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/660",
+        "start": 12255,
+        "end": 12421,
+        "exactness": "slice",
+        "sha256": "f247211f9d3b35cd737066dffb77c51588d7fa55dce931491bb2cd365b8484b0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#660 : [Er97e,p.531] geometry | distances | convex For the similar problem in $\\mathbb{R}^2$ there are always at least $n/2$ distances, as proved by Altman [Al63] (see [93] ). In [Er75f] Erdős claims that Altman proved that the vertices determine $\\gg n$ many distinct distances, but gives no reference. Additional thanks to : kiwomuc Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 01 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #660, https://www.erdosproblems.com/660, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible The original source is ambiguous as to what the problem is — please add a comment if you have an opinion. Reactions Likes Alfaiz , Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/660",
+        "start": 12421,
+        "end": 32405,
+        "exactness": "region",
+        "sha256": "c81043ea97b72376991223e256036e999821804bb33e0da0a7b24a330e53ede3"
+      }
+    }
+  ],
+  "source_sha256": "f2a384930edec2fc58833eacf8c289c40d9df3d5af89d82f787bf867172f075f",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/850",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Can there exist two distinct integers $x$ and $y$ such that $x,y$ have the same prime factors, $x+1,y+1$ have the same prime factors, and $x+2,y+2$ also have the same prime factors?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/850",
+        "start": 12255,
+        "end": 12442,
+        "exactness": "slice",
+        "sha256": "201ae0a2a99c96fb8ad7c81696160d9792e8fbb822d94d718437dceca5e0b540"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#850 : [Er63,Problem 60] [Er80f] [Er96b] number theory | primes This is sometimes known as the Erdős-Woods conjecture. For just $x,y$ and $x+1,y+1$ one can take\\[x=2(2^r-1)\\]and\\[y = x(x+2).\\]Erdős also asked whether there are any other examples. Makowski [Ma68] observed that $x=75$ and $y=1215$ is another example, since\\[75 = 3\\cdot 5^2 \\textrm{ and }1215 = 3^5\\cdot 5\\]while\\[76 = 2^2\\cdot 19\\textrm{ and }1216 = 2^6\\cdot 19.\\](This example was also found independently by Matthew Bolan, and by Dubickas, who posed it as part of the 2024 team selection test in Lithuania.) No other examples are known. This sequence is listed as A343101 at the OEIS. Shorey and Tijdeman [ShTi16] have shown that, assuming a strong form of the ABC conjecture due to Baker, then the answer to the original problem is no. See also [677] . The case of $x,y$ and $x+1,y+1$ appeared as Problem 1 in the Third Benelux Mathematical Olympiad 2011. This problem is discussed in problem B19 of Guy's collection [Gu04] . Additional thanks to : Matthew Bolan, Stijn Cambie, and Noah Lebowitz-Lockard Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 28 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #850, https://www.erdosproblems.com/850, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A343101 Reactions Likes 0xashrk Open to collaboration None Currently working on None Looks difficult aminb_el , Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/850",
+        "start": 12442,
+        "end": 33756,
+        "exactness": "region",
+        "sha256": "927f6fd8fbce4e2e18d680ff80875863e6d5360fbc12211e344e402d09daed10"
+      }
+    }
+  ],
+  "source_sha256": "369f45bba91d6dda9141ce42f225ab0f26fd6b64339b10ed7af0a5b4aa32457b",
+  "refusals": []
+}

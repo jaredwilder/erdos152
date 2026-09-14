@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1167",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 2$ be finite and $\\lambda$ be an infinite cardinal. Let $\\kappa_\\alpha$ be cardinals for all $\\alpha<\\gamma$. Is it true that\\[2^\\lambda \\to (\\kappa_\\alpha+1)_{\\alpha<\\gamma}^{r+1}\\]implies\\[\\lambda \\to (\\kappa_\\alpha)_{\\alpha<\\gamma}^{r}?\\]Here $+$ means cardinal addition, so that $\\kappa_\\alpha+1=\\kappa_\\alpha$ if $\\kappa_\\alpha$ is infinite.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1167",
+        "start": 12257,
+        "end": 12644,
+        "exactness": "slice",
+        "sha256": "67f37484728334d4546fd988bc71501b3b3a95ed30a926b21ba5631181c4c37e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1167 : [Va99,7.79] set theory | ramsey theory A problem of Erdős, Hajnal, and Rado. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1167, https://www.erdosproblems.com/1167, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Rafikzeraoulia2025 , idrissbado Open to collaboration Rafikzeraoulia2025 Currently working on Rafikzeraoulia2025 Looks difficult Rafikzeraoulia2025 Looks tractable None Could be formalisable None Working on formalising Rafikzeraoulia2025 Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1167",
+        "start": 12644,
+        "end": 31808,
+        "exactness": "region",
+        "sha256": "9d7b9ecd22d2e9205c9d19c63b1f21b19e82fff3d4267e2b8c598abead402ad0"
+      }
+    }
+  ],
+  "source_sha256": "2dc0133259a2764955de75d94aaa507c2d3298aac634d44ea392bafe41997b43",
+  "refusals": []
+}

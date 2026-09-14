@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/348",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For what values of $0\\leq m<n$ is there a complete sequence $A=\\{a_1\\leq a_2\\leq \\cdots\\}$ of integers such that $A$ remains complete after removing any $m$ elements, but $A$ is not complete after removing any $n$ elements?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/348",
+        "start": 12255,
+        "end": 12519,
+        "exactness": "slice",
+        "sha256": "ab5ebce7f37d32d7d3ff88d2394835bc44a183308d355df8db7dcb255c057e90"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#348 : [ErGr80] number theory | complete sequences The Fibonacci sequence $1,1,2,3,5,\\ldots$ shows that $m=1$ and $n=2$ is possible. The sequence of powers of $2$ shows that $m=0$ and $n=1$ is possible. The case $m=2$ and $n=3$ is not known. van Doorn has shown that no such sequence exists for $2\\leq m<n$ if we interpret complete in the strong sense that\\[\\left\\{ \\sum_{n\\in B}n : \\textrm{ for all finite }B\\subset A\\right\\}=\\mathbb{N}.\\]Erdős and Graham most likely meant the weaker notion of completeness which allows finitely many exceptions, however. Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #348, https://www.erdosproblems.com/348, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Woett , SSD117 , Sprite144 Open to collaboration Woett , SSD117 , Sprite144 , aldente Currently working on SSD117 , Sprite144 Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/348",
+        "start": 12519,
+        "end": 32738,
+        "exactness": "region",
+        "sha256": "a8ca14b42ffab3fe9b7dafa073aa683c9b44b0044e49bb94667b42deb210f275"
+      }
+    }
+  ],
+  "source_sha256": "d6b66d15b903463862ab6f29588f5ed4ddba691afb46170e6d5af6f27de6e3ff",
+  "refusals": []
+}

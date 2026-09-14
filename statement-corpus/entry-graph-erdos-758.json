@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/758",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "The cochromatic number of $G$, denoted by $\\zeta(G)$, is the minimum number of colours needed to colour the vertices of $G$ such that each colour class induces either a complete graph or empty graph. Let $z(n)$ be the maximum value of $\\zeta(G)$ over all graphs $G$ with $n$ vertices. Determine $z(n)$ for small values of $z(n)$. In particular is it true that $z(12)=4$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/758",
+        "start": 12262,
+        "end": 12645,
+        "exactness": "slice",
+        "sha256": "74fe47a65a9eba0761ea4302457bcdb16dc28fac126fcdb0dc4e1d4543eb0525"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#758 : [ErGi93] graph theory | chromatic number A question of Erdős and Gimbel, who knew that $4\\leq z(12)\\leq 5$ and $5\\leq z(15)\\leq 6$. The equality $z(12)=4$ would follow from proving that if $G$ is a graph on $12$ vertices such that both $G$ and its complement are $K_4$-free then either $\\chi(G)\\leq 4$ or $\\chi(G^c)\\leq 4$. In fact there do exist such graphs - Bhavik Mehta found computationally that there is exactly one (up to taking the complement) graph on $12$ vertices such that both $G$ and its complement are $K_4$-free with chromatic number $\\geq 5$. This graph was explicitly checked to have cochromatic number $4$, and hence this proves that indeed $z(12)=4$. The values of $z(n)$ are now known for $1\\leq n\\leq 19$:\\[1,1,2,2,3,3,3,3,4,4,4,4,5,5,5,6,6,6,6.\\](The only significant difficulty here is proving $z(12)=4$ - the others follow from easy inductive arguments and the facts that $R(3)=6$ and $R(4)=18$.) It is unknown whether $z(20)=6$ or $7$. Gimbel [Gi86] has shown that $z(n) \\asymp \\frac{n}{\\log n}$. Additional thanks to : Bhavik Mehta Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #758, https://www.erdosproblems.com/758, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes ipitchford Open to collaboration None Currently working on ipitchford Looks difficult None Looks tractable ipitchford Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/758",
+        "start": 12645,
+        "end": 32887,
+        "exactness": "region",
+        "sha256": "1837bff60ea46004b35f6000d5c55ac86a4e55d80a85a47805ae56c2c4a5dbde"
+      }
+    }
+  ],
+  "source_sha256": "9b6f33094448d95140de35f43a1912afe1c4bf8c55f375fd8c70799465f3bdd2",
+  "refusals": []
+}

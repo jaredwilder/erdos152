@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/916",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does every graph with $n$ vertices and $2n-2$ edges contain a cycle and another vertex adjacent to three vertices on the cycle?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/916",
+        "start": 12236,
+        "end": 12369,
+        "exactness": "slice",
+        "sha256": "9dded731c6007737d5a1264831e94e3cf90db1bf1eb5c8ba832be5282c5d652f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#916 : [Er67b] graph theory | cycles This would be a stronger form of the result of Dirac [Di60] that every such graph contains a subgraph homeomorphic to $K_4$. The answer is yes, as proved by Thomassen [Th74] . Additional thanks to : Raphael Steiner Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #916, https://www.erdosproblems.com/916, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising parabamoghv Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/916",
+        "start": 12369,
+        "end": 31610,
+        "exactness": "region",
+        "sha256": "3c7ae5fbe5c8d20f5743d6e51b402cf6bb858d2dad7d8fb65f012b74df27b07b"
+      }
+    }
+  ],
+  "source_sha256": "7aa84fc318b9a4552487033017851279d431c90b4e3525994ceac2e0c24efdc6",
+  "refusals": []
+}

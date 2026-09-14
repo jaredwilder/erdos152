@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/382",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $u\\leq v$ be such that the largest prime dividing $\\prod_{u\\leq m\\leq v}m$ appears with exponent at least $2$. Is it true that $v-u=v^{o(1)}$? Can $v-u$ be arbitrarily large?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/382",
+        "start": 12255,
+        "end": 12439,
+        "exactness": "slice",
+        "sha256": "3b2386de976053677b2fc37e19643e50542a91ac7af97d6aa36bd4dd19b38852"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#382 : [ErGr80] number theory Erdős and Graham report it follows from results of Ramachandra that $v-u\\leq v^{1/2+o(1)}$. Cambie has observed that the first question boils down to some old conjectures on prime gaps. By Cramér's conjecture , for every $\\epsilon>0,$ for every $u$ sufficiently large there is a prime between $u$ and $u+u^\\epsilon$. Thus for $u+u^\\epsilon<v$, the largest prime divisor of \\( \\prod_{u \\leq m \\leq v} m \\) appears with exponent $1$. Since this is not the case in the question, \\( v - u = v^{o(1)} \\). Cambie also gives the following heuristic for the second question. The 'probability' that the largest prime divisor of $n$ is $<n^{1/2}$ is $1-\\log 2>0$. For any fixed $k$, there is therefore a positive 'probability' that there are $k$ consecutive integers around $q^2$ (for a prime $q$) all of whose prime divisors are bounded above by $q$, when $v-u\\geq k$. See [383] for a conjecture along these lines. A similar argument applies if we replace multiplicity $2$ with multiplicity $r$, for any fixed $r\\geq 2$. See also [380] . Additional thanks to : Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #382, https://www.erdosproblems.com/382, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A388850 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/382",
+        "start": 12439,
+        "end": 32937,
+        "exactness": "region",
+        "sha256": "1a6abf5bc75ed0581b50d79fdada07f5449de99c5b049a6b9762950f467f592e"
+      }
+    }
+  ],
+  "source_sha256": "e66481776cad766ec93d0734ba2a24ade8aab7e6196842d67c0bf2038ddbcf30",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/49",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{a_1<\\cdots<a_t\\}\\subseteq \\{1,\\ldots,N\\}$ be such that $\\phi(a_1)<\\cdots<\\phi(a_t)$. The primes are such an example. Are they the largest possible? Can one show that $\\lvert A\\rvert<(1+o(1))\\pi(N)$ or even $\\lvert A\\rvert=o(N)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/49",
+        "start": 12272,
+        "end": 12535,
+        "exactness": "slice",
+        "sha256": "15a6dd0baf0eb107b39cbc9db295a3b71388849017b0809cf645bd11892a4d87"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#49 : [Er95] [Er95c] number theory | primes Erdős remarks that the last conjecture is probably easy, and that similar questions can be asked about $\\sigma(n)$. Solved by Tao [Ta24d] , who proved that\\[ \\lvert A\\rvert \\leq \\left(1+O\\left(\\frac{(\\log\\log x)^5}{\\log x}\\right)\\right)\\pi(x).\\]In [Er95c] Erdős further asks about the situation when $\\phi(a_1)\\leq \\cdots \\leq \\phi(a_t)$. See also [415] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 19 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #49, https://www.erdosproblems.com/49, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A365339 , A365474 Reactions Likes holyterror Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/49",
+        "start": 12535,
+        "end": 32649,
+        "exactness": "region",
+        "sha256": "545d3697fe433afd9d1b7101f1a816db393d955f9e22e59dbc2f38046aac35c7"
+      }
+    }
+  ],
+  "source_sha256": "a679cc2ffb7196b40d77869662d4fef3421d4c3587be186a7f1e79c4a2fac706",
+  "refusals": []
+}

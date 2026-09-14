@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/511",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(z)\\in \\mathbb{C}[z]$ be a monic polynomial of degree $n$. Is it true that, for every $c>1$, the set\\[\\{ z\\in \\mathbb{C} : \\lvert f(z)\\rvert< 1\\}\\]has at most $O_c(1)$ many connected components of diameter $>c$ (where the implied constant is in particular independent of $n$)?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/511",
+        "start": 12236,
+        "end": 12534,
+        "exactness": "slice",
+        "sha256": "bbaa1f4f48c0af38345bea95383af7702b2ebabd11056cecb7d205bd67866294"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#511 : [EHP58,p.142] [Er61,p.247] [Ha74] analysis This is Problem 4.9 in [Ha74] , where it is attributed to Erdős. A problem of Erdős, Herzog, and Piranien [EHP58] , who ask more generally whether\\[\\sum_C \\mathrm{diam}(C) \\leq n2^{1/n}\\]and\\[\\sum_{C}\\max(0, \\mathrm{diam}(C)-1)\\ll 1\\]for all such $f$, where $C$ ranges over the connected components of the set in question. The example $f(z)=z^n-1$ has $\\sum_C \\mathrm{diam}(C)=(1+o(1))n2^{1/n}$. They also asked whether, if the roots of $f$ are all in the disc $\\{\\lvert z\\rvert\\leq 1\\}$, the total number of connected components with diameter $>1$ is absolutely bounded, but noted in an addendum that the answer is no: consider $z^n+1$ and move the zeros $e^{i\\pi/n}$ and $e^{-i\\pi/n}$ a short distance along the circle towards $1$. The set $\\{z: \\lvert f(z)\\rvert \\leq 1\\}$ for $f(z)=z^n+1$ looks like $n$ 'leaves' joined at $0$, and this moving of two roots makes $\\approx n/2$ of the leaves become disconnected at $0$. Each of the resulting components has diameter $>2^{1/n}-\\epsilon$, and hence there are $\\gg n$ components of diameter $>1$. In [Er61] Erdős asks the weaker question given here, with the definition of the set altered so that $<1$ is replaced by $\\leq 1$. Pommerenke [Po61] proved that the answer is no to most of these questions, by showing that, for any $0<d<4$ and $k\\geq 1$ there exist monic polynomials $f\\in \\mathbb{C}[x]$ such that $\\{z: \\lvert f(z)\\rvert\\leq 1\\}$ has at least $k$ connected components of diameter $\\geq d$. This was independently proved by Huang [Hu25] (unaware of the previous work of Pommerenke). Pólya [Po28] showed that $4$ is the best possible here, in that no connected component can have diameter $>4$. A picture of the set in question for $z^5-1$ is here . Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 29 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #511, https://www.erdosproblems.com/511, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/511",
+        "start": 12534,
+        "end": 34065,
+        "exactness": "region",
+        "sha256": "90cd5fe08487d3c06dd3b0dee63d8034d44f149aedfe4b91a4359a8dcef10686"
+      }
+    }
+  ],
+  "source_sha256": "e65e8fe99a196b2c56767906dcab4965b7472524c4627fbbec380136589ef0cd",
+  "refusals": []
+}

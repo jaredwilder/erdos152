@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/455",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $q_1<q_2<\\cdots$ be a sequence of primes such that\\[q_{n+1}-q_n\\geq q_n-q_{n-1}.\\]Must\\[\\lim_n \\frac{q_n}{n^2}=\\infty?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/455",
+        "start": 12255,
+        "end": 12393,
+        "exactness": "slice",
+        "sha256": "16fa1a98e1f989fd7a0886a9f98d3a1b6b0e6265fb5db4abf4a5d6dc59e0a37b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#455 : [ErGr80,p.91] number theory Richter [Ri76] proved that\\[\\liminf_n \\frac{q_n}{n^2}>0.352\\cdots.\\] Additional thanks to : Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 07 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #455, https://www.erdosproblems.com/455, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine , Prasannam Open to collaboration None Currently working on None Looks difficult ebarschkis , Prasannam Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/455",
+        "start": 12393,
+        "end": 31652,
+        "exactness": "region",
+        "sha256": "0de5ac60bbb633bae27b0ef50a5e5f6ad510993ab92e3e2152dbe6ec5234da8d"
+      }
+    }
+  ],
+  "source_sha256": "d10ab83e1b19fdde852bedf5040199b5df6ab0d6f8d0bd559220f06d180abd77",
+  "refusals": []
+}

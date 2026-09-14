@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1001",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $S(N,A,c)$ be the measure of the set of those $\\alpha\\in (0,1)$ such that\\[\\left\\lvert \\alpha-\\frac{x}{y}\\right\\rvert< \\frac{A}{y^2}\\]for some $N\\leq y\\leq cN$ and $(x,y)=1$. Does\\[\\lim_{N\\to \\infty}S(N,A,c)=f(A,c)\\]exist? What is its explicit form?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1001",
+        "start": 12264,
+        "end": 12527,
+        "exactness": "slice",
+        "sha256": "f75b6440dc4154afc92ab30d025a8cab60680440749d7f1f35a809f3ae015f47"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1001 : [Er64b] number theory | diophantine approximation A problem of Erdős, Szüsz, and Turán [EST58] , who proved that\\[f(A,c)=\\frac{12 A\\log c}{\\pi^2}\\]when $0<A< \\frac{c}{1+c^2}$, and also that if $\\min(A,c)>10$ then $S(N,A,c)$ is bounded away from $0$ and $1$. The existence of this limit was proved by Kesten and Sós [KeSo66] , without a method to determine its value. Alternative, more explicit, proofs of the existence of this limit were provided independently by Boca [Bo08] and Xiong and Zaharescu [XiZa06] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1001, https://www.erdosproblems.com/1001, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1001",
+        "start": 12527,
+        "end": 32140,
+        "exactness": "region",
+        "sha256": "20be90e2b6b389e3ecf1d9f9f67da9f2423223089af72130fa5430cf7c171dbd"
+      }
+    }
+  ],
+  "source_sha256": "d50c151080426e3be524bf92e69186c488853af34ff0790ec3a51c169081d1f0",
+  "refusals": []
+}

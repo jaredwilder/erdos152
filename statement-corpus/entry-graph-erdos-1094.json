@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1094",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For all $n\\geq 2k$ the least prime factor of $\\binom{n}{k}$ is $\\leq \\max(n/k,k)$, with only finitely many exceptions.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1094",
+        "start": 12257,
+        "end": 12381,
+        "exactness": "slice",
+        "sha256": "2fc3b292effa63708f3d2cca8379e3856395e443227e8eb90a37fd1c993e197c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1094 : [ELS88] [ELS93] number theory | binomial coefficients A stronger form of [384] that appears in a paper of Erdős, Lacampagne, and Selfridge [ELS88] . Erdős observed that the least prime factor is always $\\leq n/k$ provided $n$ is sufficiently large depending on $k$. Selfridge [Se77] further conjectured that this always happens if $n\\geq k^2-1$, except $\\binom{62}{6}$. The threshold $g(k)$ below which $\\binom{n}{k}$ is guaranteed to be divisible by a prime $\\leq k$ is the subject of [1095] . More precisely, in [ELS88] they conjecture that if $n\\geq 2k$ then the least prime factor of $\\binom{n}{k}$ is $\\leq \\max(n/k,k)$ with the following $14$ exceptions:\\[\\binom{7}{3},\\binom{13}{4},\\binom{23}{5},\\binom{14}{4},\\binom{44}{8},\\binom{46}{10},\\binom{47}{10},\\]\\[\\binom{47}{11},\\binom{62}{6},\\binom{74}{10},\\binom{94}{10},\\binom{95}{10},\\binom{241}{16},\\binom{284}{28}.\\]They also suggest the stronger conjecture that, with a finite number of exceptions, the least prime factor is $\\leq \\max(n/k,\\sqrt{k})$, or perhaps even $\\leq \\max(n/k,O(\\log k))$. Indeed, in [ELS93] they provide some further computational evidence, and point out it is consistent with what they know that in fact this holds with $\\leq \\max(n/k,13)$, with only $12$ exceptions. Discussed in problem B31 and B33 of Guy's collection [Gu04] - there Guy credits Selfridge with the conjecture that if $n> 17.125k$ then $\\binom{n}{k}$ has a prime factor $p\\leq n/k$. This is related to [1093] , in that the only counterexamples to this conjecture can occur from $\\binom{n}{k}$ with deficiency $\\geq 1$. There is an interesting discussion about this problem on MathOverflow . Additional thanks to : Alfaiz Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 24 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1094, https://www.erdosproblems.com/1094, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on will0708 Looks difficult None Looks tractable None Could be formalisable None Working on formalising jbarb <div class=\"p",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1094",
+        "start": 12381,
+        "end": 34042,
+        "exactness": "region",
+        "sha256": "4f279b8c5b2deaed04d42623fd83b1dced549bcfa6a6b5ee4be3e835e93c5667"
+      }
+    }
+  ],
+  "source_sha256": "88161211a33c6d735bafc9f560f66d2134b551c26a17cd324d87abc271acd02c",
+  "refusals": []
+}

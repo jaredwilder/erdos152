@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/87",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\epsilon >0$. Is it true that, if $k$ is sufficiently large, then\\[R(G)>(1-\\epsilon)^kR(k)\\]for every graph $G$ with chromatic number $\\chi(G)=k$? Even stronger, is there some $c>0$ such that, for all large $k$, $R(G)>cR(k)$ for every graph $G$ with chromatic number $\\chi(G)=k$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/87",
+        "start": 12253,
+        "end": 12567,
+        "exactness": "slice",
+        "sha256": "72dd6826baccbe5a4d265fbdae53876aff749e8b73621c2d616d33d1d83c3cd6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#87 : [Er95,p.14] graph theory | ramsey theory Erdős originally conjectured that $R(G)\\geq R(k)$, which is trivial for $k=3$, but fails already for $k=4$, as Faudree and McKay [FaMc93] showed that $R(W)=17$ for the pentagonal wheel $W$. Since $R(k)\\leq 4^k$ this is trivial for $\\epsilon\\geq 3/4$. Yuval Wigderson points out that $R(G)\\gg 2^{k/2}$ for any $G$ with chromatic number $k$ (via a random colouring), which asymptotically matches the best-known lower bounds for $R(k)$. This problem is #12 and #13 in Ramsey Theory in the graphs problem collection. Additional thanks to : Yuval Wigderson Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 17 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #87, https://www.erdosproblems.com/87, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A059442 , possible Reactions Likes Dogmachine , Luca Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/87",
+        "start": 12567,
+        "end": 33005,
+        "exactness": "region",
+        "sha256": "364c5b0d5c33a47ef5af2120552efa4155a2033ab1f4f14e238853698bd22642"
+      }
+    }
+  ],
+  "source_sha256": "e7e27f414cf549da100abf2063ebb7da5b9ba945651ddadd52b40b9e2d7a2b7e",
+  "refusals": []
+}

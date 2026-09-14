@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:339",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq \\mathbb{N}$ be a basis of order $r$. Must the set of integers representable as the sum of exactly $r$ distinct elements from $A$ have positive lower density?",
+      "provenance": {
+        "source": "erdos:339",
+        "start": 11934,
+        "end": 12186,
+        "exactness": "slice",
+        "sha256": "d2bdd07f5f597a757c4ac7ee07323d164459ce4dd640901603577dd6c5ad5644"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "Erd\\H{o}s and Graham also ask whether if the set of integers which are the sum of $r$ elements from $A$ has positive upper density then must the set of integers representable as the sum of exactly $r$ distinct elements have positive upper density? The answer to both questions is yes, as proved by Hegyv\\'{a}ri, Hennecart, and Plagne \\cite{HHP03}.",
+      "provenance": {
+        "source": "erdos:339",
+        "start": 12186,
+        "end": 24953,
+        "exactness": "region",
+        "sha256": "be0d02c80b4966d790045838d2ab24cb99884bee4254df7bb18273a1e3868bbb"
+      }
+    }
+  ],
+  "source_sha256": "c859d725687932ebe1b4f58639aa4b0a4f8a778842c40cbd554f4800d1d69980",
+  "refusals": []
+}

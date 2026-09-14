@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/430",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Fix some integer $n$ and define a decreasing sequence in $[1,n)$ by $a_1=n-1$ and, for $k\\geq 2$, letting $a_k$ be the greatest integer in $[1,a_{k-1})$ such that all of the prime factors of $a_k$ are $>n-a_k$. Is it true that, for sufficiently large $n$, not all of this sequence can be prime?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/430",
+        "start": 12255,
+        "end": 12566,
+        "exactness": "slice",
+        "sha256": "8f291fab6dc9fc59198ba12b540cbd8ff3c9a7a66c7e4cce6573e84c3abb0b5f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#430 : [ErGr80] number theory Erdős and Graham write 'preliminary calculations made by Selfridge indicate that this is the case but no proof is in sight'. For example if $n=8$ we have $a_1=7$ and $a_2=5$ and then must stop. Sarosh Adenwalla has observed that this problem is equivalent to (the first part of) [385] . Indeed, assuming a positive answer to that, for all large $n$, there exists a composite $m<n$ such that all primes dividing $m$ are $>n-m$. It follows that such an $m$ is equal to some $a_i$ in the sequence defined for $[1,n)$, and $m$ is composite by assumption. Additional thanks to : Sarosh Adenwalla Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #430, https://www.erdosproblems.com/430, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult TerenceTao Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/430",
+        "start": 12566,
+        "end": 32198,
+        "exactness": "region",
+        "sha256": "2e2c82a02ff73b4f4c726c44bee169f0115df16cf1ca0b472cdee1153726df5e"
+      }
+    }
+  ],
+  "source_sha256": "c9973ed1053cd20ca9eb91d9d88ed19623e3b050cb6d25aa59118d13938d52d1",
+  "refusals": []
+}

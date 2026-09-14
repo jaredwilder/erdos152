@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/147",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $H$ is bipartite with minimum degree $r$ then there exists $\\epsilon=\\epsilon(H)>0$ such that\\[\\mathrm{ex}(n;H) \\gg n^{2-\\frac{1}{r-1}+\\epsilon}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/147",
+        "start": 12281,
+        "end": 12441,
+        "exactness": "slice",
+        "sha256": "0418c409888ce842d3f831a476d69029e78c7d49fc6ad90b7fdf70bc3fdc0e3d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#147 : [ErSi84] [Er93] [Er97c] graph theory | turan number Conjectured by Erdős and Simonovits [ErSi84] . A probabilistic argument shows that there exists some $\\epsilon=\\epsilon(H)>0$ such that\\[\\mathrm{ex}(n;H) \\gg n^{2-\\frac{2}{r}+\\epsilon}.\\]This conjecture was disproved by Janzer [Ja23] for even $r\\geq 4$. The case $r=3$ was disproved by Janzer [Ja23b] , who constructed, for any $\\epsilon>0$, a $3$-regular bipartite graph $H$ such that\\[\\mathrm{ex}(n;H)\\ll n^{\\frac{4}{3}+\\epsilon}.\\]In [Ja23] Janzer conjectures that the above lower bound is sharp, in that for any $r\\geq 3$ and $\\epsilon>0$ there exists an $r$-regular graph $H$ such that\\[\\mathrm{ex}(n;H) \\ll n^{2-\\frac{2}{r}+\\epsilon}.\\]Janzer's result proves this for even $r\\geq 4$. See also [113] , [146] , and [714] . This problem is #44 in Extremal Graph Theory in the graphs problem collection. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #147, https://www.erdosproblems.com/147, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/147",
+        "start": 12441,
+        "end": 33135,
+        "exactness": "region",
+        "sha256": "4d279ffd7e1e074ce6187dd9bb3bd88e62b5bf740bea3a799c0d10d9e63fd30c"
+      }
+    }
+  ],
+  "source_sha256": "b5eec5b0e05113ca2dbe924bccfde73711c5f8ffb210878c4ed44ef21bcb28ea",
+  "refusals": []
+}

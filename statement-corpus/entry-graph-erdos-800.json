@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/800",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $G$ is a graph on $n$ vertices which has no two adjacent vertices of degree $\\geq 3$ then\\[R(G)\\ll n,\\]where the implied constant is absolute.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/800",
+        "start": 12236,
+        "end": 12387,
+        "exactness": "slice",
+        "sha256": "46b77fde0dcf172703fa78606dbe98040a45d9bd77a5f67c468590c15019f305"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#800 : [BuEr75] graph theory | ramsey theory A problem of Burr and Erdős. Solved in the affirmative by Alon [Al94] . This is a special case of [163] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #800, https://www.erdosproblems.com/800, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/800",
+        "start": 12387,
+        "end": 31356,
+        "exactness": "region",
+        "sha256": "1f84f7374d5f6fa4b311d086992177ebab55ce4fe9edd609ebb7249d5ac9fb01"
+      }
+    }
+  ],
+  "source_sha256": "8eb0c8d7c8d533e293f27169e504bcdc692486aeab7471234421e917194ef1fd",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/911",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\hat{R}(G)$ denote the size Ramsey number, the minimal number of edges $m$ such that there is a graph $H$ with $m$ edges that is Ramsey for $G$. Is there a function $f$ such that $f(x)/x\\to \\infty$ as $x\\to \\infty$ such that, for all large $C$, if $G$ is a graph with $n$ vertices and $e\\geq Cn$ edges then\\[\\hat{R}(G) > f(C) e?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/911",
+        "start": 12255,
+        "end": 12607,
+        "exactness": "slice",
+        "sha256": "5c7f7ca0c26aa8e1d8324c3549a104ffed2d1e0b3e7352363feb704796fb7397"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#911 : [Er82e,p.78] graph theory | ramsey theory Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #911, https://www.erdosproblems.com/911, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes ibex Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/911",
+        "start": 12607,
+        "end": 31287,
+        "exactness": "region",
+        "sha256": "728f6e385bf9120378ade65f3eae45904785111b31472232a023e7d2c5540d7f"
+      }
+    }
+  ],
+  "source_sha256": "4765e6f4b0a24b1215b796829641002ab15618e6959d322cff75dc8f32683b62",
+  "refusals": []
+}

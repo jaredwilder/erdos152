@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/75",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a graph of chromatic number $\\aleph_1$ with $\\aleph_1$ vertices such that for all $\\epsilon>0$ if $n$ is sufficiently large and $H$ is a subgraph on $n$ vertices then $H$ contains an independent set of size $>n^{1-\\epsilon}$? What about an independent set of size $\\gg n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/75",
+        "start": 12253,
+        "end": 12556,
+        "exactness": "slice",
+        "sha256": "59865022f18e9d2219db9672094a932def12d164cfae69dced52a47837642b0b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#75 : [EHS82,p.120] [Er95,p.11] [Er95d,p.63] graph theory | chromatic number Conjectured by Erdős, Hajnal, and Szemerédi [EHS82] . In [Er95] Erdős asks this without the condition that the graph also have $\\aleph_1$ vertices, but this is an oversight, since already in [EHS82] they provide such a construction. In [Er95d] Erdős offers \\$1000 for a complete solution to all problems of this type (for example including also [74] ), and a 'generous reward for any significant partial results'. See also [750] . Additional thanks to : Superhuman Reasoning team at Google DeepMind Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 29 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #75, https://www.erdosproblems.com/75, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/75",
+        "start": 12556,
+        "end": 32733,
+        "exactness": "region",
+        "sha256": "b1b587fa99c76ea2c11e9e4f152b902cdcebfff4e2841f90d8435ff9df7a78a0"
+      }
+    }
+  ],
+  "source_sha256": "193f6cf9844ce2bb6590483e49c8a0d587093e0c6d6cd8ab22ec0d00e2dbbb07",
+  "refusals": []
+}

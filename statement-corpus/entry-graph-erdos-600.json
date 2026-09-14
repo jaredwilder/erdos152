@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/600",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $e(n,r)$ be minimal such that every graph on $n$ vertices with at least $e(n,r)$ edges, each edge contained in at least one triangle, must have an edge contained in at least $r$ triangles. Let $r\\geq 2$. Is it true that\\[e(n,r+1)-e(n,r)\\to \\infty\\]as $n\\to \\infty$? Is it true that\\[\\frac{e(n,r+1)}{e(n,r)}\\to 1\\]as $n\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/600",
+        "start": 12255,
+        "end": 12595,
+        "exactness": "slice",
+        "sha256": "189db92ee0511d2c10d06f2a652d54992d9d8db7ce0fc76712087fff6b3c3ea4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#600 : [Er87] graph theory Ruzsa and Szemerédi [RuSz78] proved that $e(n,r)=o(n^2)$ for any fixed $r$. See also [80] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #600, https://www.erdosproblems.com/600, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Prajwal_Kandel Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/600",
+        "start": 12595,
+        "end": 31798,
+        "exactness": "region",
+        "sha256": "0faa66650aae99e7a160b83020cb5330154d3533bae24f57664abb2eb7a82aed"
+      }
+    }
+  ],
+  "source_sha256": "fef5dae73d3b2d365ab80021f6d776b011ba457d7e5ec4b225e78eaa3f7a3822",
+  "refusals": []
+}

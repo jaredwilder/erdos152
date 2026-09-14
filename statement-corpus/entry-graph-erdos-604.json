@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:604",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Given $n$ distinct points $A\\subset\\mathbb{R}^2$ must there be a point $x\\in A$ such that\\[\\#\\{ d(x,y) : y \\in A\\} \\gg n^{1-o(1)}?\\]Or even $\\gg n/\\sqrt{\\log n}$?",
+      "provenance": {
+        "source": "erdos:604",
+        "start": 11934,
+        "end": 12168,
+        "exactness": "slice",
+        "sha256": "b1fbf340d561727bb91810240d7bcdbeeb77e4275803a6cea985623babbc63ab"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "The pinned distance problem, a stronger form of [89] . The example of an integer grid show that $n/\\sqrt{\\log n}$ would be best possible. It may be true that there are $\\gg n$ many such points (Hunter has noted in the comments that this trivially follows from the existence of a single point), or that this is true on average - for example, if $d(x)$ counts the number of distinct distances from $x$ then in \\cite{Er75f} Erd\\H{o}s conjectured\\[\\sum_{x\\in A}d(x) \\gg \\frac{n^2}{\\sqrt{\\log n}},\\]where $A\\subset \\mathbb{R}^2$ is any set of $n$ points. In \\cite{Er97e} Erd\\H{o}s offers \\$500 for a solution to this problem, but it is unclear whether he intended this for proving the existence of a single such point or for $\\gg n$ many such points. In \\cite{Er97e} Erd\\H{o}s wrote that he initially 'overconjectured' and thought that the answer to this problem is the same as for the number of distinct distances between all pairs (see [89] ), but this was disproved by Harborth. It could be true that the answers are the same up to an additive factor of $n^{o(1)}$. The best known bound is\\[\\gg n^{c-o(1)},\\]due to Katz and Tardos \\cite{KaTa04}, where\\[c=\\frac{48-14e}{55-16e}=0.864137\\cdots.\\]",
+      "provenance": {
+        "source": "erdos:604",
+        "start": 12168,
+        "end": 26167,
+        "exactness": "region",
+        "sha256": "a6e49e248de6ca9c29c29a4b46b3453b603b57bf7f10f3256c4500ec992206d8"
+      }
+    }
+  ],
+  "source_sha256": "87500ff1ccf99b023a2f9cd7a3015afc3841c4a5a942a7f113a5956b73051194",
+  "refusals": []
+}

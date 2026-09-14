@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1160",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $g(n)$ denote the number of groups of order $n$. If $n\\leq 2^m$ then $g(n)\\leq g(2^m)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1160",
+        "start": 12257,
+        "end": 12354,
+        "exactness": "slice",
+        "sha256": "19226a0743207b14c6a28ecc7363372ecd1ef91c99df1d4266f2abf5425b94b2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1160 : [Va99,5.71] group theory This is listed as an open problem (Question 22.16) in [BNV07] , which reports it as a 'quite natural conjecture, whose origin we have been unable to trace satisfactorily. We have heard it attributed at various times to various people, such as Paul Erdős and Graham Higman.' Question 22.18 of [BNV07] suggests the even stronger conjecture\\[\\sum_{n<2^m}g(n) \\leq g(2^m)\\]for all sufficiently large $m$ (perhaps even as soon as $m\\geq 7$). Pantelidakis [Pa03] proved that the original conjecture is true if $n$ is odd and $m\\geq 3619$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 26 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1160, https://www.erdosproblems.com/1160, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A000001 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1160",
+        "start": 12354,
+        "end": 32322,
+        "exactness": "region",
+        "sha256": "72234e3691d02d8d2eff0dd64ce303e09b19422bd6c51cd2f922b43f247865b1"
+      }
+    }
+  ],
+  "source_sha256": "3b01bc94aa7f9cd69ee01c9557357117bfdcd3a2c7467f1c080086f1824d5197",
+  "refusals": []
+}

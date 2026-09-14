@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/352",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there some $c>0$ such that every measurable $A\\subseteq \\mathbb{R}^2$ of measure $\\geq c$ contains the vertices of a triangle of area 1?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/352",
+        "start": 12255,
+        "end": 12404,
+        "exactness": "slice",
+        "sha256": "b8495367377fbeada7c0cc35406a89b1aa2194017f7def2d6f273435bc2beb7a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#352 : [Er78d,p.122] [Er81b,p.30] [Er83d,p.323] [Va99,2.47] geometry Erdős (unpublished) proved that this is true if $A$ has infinite measure, or if $A$ is an unbounded set of positive measure (stating in [Er78d] and [Er83d] it 'follows easily from the Lebesgue density theorem'). In [Er78d] and [Er83d] he speculated that perhaps $C=4\\pi/\\sqrt{27}\\approx 2.418$ works, which would be the best possible, as witnessed by a circle of radius $<2\\cdot 3^{-3/4}$. Further evidence for this is given by a result of Freiling and Mauldin [Ma02] , who proved that if $A$ has outer measure $>4\\pi/\\sqrt{27}$ then $A$ contains the vertices of a triangle with area $>1$. This also proves the same threshold for the original problem under the assumption that $A$ is a compact convex set. Mauldin also discusses this problem in [Ma13] , in which he notes that it suffices to prove this under the assumption that $A$ is the union of the interiors of $n<\\infty$ many compact convex sets. Freiling and Mauldin (see [Ma13] ) have proved this conjecture if $1\\leq n\\leq 3$. Additional thanks to : Boris Alexeev and Vjekoslav Kovac Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (17) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #352, https://www.erdosproblems.com/352, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes JineonBaek , JeewonKim , J_Koizumi_144 , BorisAlexeev , Dogmachine , Vjeko_Kovac Open to collaboration Vjeko_Kovac , JineonBaek , J_Koizumi_144 Currently working on None Looks difficult JineonBaek , Vjeko_Kovac Looks tractable JeewonKim Could be formalisable None Working on formalising None</",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/352",
+        "start": 12404,
+        "end": 34263,
+        "exactness": "region",
+        "sha256": "1581b066c523e4f3f0fa3621cc8c8cac3581dc88d22144cb86c1dd4d5beac00e"
+      }
+    }
+  ],
+  "source_sha256": "9ab728714ee592043862b35ab56f4a01c9b9716f0beeeec8b6fdc1dd29c8bf8e",
+  "refusals": []
+}

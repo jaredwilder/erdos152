@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/510",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $A\\subset \\mathbb{Z}$ is a finite set of size $N$ then is there some absolute constant $c>0$ and $\\theta$ such that\\[\\sum_{n\\in A}\\cos(n\\theta) < -cN^{1/2}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/510",
+        "start": 12255,
+        "end": 12430,
+        "exactness": "slice",
+        "sha256": "ae8a26a4d4e66ac2436de877081ee35d3b6d966cbcf115ab7013f988dff8aef0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#510 : [Er61,p.248] analysis Chowla's cosine problem. Ruzsa [Ru04] (improving on an earlier result of Bourgain [Bo86] ), proved an upper bound of\\[-\\exp(O(\\sqrt{\\log N})).\\]Polynomial bounds were proved independently by Bedert [Be25c] and Jin, Milojević, Tomon, and Zhang [JMTZ25] . The best bound follows from the method of Bedert [Be25c] , which proved the existence of some $c>0$ such that, for all $A$ of size $N$,\\[\\sum_{n\\in A}\\cos(n\\theta) < -cN^{1/7}.\\]The example $A=B-B$, where $B$ is a Sidon set, shows that $N^{1/2}$ would be the best possible here. This problem is Problem 81 on Green's open problems list . This is related to [256] . Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 28 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #510, https://www.erdosproblems.com/510, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes carlos_toledo Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/510",
+        "start": 12430,
+        "end": 32698,
+        "exactness": "region",
+        "sha256": "ef28fa73c32f5f496f2e8ec0b9f361a1e686e2a7ee1665a3e328b855c68c557f"
+      }
+    }
+  ],
+  "source_sha256": "6f601b8b3369500c91bb4885d51a16d74391090bb165e6844d9a121c05befd0d",
+  "refusals": []
+}

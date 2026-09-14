@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/791",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $g(n)$ be minimal such that there exists $A\\subseteq \\{0,\\ldots,n\\}$ of size $g(n)$ with $\\{0,\\ldots,n\\}\\subseteq A+A$. Estimate $g(n)$. In particular is it true that $g(n)\\sim 2n^{1/2}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/791",
+        "start": 12255,
+        "end": 12452,
+        "exactness": "slice",
+        "sha256": "8d990c7580c2e400471bd784afcff550d44340714794139736f360c1b08339a5"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#791 : [Er73] additive combinatorics Such a set is often called a finite additive $2$-basis. A problem of Rohrbach, who proved in [Ro37] \\[(2+c)n \\leq g(n)^2 \\leq 4n\\]for some small constant $c>0$. The current best-known bounds are\\[(2.181\\cdots+o(1))n\\leq g(n)^2 \\leq (3.458\\cdots+o(1))n.\\]The lower bound is due to Yu [Yu15] , and the upper bound is due to Kohonen [Ko17] . (The disproof of $g(n)\\sim 2n^{1/2}$ was accomplished by Mrose [Mr79] , who gave a construction implying $g(n)^2 \\leq \\frac{7}{2}n$.) Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 24 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #791, https://www.erdosproblems.com/791, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A066063 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/791",
+        "start": 12452,
+        "end": 32448,
+        "exactness": "region",
+        "sha256": "ade48bc14a56818bc6c3671ce39b5761586cdaf0f49a2abbdaaa7719fc96f633"
+      }
+    }
+  ],
+  "source_sha256": "1cbde3ac9f8c309f7dc6073faa629c06e4fc3a900129f9596a793bedd2a2b9bc",
+  "refusals": []
+}

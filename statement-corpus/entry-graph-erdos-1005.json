@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1005",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\frac{a_1}{b_1},\\frac{a_2}{b_2},\\ldots$ be the Farey fractions of order $n\\geq 4$. Let $f(n)$ be the largest integer such that if $1\\leq k<l\\leq k+f(n)$ then $\\frac{a_k}{b_k}$ and $\\frac{a_l}{b_l}$ are similarly ordered - in other words,\\[(a_k-a_l)(b_k-b_l)\\geq 0.\\]Estimate $f(n)$ - in particular, is there a constant $c>0$ such that $f(n)=(c+o(1))n$ for all large $n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1005",
+        "start": 12257,
+        "end": 12758,
+        "exactness": "slice",
+        "sha256": "381137f6dc808548d500638f8496665c57ad484abc78f47a8bb6a947bbd0d6d1"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1005 : [Er43] number theory The function $f(n)$ was first considered by Mayer [Ma42] , who proved $f(n)\\to \\infty$ as $n\\to \\infty$. Erdős [Er43] proved $f(n)\\gg n$. van Doorn [vD25b] has proved that\\[\\left(\\frac{1}{12}-o(1)\\right)n\\leq f(n) \\leq \\frac{1}{4}n+O(1),\\]and conjectures that the upper bound is optimal. Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (2) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1005, https://www.erdosproblems.com/1005, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A386893 Reactions Likes Woett , mchoi , dct Open to collaboration Woett , mchoi Currently working on mchoi , Woett Looks difficult None Looks tractable None Could be formalisable None Working on formalising Woett Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1005",
+        "start": 12758,
+        "end": 32969,
+        "exactness": "region",
+        "sha256": "eb6baf01013d4d2f86019c4e8e0b5361df6cd5972f62984127dd2db7dd02894f"
+      }
+    }
+  ],
+  "source_sha256": "962120ac1e331a92be95d4770e39e8d5cfef896c1309c1ccec5accad708c0953",
+  "refusals": []
+}

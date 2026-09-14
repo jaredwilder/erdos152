@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/856",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$ and $f_k(N)$ be the maximum value of $\\sum_{n\\in A}\\frac{1}{n}$, where $A$ ranges over all subsets of $\\{1,\\ldots,N\\}$ which contain no subset of size $k$ with the same pairwise least common multiple. Estimate $f_k(N)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/856",
+        "start": 12255,
+        "end": 12501,
+        "exactness": "slice",
+        "sha256": "e030b37e92d683786e8f99bc2fb4b26902b9ef963e920b4528a909c86eb4ec35"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#856 : [Er70] number theory Erdős [Er70] notes that\\[f_k(N) \\ll \\frac{\\log N}{\\log\\log N}.\\]Indeed, let $A$ be such a set. This in particular implies that, for every $t$, there are $<k$ solutions to $t=ap$ with $a\\in A$ and $p$ prime, whence\\[\\sum_{n\\in A}\\frac{1}{n}\\sum_{p<N}\\frac{1}{p}< k \\sum_{t<N^2}\\frac{1}{t} \\ll \\log N,\\]and the bound follows since $\\sum_{p<N}\\frac{1}{p}\\gg \\log\\log N$. Improved bounds have been given by Tang and Zhang [TaZh25b] , who proved bounds of the shape\\[(\\log N)^{b_k-o(1)}\\leq f_k(N)\\leq (\\log N)^{c_k+o(1)}\\]for some constants $0<b_k\\leq c_k\\leq 1$, and in particular\\[(\\log N)^{0.438}\\leq f_3(N)\\leq (\\log N)^{0.889},\\]say, for all large $N$. The exponents here are related to progress in the sunflower conjecture [857] , to which this problem is closely related. For example, the exponents $c_k$ are $<1$ (and so the upper bound above is non-trivial) if and only if [857] holds for $k$-sunflowers. The analogous question with natural density in place of logarithmic density (that is, we measure $\\lvert A\\rvert$ in place of $\\sum_{n\\in A}\\frac{1}{n}$) is the subject of [536] . In particular Erdős [Er70] has constructed $A\\subseteq \\{1,\\ldots,N\\}$ with $\\lvert A\\rvert \\gg N$ where no four have the same pairwise least common multiple, and hence the interest of the natural density problem is the $k=3$ case. A related combinatorial problem is asked at [857] . Additional thanks to : Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (18) Proof claims (1) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #856, https://www.erdosproblems.com/856, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable dlebedinsky Could be formalisable None Working on formalising None Previous Next <!-- Handle the d",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/856",
+        "start": 12501,
+        "end": 33606,
+        "exactness": "region",
+        "sha256": "8a3fc02b21d5609d68db98f15bfd4af3b28878dd4da8191d19a8b16f6375751a"
+      }
+    }
+  ],
+  "source_sha256": "dcb949a159713d54911118d548a75e3c8ef0a69329ce3602d40413ffaa568ce3",
+  "refusals": []
+}

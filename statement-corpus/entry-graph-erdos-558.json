@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/558",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $R_k(G)$ denote the minimal $m$ such that if the edges of $K_m$ are $k$-coloured then there is a monochromatic copy of $G$. Determine\\[R_k(K_{s,t})\\]where $K_{s,t}$ is the complete bipartite graph with $s$ vertices in one component and $t$ in the other.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/558",
+        "start": 12255,
+        "end": 12518,
+        "exactness": "slice",
+        "sha256": "4b5043180d3a92c05b76e01014a647a7e1df1104e91183dbd334e9261f5afa94"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#558 : [Er81c] graph theory | ramsey theory Chung and Graham [ChGr75] prove the general bounds\\[(2\\pi\\sqrt{st})^{\\frac{1}{s+t}}\\left(\\frac{s+t}{e^2}\\right)k^{\\frac{st-1}{s+t}}\\leq R_k(K_{s,t})\\leq (t-1)(k+k^{1/s})^s\\]and determined\\[R_k(K_{2,2})=(1+o(1))k^2.\\]Alon, Rónyai, and Szabó [ARS99] have proved that\\[R_k(K_{3,3})=(1+o(1))k^3\\]and that if $s\\geq (t-1)!+1$ then\\[R_k(K_{s,t})\\asymp k^t.\\]This problem is #27 in Ramsey Theory in the graphs problem collection. Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 08 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #558, https://www.erdosproblems.com/558, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/558",
+        "start": 12518,
+        "end": 32353,
+        "exactness": "region",
+        "sha256": "cf225d3c8f774598bd8a276482db5b225988b459d4b7eed8f2846d656cea442e"
+      }
+    }
+  ],
+  "source_sha256": "3e3b6947138a1d01e7d5086673f867cf1eaadfce3b4a0d67c358d123c6e5d4e8",
+  "refusals": []
+}

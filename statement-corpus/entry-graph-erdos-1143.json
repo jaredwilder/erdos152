@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1143",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $p_1<\\cdots<p_u$ be primes and let $k\\geq 1$. Let $F_k(p_1,\\ldots,p_u)$ be such that every interval of $k$ positive integers contains at least $F_k(p_1,\\ldots,p_u)$ multiples of at least one of the $p_i$. Estimate $F_k(p_1,\\ldots,p_u)$, particularly in the range $k=\\alpha p_u$ for constant $\\alpha>2$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1143",
+        "start": 12257,
+        "end": 12585,
+        "exactness": "slice",
+        "sha256": "e27c9618165c88816f7ee24c2491b5c4e57b260c5841a2b7a23ef282991e3bcf"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1143 : [Va99,1.8] number theory | primes In [Va99] it is reported that Erdős and Selfridge found 'the exact bound' when $2<\\alpha<3$, and that 'if $\\alpha>3$ then very little is known'. No reference is given, and I cannot find a relevant paper of Erdős and Selfridge. See also [970] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1143, https://www.erdosproblems.com/1143, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1143",
+        "start": 12585,
+        "end": 31724,
+        "exactness": "region",
+        "sha256": "488d07c29da1ba97bef6fcc579689b8a35f1891b7081ffb698b158292576a878"
+      }
+    }
+  ],
+  "source_sha256": "18a1e39cced2ef3dcc416caaa8cec4e17251bf941785192bd413945a1f2740cb",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1210",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subseteq [1,n)$ be a set of integers such that $(a,b)=1$ for all distinct $a,b\\in A$. Is it true that\\[\\sum_{a\\in A}\\frac{1}{n-a}\\leq \\sum_{p<n}\\frac{1}{p}+O(1)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1210",
+        "start": 12257,
+        "end": 12437,
+        "exactness": "slice",
+        "sha256": "2ac3462a285191eee7e3982894619f49a94454d4f284aadc835e59b226188dc7"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1210 : [Er77c,p.64] [Er80,p.112] number theory In [Er80] he claims he 'did not state [this] quite correctly' in [Er77c] . The problem in [Er77c] which Erdős is presumably referring to states that if $n<q_1<\\cdots<q_k\\leq m$ is the set of primes in $(n,m]$ then\\[\\sum \\frac{1}{q_i-n}< \\sum_{p<m-n}\\frac{1}{p}+O(1).\\]See also [460] and [950] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1210, https://www.erdosproblems.com/1210, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes hunterbates Open to collaboration None Currently working on None Looks difficult None Looks tractable TFBloom , Basile_Beyer_de_Ryke , hunterbates Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1210",
+        "start": 12437,
+        "end": 32560,
+        "exactness": "region",
+        "sha256": "5a04fe4e67e1a3c2ec4d13c3fe137c03b75dc3a1bc924da25294925ad3c66aad"
+      }
+    }
+  ],
+  "source_sha256": "d665a6ab26fb1d0cc269421854a4512e836fccf3d1524fd1a9798de344c0c2e6",
+  "refusals": []
+}

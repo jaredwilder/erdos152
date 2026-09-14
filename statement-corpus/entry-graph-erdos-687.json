@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:687",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $Y(x)$ be the maximal $y$ such that there exists a choice of congruence classes $a_p$ for all primes $p\\leq x$ such that every integer in $[1,y]$ is congruent to at least one of the $a_p\\pmod{p}$. Give good estimates for $Y(x)$. In particular, can one prove that $Y(x)=o(x^2)$ or even $Y(x)\\ll x^{1+o(1)}$?",
+      "provenance": {
+        "source": "erdos:687",
+        "start": 11934,
+        "end": 12324,
+        "exactness": "slice",
+        "sha256": "0cfe8683ba15558eaf0f241c077711a5f5e324ea700134e0c8777ed5f0f6cb1d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "This function (associated with Jacobsthal) is closely related to the problem of gaps between primes (see [4] ). The best known upper bound is due to Iwaniec \\cite{Iw78},\\[Y(x) \\ll x^2.\\]The best lower bound is due to Ford, Green, Konyagin, Maynard, and Tao \\cite{FGKMT18},\\[Y(x) \\gg x\\frac{\\log x\\log\\log\\log x}{\\log\\log x},\\]improving on a previous bound of Rankin \\cite{Ra38}. Maier and Pomerance have conjectured that $Y(x)\\ll x(\\log x)^{2+o(1)}$. In \\cite{Er80} he writes 'It is not clear who first formulated this problem - probably many of us did it independently. I offer the maximum of \\$1000 dollars and $1/2$ my total savings for clearing up of this problem.' In \\cite{Er80} Erd\\H{o}s also asks about a weaker variant in which all except $o(y/\\log y)$ of the integers in $[1,y]$ are congruent to at least one of the $a_p\\pmod{p}$, and in particular asks if the answer is very different. See also [688] and [689] . A more general Jacobsthal function is the focus of [970] .",
+      "provenance": {
+        "source": "erdos:687",
+        "start": 12324,
+        "end": 26363,
+        "exactness": "region",
+        "sha256": "e7ce17d2e77da5ee3534d793b31ade3526a4a5dff284aa610a90ee746fc90db3"
+      }
+    }
+  ],
+  "source_sha256": "ae391dce628063ce7313767fcd28dea718ffbe029149a50fd240611f10af33ff",
+  "refusals": []
+}

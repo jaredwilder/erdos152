@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/881",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subset\\mathbb{N}$ be an additive basis of order $k$ which is minimal, in the sense that if $B\\subset A$ is any infinite set then $A\\backslash B$ is not a basis of order $k$. Must there exist an infinite $B\\subset A$ such that $A\\backslash B$ is a basis of order $k+1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/881",
+        "start": 12255,
+        "end": 12544,
+        "exactness": "slice",
+        "sha256": "18503c309185453e79ac8e28cfb6f9a970ca01648d7cff029ff757ed1c30c3e7"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#881 : [Er98] number theory | additive basis Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #881, https://www.erdosproblems.com/881, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes ebarschkis , Svyable Open to collaboration Svyable Currently working on Svyable Looks difficult None Looks tractable Svyable Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/881",
+        "start": 12544,
+        "end": 31468,
+        "exactness": "region",
+        "sha256": "a9754a2e53ec70bbf79618a92fb11d2deba7417bacef08fa20eb99beb144f5ba"
+      }
+    }
+  ],
+  "source_sha256": "48263794b240dfd01d5e883f690c8eba2cd07fdc914857af99840531fa1e8121",
+  "refusals": []
+}

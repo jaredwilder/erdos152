@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/726",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "As $n\\to \\infty$ ranges over integers\\[\\sum_{p\\leq n}1_{n\\in (p/2,p)\\pmod{p}}\\frac{1}{p}\\sim \\frac{\\log\\log n}{2}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/726",
+        "start": 12255,
+        "end": 12377,
+        "exactness": "slice",
+        "sha256": "3baec77bac71a85349bca0eab772040bf88f3676789666978eeee10c4f4ad5de"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#726 : [EGRS75] number theory A conjecture of Erdős, Graham, Ruzsa, and Straus [EGRS75] . For comparison the classical estimate of Mertens states that\\[\\sum_{p\\leq n}\\frac{1}{p}\\sim \\log\\log n.\\]By $n\\in (p/2,p)\\pmod{p}$ we mean $n\\equiv r\\pmod{p}$ for some integer $r$ with $p/2<r<p$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #726, https://www.erdosproblems.com/726, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes ebarschkis Open to collaboration None Currently working on None Looks difficult ebarschkis , Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/726",
+        "start": 12377,
+        "end": 31568,
+        "exactness": "region",
+        "sha256": "5afece55f62e1fc5eeb4b38ecbc5d0f4060dbce533dcd4a2a5c71add424338a3"
+      }
+    }
+  ],
+  "source_sha256": "8967f607cd7b6fb411ca406090f5f876ac87b82839892cd50c3c9d93ebd5cc23",
+  "refusals": []
+}

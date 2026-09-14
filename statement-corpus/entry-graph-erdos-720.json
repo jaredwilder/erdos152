@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/720",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\hat{R}(G)$ denote the size Ramsey number, the minimal number of edges $m$ such that there is a graph $H$ with $m$ edges such that in any $2$-colouring of the edges of $H$ there is a monochromatic copy of $G$. Is it true that, if $P_n$ is the path of length $n$, then\\[\\hat{R}(P_n)/n\\to \\infty\\]and\\[\\hat{R}(P_n)/n^2 \\to 0?\\]Is it true that, if $C_n$ is the cycle with $n$ edges, then\\[\\hat{R}(C_n) =o(n^2)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/720",
+        "start": 12243,
+        "end": 12671,
+        "exactness": "slice",
+        "sha256": "10a20b29404116e7be012be66254c10081eb4ad73130f2387577f7859596be56"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#720 : [Er76c,p.5] [EFRS78b] [Er78,p.33] [Er81] [Er82e] graph theory | ramsey theory A problem of Erdős, Faudree, Rousseau, and Schelp [EFRS78b] . Answered by Beck [Be83b] , who proved that in fact $\\hat{R}(P_n)\\ll n$ and $\\hat{R}(C_n)\\ll n$. A more general problem concerning the size Ramsey number of graphs with bounded maximum degree is [559] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 07 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #720, https://www.erdosproblems.com/720, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/720",
+        "start": 12671,
+        "end": 32637,
+        "exactness": "region",
+        "sha256": "829b21fce51a57abba106cedef7fe7dbaf20d4ef7be92828f7df34f1826d7597"
+      }
+    }
+  ],
+  "source_sha256": "5865bb7400db8ab57bb3bd4a4bb70498739136ebcc364f77421dcc56c49bd9b1",
+  "refusals": []
+}

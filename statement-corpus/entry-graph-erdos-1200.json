@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1200",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "There exists a constant $C$ such that for all large $x$ there is a collection of primes $p_1<\\ldots<p_k<x$ with $\\sum\\frac{1}{p_i}<C$ together with a system of congruences $a_i\\pmod{p_i}$ such that every integer $n<x$ satisfies at least one of these congruences.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1200",
+        "start": 12257,
+        "end": 12545,
+        "exactness": "slice",
+        "sha256": "6c25dad6aa3d6eb4900b7f96c1e8fcb1fbec29afe96f5824e6524711d7ca6345"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1200 : [Er80,p.106] number theory | primes A conjecture of Erdős and Ruzsa which Erdős described in [Er80] as 'surprising'. He says that if this is correct then 'very likely' the $\\epsilon_n$ in [688] is $\\gg 1$ - certainly proving $\\epsilon_n\\geq c$ would prove this conjecture (taking $P$ to be all primes in $[x^c,x]$). In [ErRu80] this is asked as a question: if $p_1<\\cdots<p_k<x$ are primes with $\\sum \\frac{1}{p_i}\\leq C$ and $a_i\\pmod{p_i}$ are any residue classes then must there always be $\\gg_K x$ many integers $n<x$ avoiding all of them? (Of course is the answer is yes then this disproves the main conjecture.) Erdős and Ruzsa [ErRu80] proved that for any $C>0$ there exists a set of primes $P$ such that $\\sum_{p\\in P}\\frac{1}{p}\\leq C$ and the number of integers $n\\leq x$ divisible by at least one $p\\in P$ is $\\gg_C x$. See also [783] and [784] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1200, https://www.erdosproblems.com/1200, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1200",
+        "start": 12545,
+        "end": 32926,
+        "exactness": "region",
+        "sha256": "0899b030610f53ddac1bef057db96169a6a5fa86bf70c8c30db8c265b350d754"
+      }
+    }
+  ],
+  "source_sha256": "616fe87a86b0c64df89572b3d34d38134f776e33cccf07598a6084101ddc20a4",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/524",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any $t\\in (0,1)$ let $t=\\sum_{k=1}^\\infty \\epsilon_k(t)2^{-k}$ (where $\\epsilon_k(t)\\in \\{0,1\\}$). What is the correct order of magnitude (for almost all $t\\in(0,1)$) for\\[M_n(t)=\\max_{x\\in [-1,1]}\\left\\lvert \\sum_{k\\leq n}(-1)^{\\epsilon_k(t)}x^k\\right\\rvert?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/524",
+        "start": 12255,
+        "end": 12526,
+        "exactness": "slice",
+        "sha256": "11955c2d2edd68304dbe25f9ce884666b64b1ba7ee2ef18a8a0191a65bbf6309"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#524 : [Er61,p.253] analysis | probability | polynomials A problem of Salem and Zygmund [SaZy54] . Chung showed that, for almost all $t$, there exist infinitely many $n$ such that\\[M_n(t) \\ll \\left(\\frac{n}{\\log\\log n}\\right)^{1/2}.\\]Erdős (unpublished) showed that for almost all $t$ and every $\\epsilon>0$ we have $\\lim_{n\\to \\infty}M_n(t)/n^{1/2-\\epsilon}=\\infty$. Additional thanks to : Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (11) Proof claims (0) More information and links This page was last edited 27 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #524, https://www.erdosproblems.com/524, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on msawhney Looks difficult None Looks tractable msawhney , ebarschkis Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/524",
+        "start": 12526,
+        "end": 31967,
+        "exactness": "region",
+        "sha256": "7bba89033bc542b70ff8ba5b62afe82e3162f9bf6361cc1db95f957a0b65e454"
+      }
+    }
+  ],
+  "source_sha256": "1bf9d91220bb59eafd2c4184ce61bb8f0eabf9d03cebac367c2537980d709e88",
+  "refusals": []
+}

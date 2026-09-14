@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/521",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $(\\epsilon_k)_{k\\geq 0}$ be independently uniformly chosen at random from $\\{-1,1\\}$. If $R_n$ counts the number of real roots of $f_n(z)=\\sum_{0\\leq k\\leq n}\\epsilon_k z^k$ then is it true that, almost surely,\\[\\lim_{n\\to \\infty}\\frac{R_n}{\\log n}=\\frac{2}{\\pi}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/521",
+        "start": 12255,
+        "end": 12530,
+        "exactness": "slice",
+        "sha256": "894f4ea6b94a6adcf3f060144fb4fa92f199f23b77b42a6c1d0957e9f598b76f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#521 : [Er61,p.252] analysis | polynomials | probability Erdős and Offord [EO56] showed that the number of real roots of a random degree $n$ polynomial with $\\pm 1$ coefficients is $(\\frac{2}{\\pi}+o(1))\\log n$. It is ambiguous in [Er61] whether Erdős intended the coefficients to be uniformly chosen from $\\{-1,1\\}$ or $\\{0,1\\}$. In the latter case, the constant $\\frac{2}{\\pi}$ should be $\\frac{1}{\\pi}$ (see the discussion in the comments). In the case of $\\{-1,1\\}$ Do [Do24] proved that, if $R_n[-1,1]$ counts the number of roots in $[-1,1]$, then, almost surely,\\[\\lim_{n\\to \\infty}\\frac{R_n[-1,1]}{\\log n}=\\frac{1}{\\pi}.\\]See also [522] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (20) Proof claims (2) More information and links This page was last edited 19 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #521, https://www.erdosproblems.com/521, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes lof310 , Vjeko_Kovac Open to collaboration None Currently working on lof310 Looks difficult None Looks tractable TerenceTao , lof310 , MalekZ Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/521",
+        "start": 12530,
+        "end": 32665,
+        "exactness": "region",
+        "sha256": "a685e91c1a9ad34b4850a78e2d185b5d8afd0db47182c8ced2ae677bde1d0a37"
+      }
+    }
+  ],
+  "source_sha256": "803e82fcfb724abfcfefdc4336891ca0d0dd03b35cde22b0b23442546fe0edda",
+  "refusals": []
+}

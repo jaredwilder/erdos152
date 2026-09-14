@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/566",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $G$ be such that any subgraph on $k$ vertices has at most $2k-3$ edges. Is it true that, if $H$ has $m$ edges and no isolated vertices, then\\[R(G,H)\\ll m?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/566",
+        "start": 12255,
+        "end": 12421,
+        "exactness": "slice",
+        "sha256": "b4ce4f4123bf5b44e19accf3fbbee4594ea0ebbfc0ffc2b22bcc609db896fd85"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#566 : [EFRS93] graph theory | ramsey theory In other words, is $G$ Ramsey size linear? This fails for a graph $G$ with $n$ vertices and $2n-2$ edges (for example with $H=K_n$). Erdős, Faudree, Rousseau, and Schelp [EFRS93] have shown that any graph $G$ with $n$ vertices and at most $n+1$ edges is Ramsey size linear. Implies [567] . This problem is #31 in Ramsey Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #566, https://www.erdosproblems.com/566, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult ebarschkis Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/566",
+        "start": 12421,
+        "end": 31918,
+        "exactness": "region",
+        "sha256": "e08bf516ece71ba797040ee260a1b093ce0cad9bc9093f0452596873a193392a"
+      }
+    }
+  ],
+  "source_sha256": "e38d04d14ef7d3322e5a33f30f7f20691e20f47990684c2a1e9d6597de8ac2b9",
+  "refusals": []
+}

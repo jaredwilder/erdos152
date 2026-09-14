@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/832",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 3$ and $k$ be sufficiently large in terms of $r$. Is it true that every $r$-uniform hypergraph with chromatic number $k$ has at least\\[\\binom{(r-1)(k-1)+1}{r}\\]edges, with equality only for the complete graph on $(r-1)(k-1)+1$ vertices?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/832",
+        "start": 12236,
+        "end": 12489,
+        "exactness": "slice",
+        "sha256": "a6cdc6622de37b467d5f111e9106a8a615c077267687968b02249ac9b60be69d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#832 : [Er74d] graph theory | hypergraphs | chromatic number When $r=2$ it is a classical fact that chromatic number $k$ implies at least $\\binom{k}{2}$ edges. Erdős asked for $k$ to be large in this conjecture since he knew it to be false for $r=k=3$, as witnessed by the Steiner triples with $7$ vertices and $7$ edges. This was disproved by Alon [Al85] , who proved, for example, that there exists some absolute constant $C>0$ such that if $r\\geq C$ and $k\\geq Cr$ then there exists an $r$-uniform hypergraph with chromatic number $\\geq k$ with at most\\[\\leq (7/8)^r\\binom{(r-1)(k-1)+1}{r}\\]many edges. In general, Alon gave an upper bound for the minimal number of edges using Turán numbers. Using known bounds for Turán numbers then suffices to disprove this conjecture for all $r\\geq 4$. The validity of this conjecture for $r=3$ remains open. If $m(r,k)$ denotes the minimal number of edges of any $r$-uniform hypergraph with chromatic number $>k$ then Akolzin and Shabanov [AkSh16] have proved\\[\\frac{r}{\\log r}k^r \\ll m(r,k) \\ll (r^3\\log r) k^r,\\]where the implied constants are absolute. Cherkashin and Petrov [ChPe20] have proved that, for fixed $r$, $m(r,k)/k^r$ converges to some limit as $k\\to \\infty$. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #832, https://www.erdosproblems.com/832, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/832",
+        "start": 12489,
+        "end": 33062,
+        "exactness": "region",
+        "sha256": "ea7e69a35ee3a946b00688b89af2fcbc56e153a3d596b61d666c7d759e388a0d"
+      }
+    }
+  ],
+  "source_sha256": "93af7c79a3f6782c80173b6b1a44848137d16ed46ec274c66cc9c1419fa56b86",
+  "refusals": []
+}

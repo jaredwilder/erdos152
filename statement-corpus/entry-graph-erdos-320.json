@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/320",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $S(N)$ count the number of distinct sums of the form $\\sum_{n\\in A}\\frac{1}{n}$ for $A\\subseteq \\{1,\\ldots,N\\}$. Estimate $S(N)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/320",
+        "start": 12262,
+        "end": 12401,
+        "exactness": "slice",
+        "sha256": "8fa086640f2f478cc37ad4fbb721d5422c67fd4ddcedd208e0d0d25f7aef986c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#320 : [ErGr80,p.43] number theory | unit fractions Bleicher and Erdős [BlEr75] proved the lower bound\\[\\log S(N)\\geq \\frac{N}{\\log N}\\left(\\log 2\\prod_{i=3}^k\\log_iN\\right),\\]valid for $k\\geq 4$ and $\\log_kN\\geq k$, and also [BlEr76b] proved the upper bound\\[\\log S(N)\\leq \\frac{N}{\\log N}\\left(\\log_r N \\prod_{i=3}^r \\log_iN\\right),\\]valid for $r\\geq 1$ and $\\log_{2r}N\\geq 1$. (In these bounds $\\log_in$ denotes the $i$-fold iterated logarithm.) Bettin, Grenié, Molteni, and Sanna [BGMS25] improved the lower bound to\\[\\log S(N) \\geq \\frac{N}{\\log N}\\left(2\\log 2\\left(1-\\frac{3/2}{\\log_kN}\\right)\\prod_{i=3}^k\\log_iN\\right),\\]valid for $k\\geq 4$ and $\\log_kN\\geq 3/2$. (In particular this goes to infinity faster than the lower bound of Bleicher and Erdős.) GPT 5.6 Sol (prompted by Young, Zhu, and Luo) proved an upper bound of the same order of magnitude (using the same iterative upper bound of [BlEr76b] ), and thus\\[\\log S(N) \\asymp \\frac{N}{\\log N}\\prod_{j=3}^k\\log_j N,\\]where $t$ is chosen such that $\\log_k N=O(1)$. See the proof claims and associated comments for more details and the proof. See also [321] . Additional thanks to : Boris Alexeev, Dustin Mixon, and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (2) More information and links This page was last edited 16 July 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #320, https://www.erdosproblems.com/320, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A072207 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/320",
+        "start": 12401,
+        "end": 33426,
+        "exactness": "region",
+        "sha256": "dbd65a55482d82bb111256f41302180ec499f7a7e1b13aea3440826ab058a623"
+      }
+    }
+  ],
+  "source_sha256": "e196fdc6202e11976a116191a1d5d824f9b18a9610333c4bb92f1601067cd5eb",
+  "refusals": []
+}

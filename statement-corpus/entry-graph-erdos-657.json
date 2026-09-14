@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/657",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that if $A\\subset \\mathbb{R}^2$ is a set of $n$ points such that every subset of $3$ points determines $3$ distinct distances (i.e. $A$ has no isosceles triangles) then $A$ must determine at least $f(n)n$ distinct distances, for some $f(n)\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/657",
+        "start": 12255,
+        "end": 12523,
+        "exactness": "slice",
+        "sha256": "13f50e83cfd8e942a84af0f0f198749c8b1803e5607f3da76f7c1da9364dd4b4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#657 : [Er73] [Er75f,p.101] [ErPa90] [Er97e] geometry | distances In [Er73] Erdős attributes this problem (more generally in $\\mathbb{R}^k$) to himself and Davies. In [Er97e] he does not mention Davis, but says this problem was investigated by himself, Füredi, Ruzsa, and Pach. In [Er73] Erdős says it is not even known in $\\mathbb{R}$ whether $f(n)\\to \\infty$. Sarosh Adenwalla has observed that this is equivalent to minimising the number of distinct differences in a set $A\\subset \\mathbb{R}$ of size $n$ without three-term arithmetic progressions. Dumitrescu [Du08] proved that, in these terms,\\[(\\log n)^c \\leq f(n) \\leq 2^{O(\\sqrt{\\log n})}\\]for some constant $c>0$. Hunter observed in the comments that a result of Ruzsa coupled with standard tools of additive combinatorics (with details given by Alfaiz and Tang) allow recent progress on the size of subsets without three-term arithmetic progression (see [BlSi23] which improves slightly on the bounds due to Kelley and Meka [KeMe23] ) yield\\[2^{c(\\log n)^{1/9}}\\leq f(n)\\]for some constant $c>0$. Straus has observed that if $2^k\\geq n$ then there exist $n$ points in $\\mathbb{R}^k$ which contain no isosceles triangle and determine at most $n-1$ distances. See also [135] . Additional thanks to : Sarosh Adenwalla, Alfaiz, Zach Hunter, and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 15 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #657, https://www.erdosproblems.com/657, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/657",
+        "start": 12523,
+        "end": 33924,
+        "exactness": "region",
+        "sha256": "f8c948b1e9860786c6f86354bed67e8826a0d37ad699dd31599731e13254f2e5"
+      }
+    }
+  ],
+  "source_sha256": "dd93e5e832f0ed52a75cebc8f1399402c251f25e0da9d47c89a1908725e94a3d",
+  "refusals": []
+}

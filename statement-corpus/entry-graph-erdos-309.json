@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/309",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $N\\geq 1$. How many integers can be written as the sum of distinct unit fractions with denominators from $\\{1,\\ldots,N\\}$? Are there $o(\\log N)$ such integers?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/309",
+        "start": 12274,
+        "end": 12443,
+        "exactness": "slice",
+        "sha256": "0f6d4eae120d602dd8347f850adee1d978e5e4cdefbc3c40a3bc7ac8a72cd12f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#309 : [ErGr80] number theory | unit fractions If the number of such integers is $N(n)$ then it is trivial that $N(n)\\leq \\log n+O(1)$. Yokota [Yo97] proved that $N(n)\\geq \\log n-O(\\log\\log n)$. Croot [Cr99] proved that every integer at most\\[\\leq \\sum_{n\\leq N}\\frac{1}{n}-(\\tfrac{9}{2}+o(1))\\frac{(\\log\\log N)^2}{\\log N}\\]can be so represented. If $F(N)$ counts the number of integers which can be represented in this fashion, then the current best lower bound known is\\[F(N) \\geq \\log N+\\gamma -\\left(\\frac{\\pi^2}{3}+o(1)\\right)\\frac{(\\log\\log N)^2}{\\log N}\\]due to Yokota [Yo02] . Additional thanks to : Alfaiz, epistemologist, Zach Hunter, and Mehtaab Sawhney Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 20 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #309, https://www.erdosproblems.com/309, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A217693 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/309",
+        "start": 12443,
+        "end": 32621,
+        "exactness": "region",
+        "sha256": "55916bd3c25356f6a2eaeb8a4ba633b80d1144e9a70de63ec780df112ac1f85b"
+      }
+    }
+  ],
+  "source_sha256": "2b8171682b38b07435c06c3c1cd1cc1539745a4151211e6279e9fb27b30e37e4",
+  "refusals": []
+}

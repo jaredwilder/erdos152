@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/135",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subset \\mathbb{R}^2$ be a set of $n$ points such that any subset of size $4$ determines at least $5$ distinct distances. Must $A$ determine $\\gg n^2$ many distances?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/135",
+        "start": 12281,
+        "end": 12459,
+        "exactness": "slice",
+        "sha256": "d0960c75a9f4ca90da4d558c95fba86a80e5978382b4b3943213609e46c3c040"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#135 : [Er97b,p.231] [Er97e,p.531] distances | geometry A problem of Erdős and Gyárfás. Erdős could not even prove that the number of distances is at least $f(n)n$ where $f(n)\\to \\infty$. Erdős [Er97b] also makes the even stronger conjecture that $A$ must contain $\\gg n$ many points such that all pairwise distances are distinct. Answered in the negative by Tao [Ta24c] , who proved that for any large $n$ there exists a set of $n$ points in $\\mathbb{R}^2$ such that any four points determine at least five distinct distances, yet there are $\\ll n^2/\\sqrt{\\log n}$ distinct distances in total. Tao discusses his solution in a blog post . More generally, one can ask how many distances $A$ must determine if every set of $p$ points determines at least $q$ distances. See also [136] , [657] , and [659] . Additional thanks to : Sarosh Adenwalla and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 16 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #135, https://www.erdosproblems.com/135, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/135",
+        "start": 12459,
+        "end": 33045,
+        "exactness": "region",
+        "sha256": "23543c18e6ac73937300b1d16468691444af07e0c8ada44c2751c5ea3473f0d1"
+      }
+    }
+  ],
+  "source_sha256": "a9a9d4c3216c64defe9e0a32c271bf5cc2330f8bb8c9ae5a27dd24307a5e56c4",
+  "refusals": []
+}

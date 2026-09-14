@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1142",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Are there infinitely many $n$ (or any $n>105$) such that $n-2^k$ is prime for all $1<2^k<n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1142",
+        "start": 12257,
+        "end": 12367,
+        "exactness": "slice",
+        "sha256": "31d9fca909f085e3647976ebae32bb58b0fb330d8829b38c2f06b08247c4191b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1142 : [Va99,1.7] number theory | primes The only known such $n$ are\\[4,7,15,21,45,75,105.\\]This is A039669 in the OEIS. Mientka and Weitzenkamp [MiWe69] have proved there are no other such $n\\leq 2^{44}$. Vaughan [Va73] has proved that the number of $n\\leq N$ such that $n-2^k$ is prime for all $1<2^k<n$ is\\[< \\exp\\left(-c\\frac{\\log \\log \\log N}{\\log\\log N}\\log N\\right)N\\]for some constant $c>0$. This is discussed in problem A19 of Guy's collection [Gu04] . There is also further discussion on the Prime Puzzles website . Erdős made the stronger conjecture (see [236] ) that that number of $1<2^k<n$ for which $n-2^k$ is prime is $o(\\log n)$. Additional thanks to : ebarschkis Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 05 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1142, https://www.erdosproblems.com/1142, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A039669 Reactions Likes ebarschkis , Dogmachine , KnightRiderDutt Open to collaboration None Currently working on None Looks difficult ebarschkis Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1142",
+        "start": 12367,
+        "end": 33204,
+        "exactness": "region",
+        "sha256": "6b1c871370c8b13755848af33084019dcc3e749e47fdc0ef1d1290e9c9a618ee"
+      }
+    }
+  ],
+  "source_sha256": "a2de8de42457e1acbad6a251c13ab634656b028719c9b5fbe147fc83d88388da",
+  "refusals": []
+}

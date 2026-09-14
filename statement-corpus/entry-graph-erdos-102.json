@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/102",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $c>0$ and $h_c(n)$ be such that for any $n$ points in $\\mathbb{R}^2$ such that there are $\\geq cn^2$ lines each containing more than three points, there must be some line containing $h_c(n)$ many points. Estimate $h_c(n)$. Is it true that, for fixed $c>0$, we have $h_c(n)\\to \\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/102",
+        "start": 12255,
+        "end": 12557,
+        "exactness": "slice",
+        "sha256": "5d77274ccc6b24f965b0cb28044b16fb81a97dc688b3ca6ef7a8e692120991d1"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#102 : [Er92e] [Er95] [Er97c] geometry A problem of Erdős and Purdy. It is not even known if $h_c(n)\\geq 5$ (see [101] ). It is easy to see that $h_c(n) \\ll_c n^{1/2}$, and Erdős at one point [Er95] suggested that perhaps a similar lower bound $h_c(n)\\gg_c n^{1/2}$ holds. Zach Hunter has pointed out that this is false, even replacing $>3$ points on each line with $>k$ points: consider the set of points in $\\{1,\\ldots,m\\}^d$ where $n\\approx m^d$. These intersect any line in $\\ll_d n^{1/d}$ points, and have $\\gg_d n^2$ many pairs of points each of which determine a line with at least $k$ points. This is a construction in $\\mathbb{R}^d$, but a random projection into $\\mathbb{R}^2$ preserves the relevant properties. This construction shows that $h_c(n) \\ll n^{1/\\log(1/c)}$. Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #102, https://www.erdosproblems.com/102, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/102",
+        "start": 12557,
+        "end": 32453,
+        "exactness": "region",
+        "sha256": "8ca69d66bf3f778b7fee521040ef5e5d38004a5f74c1daf7700154063fca9d72"
+      }
+    }
+  ],
+  "source_sha256": "3c25a8a94e718c2022eb9a913d30fc2d76deab3edeee5ef0e2a4bdae10504607",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/335",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $d(A)$ denote the density of $A\\subseteq \\mathbb{N}$. Characterise those $A,B\\subseteq \\mathbb{N}$ with positive density such that\\[d(A+B)=d(A)+d(B).\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/335",
+        "start": 12255,
+        "end": 12416,
+        "exactness": "slice",
+        "sha256": "d9d3ec931e3b12fda1bc8b049ff6ccf142b680dd7f04da128d8fbd0d5e4f2f30"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#335 : [ErGr80,p.51] number theory | additive combinatorics One way this can happen is if there exists $\\theta>0$ such that\\[A=\\{ n>0 : \\{ n\\theta\\} \\in X_A\\}\\textrm{ and }B=\\{ n>0 : \\{n\\theta\\} \\in X_B\\}\\]where $\\{x\\}$ denotes the fractional part of $x$ and $X_A,X_B\\subseteq \\mathbb{R}/\\mathbb{Z}$ are such that $\\mu(X_A+X_B)=\\mu(X_A)+\\mu(X_B)$. Are all possible $A$ and $B$ generated in a similar way (using other groups)? This has been partially resolved by Ackelsburg and Richter [AcRi26] , under the additional assumption that one of the sets meets every residue class in $\\mathbb{N}$. Roughly speaking, if $d(A)>0$ and $d(A+B)=d(A)+d(B)<1$ and $B$ meets every residue class then either both $A$ and $B$ arise from a rotation on the product of the circle group with a finite cyclic group, or $A$ is in a single residue class modulo some $h$ and $B$ 'looks like' the union of all but one residue class modulo $h$. A full characterisation without the assumption that one of the sets meets every residue class seems hopeless; for example, taking $A=B$ to be a random subset of the even integers with density $1/4$ we have $d(A+A)=1/2$. Additional thanks to : Alfaiz and Ethan Ackelsberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 15 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #335, https://www.erdosproblems.com/335, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/335",
+        "start": 12416,
+        "end": 32495,
+        "exactness": "region",
+        "sha256": "516d2ac4cc9a03e78c957758cdb0ef4473c8dd1c0850f9a8ee929573d0a65221"
+      }
+    }
+  ],
+  "source_sha256": "b7cd01a072ff01153419bf2cf7af2cd4cee605f8c8199440bd8f091042107d06",
+  "refusals": []
+}

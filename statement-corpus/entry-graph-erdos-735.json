@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/735",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Given any $n$ points in $\\mathbb{R}^2$ when can one give positive weights to the points such that the sum of the weights of the points along every line containing at least two points is the same?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/735",
+        "start": 12262,
+        "end": 12463,
+        "exactness": "slice",
+        "sha256": "5c8cbedcef8711468fcc2d22f0a5ccb5ebaac89f3db4781508ea4a0bb2ee7a90"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#735 : [Er81] geometry A problem of Murty, who conjectured this is only possible in one of four cases: all points on a line, no three points on a line, $n-1$ on a line, and a triangle, the angle bisectors, and the incentre (or a projective equivalence). The previous configurations are the only examples, as proved by Ackerman, Buchin, Knauer, Pinchasi, and Rote [ABKPR08] . Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #735, https://www.erdosproblems.com/735, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/735",
+        "start": 12463,
+        "end": 31645,
+        "exactness": "region",
+        "sha256": "0b7d1bdeec0861bb1be67df38aa342e30e8aab68af695b8bd3b5cb5daaf30186"
+      }
+    }
+  ],
+  "source_sha256": "e66d237888fa44df06aaba44f24a593ae0b8cf27ddda07dc750f303724384bac",
+  "refusals": []
+}

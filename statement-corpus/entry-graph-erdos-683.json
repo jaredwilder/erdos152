@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/683",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that for every $1\\leq k\\leq n$ the largest prime divisor of $\\binom{n}{k}$, say $P(\\binom{n}{k})$, satisfies\\[P\\left(\\binom{n}{k}\\right)\\geq \\min(n-k+1, k^{1+c})\\]for some constant $c>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/683",
+        "start": 12255,
+        "end": 12463,
+        "exactness": "slice",
+        "sha256": "d40bdebe72128beebf724f336d49646b4123e7326820696babae6184593d2951"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#683 : [Er76d] [Er79d] number theory | primes | binomial coefficients A theorem of Sylvester and Schur (see [Er34] ) states that $P(\\binom{n}{k})>k$ if $k\\leq n/2$. Erdős [Er55d] proved that there exists some $c>0$ such that, whenever $k\\leq n/2$,\\[P\\left(\\binom{n}{k}\\right)\\gg k\\log k.\\]Erdős [Er79d] writes it 'seems certain' that this holds for every $c>0$, with only a finite number of exceptions (depending on $c$). Standard heuristics on prime gaps suggest that the largest prime divisor of $\\binom{n}{k}$ is, for $k\\leq n/2$, in fact\\[>e^{c\\sqrt{k}}\\]for some constant $c>0$. This is essentially equivalent to [961] . Additional thanks to : Alfaiz and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links This page was last edited 31 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #683, https://www.erdosproblems.com/683, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A006530 , A074399 , A121359 , possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/683",
+        "start": 12463,
+        "end": 33444,
+        "exactness": "region",
+        "sha256": "a7f32f6db32cfe464cdd6df96ee126a491f16c93a1f4b81d8750d35852fc4115"
+      }
+    }
+  ],
+  "source_sha256": "210b83f72572851ec33e5e58fc282fe038d296a394dd38d0e8e4297914b28aef",
+  "refusals": []
+}

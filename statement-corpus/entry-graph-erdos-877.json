@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/877",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f_m(n)$ count the number of maximal sum-free subsets $A\\subseteq\\{1,\\ldots,n\\}$ - that is, there are no solutions to $a=b+c$ in $A$ and $A$ is maximal with this property. Estimate $f(n)$ - is it true that $f_m(n)=o(2^{n/2})$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/877",
+        "start": 12236,
+        "end": 12472,
+        "exactness": "slice",
+        "sha256": "0889c381b95c61a4797b41a404936e908f80b5f9c7eda7270a565ba63d214239"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#877 : [CaEr90] [Er98] additive combinatorics A problem of Cameron and Erdős, who proved that $f_m(n)>2^{n/4}$, and also asked whether\\[f_m(n)=o(f(n)),\\]where $f(n)$ counts the number of all (not necessarily maximal) sum-free sets. Luczak and Schoen [LuSc01] proved that there exists a constant $c<1/2$ such that\\[f_m(n)<2^{cn},\\]resolving these questions. Balogh, Liu, Sharifzadeh, and Treglown [BLST15] proved that\\[f_m(n)=2^{(\\frac{1}{4}+o(1))n},\\]which the same authors [BLST18] later improved to\\[f_m(n)=(C_n+o(1))2^{n/4},\\]where $C_n$ is some explicit constant depending only on $n\\pmod{4}$. See [748] for the non-maximal case. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 02 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #877, https://www.erdosproblems.com/877, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A121269 , possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/877",
+        "start": 12472,
+        "end": 32808,
+        "exactness": "region",
+        "sha256": "ac9147603855bd4821175ce5838abdaf4ac04f879d4e162b64812e841223bf97"
+      }
+    }
+  ],
+  "source_sha256": "3443298b99663420b5a47a1990114db77578466e3a00dc6e2adf9babc0fe856b",
+  "refusals": []
+}

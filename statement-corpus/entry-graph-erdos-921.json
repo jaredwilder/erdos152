@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/921",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 4$ and let $f_k(n)$ be the largest $m$ such that there is a graph on $n$ vertices with chromatic number $k$ in which every odd cycle has length $> m$. Is it true that\\[f_k(n) \\asymp n^{\\frac{1}{k-2}}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/921",
+        "start": 12236,
+        "end": 12459,
+        "exactness": "slice",
+        "sha256": "d540c4dea93d2e42898c5b96834efee6c6973391ed79f41ced7e96172741da42"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#921 : [Er69b] graph theory | chromatic number | cycles A question of Erdős and Gallai. Gallai [Ga63] proved that\\[f_4(n) \\gg n^{1/2}\\]and Erdős (unpublished) proved $f_4(n) \\ll n^{1/2}$. This was proved for all $k\\geq 4$ by Kierstead, Szemerédi, and Trotter [KST84] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #921, https://www.erdosproblems.com/921, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable JoshuaB Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/921",
+        "start": 12459,
+        "end": 31846,
+        "exactness": "region",
+        "sha256": "1cde3b7a17d8b7f040269e928851ce7a0dbeed8d1a96afd0d418805252e7951e"
+      }
+    }
+  ],
+  "source_sha256": "50721a8ceff8a06c99560487513b2d573ca11d3ed6df661b7d13a9c9f1679a9f",
+  "refusals": []
+}

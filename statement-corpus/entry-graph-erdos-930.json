@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/930",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that, for every $r$, there is a $k$ such that if $I_1,\\ldots,I_r$ are disjoint intervals of consecutive integers, all of length at least $k$, then\\[\\prod_{1\\leq i\\leq r}\\prod_{m\\in I_i}m\\]is not a perfect power?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/930",
+        "start": 12255,
+        "end": 12483,
+        "exactness": "slice",
+        "sha256": "d2a90bebc90752c5212e9938cbdea99a396ae0ee1021a599915b573774cd8b46"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#930 : [Er76d] number theory Erdős and Selfridge [ErSe75] proved that the product of consecutive integers is never a power (establishing the case $r=1$). The condition that the intervals be large in terms of $r$ is necessary for $r=2$ - see the constructions in [363] . See also [363] for the case of squares. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #930, https://www.erdosproblems.com/930, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration None Currently working on Svyable , satsun93 Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/930",
+        "start": 12483,
+        "end": 31836,
+        "exactness": "region",
+        "sha256": "074fa3cb890a5cc4335af8e029b22038b17a69dd712cda21a3917e5348eee4a8"
+      }
+    }
+  ],
+  "source_sha256": "6f7726d5b9101773bd0f6d11bdc924722c3ac16dc9e7d389e654867d77256b3d",
+  "refusals": []
+}

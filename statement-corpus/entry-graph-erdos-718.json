@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/718",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there some constant $C>0$ such that any graph on $n$ vertices with $\\geq Cr^2n$ edges contains a subdivision of $K_r$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/718",
+        "start": 12236,
+        "end": 12367,
+        "exactness": "slice",
+        "sha256": "9b9d43c1e2758eca10444e8638c6c0f7efd5065dc8252fa0fb5ba9e725760541"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#718 : [Er81] graph theory A conjecture of Erdős, Hajnal, and Mader. Dirac [Di60] proved that every graph on $n$ vertices with at least $2n-2$ edges contains a subdivision of $K_4$, and conjectured that $3n-5$ edges forces a subdivision of $K_5$. Mader [Ma67] proved that $\\geq 2^{\\binom{r}{2}}n$ edges suffices. The answer is yes, proved independently by Komlós and Szemerédi [KoSz96] and Bollobás and Thomason [BoTh96] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #718, https://www.erdosproblems.com/718, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/718",
+        "start": 12367,
+        "end": 31812,
+        "exactness": "region",
+        "sha256": "74e7760ac10b1b885a727f9b4a392a3d0eeea8a6b7d07dae6409fbc39817a759"
+      }
+    }
+  ],
+  "source_sha256": "bcc050d5bbe5ff6d94b04694a314975bf58059843952c17fe2898c3bb4b4b903",
+  "refusals": []
+}

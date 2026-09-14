@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1145",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{1\\leq a_1<a_2<\\cdots\\}$ and $B=\\{1\\leq b_1<b_2<\\cdots\\}$ be sets of integers with $a_n/b_n\\to 1$. If $A+B$ contains all sufficiently large positive integers then is it true that $\\limsup 1_A\\ast 1_B(n)=\\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1145",
+        "start": 12257,
+        "end": 12506,
+        "exactness": "slice",
+        "sha256": "5cbc65ebe1274e72b36d82c89b449f24ec70416c53c5e1fefb7ff11d0f2ae964"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1145 : [Va99,1.17] additive combinatorics | additive basis A conjecture of Erdős and Sárközy. Some condition relating $A$ and $B$ is necessary since, for example, if $A$ is the set of all integers with only even binary digits and $B$ is the set of all integers with only odd binary digits then $1_A\\ast 1_B(n)=1$ for all $n$. This is a stronger form of [28] . See also [331] . Additional thanks to : Felix Pernegger and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 11 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1145, https://www.erdosproblems.com/1145, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult ebarschkis Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1145",
+        "start": 12506,
+        "end": 31954,
+        "exactness": "region",
+        "sha256": "96591858c5396b868d129e99b963c2f83851b7247b33be2c74ec6b34f22f7632"
+      }
+    }
+  ],
+  "source_sha256": "cf74bbc0a18b44cf8a36c33db93224a1f21709dbea3b37ab8cafe68e8257e76e",
+  "refusals": []
+}

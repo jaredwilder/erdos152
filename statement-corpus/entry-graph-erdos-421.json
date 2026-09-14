@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/421",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a sequence $1\\leq d_1<d_2<\\cdots$ with density $1$ such that all products $\\prod_{u\\leq i\\leq v}d_i$ are distinct?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/421",
+        "start": 12255,
+        "end": 12392,
+        "exactness": "slice",
+        "sha256": "b9626f24da2b9c87e5f9490bdc2f7cca82c1013965d29cb101b7beb105d4c41e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#421 : [ErGr80,p.84] number theory A construction of Selfridge (see [786] ) shows that there exists such a sequence of density $>1/e-\\epsilon$ for any $\\epsilon>0$. See also [786] . Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (47) Proof claims (2) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #421, https://www.erdosproblems.com/421, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A389544 , A390848 Reactions Likes Alfaiz Open to collaboration None Currently working on AnimishSharma Looks difficult None Looks tractable BorisAlexeev , TFBloom , Przemek , johnathonweare Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/421",
+        "start": 12392,
+        "end": 32503,
+        "exactness": "region",
+        "sha256": "ad89c336a7e921891759343bb96ae28bf6b38ba904ac5d311a176ac1f53f0cd2"
+      }
+    }
+  ],
+  "source_sha256": "0b2a9a58c4b24d2dbd9bf52db68f20ce62f24b271adfad1f045d18bf63424173",
+  "refusals": []
+}

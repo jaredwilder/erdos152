@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/8",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For any finite colouring of the integers is there a covering system all of whose moduli are monochromatic?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/8",
+        "start": 12270,
+        "end": 12382,
+        "exactness": "slice",
+        "sha256": "d2ccca0dfcf8101f2c4d8ca89515b5c20e58d69c57c08c3797febc2ed29ee7b6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#8 : [Er80,p.95] [ErGr80,p.25] [Er96b] [Er97] [Er97e] number theory | covering systems Conjectured by Erdős and Graham, who also ask about a density-type version: for example, is\\[\\sum_{\\substack{a\\in A\\\\ a>N}}\\frac{1}{a}\\gg \\log N\\]a sufficient condition for $A$ to contain the moduli of a covering system? The answer (to both colouring and density versions) is no, due to the result of Hough [Ho15] on the minimum size of a modulus in a covering system - in particular one could colour all integers $<10^{18}$ different colours and all other integers a new colour. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 05 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #8, https://www.erdosproblems.com/8, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes holyterror Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/8",
+        "start": 12382,
+        "end": 32152,
+        "exactness": "region",
+        "sha256": "57d6bbae6008394e871cb518bedb1c4cdadea959ae10151d31e8e4165e61a11e"
+      }
+    }
+  ],
+  "source_sha256": "1c184c6ee8533c0d86144b14bc3913655f984dfedaf109b3e8402682183cf3e3",
+  "refusals": []
+}

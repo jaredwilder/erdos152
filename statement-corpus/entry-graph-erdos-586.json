@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/586",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a covering system such that no two of the moduli divide each other?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/586",
+        "start": 12236,
+        "end": 12318,
+        "exactness": "slice",
+        "sha256": "30a367b24c6c3cb7ff7664b3b3c1e88b68e4d18f233c9272ed8d2968ffb7e74e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#586 : [ErGr80] [Er96b] [Er97] [Er97c] [Er97e] number theory | covering systems Asked by Schinzel, motivated by a question of Erdős and Selfridge (see [7] ). The answer is no, as proved by Balister, Bollobás, Morris, Sahasrabudhe, and Tiba [BBMST22] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #586, https://www.erdosproblems.com/586, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/586",
+        "start": 12318,
+        "end": 31799,
+        "exactness": "region",
+        "sha256": "eadbfd4ff2aae32d3c1db8ebe200628b6bb497ca5c1cbd3a863325051291f542"
+      }
+    }
+  ],
+  "source_sha256": "c05584fca1dc3f58c45ad7a5e7dda3ce7d6c326c69ec2a58bd5b95a903fd4c3e",
+  "refusals": []
+}

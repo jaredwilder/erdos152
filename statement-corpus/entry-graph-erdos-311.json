@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/311",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\delta(N)$ be the minimal non-zero value of $\\lvert 1-\\sum_{n\\in A}\\frac{1}{n}\\rvert$ as $A$ ranges over all subsets of $\\{1,\\ldots,N\\}$. Is it true that\\[\\delta(N)=e^{-(c+o(1))N}\\]for some constant $c\\in (0,1)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/311",
+        "start": 12255,
+        "end": 12478,
+        "exactness": "slice",
+        "sha256": "c5d2b1f8b27a2bac15312d3175431d7c870b89fd7ffe2df4dcdf95c6019c00fb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#311 : [ErGr80,p.40] number theory | unit fractions It is trivial that\\[\\delta(N)\\geq \\frac{1}{[1,\\ldots,N]}=e^{-(1+o(1))N},\\]where $[1,\\ldots,N]$ is the least common multiple of $\\{1,\\ldots,N\\}$. The formulation in [ErGr80] has the additional condition that $A$ contain no $S$ such that $\\sum_{n\\in S}\\frac{1}{n}=1$, but Kovac in the comments has shown that the simpler formulation above is equivalent. Tang has shown that\\[\\delta(N) \\leq \\exp\\left(-c\\frac{N}{(\\log N\\log\\log N)^3}\\right)\\]for some constant $c>0$. Additional thanks to : Vjekoslav Kovac and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (0) More information and links This page was last edited 16 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #311, https://www.erdosproblems.com/311, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/311",
+        "start": 12478,
+        "end": 32087,
+        "exactness": "region",
+        "sha256": "e4a4a8c5da4e3709c5a218ae486bda428acd359a3006500c25bdb2bfe0b7b47c"
+      }
+    }
+  ],
+  "source_sha256": "eb41f9313ef3f31ea8573bdd103a153a20d77e5093d47736cc797aabcfc80b40",
+  "refusals": []
+}

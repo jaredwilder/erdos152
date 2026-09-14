@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/668",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that the number of incongruent sets of $n$ points in $\\mathbb{R}^2$ which maximise the number of unit distances tends to infinity as $n\\to\\infty$? Is it always $>1$ for $n>3$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/668",
+        "start": 12255,
+        "end": 12455,
+        "exactness": "slice",
+        "sha256": "76ea6ab017faa9a7fdb775b5a60e6569f25002ca34611c5048b7bc2cc1c4c439"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#668 : [Er97f] geometry | distances In fact this is $=1$ also for $n=4$, the unique example given by two equilateral triangles joined by an edge. Computational evidence of Engel, Hammond-Lee, Su, Varga, and Zsámboki [EHSVZ25] and Alexeev, Mixon, and Parshall [AMP25] suggests that this count is $=1$ for various other $5\\leq n\\leq 21$ (although these calculations were checking only up to graph isomorphism, rather than congruency). The actual maximal number of unit distances is the subject of [90] . Additional thanks to : Anay Aggarwal, Boris Alexeev, Stijn Cambie, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 27 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #668, https://www.erdosproblems.com/668, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A385657 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/668",
+        "start": 12455,
+        "end": 32518,
+        "exactness": "region",
+        "sha256": "924d7c8e0cff232a32a75f196184c6415849cc9d09f0037a3bdebc4c197313a9"
+      }
+    }
+  ],
+  "source_sha256": "d22a76bf574a805369b16173e22dfb6febd24a2a53a7a6c451b3f47345ab2505",
+  "refusals": []
+}

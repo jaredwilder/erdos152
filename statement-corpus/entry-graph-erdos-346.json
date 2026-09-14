@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/346",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A=\\{1\\leq a_1< a_2<\\cdots\\}$ be a set of integers such that $A\\backslash B$ is complete for any finite subset $B$ and $A\\backslash B$ is not complete for any infinite subset $B$. (Here 'complete' means all sufficiently large integers can be written as a sum of distinct members of the sequence.) Is it true that if $a_{n+1}/a_n \\geq 1+\\epsilon$ for some $\\epsilon>0$ and all $n$ then\\[\\lim_n \\frac{a_{n+1}}{a_n}=\\frac{1+\\sqrt{5}}{2}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/346",
+        "start": 12255,
+        "end": 12747,
+        "exactness": "slice",
+        "sha256": "fff9c92b3e80d9443ad2b4aa35a8a7766dda9b1a3d53413f436c793735c4a95f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#346 : [ErGr80,p.57] number theory | complete sequences Graham [Gr64d] has shown that the sequence $a_n=F_n-(-1)^{n}$, where $F_n$ is the $n$th Fibonacci number, has these properties. Erdős and Graham [ErGr80] remark that it is easy to see that if $a_{n+1}/a_n>\\frac{1+\\sqrt{5}}{2}$ then the second property is automatically satisfied, and that it is not hard to construct very irregular sequences satisfying both properties. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (1) More information and links This page was last edited 07 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #346, https://www.erdosproblems.com/346, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Woett , Alfaiz , KStar , jbbaehr22 , Dogmachine , antonshakov Open to collaboration Woett Currently working on SkyYang Looks difficult None Looks tractable SkyYang Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/346",
+        "start": 12747,
+        "end": 32641,
+        "exactness": "region",
+        "sha256": "b30098af72dedf89da197ce65aceab34e86f616bb57292a299644ad839a2cd2c"
+      }
+    }
+  ],
+  "source_sha256": "1bd7af5c81d3e029084a68b765e7bf0edd11b5185e865b078583d96bdad0bd57",
+  "refusals": []
+}

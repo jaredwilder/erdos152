@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/932",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $p_k$ denote the $k$th prime. For infinitely many $r$ there are at least two integers $p_r<n<p_{r+1}$ all of whose prime factors are $<p_{r+1}-p_r$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/932",
+        "start": 12255,
+        "end": 12425,
+        "exactness": "slice",
+        "sha256": "a8f06b7faed9df4aad9eff6cf6c1a7c56593961c4680ba1c50696cb1851fc665"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#932 : [Er76d] number theory Erdős thought this was true but that there are very few such $r$. He could show that the density of $r$ such that at least one such $n$ exist is $0$. This problem has been formalised in Lean as part of the Google DeepMind Formal Conjectures project . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #932, https://www.erdosproblems.com/932, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A387864 Reactions Likes old-bielefelder , lof310 , Dogmachine Open to collaboration None Currently working on lof310 Looks difficult TerenceTao , lof310 , Dogmachine Looks tractable lof310 Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/932",
+        "start": 12425,
+        "end": 32533,
+        "exactness": "region",
+        "sha256": "b74b279811c91ae338ffba845c1aec224266958b98ecf3cf36af1eac7fec4e56"
+      }
+    }
+  ],
+  "source_sha256": "6cd9de9b74b544fe5f979a64c0696ab320eca6192d0a3016f5e02537b5311861",
+  "refusals": []
+}

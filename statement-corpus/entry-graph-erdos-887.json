@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/887",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there an absolute constant $K$ such that, for every $C>0$, if $n$ is sufficiently large then $n$ has at most $K$ divisors in $(n^{1/2},n^{1/2}+C n^{1/4})$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/887",
+        "start": 12255,
+        "end": 12424,
+        "exactness": "slice",
+        "sha256": "e4a497f340c954c2b497b9dc09957b8ca3c3bb252a771209d0248167940ad0a3"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#887 : [ErRo97] number theory | divisors A question of Erdős and Rosenfeld [ErRo97] , who proved that there are infinitely many $n$ with $4$ divisors in $(n^{1/2},n^{1/2}+n^{1/4})$, and ask whether $4$ is best possible here. They also proved that, if $n$ is large enough depending on $C$, then $n$ has at most $1+C^2$ divisors in $(n^{1/2},n^{1/2}+C n^{1/4})$. Chan [Ch14] has resolved this when $n$ is a square, proving that if $n$ is a square then $n$ has at most $5$ divisors in\\[[ n^{1/2}-n^{1/4}(\\log n)^{1/7}, n^{1/2}+n^{1/4}(\\log n)^{1/7}].\\]In [Ch15] Chan further proves that if $n=(N-a)(N-b)$ for some $0\\leq a\\leq b\\leq \\exp((\\log n)^{2/7})$ then $n$ has at most $18$ divisors in\\[[ n^{1/2}-n^{1/4}(\\log n)^{1/14}, n^{1/2}+n^{1/4}(\\log n)^{1/14}].\\]See also [886] . Additional thanks to : KoishiChan Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (4) Proof claims (0) More information and links This page was last edited 10 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #887, https://www.erdosproblems.com/887, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/887",
+        "start": 12424,
+        "end": 32438,
+        "exactness": "region",
+        "sha256": "d0a2f7e1818da26c550df48d2a22b6e97d4a029f730d816885eab7cefb09798e"
+      }
+    }
+  ],
+  "source_sha256": "f2c09e56e6f0f7742c7e3e067b8e8e127a582781246ae9369792810f07f87b3c",
+  "refusals": []
+}

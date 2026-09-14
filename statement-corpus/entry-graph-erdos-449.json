@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:449",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r(n)$ count the number of $d_1,d_2$ such that $d_1\\mid n$ and $d_2\\mid n$ and $d_1<d_2<2d_1$. Is it true that, for every $\\epsilon>0$,\\[r(n) < \\epsilon \\tau(n)\\]for almost all $n$, where $\\tau(n)$ is the number of divisors of $n$?",
+      "provenance": {
+        "source": "erdos:449",
+        "start": 11934,
+        "end": 12254,
+        "exactness": "slice",
+        "sha256": "03b9dc1997c19003e5d9c1445d0ec74b5cd32c15a002b0a9c4e438f05844ef92"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "This is false - indeed, for any constant $K>0$ we have $r(n)>K\\tau(n)$ for a positive density set of $n$. Kevin Ford has observed this follows from the negative solution to [448] : the Cauchy-Schwarz inequality implies\\[r(n)+\\tau(n)\\geq \\tau(n)^2/\\tau^+(n)\\]where $\\tau^+(n)$ is as defined in [448] , and the negative solution to [448] implies the right-hand side is at least $(K+1)\\tau(n)$ for a positive density set of $n$. (This argument is given for an essentially identical problem by Hall and Tenenbaum \\cite{HaTe88}, Section 4.6.) See also [448] .",
+      "provenance": {
+        "source": "erdos:449",
+        "start": 12254,
+        "end": 25422,
+        "exactness": "region",
+        "sha256": "1f07512e0f4093cad367b479c7ad678144f5c41a01d63208d1827acdaa78c2f8"
+      }
+    }
+  ],
+  "source_sha256": "f8124f65c89ac98d918fd1c33888587d9bb41423612eb99a72e4c05f4c8aafe8",
+  "refusals": []
+}

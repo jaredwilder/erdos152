@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/774",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "We call $A\\subset \\mathbb{N}$ dissociated if $\\sum_{n\\in X}n\\neq \\sum_{m\\in Y}m$ for all finite $X,Y\\subset A$ with $X\\neq Y$. Let $A\\subset \\mathbb{N}$ be an infinite set. We call $A$ proportionately dissociated if every finite $B\\subset A$ contains a dissociated set of size $\\gg \\lvert B\\rvert$. Is every proportionately dissociated set the union of a finite number of dissociated sets?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/774",
+        "start": 12255,
+        "end": 12665,
+        "exactness": "slice",
+        "sha256": "11ca705d04657e194853f3555bd58858b7e8ee2e91acccbb5548124b632516f8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#774 : [AlEr85] [Er92b] number theory This question appears in a paper of Alon and Erdős [AlEr85] , although the general topic was first considered by Pisier [Pi83] , who observed that the converse holds, and proved that being proportionately dissociated is equivalent to being a 'Sidon set' in the harmonic analysis sense; that is, whenever $f:A\\to \\mathbb{C}$ there exists some $\\theta\\in [0,1]$ such that\\[\\| f\\|_1 \\ll \\left\\lvert\\sum_{n\\in A} f(n)e(n\\theta)\\right\\rvert,\\]where $e(x)=e^{2\\pi ix}$. Alon and Erdős write that it 'seems unlikely that [this] is also sufficient'. They also point out the same question can be asked replacing dissociated with Sidon (in the additive combinatorial sense) (see [328] ). This latter question was resolved in the negative by Nešetřil, Rödl, and Sales [NRS24] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 28 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #774, https://www.erdosproblems.com/774, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/774",
+        "start": 12665,
+        "end": 32704,
+        "exactness": "region",
+        "sha256": "b2b472fe6fe487482379a0c625beccf10910f1704c3dd40eb40174497e9705b0"
+      }
+    }
+  ],
+  "source_sha256": "76321688eba10b974fe01e4099f267a6b344a2276bab2d327dc35973aaeff478",
+  "refusals": []
+}

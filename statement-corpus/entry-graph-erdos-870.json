@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/870",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$ and $A$ be an additive basis of order $k$. Does there exist a constant $c=c(k)>0$ such that if $r(n)\\geq c\\log n$ for all large $n$ then $A$ must contain a minimal basis of order $k$? (Here $r(n)$ counts the number of representations of $n$ as the sum of at most $k$ elements from $A$.)",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/870",
+        "start": 12255,
+        "end": 12565,
+        "exactness": "slice",
+        "sha256": "a6a00582caec7e361665e37d8524d29891112ebf6ea41056a7a13978149ffd7d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#870 : [ErNa88] number theory | additive basis A question of Erdős and Nathanson [ErNa79] , who proved that this is true for $k=2$ if $1_A\\ast 1_A(n) > (\\log \\frac{4}{3})^{-1}\\log n$ for all large $n$. Härtter [Ha56] and Nathanson [Na74] proved that there exist additive bases which do not contain any minimal additive bases. See also [868] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #870, https://www.erdosproblems.com/870, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/870",
+        "start": 12565,
+        "end": 31935,
+        "exactness": "region",
+        "sha256": "3422de158f7083f31c16201cdb2a9609fabc403e1717649f5e38c019aec3a12d"
+      }
+    }
+  ],
+  "source_sha256": "081ac04400619a2f0f36ceb8a29f372af28c1d7adf466467054a008250bdb1a0",
+  "refusals": []
+}

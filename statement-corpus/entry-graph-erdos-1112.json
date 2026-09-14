@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1112",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $1\\leq d_1<d_2$ and $k\\geq 3$. Does there exist an integer $r$ such that if $B=\\{b_1<\\cdots\\}$ is a lacunary sequence of positive integers with $b_{i+1}\\geq rb_i$ then there exists a sequence of positive integers $A=\\{a_1<\\cdots\\}$ such that\\[d_1\\leq a_{i+1}-a_i\\leq d_2\\]for all $i\\geq 1$ and $(kA)\\cap B=\\emptyset$, where $kA$ is the $k$-fold sumset?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1112",
+        "start": 12225,
+        "end": 12599,
+        "exactness": "slice",
+        "sha256": "edd41e3d2066a26c2af1658c67bb416998736362066f9f7e73ba9cf4d26e6b76"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1112 : [ErGr80,p.18] additive combinatorics Erdős and Graham [ErGr80] noted that if $B=\\{b_1<b_2<\\cdots\\}$ with $b_1\\geq 5$ and $b_{i+1}\\geq 2b_i$ then there is a set $A=\\{a_1<a_2<\\cdots\\}$ with $2\\leq a_{k+1}-a_k\\leq 3$ for all $k$ such that $(A+A)\\cap B=\\emptyset$. Bollobás, Hegyvári, and Jin [BHJ97] showed that such an $A$ must exist if $b_{i+1}\\geq 2b_i-O(1)$, and that this is best possible. Erdős and Graham go on to say 'whether such behavior can hold for $A+A+A$ (or more summands) is not known'. The above question is my best interpretation of what they intended. Bollobás, Hegyvári, and Jin [BHJ97] provide a negative answer in that, for any sequence of integers $1\\leq r_1<r_2<\\cdots$, there is a $B$ as above with $b_{i+1}\\geq r_ib_i$ such that $(A+A+A)\\cap B\\neq\\emptyset$ for any $A$ with $2\\leq a_{i+1}-a_i\\leq 3$. They define, more generally, $r_k(d_1,d_2)$ as the smallest $r$ (if it exists) such that if $b_{i+1}\\geq rb_i$ then there exists $A$ with $d_1\\leq a_{i+1}-a_i\\leq d_2$ such that $(kA)\\cap B=\\emptyset$, where $kA$ is the $k$-fold sumset. It follows from the above results that $r_2(2,3)=2$ and that $r_3(2,3)$ does not exist. Chen [Ch00] proved that $r_2(a,b)\\leq 2$ for any integers $a<b$ with $b\\neq 2a$, and that $r_2(a,2a)\\geq 2$ for all integers $a$. The more general question of existence of $r_k(a,b)$ for $k\\geq 3$ remains open. Some further technical non-existence results are given by Tang and Yang [TaYa21] . [Note the stated problem is a generous interpretation of a very ambiguous remark in [ErGr80] , so it might be more appropriate to call this a problem 'inspired by Erdős and Graham'.] Additional thanks to : Alfaiz Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (12) Proof claims (1) More information and links This page was last edited 28 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1112, https://www.erdosproblems.com/1112, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes JohanLand Open to collaboration JohanLand Currently working on JohanLand Looks difficult None Looks tractable JohanLand Could be formalisable None Working on formalising JohanLand <div id=\"previous",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1112",
+        "start": 12599,
+        "end": 33924,
+        "exactness": "region",
+        "sha256": "5777e03aba148ba26fea7dc5f96368503e2af5a6dd441329fc46eb99d2d5a397"
+      }
+    }
+  ],
+  "source_sha256": "2227a84aea4bdf015b31c3123eed6faac576e41122b1eb60539ba02fd7d1cd6b",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/948",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a function $f(n)$ and a $k$ such that in any $k$-colouring of the integers there exists a sequence $a_1<\\cdots$ such that $a_n<f(n)$ for infinitely many $n$ and the set\\[\\left\\{ \\sum_{i\\in S}a_i : \\textrm{finite }S\\right\\}\\]does not contain all colours?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/948",
+        "start": 12262,
+        "end": 12538,
+        "exactness": "slice",
+        "sha256": "f9f8eb3fef09dcd78a4cc4e8c0312471fc83dc1f9c1ae4f8727966b35d2ce57a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#948 : [Er77c,p.57] [ErGa91,p.268] number theory | ramsey theory Erdős initially asked whether this is possible with the set being monochromatic, but Galvin showed that this is not always possible, considering the two colouring where, writing $n=2^km$ with $m$ odd, we colour $n$ red if $m\\geq F(k)$ and blue if $m<F(k)$ (for some sufficiently quickly growing $F$). In other words, the answer to this question is no when $k=2$. The original question is open even in the case of $\\aleph_0$-many colours. This is asked by Erdős and Galvin in [ErGa91] , where they note that they do not even know whether this is possible with $k=3$. In [ErGa91] they do prove that, for all $k\\geq 2$, in any $k$-colouring of the integers there is a sequence such that $a_n<2^{2^{O(n)}}$ for all $n$ and\\[\\left\\{ \\sum_{i\\in I}a_i : \\textrm{finite intervals } I\\right\\}\\]is coloured with only two colours. This is asking about a variant of Hindman's theorem (see [532] ). This was answered negatively by GPT Pro (prompted by Price) - in fact, for any function $f$ there is a colouring of $\\mathbb{N}$ by $\\mathbb{N}$ such that any sequence $a_1<\\cdots$ with $a_n<f(n)$ for infinitely many $n$ the set of finite sums from this sequence contains all possible colours (a corresponding result for any finite number of colours follows immediately). Additional thanks to : Stijn Cambie, LouisD, Zach Hunter, and Liam Price Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (19) Proof claims (0) More information and links This page was last edited 05 July 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #948, https://www.erdosproblems.com/948, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/948",
+        "start": 12538,
+        "end": 33287,
+        "exactness": "region",
+        "sha256": "ff189af94569ad7f35fe2ebd28c2eff6846c1251efdf3e96c8b1f2f6cc9d98e3"
+      }
+    }
+  ],
+  "source_sha256": "87f5e321acc34b0e67d105919211973627a494c523942d40009de215470368d4",
+  "refusals": []
+}

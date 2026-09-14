@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/831",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $h(n)$ be maximal such that in any $n$ points in $\\mathbb{R}^2$ (with no three on a line and no four on a circle) there are at least $h(n)$ many circles of different radii passing through three points. Estimate $h(n)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/831",
+        "start": 12255,
+        "end": 12483,
+        "exactness": "slice",
+        "sha256": "b38df6ae89d249684e999919532a1592926f400d2477ffb1a52675382331bbf0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#831 : [Er75h] [Er92e] geometry See also [104] and [506] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #831, https://www.erdosproblems.com/831, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes SamKorsky , Maximilian113 Open to collaboration None Currently working on SamKorsky , Maximilian113 Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/831",
+        "start": 12483,
+        "end": 31841,
+        "exactness": "region",
+        "sha256": "c11c55306ebe9662ff5f1b2f2716697f6d85d16a57c629e9f5a9639e6356fdf4"
+      }
+    }
+  ],
+  "source_sha256": "f06ad11f3b717a937968cfffab0863a482748b0bab8850e2226ee891e6bf56d5",
+  "refusals": []
+}

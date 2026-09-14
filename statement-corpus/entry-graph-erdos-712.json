@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:712",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Determine, for any $k>r>2$, the value of\\[\\frac{\\mathrm{ex}_r(n,K_k^r)}{\\binom{n}{r}},\\]where $\\mathrm{ex}_r(n,K_k^r)$ is the largest number of $r$-edges which can placed on $n$ vertices so that there exists no set of $k$ vertices which is covered by all $\\binom{k}{r}$ possible $r$-edges.",
+      "provenance": {
+        "source": "erdos:712",
+        "start": 11934,
+        "end": 12303,
+        "exactness": "slice",
+        "sha256": "7881c989ff456a958d778203f788d6709049848320f255f329052e11ad292e20"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "Tur\\'{a n proved} that, when $r=2$, this limit is\\[\\frac{1}{2}\\left(1-\\frac{1}{k-1}\\right).\\]Erd\\H{o}s \\cite{Er81} offered \\$500 for the determination of this value for any fixed $k>r>2$, and \\$1000 for 'clearing up the whole set of problems'. See also [500] for the case $r=3$ and $k=4$.",
+      "provenance": {
+        "source": "erdos:712",
+        "start": 12303,
+        "end": 25146,
+        "exactness": "region",
+        "sha256": "453bcc09ccb2de2a75ebc50acdc9551eec1578e1e25c01e2ec738275898a2524"
+      }
+    }
+  ],
+  "source_sha256": "90456b55cf4075befd9fbaddcdf9801dfe248cd14c234829535827315be9e55a",
+  "refusals": []
+}

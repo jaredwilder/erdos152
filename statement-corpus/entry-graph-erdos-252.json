@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/252",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 1$ and $\\sigma_k(n)=\\sum_{d\\mid n}d^k$. Is\\[\\sum \\frac{\\sigma_k(n)}{n!}\\]irrational?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/252",
+        "start": 12255,
+        "end": 12356,
+        "exactness": "slice",
+        "sha256": "1e7b1766d0654cd3924246e146ae7fade3c0a26a49433fe4109df808efff49ff"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#252 : [ErGr80,p.62] [Er88c,p.102] number theory | irrationality This is known now for $1\\leq k\\leq 4$. The cases $k=1,2$ are reasonably straightforward, as observed by Erdős [Er52] . The case $k=3$ was proved independently by Schlage-Puchta [ScPu06] and Friedlander, Luca, and Stoiciu [FLC07] . The case $k=4$ was proved by Pratt [Pr22] . It is known that this sum is irrational for all $k\\geq 1$ conditional on either Schinzel's conjecture (Schlage-Puchta [ScPu06] ) or Dickson's conjecture (Friedlander, Luca, and Stoiciu [FLC07] ). This is discussed in problem B14 of Guy's collection [Gu04] . Additional thanks to : Dogmachine and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 22 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #252, https://www.erdosproblems.com/252, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A227988 , A227989 , A307036 , A359060 , possible Reactions Likes Alfaiz , Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/252",
+        "start": 12356,
+        "end": 34001,
+        "exactness": "region",
+        "sha256": "b6c877045f755c74978f6855e95380e95670be4b37f6b82ead7c15a829c51925"
+      }
+    }
+  ],
+  "source_sha256": "4cbecf1b8f79e0f99d0823f30c75f62ad01fd00b81f4cd5380f528b7080837c9",
+  "refusals": []
+}

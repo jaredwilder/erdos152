@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/730",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Are there infinitely many pairs of integers $n\\neq m$ such that $\\binom{2n}{n}$ and $\\binom{2m}{m}$ have the same set of prime divisors?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/730",
+        "start": 12255,
+        "end": 12397,
+        "exactness": "slice",
+        "sha256": "039ab9efaa3c05b556844879af290ea93a5429e8a5d2080f5e1b87ee055cbfa8"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#730 : [EGRS75] number theory | binomial coefficients | base representations A problem of Erdős, Graham, Ruzsa, and Straus [EGRS75] , who believed there is 'no doubt' that the answer is yes. For example $(87,88)$ and $(607,608)$. Those $n$ such that there exists some suitable $m>n$ are listed as A129515 in the OEIS. A triple of such $n$ for which $\\binom{2n}{n}$ all share the same set of prime divisors is $(10003,10004,10005)$. It is not known whether there are such pairs of the shape $(n,n+k)$ for every $k\\geq 1$. Additional thanks to : AlphaProof, Moritz Firsching, and Salvatore Mercuri Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (1) More information and links This page was last edited 27 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #730, https://www.erdosproblems.com/730, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A129515 Reactions Likes Fedir , Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable BorisAlexeev , Moritz_Firsching Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/730",
+        "start": 12397,
+        "end": 32787,
+        "exactness": "region",
+        "sha256": "e6183173474a260c460406aa8e4d69d176a2c530cc7c78d0c1756f68f926276e"
+      }
+    }
+  ],
+  "source_sha256": "c2132b0d50b1fb0b4de19a31f064b092d2b6d548fb9f7645fa0c2dda7444fe78",
+  "refusals": []
+}

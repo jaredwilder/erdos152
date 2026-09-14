@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/695",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $p_1<p_2<\\cdots$ be a sequence of primes such that $p_{i+1}\\equiv 1\\pmod{p_i}$. Is it true that\\[\\lim_k p_k^{1/k}=\\infty?\\]Does there exist such a sequence with\\[p_k \\leq \\exp(k(\\log k)^{1+o(1)})?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/695",
+        "start": 12255,
+        "end": 12471,
+        "exactness": "slice",
+        "sha256": "53f698ca8490ed62bc6e90d2716998e6067c6fe992ef9a10ca32a16dd958522c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#695 : [Er79e] number theory Such a sequence is sometimes called a prime chain. If we take the obvious 'greedy' chain with $2=p_1$ and $p_{i+1}$ is the smallest prime $\\equiv 1\\pmod{p_i}$ then Linnik's theorem implies that this sequence grows like\\[p_k \\leq e^{e^{O(k)}}.\\]It is conjectured that, for any prime $p$, there is a prime $p'\\leq p(\\log p)^{O(1)}$ which is congruent to $1\\pmod{p}$, which would imply this sequence grows like\\[p_k\\leq \\exp(k(\\log k)^{1+o(1)}).\\]An extensive study of the growth of finite prime chains was carried out by Ford, Konyagin, and Luca [FKL10] . See also [696] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 17 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #695, https://www.erdosproblems.com/695, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A061092 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/695",
+        "start": 12471,
+        "end": 32481,
+        "exactness": "region",
+        "sha256": "7841c41580fb0ed9bba23244421ab35c7b8afaa16858a0241f91ba5712e1b1c0"
+      }
+    }
+  ],
+  "source_sha256": "2b1507a9a154a41ed0a38a5bc395873a6e44718d2d91260d33380ed0aeae686d",
+  "refusals": []
+}

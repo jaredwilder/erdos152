@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/301",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(N)$ be the size of the largest $A\\subseteq \\{1,\\ldots,N\\}$ such that there are no solutions to\\[\\frac{1}{a}= \\frac{1}{b_1}+\\cdots+\\frac{1}{b_k}\\]with distinct $a,b_1,\\ldots,b_k\\in A$? Estimate $f(N)$. In particular, is it true that $f(N)=(\\tfrac{1}{2}+o(1))N$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/301",
+        "start": 12255,
+        "end": 12535,
+        "exactness": "slice",
+        "sha256": "aa1a12db1f0049e90c0c3b7e8108dcc50f3a2b5ac7dee50c774dbd28153c2f09"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#301 : [ErGr80] number theory | unit fractions The example $A=(N/2,N]\\cap \\mathbb{N}$ shows that $f(N)\\geq N/2$. Wouter van Doorn has given an elementary argument that proves\\[f(N)\\leq (25/28+o(1))N.\\]Indeed, consider the sets $S_a=\\{2a,3a,4a,6a,12a\\}\\cap [1,N]$ as $a$ ranges over all integers of the form $8^b9^cd$ with $(d,6)=1$. All such $S_a$ are disjoint and, if $A$ has no solutions to the given equation, then $A$ must omit at least two elements of $S_a$ when $a\\leq N/12$ and at least one element of $S_a$ when $N/12<a\\leq N/6$, and an elementary calculation concludes the proof. Stijn Cambie and Wouter van Doorn have noted that, if we allow solutions to this equation with non-distinct $b_i$, then the size of the maximal set is at most $N/2$. Indeed, this is the classical threshold for the existence of some distinct $a,b\\in A$ such that $a\\mid b$. See also [302] and [327] . Additional thanks to : Kevin Barreto, Stijn Cambie, Zach Hunter, and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (1) More information and links This page was last edited 16 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #301, https://www.erdosproblems.com/301, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A390394 Reactions Likes hediibl Open to collaboration Woett , Quanyu_Tang Currently working on Woett , Quanyu_Tang Looks difficult None Looks tractable None Could be formalisable None Working on formalising dondellapietra Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/301",
+        "start": 12535,
+        "end": 33162,
+        "exactness": "region",
+        "sha256": "866821b1a9a9c83d77adb39a169c072cd161fc9add15609a6e32c4b8f99d32b6"
+      }
+    }
+  ],
+  "source_sha256": "a8469ab25ac6fea361c18a342e02e5f89e265f8e24a60939641804ab265c575f",
+  "refusals": []
+}

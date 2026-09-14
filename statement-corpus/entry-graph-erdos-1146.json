@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1146",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "We say that $A\\subset \\mathbb{N}$ is an essential component if $d_s(A+B)>d_s(B)$ for every $B\\subset \\mathbb{N}$ with $0<d_s(B)<1$ where $d_s$ is the Schnirelmann density . Is $B=\\{2^m3^n : m,n\\geq 0\\}$ an essential component?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1146",
+        "start": 12257,
+        "end": 12624,
+        "exactness": "slice",
+        "sha256": "45dc8ad2aa0a012a79eedf27a40204fc42938f1efa1409a97a805414078bcb57"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1146 : [Va99,1.19] number theory In [Ru99] Ruzsa states \"The simplest set with a chance to be an essential component is the collection of numbers in the form $2^m3^n$ and Erdős often asked whether it is an essential component or not; I do not even have a plausible guess.\" See also [37] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1146, https://www.erdosproblems.com/1146, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes hediibl , Dogmachine Open to collaboration None Currently working on None Looks difficult ebarschkis Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1146",
+        "start": 12624,
+        "end": 32167,
+        "exactness": "region",
+        "sha256": "e4f5a0b07fea86b5bb56b801525dafa0815b683663ef39d9a4f9caa29171e518"
+      }
+    }
+  ],
+  "source_sha256": "e214175c7e7c00096d7d495261fdc2bb58397f3786f332afd39036e06c948252",
+  "refusals": []
+}

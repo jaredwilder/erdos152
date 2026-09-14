@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/21",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be minimal such that there is an intersecting family $\\mathcal{F}$ of sets of size $n$ (so $A\\cap B\\neq\\emptyset$ for all $A,B\\in \\mathcal{F}$) with $\\lvert \\mathcal{F}\\rvert=f(n)$ such that any set $S$ with $\\lvert S\\rvert \\leq n-1$ is disjoint from at least one $A\\in \\mathcal{F}$. Is it true that\\[f(n) \\ll n?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/21",
+        "start": 12279,
+        "end": 12617,
+        "exactness": "slice",
+        "sha256": "0d4a970f439e9b919e3bca46a730319629108f523ba653038dc2d0f077f3e352"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#21 : [Er81] [Er90] [Er92b] [Er97f] combinatorics | intersecting family Conjectured by Erdős and Lovász [ErLo75] , who proved that\\[\\frac{8}{3}n-3\\leq f(n) \\ll n^{3/2}\\log n\\]for all $n$. The upper bound was improved by Kahn [Ka92b] to\\[f(n) \\ll n\\log n.\\](The upper bound constructions in both cases are formed by taking a random set of lines from a projective plane of order $n-1$, assuming $n-1$ is a prime power.) This problem was solved by Kahn [Ka94] who proved the upper bound $f(n) \\ll n$. The Erdős-Lovász lower bound of $\\frac{8}{3}n-O(1)$ has not been improved, and it has been speculated (see e.g. [Ka94] ) that the correct answer is $3n+O(1)$. It is trivial that $f(1)=1$ and $f(2)=3$. The values $f(3)=6$ and $f(4)=9$ were established by Tripathi [Tr14] . Barát and Wanless [BaWa21] proved that $f(5)=13$, and that $13\\leq f(6)\\leq 18$. Additional thanks to : Noga Alon, Zachary Chase, and Alexis Olson Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 03 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #21, https://www.erdosproblems.com/21, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A391599 Reactions Likes holyterror Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/21",
+        "start": 12617,
+        "end": 33724,
+        "exactness": "region",
+        "sha256": "abf5c06e5e9e0715e6f8b2b286b72c36da7d98d29043da5bd24d38b0d373949c"
+      }
+    }
+  ],
+  "source_sha256": "5d0b387e5dbc1c731e0e4c360f6d3d4922532ad2ba44d3656036c436fbe515e9",
+  "refusals": []
+}

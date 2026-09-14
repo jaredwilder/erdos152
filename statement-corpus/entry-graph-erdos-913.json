@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/913",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Are there infinitely many $n$ such that if\\[n(n+1) = \\prod_i p_i^{k_i}\\]is the factorisation into distinct primes then all exponents $k_i$ are distinct?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/913",
+        "start": 12255,
+        "end": 12413,
+        "exactness": "slice",
+        "sha256": "1cfe4272f65852f9bd779901d0ca0f89ca1b03c6f1a9bd6d1ff265ac9e2d632d"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#913 : [Er82c,p.28] number theory It is likely that there are infinitely many primes $p$ such that $8p^2-1$ is also prime, in which case this is true with exponents $\\{1,2,3\\}$, letting $n=8p^2-1$. This problem has been formalised in Lean as part of the Google DeepMind Formal Conjectures project . Additional thanks to : Bhavik Mehta and Euro Vidal Sampaio Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #913, https://www.erdosproblems.com/913, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A359747 Reactions Likes None Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/913",
+        "start": 12413,
+        "end": 32257,
+        "exactness": "region",
+        "sha256": "dfdde2ce4124ebd3fbe720707308db51a1d300d59f535bde5d5c4a03db957f7a"
+      }
+    }
+  ],
+  "source_sha256": "11c5ae553dc8b3e2f2d023f72e777dbb46a42c150fea6f1824bc49ceeaf8480f",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1113",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "A positive odd integer $m$ such that none of $2^km+1$ are prime for $k\\geq 0$ is called a Sierpinski number . We say that a set of primes $P$ is a covering set for $m$ if every $2^km+1$ is divisible by some $p\\in P$. Are there Sierpinski numbers with no finite covering set of primes?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1113",
+        "start": 12257,
+        "end": 12675,
+        "exactness": "slice",
+        "sha256": "423e5dc0be40870220574efed55f6cca7d42f7a9c87ef899ccdba2a1cdb104d0"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1113 : [ErGr80,p.27] number theory | covering systems Sierpinski [Si60] proved that there are infinitely many Sierpinski numbers, using covering systems to construct suitable covering sets for any $m$ satisfying a certain congruence. This establishes that there is a positive density set of such $m$. The smallest Sierpinski number is believed to be $78557$, which was found by Selfridge. Erdős and Graham [ErGr80] asked whether there are Sierpinski numbers for which a covering system is not 'responsible', for which the best interpretation seems to be the above question. This is formulated precisely in problem F13 of Guy's collection [Gu04] . Erdős and Graham thought the answer is yes (in that there are such Sierpinski numbers), since otherwise this would imply there are infinitely many Fermat primes. There is now further evidence with a concrete example: an argument of Izotov [Iz95] , given in more detail by Filaseta, Finch, and Kozek [FFK08] , suggests that $m=734110615000775^4$ is a Sierpinski number without a covering set. (Izotov proved that this $m$ is indeed a Sierpinski number.) Filaseta, Finch, and Kozek [FFK08] give a revised conjecture, suggesting that every Sierpinski number is either a perfect power or else has a finite covering set of primes. They also prove that for every $l\\geq 1$ there is an $m$ such that $2^km^i+1$ is composite for all $1\\leq i\\leq l$ and $k\\geq 0$. See also [203] , and [276] for another problem in which the question is whether covering systems are always responsible. Additional thanks to : Dogmachine and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 29 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1113, https://www.erdosproblems.com/1113, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A076336 Reactions Likes None Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1113",
+        "start": 12675,
+        "end": 34400,
+        "exactness": "region",
+        "sha256": "f77dd969c234dc15b746d49e4139786db52d4b4e56fadeab76f23b411129af81"
+      }
+    }
+  ],
+  "source_sha256": "0d6de8aa3cc2ec9169c148088f6a398e515bb14cc41e45d8e6210c7acb6eb377",
+  "refusals": []
+}

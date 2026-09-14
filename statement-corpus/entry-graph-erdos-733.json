@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/733",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Call a sequence $1<X_1\\leq\\cdots X_m\\leq n$ line-compatible if there is a set of $n$ points in $\\mathbb{R}^2$ such that there are $m$ lines $\\ell_1,\\ldots,\\ell_m$ containing at least two points, and the number of points on $\\ell_i$ is exactly $X_i$. Prove that there are at most\\[\\exp(O(n^{1/2}))\\]many line-compatible sequences.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/733",
+        "start": 12236,
+        "end": 12582,
+        "exactness": "slice",
+        "sha256": "f9d58907ae295b638f05f6e64fa55fcea732017554b522ecddf8aeecfdd6bb6e"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#733 : [Er81] combinatorics | geometry This problem is essentially the same as [607] , but with multiplicities. Erdős writes that it is 'easy' to prove there are at least\\[\\exp(cn^{1/2})\\]many such sequences for some constant $c>0$, but expected proving the upper bound to be difficult. Once it is done, he asked for the existence and value of\\[\\lim_{n\\to \\infty}\\frac{\\log f(n)}{n^{1/2}},\\]where $f(n)$ counts the number of line-compatible sequences. This is true, and was proved by Szemerédi and Trotter [SzTr83] . See also [732] . Additional thanks to : Noga Alon Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #733, https://www.erdosproblems.com/733, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/733",
+        "start": 12582,
+        "end": 32345,
+        "exactness": "region",
+        "sha256": "d9db16fd4d3c562e8848e09054ae355e650753a888c54d7e2d70d58de5f4bd19"
+      }
+    }
+  ],
+  "source_sha256": "fe60e682b32cd7dd5c3aa0404ca9f92d9edd67626e4cde5d5ee8d15478602545",
+  "refusals": []
+}

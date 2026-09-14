@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/891",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $2=p_1<p_2<\\cdots$ be the primes and $k\\geq 2$. Is it true that, for all sufficiently large $n$, there must exist an integer in $[n,n+p_1\\cdots p_k)$ with $>k$ many prime factors?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/891",
+        "start": 12255,
+        "end": 12453,
+        "exactness": "slice",
+        "sha256": "a38670e1262608b5767d4aa6aa3fc0c2a49e4276df675e9b5bdf45178abc782c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#891 : [ErSe67,p.430] number theory Schinzel deduced from Pólya's theorem [Po18] (that the sequence of $k$-smooth integers has unbounded gaps) that this is true with $p_1\\cdots p_k$ replaced by $p_1\\cdots p_{k-1}p_{k+1}$. This is unknown even for $k=2$ - that is, is it true that in every interval of $6$ (sufficiently large) consecutive integers there must exist one with at least $3$ prime factors? Weisenberg has observed that Dickson's conjecture implies the answer is no if we replace $p_1\\cdots p_k$ with $p_1\\cdots p_k-1$. Indeed, let $L_k$ be the lowest common multiple of all integers at most $p_1\\cdots p_k$. By Dickson's conjecture there are infinitely many $n'$ such that $\\frac{L_k}{m}n'+1$ is prime for all $1\\leq m<p_1\\cdots p_k$. It follows that, if $n=L_kn'+1$, then all integers in $[n,n+p_1\\cdots p_k-1)$ have at most $k$ prime factors. Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #891, https://www.erdosproblems.com/891, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/891",
+        "start": 12453,
+        "end": 32398,
+        "exactness": "region",
+        "sha256": "6ac151e21a2ec98b352f430e26af955c1ca6d1f0e6cf882b4ba17b32666c6f25"
+      }
+    }
+  ],
+  "source_sha256": "57c73d50c2c18277b5317b58f97c678ba27babb548fd75b694bd065b0025f4f4",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/304",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For integers $1\\leq a<b$ let $N(a,b)$ denote the minimal $k$ such that there exist integers $1<n_1<\\cdots<n_k$ with\\[\\frac{a}{b}=\\frac{1}{n_1}+\\cdots+\\frac{1}{n_k}.\\]Estimate $N(b)=\\max_{1\\leq a<b}N(a,b)$. Is it true that $N(b) \\ll \\log\\log b$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/304",
+        "start": 12255,
+        "end": 12525,
+        "exactness": "slice",
+        "sha256": "5ca582258b38be17ae930956b2936cdb156bf52e891556af3f44c00c9a388a18"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#304 : [ErGr80,p.37] number theory | unit fractions Erdős [Er50c] proved that\\[\\log\\log b \\ll N(b) \\ll \\frac{\\log b}{\\log\\log b}.\\]The upper bound was improved by Vose [Vo85] to\\[N(b) \\ll \\sqrt{\\log b}.\\]One can also investigate the average of $N(a,b)$ for fixed $b$, and it is known that\\[\\frac{1}{b}\\sum_{1\\leq a<b}N(a,b) \\gg \\log\\log b.\\]Related to [18] . There is also a close connection to [293] (particularly with $N(b-1,b)$), as elucidated by van Doorn and Tang [vDTa25b] . This problem has been formalised in Lean as part of the Google DeepMind Formal Conjectures project . Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 29 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #304, https://www.erdosproblems.com/304, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A097847 , A097849 Reactions Likes Woett , Quanyu_Tang Open to collaboration Woett , Quanyu_Tang Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next <!-- Handle the dual view",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/304",
+        "start": 12525,
+        "end": 33598,
+        "exactness": "region",
+        "sha256": "d8727173bfc8a40a9577a931bbc1c4d422691ea92ce8d3b9f1ed35f6053c2af5"
+      }
+    }
+  ],
+  "source_sha256": "314f6d33da77590e093eb6fca01feea3c6d4b89d54ec2751c159445f67a03928",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/428",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there a set $A\\subseteq \\mathbb{N}$ such that, for infinitely many $n$, all of $n-a$ are prime for all $a\\in A$ with $0<a<n$ and\\[\\liminf\\frac{\\lvert A\\cap [1,x]\\rvert}{\\pi(x)}>0?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/428",
+        "start": 12255,
+        "end": 12454,
+        "exactness": "slice",
+        "sha256": "05391612fd42122affc3e7329fcb1cd8be7246f98b091ec6758b88a16eae295c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#428 : [ErGr80] number theory | primes Erdős and Graham could show this is true (assuming the prime $k$-tuple conjecture) if we replace $\\liminf$ by $\\limsup$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #428, https://www.erdosproblems.com/428, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/428",
+        "start": 12454,
+        "end": 31273,
+        "exactness": "region",
+        "sha256": "cc8655f7bd394e283c4a011f8020ac965340d7c97adffc7afb2db0e6c321a372"
+      }
+    }
+  ],
+  "source_sha256": "cf8464cdbe458199d3be8245a411915f142336ebdc4b50b65ca35b0c1c22084c",
+  "refusals": []
+}

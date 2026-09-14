@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/479",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that, for all $k\\neq 1$, there are infinitely many $n$ such that $2^n\\equiv k\\pmod{n}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/479",
+        "start": 12255,
+        "end": 12359,
+        "exactness": "slice",
+        "sha256": "6d6a21e0abd486226d4905489d80f467705d02836dd53567f694cbd86e067374"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#479 : [ErGr80,p.96] number theory A conjecture of Graham. It is easy to see that $2^n\\not\\equiv 1\\mod{n}$ for all $n>1$, so the restriction $k\\neq 1$ is necessary. Erdős and Graham report that Graham, Lehmer, and Lehmer have proved this for $k=2^i$ for $i\\geq 1$, or if $k=-1$, but I cannot find such a paper. Tang has written a short note giving a proof for this case. As an indication of the difficulty, when $k=3$ the smallest $n$ such that $2^n\\equiv 3\\pmod{n}$ is $n=4700063497$. The minimal such $n$ for each $k$ is A036236 in the OEIS. Additional thanks to : Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 03 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #479, https://www.erdosproblems.com/479, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A036236 , A015919 , A050259 , A015921 , A006521 , A006517 , A015940 Reactions Likes Quanyu_Tang Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/479",
+        "start": 12359,
+        "end": 33717,
+        "exactness": "region",
+        "sha256": "2ecdf51fd96d3bcf699f8e199492aaa8a027893a712def50bb3fcdc0c6fe3bb4"
+      }
+    }
+  ],
+  "source_sha256": "72f0710dcfee1db0fda378a982bab96c5470da391fdc9adabfa047c1e0b57c54",
+  "refusals": []
+}

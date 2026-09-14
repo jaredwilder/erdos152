@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/665",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "A pairwise balanced design for $\\{1,\\ldots,n\\}$ is a collection of sets $A_1,\\ldots,A_m\\subseteq \\{1,\\ldots,n\\}$ such that $2\\leq \\lvert A_i\\rvert <n$ and every pair of distinct elements $x,y\\in \\{1,\\ldots,n\\}$ is contained in exactly one $A_i$. Is there a constant $C>0$ and, for all large $n$, a pairwise balanced design such that\\[\\lvert A_i\\rvert > n^{1/2}-C\\]for all $1\\leq i\\leq m$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/665",
+        "start": 12255,
+        "end": 12670,
+        "exactness": "slice",
+        "sha256": "2cbd8a5802920d3fdc09826dd8bdfff516a1d230becdcf5ad8fc7a1af608e9de"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#665 : [ErLa82] [Er97f,p.3] combinatorics A problem of Erdős and Larson [ErLa82] . In general, as Erdős asks in [Er97f] , find the slowest growing function $h$ such that, for all large $n$, there exists a pairwise balanced design with\\[\\lvert A_i\\rvert > n^{1/2}-h(n)\\]for all $1\\leq i\\leq m$. The problem above asks whether $h(n)\\ll 1$. Erdős and Larson prove that $h(n) \\ll n^{1/2-c}$ for some constant $c>0$, and note this can be improved to $h(n)\\ll (\\log n)^2$ assuming Cramer-type bounds on the difference between consecutive primes. Shrikhande and Singhi [ShSi85] have proved that the answer is no conditional on the conjecture that the order of every projective plane is a prime power (see [723] ), by proving that every pairwise balanced design on $n$ points in which each block is of size $\\geq n^{1/2}-c$ can be embedded in a projective plane of order $n+i$ for some $i\\leq c+2$, if $n$ is sufficiently large. In general, if $H(n)$ is the largest prime gap $\\leq n$, then the above reuslts show that, assuming the prime power conjecture, $H(n)\\asymp h(n)$. Additional thanks to : Boris Alexeev Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #665, https://www.erdosproblems.com/665, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/665",
+        "start": 12670,
+        "end": 33024,
+        "exactness": "region",
+        "sha256": "13670997f9071f947bd024efb28b8d9346bae25500111ccd4887681d8b7c7672"
+      }
+    }
+  ],
+  "source_sha256": "35e000dbb4b2c9e4e1d1fc48e4a1af836fd83e221b0f97451c6d1a6e0e1f75d2",
+  "refusals": []
+}

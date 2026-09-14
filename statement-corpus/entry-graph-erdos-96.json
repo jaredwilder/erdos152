@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/96",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $n$ points in $\\mathbb{R}^2$ form a convex polygon then there are $O(n)$ many pairs which are distance $1$ apart.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/96",
+        "start": 12253,
+        "end": 12375,
+        "exactness": "slice",
+        "sha256": "85ee02c13e86c18e2c367fb377b9ede2927c34822fa70e8a1d74a34594622efe"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#96 : [Er90] [Er92e] [Er97e] [Er97f] [Va99,4.68] geometry | distances | convex Conjectured by Erdős and Moser. In [Er92e] Erdős credits the conjecture that the true upper bound is $2n$ to himself and Fishburn. Füredi [Fu90] proved an upper bound of $O(n\\log n)$. A short proof of this bound was given by Brass and Pach [BrPa01] . The best known upper bound is\\[\\leq n\\log_2n+4n,\\]due to Aggarwal [Ag15] . Edelsbrunner and Hajnal [EdHa91] have constructed $n$ such points with $2n-7$ pairs distance $1$ apart. (This disproved an early stronger conjecture of Erdős and Moser, that the true answer was $\\frac{5}{3}n+O(1)$.) A positive answer would follow from [97] . See also [90] . In [Er92e] Erdős makes the stronger conjecture that, if $g(x)$ counts the largest number of points equidistant from $x$ in $A$, then\\[\\sum_{x\\in A}g(x)< 4n.\\]He notes that the example of Edelsbrunner and Hajnal shows that $\\sum_{x\\in A}g(x)>4n-O(1)$ is possible. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #96, https://www.erdosproblems.com/96, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes Fedir , JunseokLee Open to collaboration mysticflounder Currently working on TFBloom , mysticflounder Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/96",
+        "start": 12375,
+        "end": 33792,
+        "exactness": "region",
+        "sha256": "e9114ef636551b2a1c028ccd4151af40f0dee5e81167b69e27f13f4d6dcfbe9a"
+      }
+    }
+  ],
+  "source_sha256": "5b7c1290952ace0c5519fc5e3722df1a0820de5b7f0bf0652c95566e15f214df",
+  "refusals": []
+}

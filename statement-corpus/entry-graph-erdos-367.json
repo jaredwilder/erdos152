@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/367",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $B_2(n)$ be the $2$-full part of $n$ (that is, $B_2(n)=n/n'$ where $n'$ is the product of all primes that divide $n$ exactly once). Is it true that, for every fixed $k\\geq 1$,\\[\\prod_{n\\leq m<n+k}B_2(m) \\ll n^{2+o(1)}?\\]Or perhaps even $\\ll_k n^2$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/367",
+        "start": 12255,
+        "end": 12517,
+        "exactness": "slice",
+        "sha256": "4087276737f33e121a3fefd7e6e9ff1e5fb911843cab4945461dc4626ab8e2d6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#367 : [ErGr80,p.68] number theory | powerful It would also be interesting to find upper and lower bounds for the analogous product with $B_r$ for $r\\geq 3$, where $B_r(n)$ is the $r$-full part of $n$ (that is, the product of prime powers $p^a \\mid n$ such that $p^{a+1}\\nmid n$ and $a\\geq r$). Is it true that, for every fixed $r,k\\geq 2$ and $\\epsilon>0$,\\[\\limsup \\frac{\\prod_{n\\leq m<n+k}B_r(m) }{n^{1+\\epsilon}}\\to\\infty?\\]van Doorn notes in the comments that for $k\\leq 2$ we trivially have\\[\\prod_{n\\leq m<n+k}B_2(m) \\ll n^{2},\\]but that this fails for all $k\\geq 3$, and in fact\\[\\prod_{n\\leq m<n+3}B_2(m) \\gg n^{2}\\log n\\]infinitely often. This question is equivalent (up to constants) to [935] . Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 23 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #367, https://www.erdosproblems.com/367, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A057521 Reactions Likes Woett , sproutseeds Open to collaboration Woett , sproutseeds Currently working on sproutseeds Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/367",
+        "start": 12517,
+        "end": 32846,
+        "exactness": "region",
+        "sha256": "0ccce18cba197c11be8ded7812660e32365abdb55d181268af73e7fb9518aa98"
+      }
+    }
+  ],
+  "source_sha256": "8a59a035dd23eec8a0932f7a77a140d1cb2078a0fed2e8c789ca15ce0a4ca036",
+  "refusals": []
+}

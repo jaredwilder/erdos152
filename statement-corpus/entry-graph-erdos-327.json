@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/327",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Suppose $A\\subseteq \\{1,\\ldots,N\\}$ is such that if $a,b\\in A$ and $a\\neq b$ then $a+b\\nmid ab$. Can $A$ be 'substantially more' than the odd numbers? What if $a,b\\in A$ with $a\\neq b$ implies $a+b\\nmid 2ab$? Must $\\lvert A\\rvert=o(N)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/327",
+        "start": 12255,
+        "end": 12504,
+        "exactness": "slice",
+        "sha256": "d3420ee3ea648b0b0325dec5feafb37aae34beddc43cb77b21c172c6e4c7d1b9"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#327 : [ErGr80] number theory | unit fractions The connection to unit fractions comes from the observation that $\\frac{1}{a}+\\frac{1}{b}$ is a unit fraction if and only if $a+b\\mid ab$. Wouter van Doorn has given an elementary argument that proves that if $A\\subseteq \\{1,\\ldots,N\\}$ has $\\lvert A\\rvert \\geq (25/28+o(1))N$ then $A$ must contain $a\\neq b$ with $a+b\\mid ab$ (see the discussion in [301] ). See also [302] . Additional thanks to : Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (11) Proof claims (2) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #327, https://www.erdosproblems.com/327, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A384927 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising dondellapietra Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/327",
+        "start": 12504,
+        "end": 32300,
+        "exactness": "region",
+        "sha256": "24eeb09c4409305bcc314373f6192466584172fb1630afcd3fa00cc0ff9b1e33"
+      }
+    }
+  ],
+  "source_sha256": "852874247e1190bf8b46b1a1ae1bd9f3bf2f9c9e76227c1420d07524c9ad63a7",
+  "refusals": []
+}

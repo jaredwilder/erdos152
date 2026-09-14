@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/939",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $r\\geq 2$. An $r$-powerful number $n$ is one such that if $p\\mid n$ then $p^r\\mid n$. If $r\\geq 4$ then can the sum of $r-2$ coprime $r$-powerful numbers ever be itself $r$-powerful? Are there at most finitely many such solutions? Are there infinitely many triples of coprime $3$-powerful numbers $a,b,c$ such that $a+b=c$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/939",
+        "start": 12255,
+        "end": 12602,
+        "exactness": "slice",
+        "sha256": "671c4a6619517f63ce721a87fa20d85d78abaf8ae009fad0332aaaadebe74446"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#939 : [Er76d] number theory | powerful The answer to the third question is yes: Nitaj [Ni95] has proved that there are infinitely many triples of coprime $3$-powerful numbers $a,b,c$ such that $a+b=c$, such as\\[2^3\\cdot 3^5\\cdot 73^3+271^3 = 919^3.\\]In Nitaj's construction at least two of $a,b,c$ are perfect cubes. Cohn [Co98] constructed infinitely many such triples, none of which are perfect cubes. An alternative construction was given by Walsh [Wa24] . Euler had conjectured that the sum of $k-1$ many $k$th powers is never a $k$th power, but this is false for $k=5$, as Lander and Parkin [LaPa67] found\\[27^5+84^5+110^5+133^5=144^5.\\]Cambie has found several examples of the sum of $r-2$ coprime $r$-powerful numbers being itself $r$-powerful. For example when $r=5$\\[3^761^5=2^83^{10}5^7+2^{12}23^6+11^513^5.\\](Kitamura has given another example in the comments.) Cambie has also found solutions when $r=7$ or $r=8$ (the latter even with the sum of $5$ $8$-powerful numbers being $8$-powerful). GPT-5.5. Pro (prompted by Price) has given a simple construction in the comments that shows for $r\\geq 6$ there are infinitely many $r$-powerful numbers which are the sum of $(r-2)$ (in fact $\\lceil r/2\\rceil+1$) many coprime $r$-powerful numbers. Additional thanks to : Alfaiz, Stijn Cambie, Kenta Kitamura, and Liam Price Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (0) More information and links This page was last edited 28 May 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #939, https://www.erdosproblems.com/939, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes KStar Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/939",
+        "start": 12602,
+        "end": 33428,
+        "exactness": "region",
+        "sha256": "dfddb067dd099f79a027459d960f7df74f345c3e7b9fa2444216d76146f76034"
+      }
+    }
+  ],
+  "source_sha256": "16e121d84c26514c6e83628a2789a1626fda428790872960fd4b1d6a9fe40921",
+  "refusals": []
+}

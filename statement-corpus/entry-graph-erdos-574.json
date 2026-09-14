@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/574",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that, for $k\\geq 2$,\\[\\mathrm{ex}(n;\\{C_{2k-1},C_{2k}\\})=(1+o(1))(n/2)^{1+\\frac{1}{k}}.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/574",
+        "start": 12236,
+        "end": 12342,
+        "exactness": "slice",
+        "sha256": "76b00ac589aea81bf83c35be6fd44d9e81046d7aaeba15a2bf82fd217d8d22c7"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#574 : [ErSi82] graph theory | turan number A problem of Erdős and Simonovits. This has been disproved a number of times. It appears to have been first disproved by Lazebnik, Ustimenko, and Woldar [LUW94b] for $k=3$ and $5$, since they construct bipartite graphs containing no $C_{2k}$ with\\[\\left(\\frac{k-1}{k^{1+\\frac{1}{k}}}+o(1)\\right)n^{1+\\frac{1}{k}}\\]edges. (Note that the constant here for $k=3$ and $5$ is $\\approx 0.462$ and $\\approx 0.579$ respectively, while this problem predicts $\\approx 0.396$ and $\\approx 0.435$.) An alternative disproof for $k=3$ is given by Füredi, Naor, and Verstraëte [FNV06] , who prove that the extremal number for an $m\\times 2m$ bipartite graph containing $C_6$ is (with $n=3m$)\\[(2/3^{4/3}+o(1))n^{4/3}.\\]See also [572] , [573] for the specific case of $k=2$, and [1080] . This problem is #49 in Extremal Graph Theory in the graphs problem collection. Additional thanks to : Boris Alexeev Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 01 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #574, https://www.erdosproblems.com/574, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/574",
+        "start": 12342,
+        "end": 32856,
+        "exactness": "region",
+        "sha256": "bb28dff3dfc871b88ec13173fe3e6110559c278a6cf8e288b0caed7170bd6b17"
+      }
+    }
+  ],
+  "source_sha256": "5e07132d9184bf44999a3e8c516a8d8be8545fbc38e1d6bda48696f69f702796",
+  "refusals": []
+}

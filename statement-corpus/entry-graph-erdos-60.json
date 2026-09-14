@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/60",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Does every graph on $n$ vertices with $>\\mathrm{ex}(n;C_4)$ edges contain $\\gg n^{1/2}$ many copies of $C_4$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/60",
+        "start": 12253,
+        "end": 12372,
+        "exactness": "slice",
+        "sha256": "8455cb6f5349b4b240b251eb2884a065ea3042517ab746c560ef90660bda37c6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#60 : [Er90] [Er93,p.335] graph theory | cycles Conjectured by Erdős and Simonovits, who could not even prove that at least $2$ copies of $C_4$ are guaranteed. The behaviour of $\\mathrm{ex}(n;C_4)$ is the subject of [765] . He, Ma, and Yang [HeMaYa21] have proved this conjecture when $n=q^2+q+1$ for some even integer $q$. Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 18 November 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #60, https://www.erdosproblems.com/60, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A006855 Reactions Likes lof310 , holyterror Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/60",
+        "start": 12372,
+        "end": 32363,
+        "exactness": "region",
+        "sha256": "697ae8faa4f9cc634d17cc70e10e8336cd78985986d826b7d4b35f0cf361017a"
+      }
+    }
+  ],
+  "source_sha256": "ace623506ede24487ee1f4c1dd63ff0455ddef839b746985ea833e97ea34bdbf",
+  "refusals": []
+}

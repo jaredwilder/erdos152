@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/525",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is it true that all except at most $o(2^n)$ many degree $n$ polynomials with $\\pm 1$-valued coefficients $f(z)$ have $\\lvert f(z)\\rvert <1$ for some $\\lvert z\\rvert=1$? What is the behaviour of\\[m(f)=\\min_{\\lvert z\\rvert=1}\\lvert f(z)\\rvert?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/525",
+        "start": 12236,
+        "end": 12492,
+        "exactness": "slice",
+        "sha256": "024110821357b93a4f177cb4efcabb38bbee5d36b57cc06b1c62559f4439c267"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#525 : [Er61,p.253] analysis | probability | polynomials Random polynomials with independently identically distributed coefficients are sometimes called Kac polynomials - this problem considers the case of Rademacher coefficients, i.e. independent uniform $\\pm 1$ values. The first problem asks whether $m(f)<1$ almost surely. Littlewood [Li66] conjectured that the stronger $m(f)=o(1)$ holds almost surely. The answer to both questions is yes: Littlewood's conjecture was solved by Kashin [Ka87] , and Konyagin [Ko94] improved this to show that $m(f)\\leq n^{-1/2+o(1)}$ almost surely. This is essentially best possible, since Konyagin and Schlag [KoSc99] proved that for any $\\epsilon>0$\\[\\limsup_{n\\to \\infty} \\mathbb (m(f) \\leq \\epsilon n^{-1/2})\\ll \\epsilon.\\]Cook and Nguyen [CoNg21] have identified the limiting distribution, proving that for any $\\epsilon>0$\\[\\lim_{n\\to \\infty} \\mathbb (m(f) > \\epsilon n^{-1/2}) = e^{-\\epsilon \\lambda}\\]where $\\lambda$ is an explicit constant. Additional thanks to : Mehtaab Sawhney Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #525, https://www.erdosproblems.com/525, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/525",
+        "start": 12492,
+        "end": 33043,
+        "exactness": "region",
+        "sha256": "fb065bfd909928b53c17e2687b8ebc2af8cb22d0590031cfd22d1bf0a65102d2"
+      }
+    }
+  ],
+  "source_sha256": "212a8762c84044f5884c401f4cec18bdc2c2cee961aafa1a49dbb61489d95a12",
+  "refusals": []
+}

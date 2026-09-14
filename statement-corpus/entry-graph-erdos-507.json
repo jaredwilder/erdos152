@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/507",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\alpha(n)$ be such that every set of $n$ points in the unit disk contains three points which determine a triangle of area at most $\\alpha(n)$. Estimate $\\alpha(n)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/507",
+        "start": 12255,
+        "end": 12430,
+        "exactness": "slice",
+        "sha256": "5951fe1f859fc2b514ac3281bf2e53ab84b7a6489d864c2d550231020c1ad327"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#507 : [Er61,p.246] [Er75f,p.107] geometry Heilbronn's triangle problem . It is trivial that $\\alpha(n) \\ll 1/n$. Erdős observed that $\\alpha(n)\\gg 1/n^2$. The current best bounds are\\[\\frac{\\log n}{n^2}\\ll \\alpha(n) \\ll \\frac{1}{n^{7/6+o(1)}}.\\]The lower bound is due to Komlós, Pintz, and Szemerédi [KPS82] . The upper bound is due to Cohen, Pohoata, and Zakharov [CPZ24] (improving on their earlier work [CPZ23] which itself improves an exponent of $8/7$ due to Komlós, Pintz, and Szemerédi [KPS81] ). This problem is Problem 77 on Green's open problems list . Additional thanks to : Mehtaab Sawhney and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 30 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #507, https://www.erdosproblems.com/507, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/507",
+        "start": 12430,
+        "end": 32628,
+        "exactness": "region",
+        "sha256": "91cb2f484a54816d569821bda050ed24c2de1535ffc06847d80f19cc14f309c7"
+      }
+    }
+  ],
+  "source_sha256": "b522c6108cc61e7826041e9cf77fd03b4c58573a6512e8e8f63fc9758b77b0b0",
+  "refusals": []
+}

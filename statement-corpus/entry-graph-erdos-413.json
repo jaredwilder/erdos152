@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/413",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\omega(n)$ count the number of distinct primes dividing $n$. Are there infinitely many $n$ such that, for all $m<n$, we have $m+\\omega(m) \\leq n$? Can one show that there exists an $\\epsilon>0$ such that there are infinitely many $n$ where $m+\\epsilon \\omega(m)\\leq n$ for all $m<n$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/413",
+        "start": 12255,
+        "end": 12566,
+        "exactness": "slice",
+        "sha256": "89524d1f0f6d946347c90cc5f7ad06b9a868e3c039feca0d581ba066917ec3b4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#413 : [Er79] [Er79d] [Er80,p.107] [ErGr80,p.81] [Er92e] [Er95c] number theory | iterated functions In [Er79] Erdős calls such an $n$ a 'barrier' for $\\omega$. Some other natural number theoretic functions (such as $\\phi$ and $\\sigma$) have no barriers because they increase too rapidly. Erdős believed that $\\omega$ should have infinitely many barriers. In [Er79d] he proves that $F(n)=\\prod k_i$, where $n=\\prod p_i^{k_i}$, has infinitely many barriers (in fact the set of barriers has positive density in the integers). Erdős also believed that $\\Omega$, the count of the number of prime factors with multiplicity), should have infinitely many barriers. Selfridge found the largest barrier for $\\Omega$ which is $<10^5$ is $99840$. In [ErGr80] this problem is suggested as a way of showing that the iterated behaviour of $n\\mapsto n+\\omega(n)$ eventually settles into a single sequence, regardless of the starting value of $n$ (see also [412] and [414] ). Erdős and Graham report it could be attacked by sieve methods, but 'at present these methods are not strong enough'. Lau [La26] (see [679] ) has provided a positive answer to the second question, and proved a weaker version of the first: there exists a constant $C$ such that, for infinitely many $n$,\\[m+\\omega(m) \\leq n\\]for all $1\\leq m\\leq n-C$. The sequence of barriers for $\\omega$ is A005236 in the OEIS. This is discussed in problem B8 of Guy's collection [Gu04] . See also [647] and [679] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 17 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #413, https://www.erdosproblems.com/413, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A005236 Reactions Likes conglu , RaziqStark Open to collaboration conglu , RaziqStark Currently working on conglu , RaziqStark Looks difficult None Looks tractable RaziqStark",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/413",
+        "start": 12566,
+        "end": 35153,
+        "exactness": "region",
+        "sha256": "1bf3958c733a0b18a73ab8283ebbaeb8508a9c6e724e82720d1bacf89cf559c5"
+      }
+    }
+  ],
+  "source_sha256": "4cc3ae7da6047bb1002dcae427318f2b124af118eadf91f48be7778f0846d3f5",
+  "refusals": []
+}

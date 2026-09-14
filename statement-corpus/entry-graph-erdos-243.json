@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/243",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $1\\leq a_1<a_2<\\cdots$ be a sequence of integers such that\\[\\lim_{n\\to \\infty}\\frac{a_n}{a_{n-1}^2}=1\\]and $\\sum\\frac{1}{a_n}\\in \\mathbb{Q}$. Then, for all sufficiently large $n\\geq 1$,\\[ a_n = a_{n-1}^2-a_{n-1}+1.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/243",
+        "start": 12255,
+        "end": 12489,
+        "exactness": "slice",
+        "sha256": "b867cddb9342f7f60f583f2deedd8bfe49509668697a94e005643af68299afdd"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#243 : [ErGr80,p.64] [Er88c,p.105] number theory | irrationality Erdős and Straus [ErSt64] proved that if $\\lim a_n/a_{n-1}^2=1$ and $\\sum \\frac{1}{a_n}$ is rational, and $a_n$ does not satisfy the recurrence, then\\[\\limsup_{n\\to \\infty} \\frac{[a_1,\\ldots,a_n]}{a_{n+1}}\\left(\\frac{a_n^2}{a_{n+1}}-1\\right)>0.\\]A sequence satisfying the reucrrence $a_n = a_{n-1}^2-a_{n-1}+1$ is known as Sylvester's sequence . Duverney [Du01] proved a weaker version of this problem: if\\[\\sum_{n\\geq 0}\\left(\\frac{a_{n+1}}{a_n^2}-1\\right)\\]converges then $\\sum \\frac{1}{a_n}$ is rational if and only if\\[a_{n}=a_{n-1}^2-a_{n-1}+1\\]for all large $n$. Additional thanks to : Alfaiz Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (7) Proof claims (0) More information and links This page was last edited 21 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #243, https://www.erdosproblems.com/243, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A000058 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/243",
+        "start": 12489,
+        "end": 32841,
+        "exactness": "region",
+        "sha256": "f8c7c441d3298bd9c2d837efae056a398038daceff5d7a67e155b25d462f7480"
+      }
+    }
+  ],
+  "source_sha256": "d09d3da08015ed5e9e5a43aba7945797fdc664530d8980bccd44b214719eccb1",
+  "refusals": []
+}

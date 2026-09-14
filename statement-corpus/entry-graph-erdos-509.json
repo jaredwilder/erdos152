@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/509",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(z)\\in\\mathbb{C}[z]$ be a monic non-constant polynomial. Can the set\\[\\{ z\\in \\mathbb{C} : \\lvert f(z)\\rvert \\leq 1\\}\\]be covered by a set of circles the sum of whose radii is $\\leq 2$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/509",
+        "start": 12255,
+        "end": 12452,
+        "exactness": "slice",
+        "sha256": "2d427f0d1f28543d69ee2eddb624faa1dd1ee4a59c5a2a5b5b4770c524714708"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#509 : [Er61,p.246] [Ha74] analysis | polynomials Cartan proved this is true with $2$ replaced by $2e$, which was improved to $2.59$ by Pommerenke [Po61] . Pommerenke [Po59] proved that $2$ is achievable if the set is connected (see [1046] ). The generalisation of this to higher dimensions was asked by Erdős as Problem 4.23 in [Ha74] . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (1) More information and links This page was last edited 29 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #509, https://www.erdosproblems.com/509, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes None Open to collaboration Qing_Hong Currently working on dhyantailor , benk , Qing_Hong Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/509",
+        "start": 12452,
+        "end": 32239,
+        "exactness": "region",
+        "sha256": "650e01c5abc7ef6617c411ab97a329f48106e078da85855b4b561abb150662ab"
+      }
+    }
+  ],
+  "source_sha256": "3a4f2847ce8d3890100a3fe181cc00bfd285e16d3dee2978def24b1af80283cc",
+  "refusals": []
+}

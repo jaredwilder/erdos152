@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1030",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $R(k,l)$ be the usual Ramsey number: the smallest $n$ such that if the edges of $K_n$ are coloured red and blue then there exists either a red $K_k$ or a blue $K_l$. Prove the existence of some $c>0$ such that\\[\\lim_{k\\to \\infty}\\frac{R(k+1,k)}{R(k,k)}> 1+c.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1030",
+        "start": 12257,
+        "end": 12542,
+        "exactness": "slice",
+        "sha256": "08e15fa1811546522196caf36038e6a0807e1104b79dbae7aaa0a78113e392ae"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1030 : [Er93,p.339] graph theory | ramsey theory A problem of Erdős and Sós, who could not even prove whether $R(k+1,k)-R(k,k)>k^c$ for any $c>1$. It is trivial that $R(k+1,k)-R(k,k)\\geq k-2$. Burr, Erdős, Faudree, and Schelp [BEFS89] proved\\[R(k+1,k)-R(k,k)\\geq 2k-5.\\]See also [544] for a similar question concerning $R(3,k)$, and [1014] for the general off-diagonal case. Additional thanks to : Ryan Tuck Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 23 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1030, https://www.erdosproblems.com/1030, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A000791 , A059442 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1030",
+        "start": 12542,
+        "end": 32615,
+        "exactness": "region",
+        "sha256": "39dd00f6a9cf5752ce7c459b852975da16d746e244c5bdab5c72290be3c05640"
+      }
+    }
+  ],
+  "source_sha256": "cc67a4d4309ea89727e6fdad65c5aae977a0e521d70a9da85e669579913f5586",
+  "refusals": []
+}

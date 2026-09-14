@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/824",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $h(x)$ count the number of integers $1\\leq a<b<x$ such that $(a,b)=1$ and $\\sigma(a)=\\sigma(b)$, where $\\sigma$ is the sum of divisors function. Is it true that $h(x)>x^{2-o(1)}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/824",
+        "start": 12255,
+        "end": 12460,
+        "exactness": "slice",
+        "sha256": "2db63eb26ae7be96034bc2017346b08d3bc656a0ded9086828d6f43b0533eb5c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#824 : [Er59c,p.172] [Er74b,p.202] number theory Erdős [Er74b] proved that $\\limsup h(x)/x= \\infty$, and claimed a similar proof for this problem. A complete proof that $h(x)/x\\to \\infty$ was provided by Pollack and Pomerance [PoPo16] . A similar question can be asked if we replace the condition $(a,b)=1$ with the condition that $a$ and $b$ are squarefree. Weisenberg suggests another variant, with the condition that there are no proper factors $u\\mid a$ and $v\\mid b$ such that $\\sigma(u)=\\sigma(v)$ and $(u,a/u)=(v,b/v)=1$, which is the weakest restriction one can impose that is still strong enough to eliminate trivial duplicates. Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (1) More information and links This page was last edited 28 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #824, https://www.erdosproblems.com/824, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/824",
+        "start": 12460,
+        "end": 32449,
+        "exactness": "region",
+        "sha256": "9b3f8843fb8d9e6b88fe0dda9bca55cfc4e8f2e0adf8fe37a7f817707ded03be"
+      }
+    }
+  ],
+  "source_sha256": "650cae45918036e021e662e6ca21ec10de08029e745306f3233b57f92faf7959",
+  "refusals": []
+}

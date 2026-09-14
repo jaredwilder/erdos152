@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/407",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $w(n)$ count the number of solutions to\\[n=2^a+3^b+2^c3^d\\]with $a,b,c,d\\geq 0$ integers. Is it true that $w(n)$ is bounded by some absolute constant?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/407",
+        "start": 12236,
+        "end": 12396,
+        "exactness": "slice",
+        "sha256": "b5a4f700ad61d4e5919c607186320c65a0ca7e148807a629880ccfbd07498a71"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#407 : [ErGr80,p.80] number theory A conjecture originally due to Newman. This is true, and was proved by Evertse, Györy, Stewart, and Tijdeman [EGST88] . Quantitative bounds were provided by Tijdeman and Wang [TiWa88] , who proved that (if $w(n)$ only counts distinct solutions, where we call two solutions distinct if the sets $\\{2^a,3^b,2^{c}3^d\\}$ are distinct) then $w(n) \\leq 4$ for all large $n$. This was made effective by Bajpai and Bennett [BaBe24] , who proved that $w(n)\\leq 4$ if $n\\geq 131082$ and $w(n)\\leq 9$ for all $n$. (The largest $n$ for which $w(n)=9$ is $299$.) There are infinitely many $n$ with $w(n)=4$, given by the identities \\begin{align*} 2^{a-1}+3^b+2^{a-1}3^0 &= 2^{a-2}+3^b+2^{a-2}3^1\\\\ &=2^a+3^{b-1}+2\\cdot 3^{b-1}\\\\ &=2^a+3^{b-2}+2^33^{b-2}. \\end{align*} Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (5) Proof claims (0) More information and links This page was last edited 18 November 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #407, https://www.erdosproblems.com/407, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS possible, A387688 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/407",
+        "start": 12396,
+        "end": 32696,
+        "exactness": "region",
+        "sha256": "9943e47d3caf49f8beb6953adb7c6932f84ef127e4bb4f4194051a3491e3042e"
+      }
+    }
+  ],
+  "source_sha256": "a6cc0d9fa2890027a1b7672b73b7785b364382ea2d445d2550ea62e00c504410",
+  "refusals": []
+}

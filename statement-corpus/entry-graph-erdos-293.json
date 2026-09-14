@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/293",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 1$ and let $v(k)$ be the minimal integer which does not appear as some $n_i$ in a solution to\\[1=\\frac{1}{n_1}+\\cdots+\\frac{1}{n_k}\\]with $1\\leq n_1<\\cdots <n_k$. Estimate the growth of $v(k)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/293",
+        "start": 12255,
+        "end": 12473,
+        "exactness": "slice",
+        "sha256": "4d1a8fb606a55b7b57b801881c1b871e3d7b53f009d3e340e2957d51f0c500ab"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#293 : [ErGr80,p.35] number theory | unit fractions Results of Bleicher and Erdős [BlEr75] imply $v(k) \\gg k!$. It may be that $v(k)$ grows doubly exponentially in $\\sqrt{k}$ or even $k$. An elementary inductive argument shows that $n_k\\leq ku_k$ where $u_1=1$ and $u_{i+1}=u_i(u_i+1)$, and hence\\[v(k) \\leq kc_0^{2^k},\\]where\\[c_0=\\lim_n u_n^{1/2^n}=1.26408\\cdots\\]is the 'Vardi constant' (small improvements on this are possible as in [148] ). van Doorn and Tang [vDTa25b] have proved that\\[v(k)\\geq e^{ck^2}\\]for some constant $c>0$, and noted a close connection to [304] . In particular, if $N(b)\\ll \\log\\log b$ as in [304] then it is likely the methods of [vDTa25b] prove $v(k) \\geq e^{e^{ck}}$ for some $c>0$. Additional thanks to : Zach Hunter and Quanyu Tang Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links This page was last edited 29 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #293, https://www.erdosproblems.com/293, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible The original source is ambiguous as to what the problem is — please add a comment if you have an opinion. Reactions Likes Woett , Quanyu_Tang Open to collaboration Woett , Quanyu_Tang Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/293",
+        "start": 12473,
+        "end": 33216,
+        "exactness": "region",
+        "sha256": "7df79b04ca1f842087bf22133ba98ed8d05952593df8abbfdc386346499b2ee4"
+      }
+    }
+  ],
+  "source_sha256": "bbce5a0dd3998c32c8460525688c377507680685e82bce076048b2b373c474bb",
+  "refusals": []
+}

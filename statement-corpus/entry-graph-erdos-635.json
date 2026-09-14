@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/635",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $t\\geq 1$ and $A\\subseteq \\{1,\\ldots,N\\}$ be such that whenever $a,b\\in A$ with $b-a\\geq t$ we have $b-a\\nmid b$. How large can $\\lvert A\\rvert$ be? Is it true that\\[\\lvert A\\rvert \\leq \\left(\\frac{1}{2}+o_t(1)\\right)N?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/635",
+        "start": 12255,
+        "end": 12486,
+        "exactness": "slice",
+        "sha256": "e39cefda61edc03baa390640c7f0fc68d46c13e845b58a183d255352d1ea0de9"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#635 : [Gu83] [Ru99] number theory Asked by Erdős in a letter to Ruzsa in around 1980. Erdős observes that when $t=1$ the maximum possible is\\[\\lvert A\\rvert=\\left\\lfloor\\frac{N+1}{2}\\right\\rfloor,\\]achieved by taking $A$ to be all odd numbers in $\\{1,\\ldots,N\\}$. He also observes that when $t=2$ there exists such an $A$ with\\[\\lvert A\\rvert \\geq \\frac{N}{2}+c\\log N\\]for some constant $c>0$: take $A$ to be the union of all odd numbers together with numbers of the shape $2^k$ with $k$ odd. The second question has been resolved in the affirmative by ChatGPT-5.2 (prompted by Leeham); Tao has since observed that a positive answer also follows fairly quickly from an inequality due to Elliott [El79] . Additional thanks to : Leeham and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (6) Proof claims (0) More information and links This page was last edited 01 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #635, https://www.erdosproblems.com/635, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult ebarschkis Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/635",
+        "start": 12486,
+        "end": 32209,
+        "exactness": "region",
+        "sha256": "e99fe4bc41f422517b55a0eace2f664c7bac99143b0601f467cfe104042be3c7"
+      }
+    }
+  ],
+  "source_sha256": "cd9938fcbe1fd24f17161b049cb7890901da4313ace941297ee0e114b2f1c3b6",
+  "refusals": []
+}

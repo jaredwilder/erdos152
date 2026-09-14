@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/788",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be maximal such that if $B\\subset (2n,4n)\\cap \\mathbb{N}$ there exists some $C\\subset (n,2n)\\cap \\mathbb{N}$ such that $c_1+c_2\\not\\in B$ for all $c_1\\neq c_2\\in C$ and $\\lvert C\\rvert+\\lvert B\\rvert \\geq f(n)$. Estimate $f(n)$. In particular is it true that $f(n)\\leq n^{1/2+o(1)}$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/788",
+        "start": 12255,
+        "end": 12563,
+        "exactness": "slice",
+        "sha256": "d634d1f0a23bd9ed3ecb43a09041329f62877176dbc026efd16409d0f7db5cd2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#788 : [Er73] additive combinatorics A conjecture of Choi [Ch71] , who proved $f(n) \\ll n^{3/4}$. Adenwalla in the comments has provided a simple construction that proves $f(n) \\gg n^{1/2}$. Hunter in the comments has sketched an argument that gives $f(n) \\ll n^{2/3+o(1)}$. The bound\\[f(n) \\ll (n\\log n)^{2/3}\\]was proved by Baltz, Schoen, and Srivastav [BSS00] . In general, the argument given by Hunter shows that, if a random Cayley graph with probability $p$ has (almost surely) independence number $\\ll p^{-c-o(1)}$, then $f(n) \\leq n^{\\frac{c}{c+1}+o(1)}$. The work of Alon and Pham [AlPh25] on random Cayley graphs therefore implies that\\[f(n) \\leq n^{3/5+o(1)},\\]and the conjectured bound of $\\leq p^{-1+o(1)}$ for the independence number would yield $f(n)\\leq n^{1/2+o(1)}$. Additional thanks to : Sarosh Adenwalla, Zach Hunter, Mark Sellke, and Neel Somani Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (14) Proof claims (1) More information and links This page was last edited 26 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #788, https://www.erdosproblems.com/788, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/788",
+        "start": 12563,
+        "end": 32721,
+        "exactness": "region",
+        "sha256": "5177940087d2341d79d0d63a4453b734d3191278bf0572792d245a0b52d3a538"
+      }
+    }
+  ],
+  "source_sha256": "2639fef7539adb8067e0bf9e8e1a632f9b023c71af71af95d86c80f3c6578756",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/555",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $R_k(G)$ denote the minimal $m$ such that if the edges of $K_m$ are $k$-coloured then there is a monochromatic copy of $G$. Determine the value of\\[R_k(C_{2n}).\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/555",
+        "start": 12255,
+        "end": 12427,
+        "exactness": "slice",
+        "sha256": "71460bba443460f4b8221297b5566039a8415a112d6c14bd9eb4bc260b0671b2"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#555 : [Er81c] graph theory | ramsey theory A problem of Erdős and Graham. Erdős [Er81c] gives the bounds\\[k^{1+\\frac{1}{2n}}\\ll R_k(C_{2n})\\ll k^{1+\\frac{1}{n-1}}.\\]Chung and Graham [ChGr75] showed that\\[R_k(C_4)>k^2-k+1\\]when $k-1$ is a prime power and\\[R_k(C_4)\\leq k^2+k+1\\]for all $k$. This problem is #24 in Ramsey Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 08 February 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #555, https://www.erdosproblems.com/555, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A389313 , possible Reactions Likes None Open to collaboration None Currently working on RobSneiderman Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/555",
+        "start": 12427,
+        "end": 32380,
+        "exactness": "region",
+        "sha256": "021785443229d3a76e2ee4f47b7ee320b3521d363d356932d3de5c68c0d9e7a3"
+      }
+    }
+  ],
+  "source_sha256": "f56b353c16465da57b0e37a399115f6b1938af173fec4df2ff21d963dc7b5bdc",
+  "refusals": []
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/151",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "For a graph $G$ let $\\tau(G)$ denote the minimal number of vertices that include at least one from each maximal clique of $G$ on at least two vertices (sometimes called the clique transversal number). Let $H(n)$ be maximal such that every triangle-free graph on $n$ vertices contains an independent set on $H(n)$ vertices. If $G$ is a graph on $n$ vertices then is\\[\\tau(G)\\leq n-H(n)?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/151",
+        "start": 12255,
+        "end": 12662,
+        "exactness": "slice",
+        "sha256": "7e8b27bd763c6550951f4c3deb90133091db09332c0a0991044f54f86caefddd"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#151 : [Er88,p.82] [EGT92,p.280] graph theory It is easy to see that $\\tau(G) \\leq n-\\sqrt{n}$. Note also that if $G$ is triangle-free then trivially $\\tau(G)\\leq n-H(n)$. This is listed in [Er88] as a problem of Erdős and Gallai, who were unable to make progress even assuming $G$ is $K_4$-free. There Erdős remarked that this conjecture is 'perhaps completely wrongheaded'. It later appeared as Problem 1 in [EGT92] . The general behaviour of $\\tau(G)$ is the subject of [610] . Additional thanks to : Zachary Chase Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 02 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #151, https://www.erdosproblems.com/151, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/151",
+        "start": 12662,
+        "end": 32572,
+        "exactness": "region",
+        "sha256": "cd3cc4dafeb16869bee2eaa2cad40ed6553c3683cf99445c7fb5b3922bd486ee"
+      }
+    }
+  ],
+  "source_sha256": "ba350c815be65184ad65e96803a5fed7c241a5e3475a039808930aaf41d0e3fa",
+  "refusals": []
+}

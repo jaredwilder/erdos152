@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1059",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Are there infinitely many primes $p$ such that $p-k!$ is composite for each $k$ such that $1\\leq k!<p$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1059",
+        "start": 12257,
+        "end": 12370,
+        "exactness": "slice",
+        "sha256": "f7744d95bbe3bcf691407c9240bbb2c90eca55c94b0b5e9f30cbe562999cc413"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1059 : [Gu04] number theory | primes A question of Erdős reported in problem A2 of Guy's collection [Gu04] . Examples are $p=101$ and $p=211$. Erdős suggested it may be easier to show that there are infinitely many $n$ such that, if $l!<n\\leq (l+1)!$, then all the prime factors of $n$ are $>l$, and all the numbers $n-k!$ are composite for $1\\leq k\\leq l$. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (1) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1059, https://www.erdosproblems.com/1059, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A064152 Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1059",
+        "start": 12370,
+        "end": 32023,
+        "exactness": "region",
+        "sha256": "2d34b637b3482bc3f611b48fc575256c4a3acd0e115c4815e44f689a00a5063f"
+      }
+    }
+  ],
+  "source_sha256": "3a8cdabded8c2140c1522c56c1b997f2cf53f291f6689ebeb8b717315432300c",
+  "refusals": []
+}

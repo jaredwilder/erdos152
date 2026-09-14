@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/431",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Are there two infinite sets $A$ and $B$ such that $A+B$ agrees with the set of prime numbers up to finitely many exceptions?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/431",
+        "start": 12255,
+        "end": 12385,
+        "exactness": "slice",
+        "sha256": "6e363028e255066a408f7c86ef1da002a3798a6d93377a37a3b3dbdf5672752a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#431 : [Er61,p.225] [Er77c] [Er80] [ErGr80,p.85] number theory | primes A problem of Ostmann, sometimes known as the 'inverse Goldbach problem'. (In [Er80] Erdős dates this to abou 25 years old, putting it at about 1955.) The answer is surely no. The best result in this direction is due to Elsholtz and Harper [ElHa15] , who showed that if $A,B$ are such sets then for all large $x$ we must have\\[\\frac{x^{1/2}}{\\log x\\log\\log x} \\ll \\lvert A \\cap [1,x]\\rvert \\ll x^{1/2}\\log\\log x\\]and similarly for $B$. Elsholtz [El01] has proved there are no sets $A,B,C$ (all of size at least $2$) such that $A+B+C$ agrees with the set of prime numbers up to finitely many exceptions. Granville [Gr90] proved, conditional on the prime $k$-tuples conjecture, that there are infinite sets $B$ and $C$ such that\\[\\{ \\tfrac{b+c}{2}: b\\in B, c\\in C\\}\\]is a subset of the primes. Tao and Ziegler [TaZi23] gave an unconditional proof that there are infinite sets $B=\\{b_1<\\cdots\\}$ and $C=\\{c_1<\\cdots\\}$ such that\\[\\{ b_i+c_j : b_i\\in B, c_j\\in C, i<j\\}\\]is a subset of the primes. See also [429] and [432] . Additional thanks to : Christian Elsholtz and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #431, https://www.erdosproblems.com/431, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult Dogmachine Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/431",
+        "start": 12385,
+        "end": 33418,
+        "exactness": "region",
+        "sha256": "aa41c85383fca8ccb1bd97f980941c70631f40880b51ff5b871f0748ac58c7b5"
+      }
+    }
+  ],
+  "source_sha256": "1dd662cc355d7a1b7e38315f23552707b6ce6d430051b5fb0fa185ce299c2bfd",
+  "refusals": []
+}

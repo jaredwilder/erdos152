@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1011",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f_r(n)$ be minimal such that every graph on $n$ vertices with $\\geq f_r(n)$ edges and chromatic number $\\geq r$ contains a triangle. Determine $f_r(n)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1011",
+        "start": 12257,
+        "end": 12420,
+        "exactness": "slice",
+        "sha256": "f869f00d4ff69fd1eefbef84fcb09051d96d4f133c8cd55bc1aaab1ea0583dcc"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1011 : [Er71] graph theory Turán's theorem implies $f_2(n)=\\lfloor n^2/4\\rfloor+1$. Erdős and Gallai [Er62d] proved $f_3(n)=\\lfloor \\frac{1}{4}(n-1)^2\\rfloor+2$. Simonovits showed in his PhD thesis (see the discussion on p. 358 of [Si74] ) that\\[f_r(n)=\\frac{n^2}{4}-\\frac{g(r)}{2}{n}+O(1),\\]where $g(r)$ is the largest $m$ such that, for any triangle-free graph with chromatic number $\\geq r$, at least $m$ vertices of $G$ need to be removed to obtain a bipartite graph. Simonovits [Si74] notes\\[\\frac{\\log r}{\\log\\log r}r^2 \\ll g(r) \\ll (\\log r)^2r^2.\\]Hunter in the comments has noted that other results imply $g(r)\\asymp r^2\\log r$ - in fact\\[(1/2-o(1))r^2\\log r\\leq g(r)\\leq (2+o(1))r^2\\log r.\\]The lower bound follows from work of Davies and Illingworth [DaIl22] (see [1104] ). The upper bound follows from work of Hefty, Horn, King, and Pfender [HHKP25] on $R(3,k)$. Ren, Wang, Wang, and Yang [RWWY24] showed that, for $n\\geq 150$,\\[f_4(n)=\\left\\lfloor\\frac{(n-3)^2}{4}\\right\\rfloor+6.\\] Additional thanks to : Zach Hunter, Mark Sellke, and Wouter Cames van Batenburg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (0) More information and links This page was last edited 06 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1011, https://www.erdosproblems.com/1011, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1011",
+        "start": 12420,
+        "end": 33203,
+        "exactness": "region",
+        "sha256": "7eb4ad89217d987ae233963ea490908f93300905e708bc355bb33135ab9abbc1"
+      }
+    }
+  ],
+  "source_sha256": "14d70efc6a73cd22274e834caad1a12e4ebb26a99643bb69cf69fcd9a933160b",
+  "refusals": []
+}

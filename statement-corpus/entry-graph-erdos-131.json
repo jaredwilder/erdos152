@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/131",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $F(N)$ be the maximal size of $A\\subseteq\\{1,\\ldots,N\\}$ such that no $a\\in A$ divides the sum of any distinct elements of $A\\backslash\\{a\\}$. Estimate $F(N)$. In particular, is it true that\\[F(N) > N^{1/2-o(1)}?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/131",
+        "start": 12255,
+        "end": 12483,
+        "exactness": "slice",
+        "sha256": "9dbd140b34a20d98e2203480c6f868b51fd609cc7f24007c1c4d42e66c2b450b"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#131 : [Er75b,p.309] [Er97b,p.230] [ELRSS99,p.129] number theory This was studied by Erdős, Lev, Rauzy, Sándor, and Sárközy [ELRSS99] , where they call such a property 'non-dividing', and prove the explicit bound\\[F(N)<3N^{1/2}+1.\\]In [Er97b] Erdős credits Csaba with a construction that proves $F(N) \\gg N^{1/5}$. Such a construction was also given in [ELRSS99] , where it is linked to the problem of non-averaging sets (see [186] ). Indeed, every such set is non-averaging, and hence the result of Pham and Zakharov [PhZa24] implies\\[F(N) \\leq N^{1/4+o(1)}.\\]This shows the answer to the original question is no, but the general question of the correct growth of $F(N)$ remains open. In [Er75b] Erdős writes that he originally thought $F(N) <(\\log N)^{O(1)}$, but that Straus proved that\\[F(N) > \\exp((\\sqrt{\\tfrac{2}{\\log 2}}+o(1))\\sqrt{\\log N}).\\]See also [13] . This is discussed in problem C16 of Guy's collection [Gu04] . Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (1) More information and links This page was last edited 30 September 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #131, https://www.erdosproblems.com/131, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A068063 Reactions Likes hediibl , fefemath Open to collaboration None Currently working on fefemath Looks difficult fefemath Looks tractable None Could be formalisable None Working on formalising None Previous <div id=\"next_id",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/131",
+        "start": 12483,
+        "end": 33835,
+        "exactness": "region",
+        "sha256": "c48622be7be581e1f9d0e8f1d486c6f9ac0cff2b7bab7cfb5d07bed295bbedf7"
+      }
+    }
+  ],
+  "source_sha256": "968a9fbbc629bd365eecf9fafd14e762a56d7706a66fe53bb88a7f7453552044",
+  "refusals": []
+}

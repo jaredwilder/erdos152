@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/637",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $G$ is a graph on $n$ vertices which contains no complete graph or independent set on $\\gg \\log n$ vertices then $G$ contains an induced subgraph on $\\gg n$ vertices which contains $\\gg n^{1/2}$ distinct degrees.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/637",
+        "start": 12236,
+        "end": 12457,
+        "exactness": "slice",
+        "sha256": "242a27088ef505f719a1fc3f12aa5716a1b3f38d52e9fdbb34f71d06d6f41e71"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#637 : [Er97d] graph theory | ramsey theory A problem of Erdős, Faudree, and Sós. This was proved by Bukh and Sudakov [BuSu07] . Jenssen, Keevash, Long, and Yepremyan [JKLY20] have proved that there must exist an induced subgraph which contains $\\gg n^{2/3}$ distinct degrees (with no restriction on the number of vertices). Additional thanks to : Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #637, https://www.erdosproblems.com/637, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/637",
+        "start": 12457,
+        "end": 31752,
+        "exactness": "region",
+        "sha256": "78f3bd1f8c6e109710f6431b3f8bf1c16e6d27e34dc3b2c1674e86b2e51a1730"
+      }
+    }
+  ],
+  "source_sha256": "7c856492aded1c9312823e2461745f7ba7a24792975eb9ca94d1c6b55f64558a",
+  "refusals": []
+}

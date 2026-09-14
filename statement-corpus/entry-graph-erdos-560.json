@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/560",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $\\hat{R}(G)$ denote the size Ramsey number, the minimal number of edges $m$ such that there is a graph $H$ with $m$ edges such that in any $2$-colouring of the edges of $H$ there is a monochromatic copy of $G$. Determine\\[\\hat{R}(K_{n,n}),\\]where $K_{n,n}$ is the complete bipartite graph with $n$ vertices in each component.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/560",
+        "start": 12255,
+        "end": 12598,
+        "exactness": "slice",
+        "sha256": "70972e9c092bfe55851825d979cc8267c6c71ed9b1b0d59fc0c6aa6bfdd1b578"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#560 : [EFRS82] graph theory | ramsey theory We know that\\[\\frac{1}{60}n^22^n<\\hat{R}(K_{n,n})< \\frac{3}{2}n^32^n.\\]The lower bound (which holds for $n\\geq 6$) was proved by Erdős and Rousseau [ErRo93] . The upper bound was proved by Erdős, Faudree, Rousseau, and Schelp [EFRS78b] and Nešetřil and Rödl [NeRo78] . Conlon, Fox, and Wigderson [CFW23] have proved that, for any $s\\leq t$,\\[\\hat{R}(K_{s,t})\\gg s^{2-\\frac{s}{t}}t2^s,\\]and prove that when $t\\gg s\\log s$ we have $\\hat{R}(K_{s,t})\\asymp s^2t2^s$. They conjecture that this should hold for all $s\\leq t$, and so in particular we should have $\\hat{R}(K_{n,n})\\asymp n^32^n$. This problem is #29 in Ramsey Theory in the graphs problem collection. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links This page was last edited 18 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #560, https://www.erdosproblems.com/560, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/560",
+        "start": 12598,
+        "end": 32787,
+        "exactness": "region",
+        "sha256": "0b84e3d19985ec9167ecdd8feab1dc8227020b543ecf35ff3f506f42a1972c10"
+      }
+    }
+  ],
+  "source_sha256": "e94b6cf352d5a23425625972d2ef50fadea0ed82d64d8ed8b7cc476f738fa480",
+  "refusals": []
+}

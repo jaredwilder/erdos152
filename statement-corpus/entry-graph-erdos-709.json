@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/709",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be minimal such that, for any $A=\\{a_1,\\ldots,a_n\\}\\subseteq [2,\\infty)\\cap\\mathbb{N}$ of size $n$, in any interval $I$ of $f(n)\\max(A)$ consecutive integers there exist distinct $x_1,\\ldots,x_n\\in I$ such that $a_i\\mid x_i$. Obtain good bounds for $f(n)$, or even an asymptotic formula.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/709",
+        "start": 12255,
+        "end": 12566,
+        "exactness": "slice",
+        "sha256": "307657a6df64f05b4619a9880edd9ff84760fe46cffff24257dca9b3892c9749"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#709 : [ErSu59] [Er92c] number theory A problem of Erdős and Surányi [ErSu59] , who proved\\[(\\log n)^c \\ll f(n) \\ll n^{1/2}\\]for some constant $c>0$. The lower bound here can be improved, using van Doorn's lower bound for [711] from [vD26] , to\\[\\frac{\\log n}{\\log\\log n}\\ll f(n).\\]See also [708] . Additional thanks to : Zeraoulia Rafik and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 23 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #709, https://www.erdosproblems.com/709, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/709",
+        "start": 12566,
+        "end": 32359,
+        "exactness": "region",
+        "sha256": "2c99ccdde29fb8b67e4607daabbfb71ad132d99669fbf7761e4acd93c0313d8c"
+      }
+    }
+  ],
+  "source_sha256": "b11fc6c33e349a0469ef9a419d7c17c2c52ac2957fad09d3e53e3cd42b01824e",
+  "refusals": []
+}

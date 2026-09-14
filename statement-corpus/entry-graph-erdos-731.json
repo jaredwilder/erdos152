@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/731",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Find some reasonable function $f(n)$ such that, for almost all integers $n$, the least integer $m$ such that $m\\nmid \\binom{2n}{n}$ satisfies\\[m\\sim f(n).\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/731",
+        "start": 12255,
+        "end": 12417,
+        "exactness": "slice",
+        "sha256": "1d36cb132706c9e0e528c70cd6cc29e6ea491060e55e121edd515b5dc095cda7"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#731 : [EGRS75] number theory | binomial coefficients A problem of Erdős, Graham, Ruzsa, and Straus [EGRS75] , who say it is 'not hard to show that', for almost all $n$, the minimal such $m$ satisfies\\[m=\\exp((\\log n)^{1/2+o(1)}).\\] Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (9) Proof claims (1) More information and links This page was last edited 19 October 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #731, https://www.erdosproblems.com/731, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A006197 Reactions Likes Alfaiz Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/731",
+        "start": 12417,
+        "end": 31874,
+        "exactness": "region",
+        "sha256": "6cd64165169ae50a38aa8ecfd510e4da4b0adf040c19b7773f8802ce1a743465"
+      }
+    }
+  ],
+  "source_sha256": "a5f378572dddce52922d4cce3a847bcd6e6d2dbdd0ce0bb4cc1885d578b43706",
+  "refusals": []
+}

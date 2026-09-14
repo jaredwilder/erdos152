@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/1194",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subset\\mathbb{N}$ be such that every integer $n\\geq 1$ can be written uniquely as $a_n-b_n$ for some $a_n,b_n\\in A$. How fast must $a_n/n$ increase?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1194",
+        "start": 12257,
+        "end": 12418,
+        "exactness": "slice",
+        "sha256": "b4e4c09d500f982cc43eb6af5b37d6b6e7f170be30722923bf8a7e9267fdf2d9"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#1194 : [Er80,p.100] additive combinatorics | additive basis | sidon sets Such a set is called a perfect difference set; they can be constructed, for example, by a greedy approach (as detailed by Lev [Le04] ). The greedy construction achieves $a_n\\ll n^3$. Erdős [Er80] wrote it is 'easy to see' that\\[\\limsup_{n\\to \\infty}\\frac{a_n}{n}=\\infty.\\]Indeed, since $A$ must be a Sidon set, if $a_n \\leq f(n)n$ for all $n$, then all differences in $[1,x/f(x)]$ can be realised by differences from $A\\cap [1,x]$, and hence $\\lvert A\\cap [1,x]\\rvert^2 \\gg x/f(x)$. Erdős (see for example [HaRo66] ) proved that for infinitely many $x$ $\\lvert A\\cap [1,x]\\rvert \\ll (x/\\log x)^{1/2}$, which is a contradiction for a suitable choice of $f$. This argument proves that $a_n\\gg n\\log n$ for infinitely many $n$. Cilleruelo and Nathanson [CiNa08] describe a method for construction dense perfect difference sets from dense Sidon sets, allowing many of the results for the latter to transfer to the former. GPT-5.4 Pro (see the comments) has given an argument which proves that $a_n\\gg n^{2-o(1)}$ infinitely often; in fact $a_n \\gg n^2/f(n)$ infinitely often for any function $f$ such that $\\sum \\frac{1}{nf(n)}$ diverges. Additional thanks to : Liam Price Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (8) Proof claims (0) More information and links This page was last edited 24 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #1194, https://www.erdosproblems.com/1194, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/1194",
+        "start": 12418,
+        "end": 33157,
+        "exactness": "region",
+        "sha256": "697f76c1269f44bd2c7fe83ad20b177a88525a8a2085e1839c1822fb186e7376"
+      }
+    }
+  ],
+  "source_sha256": "b223cd752fac350d5554470318ba7ac26c7653ee33899ec61fbda0bdba4be925",
+  "refusals": []
+}

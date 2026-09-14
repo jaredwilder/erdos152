@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/240",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Is there an infinite set of primes $P$ such that if $\\{a_1<a_2<\\cdots\\}$ is the set of integers divisible only by primes in $P$ then $\\lim a_{i+1}-a_i=\\infty$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/240",
+        "start": 12236,
+        "end": 12409,
+        "exactness": "slice",
+        "sha256": "80e0a8958f0782c1e0e22acc9cfc464b75747d25438c06a5d1abbd8ab2dc8e5c"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#240 : [Er61,p.226] [Er65b] number theory | primes Originally asked to Erdős by Wintner. The limit is infinite for a finite set of primes, which follows from a theorem of Pólya [Po18] , that if $f(n)$ is a quadratic integer polynomial without repeated roots then as $n\\to \\infty$ the largest prime factor of $f(n)$ also approaches infinity. Indeed, if $P$ is a finite set of primes and $(a_i)$ is the set of integers divisible only by primes in $P$, and $a_{i+1}-a_i$ is bounded, then there exists some $k$ such that $a_{i+1}=a_i+k$ infinitely often, which contradicts Pólya's theorem with $f(n)=n(n+k)$. Tijdeman [Ti73] proved that, if $P$ is a finite set of primes, then\\[a_{i+1}-a_i \\gg \\frac{a_i}{(\\log a_i)^C}\\]for some constant $C>0$ depending on $P$. Tijdeman [Ti73] resolved this question, proving that, for any $\\epsilon>0$, there exists an infinite set of primes $P$ such that, with $a_i$ defined as above,\\[a_{i+1}-a_i \\gg a_i^{1-\\epsilon}.\\]See also [368] . Additional thanks to : Boris Alexeev, Dustin Mixon, Euro Vidal Sampaio, and Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (3) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #240, https://www.erdosproblems.com/240, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/240",
+        "start": 12409,
+        "end": 32703,
+        "exactness": "region",
+        "sha256": "91c0ac36e3de9ea1171fb647303e7a577fdc1ea3d4ec6fbcc90d8bda0636f2df"
+      }
+    }
+  ],
+  "source_sha256": "1d0651eedd83b181e5e901ae93e46eb95dd834b5c21777ad7ba36d422d0f0e31",
+  "refusals": []
+}

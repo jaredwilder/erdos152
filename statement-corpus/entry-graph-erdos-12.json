@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/12",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A$ be an infinite set such that there are no distinct $a,b,c\\in A$ such that $a\\mid (b+c)$ and $b,c>a$. Is there such an $A$ with\\[\\liminf \\frac{\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert}{N^{1/2}}>0?\\]Does there exist some absolute constant $c>0$ such that there are always infinitely many $N$ with\\[\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert<N^{1-c}?\\]Is it true that\\[\\sum_{n\\in A}\\frac{1}{n}<\\infty?\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/12",
+        "start": 12253,
+        "end": 12669,
+        "exactness": "slice",
+        "sha256": "37a642c390296744d4ac1cffe05a9ad21306ae497afa7d1cd1316936e417838f"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#12 : [ErSa70] [Er73] [Er75b] [Er77c] [Er80,p.113] [Er92c] [Er95c] [Er97] [Er97b] [Er97e] [Er98] number theory Asked by Erdős and Sárközy [ErSa70] , who proved that $A$ must have density $0$. They also prove that this is essentially best possible, in that given any function $f(x)\\to \\infty$ as $x\\to \\infty$ there exists a set $A$ with this property and infinitely many $N$ such that\\[\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert>\\frac{N}{f(N)}.\\](Their example is given by all integers in $(y_i,\\frac{3}{2}y_i)$ congruent to $1$ modulo $(2y_{i-1})!$, where $y_i$ is some sufficiently quickly growing sequence.) An example of an $A$ with this property where\\[\\liminf \\frac{\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert}{N^{1/2}}\\log N>0\\]is given by the set of $p^2$, where $p\\equiv 3\\pmod{4}$ is prime. Elsholtz and Planitzer [ElPl17] have constructed such an $A$ with\\[\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert\\gg \\frac{N^{1/2}}{(\\log N)^{1/2}(\\log\\log N)^2(\\log\\log\\log N)^2}.\\]Schoen [Sc01] proved that if all elements in $A$ are pairwise coprime then\\[\\lvert A\\cap\\{1,\\ldots,N\\}\\rvert \\ll N^{2/3}\\]for infinitely many $N$. Baier [Ba04] has improved this to $\\ll N^{2/3}/\\log N$. DeepMind has provided a construction that shows the answer to the second question is no (and hence the answer to the first question is yes). This construction has been simplified and improved in the comments; it is now known that there exists an $A$ with this property such that, for all large $N$,\\[\\lvert A\\cap \\{1,\\ldots,N\\}\\rvert \\geq \\frac{N}{(\\log N)^{O(\\log\\log\\log N)}}.\\]It is unknown whether there exists such an $A$ with $\\sum_{n\\in A}\\frac{1}{n}=\\infty$. For the finite version see [13] . Additional thanks to : Nat Sothanaphan, GTsoukalas, and Terence Tao Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (13) Proof claims (1) More information and links This page was last edited 08 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #12, https://www.erdosproblems.com/12, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes holyterror Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable <span class=\"problem-reactio",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/12",
+        "start": 12669,
+        "end": 34793,
+        "exactness": "region",
+        "sha256": "e42b18d17623d30c102446a8071cc2deea820150e37e605b53c280331b3276fe"
+      }
+    }
+  ],
+  "source_sha256": "2c585964e4576744641d65d388c37bcd89e5cbed21a8782d7597d8a9c07ca114",
+  "refusals": []
+}

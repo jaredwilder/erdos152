@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:92",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(n)$ be maximal such that there exists a set $A$ of $n$ points in $\\mathbb{R}^2$ in which every $x\\in A$ has at least $f(n)$ points in $A$ equidistant from $x$. Is it true that $f(n)\\leq n^{o(1)}$? Or even $f(n) < n^{O(1/\\log\\log n)}$?",
+      "provenance": {
+        "source": "erdos:92",
+        "start": 11932,
+        "end": 12256,
+        "exactness": "slice",
+        "sha256": "3935d9575348071bc07b154f367b03bea9a94ef14104add804681403f22538c9"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "This is a stronger form of the unit distance conjecture (see [90] ). As such the recent disproof of [90] also disproves this. The set of lattice points imply $f(n) > n^{c/\\log\\log n}$ for some constant $c>0$. Erd\\H{o}s offered \\$500 for a proof that $f(n) \\leq n^{o(1)}$ but only \\$100 for a counterexample. This latter prize is downgraded to \\$50 in \\cite{ErFi97}. It is trivial that $f(n) \\ll n^{1/2}$. A result of Pach and Sharir (Theorem 4 of \\cite{PaSh92}) implies $f(n) \\ll n^{2/5}$. Hunter has observed that the circle-point incidence bound of Janzer, Janzer, Methuku, and Tardos \\cite{JJMT24} implies\\[f(n) \\ll n^{4/11}.\\]Fishburn (personal communication to Erd\\H{o}s, later published in \\cite{ErFi97}) proved that $6$ is the smallest $n$ such that $f(n)=3$ and $8$ is the smallest $n$ such that $f(n)=4$, and suggested that the lattice points may not be best example. See also [754] .",
+      "provenance": {
+        "source": "erdos:92",
+        "start": 12256,
+        "end": 26089,
+        "exactness": "region",
+        "sha256": "8622e0ddf7a7d652c52e85a2ffd3d4feea044084fe2aaf963d1eefdb6a709889"
+      }
+    }
+  ],
+  "source_sha256": "fb266c520560219498e8e9f3cb58bafe6fc2a9a8e96296e9001f5c7bd088ff48",
+  "refusals": []
+}

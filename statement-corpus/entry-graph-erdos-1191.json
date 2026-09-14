@@ -1,0 +1,31 @@
+{
+  "entry": "erdos:1191",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $A\\subset\\mathbb{N}$ be an infinite Sidon set. Is it true that\\[\\liminf_{x\\to \\infty} \\frac{\\lvert A\\cap [1,x]\\rvert}{x^{1/2}}(\\log x)^{1/2}=0?\\]Does there exist an infinite Sidon set $A$ such that\\[\\liminf_{x\\to \\infty} \\frac{\\lvert A\\cap [1,x]\\rvert}{x^{1/2}}(\\log x)^c>0\\]for some $c>0$?",
+      "provenance": {
+        "source": "erdos:1191",
+        "start": 11936,
+        "end": 12310,
+        "exactness": "slice",
+        "sha256": "ffcd4b25ebbced7571b133d7156f40d82c9301d6d81699475f41bb3c5eb607e5"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "Erd\\H{o}s proved (see for example \\cite{HaRo66}) that if $A$ is an infinite Sidon set then\\[\\liminf_{x\\to \\infty} \\frac{\\lvert A\\cap [1,x]\\rvert}{x^{1/2}}(\\log x)^{1/2}\\leq c\\]for some constant $c>0$. In \\cite{Er80} he offered \\$1000 'for clearing up the problems' raised by this; he may have meant for finding the optimal function $f$ such that\\[\\liminf_{x\\to \\infty} \\frac{\\lvert A\\cap [1,x]\\rvert}{x^{1/2}}f(x)=0\\]for all infinite Sidon sets $A$. The second question is a stronger form of [39] . See also [729] for the behaviour of the $\\limsup$.",
+      "provenance": {
+        "source": "erdos:1191",
+        "start": 12310,
+        "end": 25448,
+        "exactness": "region",
+        "sha256": "d1c077cde7fa48470f9d027bdf8097b6f5c776ea27090b89d19ce0f56d04367d"
+      }
+    }
+  ],
+  "source_sha256": "5b73a02de10d2c0a664c8018841ea5801bdf78586a91a48688c44815ae213c05",
+  "refusals": []
+}

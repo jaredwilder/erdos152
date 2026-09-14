@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/581",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(m)$ be the maximal $k$ such that a triangle-free graph on $m$ edges must contain a bipartite graph with $k$ edges. Determine $f(m)$.",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/581",
+        "start": 12262,
+        "end": 12407,
+        "exactness": "slice",
+        "sha256": "aeffbf69cba7d31f2f03d101df7e614fea2dc9e01ac1e6560c3835689de57fbb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#581 : [CEG79] graph theory Resolved by Alon [Al96] , who showed that there exist constants $c_1,c_2>0$ such that\\[\\frac{m}{2}+c_1m^{4/5}\\leq f(m)\\leq \\frac{m}{2}+c_2m^{4/5}.\\]See also the entry in the graphs problem collection . Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #581, https://www.erdosproblems.com/581, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/581",
+        "start": 12407,
+        "end": 31695,
+        "exactness": "region",
+        "sha256": "cb3bcd70b70d0fd49fba9bc3e5af19c7335803280d8d4aa4f2fed6171e8deb15"
+      }
+    }
+  ],
+  "source_sha256": "99ae2a5921089b4fdfb7acbe516e0f5a25792f897b9607e36fb90d8121ab96f9",
+  "refusals": []
+}

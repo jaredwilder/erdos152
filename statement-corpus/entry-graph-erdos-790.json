@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/790",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $l(n)$ be maximal such that if $A\\subset\\mathbb{Z}$ with $\\lvert A\\rvert=n$ then there exists a sum-free $B\\subseteq A$ with $\\lvert B\\rvert \\geq l(n)$ - that is, $B$ is such that there are no solutions to\\[a_1=a_2+\\cdots+a_r\\]with $a_i\\in B$ all distinct. Estimate $l(n)$. In particular, is it true that $l(n)n^{-1/2}\\to \\infty$? Is it true that $l(n)< n^{1-c}$ for some $c>0$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/790",
+        "start": 12255,
+        "end": 12656,
+        "exactness": "slice",
+        "sha256": "8e83a004d5c1199e490604314b0735fb5d2c5da5dcdc9df1c7a0014e2fbd9c02"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#790 : [Er65,p.188] [Er73,p.130] [Va99,1.22] additive combinatorics Erdős observed that $l(n)\\geq (n/2)^{1/2}$, which Choi improved to $l(n)>(1+c)n^{1/2}$ for some $c>0$. Erdős [Er73] thought he could prove $l(n)=o(n)$ but had 'difficulties in reconstructing [his] proof'. (In [Er65] he wrote 'by complicated arguments we can show $l(n)=o(n)$'.) Choi, Komlós, and Szemerédi [CKS75] proved\\[\\left(\\frac{\\log n}{\\log\\log n}n\\right)^{1/2}\\ll l(n) \\ll \\frac{n}{\\log n}.\\]They further conjecture that $l(n)\\geq n^{1-o(1)}$. See also [876] . Additional thanks to : Stijn Cambie Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 23 January 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #790, https://www.erdosproblems.com/790, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS Possible Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/790",
+        "start": 12656,
+        "end": 32808,
+        "exactness": "region",
+        "sha256": "0cbc6fc0716e1ca10a5aa948572816ea2f4108fb6a8a67fd6aad63f2bd1f30e1"
+      }
+    }
+  ],
+  "source_sha256": "4ab0d0a120c8fc5e1521d89fa9fda656fcaa9b106ae5d23b916758845539af3f",
+  "refusals": []
+}

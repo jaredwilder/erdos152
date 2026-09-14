@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/297",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $N\\geq 1$. How many $A\\subseteq \\{1,\\ldots,N\\}$ are there such that $\\sum_{n\\in A}\\frac{1}{n}=1$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/297",
+        "start": 12262,
+        "end": 12369,
+        "exactness": "slice",
+        "sha256": "c21ebe5c5cfc841d3ff7daad2958a467ca1d6af863cb3b99ee4cbd8c9980c8f4"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#297 : [ErGr80,p.36] number theory | unit fractions It was not even known for a long time whether this is $2^{cN}$ for some $c<1$ or $2^{(1+o(1))N}$. In fact the former is true, and the correct value of $c$ is now known. Steinerberger [St24] proved the relevant count is at most $2^{0.93N}$; Independently, Liu and Sawhney [LiSa24] gave both upper and lower bounds, proving that the count is\\[2^{(0.91\\cdots+o(1))N},\\]where $0.91\\cdots$ is an explicit number defined as the solution to a certain integral equation; Again independently this same asymptotic was proved (with a different proof) by Conlon, Fox, He, Mubayi, Pham, Suk, and Verstraëte [CFHMPSV24] , who prove more generally, for any $x\\in \\mathbb{Q}_{>0}$, a similar expression for the number of $A\\subseteq \\{1,\\ldots,N\\}$ such that $\\sum_{n\\in A}\\frac{1}{n}=x$; The above papers all appeared within weeks of each other in 2024; in 2017 a similar question (with $\\leq 1$ rather than $=1$) was asked on MathOverflow by Mikhail Tikhomirov and proofs of the correct asymptotic were sketched by Lucia, RaphaelB4, and js21. See also [362] . Additional thanks to : Zachary Chase Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (0) Proof claims (0) More information and links ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #297, https://www.erdosproblems.com/297, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) OEIS A092670 Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/297",
+        "start": 12369,
+        "end": 33238,
+        "exactness": "region",
+        "sha256": "703d3c13ebd6fa6e1270f9f1542e6d35530b2b2656d6a0f6ae90d4e622dda785"
+      }
+    }
+  ],
+  "source_sha256": "956f0abeefd4a3885ea023eaa3c8c381740878c0e71c1aea2d6efcde4ade062d",
+  "refusals": []
+}

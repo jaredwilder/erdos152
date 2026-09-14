@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/549",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "If $T$ is a tree which is a bipartite graph with $k$ vertices and $2k$ vertices in the other class then\\[R(T)=4k-1.\\]",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/549",
+        "start": 12236,
+        "end": 12359,
+        "exactness": "slice",
+        "sha256": "0ee91a89f298dfb1e0643c8065a8fe3d492a7cd1d68ecb62b1cdc91ff77eff5a"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#549 : [EFRS82] graph theory | ramsey theory This is a special case of a conjecture of Burr [Bu74] (see [547] ). It follows from results in [EFRS82] that $R(T)\\geq 4k-1$. This is false: Norin, Sun, and Zhao [NSZ16] have proved that if $T$ is the union of two stars on $k$ and $2k$ vertices, with an edge joining the centre of the two stars, then $R(T)\\geq (4.2-o(1))k$, and conjectured that $R(T)=(4.2+o(1))k$. The best upper bound for the Ramsey number for this tree is $R(T)\\leq (4.21526+o(1))k$, obtained using the flag algebra method by Norin, Sun, and Zhao [NSZ16] . Dubó and Stein [DuSt24] have given a short elementary proof of the weaker bound $R(T)\\leq \\lceil 4.27492k\\rceil+1$ Montgomery, Pavez-Signé, and Yan [MPY25] have proved that $R(T)=4k-1$ if $T$ has maximum degree at most $ck$ for some constant $c>0$. Erdős, Faudree, Rousseau, and Schelp [EFRS82] proved that $R(T)=4k-1$ if $T$ is a 'broom', formed by identifying the centre of a star on $k+1$ vertices with an endpoint of a path on $2k$ vertices. Burr and Erdős [BuEr76] proved that $R(T)=4k-1$ if $T$ is formed by identifying one end of a path on $4$ vertices with the centre of a star on $k-1$ vertices, and the other endpoint with the centre of a star on $2k-1$ vertices. This problem is #15 in Ramsey Theory in the graphs problem collection. See also [547] . Additional thanks to : Louis DeBiasio and Zach Hunter Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (1) Proof claims (0) More information and links This page was last edited 28 December 2025. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #549, https://www.erdosproblems.com/549, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? No ( create one ) Reactions Likes None Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/549",
+        "start": 12359,
+        "end": 33718,
+        "exactness": "region",
+        "sha256": "d36f368c6691e2b71e957cd2d3748924065e6bbec655c2fb966b4d810d8aad5f"
+      }
+    }
+  ],
+  "source_sha256": "d8916931e69a615d8f239b538e902b770fcd0fac24812d48cc12bb9f92d1c3c7",
+  "refusals": []
+}

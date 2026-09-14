@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/968",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $u_n=p_n/n$, where $p_n$ is the $n$th prime. Does the set of $n$ such that $u_n<u_{n+1}$ have positive density?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/968",
+        "start": 12255,
+        "end": 12380,
+        "exactness": "slice",
+        "sha256": "aac684ed5003159e4f91f43514b5a07c35c88af4bcbaffc2fc73f40f36139ef6"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#968 : [Er65b] number theory Erdős and Prachar [ErPr61] proved that\\[\\sum_{p_n<x} \\lvert u_{n+1}-u_n\\rvert \\asymp (\\log x)^2,\\]and that the set of $n$ such that $u_n>u_{n+1}$ has positive density. As with many of Erdős' questions, by 'positive density' here he most likely meant positive lower density - in other words, there exists a constant $c>0$ such that for all large $x$ the number of such $n\\leq x$ is at least $cx$. Erdős also asks whether\\[u_n<u_{n+1}<u_{n+2}\\]or\\[u_n>u_{n+1}>u_{n+2}\\]have infinitely many solutions. Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (2) Proof claims (0) More information and links This page was last edited 31 March 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #968, https://www.erdosproblems.com/968, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS A387591 Reactions Likes None Open to collaboration None Currently working on None Looks difficult TerenceTao Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/968",
+        "start": 12380,
+        "end": 32186,
+        "exactness": "region",
+        "sha256": "a96b4778138f806a92367b40e4a82544b95d1b2ff9064448028eb79f6474380c"
+      }
+    }
+  ],
+  "source_sha256": "ecc3aea736fb7ba2bb02f0340a95049fec41b1b7e761f626ef1305eaae5f7fed",
+  "refusals": []
+}

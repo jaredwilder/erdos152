@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/536",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $f(N)$ be the largest size of $A\\subseteq \\{1,\\ldots,N\\}$ with the property that there are no distinct $a,b,c\\in A$ such that\\[[a,b]=[b,c]=[a,c],\\]where $[a,b]$ denotes the least common multiple. Estimate $f(N)$ - in particular, is it true that $f(N)=o(N)$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/536",
+        "start": 12255,
+        "end": 12529,
+        "exactness": "slice",
+        "sha256": "205981d5701314c01ea5c6df8d69ad0bf837fb95b8521e11a6665b6d00172f85"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#536 : [Er64,p.646] [Er70,p.124] [Er73,p.124] number theory The corresponding quantity is $\\gg N$ if we ask for four elements with the same pairwise least common multiple, as shown by Erdős [Er62] (with a proof given in [Er70] ). This was also asked by Erdős at the 1991 problem session of West Coast Number Theory. Abbott and Gardner [AbGa67] proved\\[f(N) \\geq (1-o(1))(\\log\\log N)\\frac{N}{\\log N}.\\]In the comments Weisenberg sketches a proof that, for some function $\\omega(N)\\to \\infty$ as $N\\to \\infty$,\\[(\\log\\log N)^{\\omega(N)}\\frac{N}{\\log N}\\ll f(N) \\leq \\left(\\frac{221}{225}+o(1)\\right)N.\\]See also [535] , [537] , and [856] . A related combinatorial problem is asked at [857] . Additional thanks to : Desmond Weisenberg Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (10) Proof claims (1) More information and links This page was last edited 29 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #536, https://www.erdosproblems.com/536, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes OEIS Possible Reactions Likes KStar , SharkyKesa , SamKorsky Open to collaboration KoishiChan , SharkyKesa Currently working on SharkyKesa , SamKorsky Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/536",
+        "start": 12529,
+        "end": 33696,
+        "exactness": "region",
+        "sha256": "07f4e6d1d006920d00c7b12187f82c485d9e47ea2e4f93704f373f8e05665f61"
+      }
+    }
+  ],
+  "source_sha256": "b59290403ae19d23fd7d1f3639d39170beae48fc4828ff4d55aee67e1caba707",
+  "refusals": []
+}

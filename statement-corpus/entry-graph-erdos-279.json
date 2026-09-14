@@ -1,0 +1,31 @@
+{
+  "entry": "https://www.erdosproblems.com/279",
+  "nodes": [
+    {
+      "id": "n000-question",
+      "kind": "question",
+      "text": "Let $k\\geq 3$. Is there a choice of congruence classes $a_p\\pmod{p}$ for every prime $p$ such that all sufficiently large integers can be written as $a_p+tp$ for some prime $p$ and integer $t\\geq k$?",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/279",
+        "start": 12255,
+        "end": 12460,
+        "exactness": "slice",
+        "sha256": "315ce7fda71f7ba46818882c4460c1b90dc6cfafd6e84d6e377a3c1965f2c2cb"
+      }
+    },
+    {
+      "id": "n001-resolution",
+      "kind": "resolution",
+      "text": "#279 : [ErGr80,p.29] number theory | covering systems | primes Even the case $k=3$ seems difficult. This may be true with the primes replaced by any set $A\\subseteq \\mathbb{N}$ such that\\[\\lvert A\\cap [1,N]\\rvert \\gg N/\\log N\\]and\\[\\sum_{\\substack{n\\in A\\\\ n\\leq N}}\\frac{1}{n} -\\log\\log N\\to \\infty\\]as $N\\to \\infty$. If we weaken the question to ask for only almost all integers to be represented in this fashion then, for any $k\\geq 2$, any set $A$ such that $\\sum_{n\\in A}\\frac{1}{n}=\\infty$ has this property. Additional thanks to : Przemek Chojeckl and Wouter van Doorn Proof expositions (0) If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. No proof expositions yet. Comments (11) Proof claims (0) More information and links This page was last edited 17 April 2026. ( View history ) ( View the LaTeX source ) When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is: T. F. Bloom, Erdős Problem #279, https://www.erdosproblems.com/279, accessed 2026-08-30 From the external database . (You can help update this.) Formalised statement? Yes Reactions Likes Dogmachine Open to collaboration None Currently working on None Looks difficult None Looks tractable None Could be formalisable None Working on formalising None Previous Next",
+      "provenance": {
+        "source": "https://www.erdosproblems.com/279",
+        "start": 12460,
+        "end": 31912,
+        "exactness": "region",
+        "sha256": "f35ec156148b2e84bf994bc5a77eeccba722e03db1f4ad9aa60a93ab5117c200"
+      }
+    }
+  ],
+  "source_sha256": "1ff0bb3d13b27c2e4e4b94efc61f5bf9d49b80fdc064d2fd94086fe45515d3d0",
+  "refusals": []
+}
